@@ -1,0 +1,7 @@
+{
+  "timestamp": "2025-08-06T17:33:08.115693",
+  "violations": [
+    "\u26a0\ufe0f  Missing unit tests for: launchers/launch_vitor_strike_leader_enhanced.py, launchers/launch_vitor_tower_enhanced.py, launchers/launch_vitor_wingman_enhanced.py"
+  ],
+  "severity": "WARNING"
+}

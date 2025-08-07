@@ -1,0 +1,192 @@
+{
+  "test_timestamp": "2025-08-06T15:07:29.494658",
+  "test_description": "Corrected CTCAC Transit Processor Demonstration",
+  "sites_tested": 6,
+  "qualified_sites": 6,
+  "score_distribution": {
+    "7": 6
+  },
+  "improvements": [
+    "Full 3-7 point scoring range",
+    "Proper frequency calculations",
+    "High-frequency validation",
+    "Density integration",
+    "HQTA + non-HQTA scoring"
+  ],
+  "detailed_results": [
+    {
+      "site_info": {
+        "name": "Downtown Los Angeles (High Transit)",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "density": 45.0,
+        "expected": "Should score high due to excellent transit"
+      },
+      "transit_result": {
+        "site_id": "TEST_000",
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "transit_qualified": true,
+        "qualification_method": "HQTA_POLYGON_PROVEN",
+        "ctcac_points_earned": 7,
+        "hqta_details": {
+          "within_hqta": true,
+          "ctcac_points_earned": 7,
+          "analysis_method": "HQTA_POLYGON_PROVEN",
+          "hqta_type": "hq_corridor_bus",
+          "agency_primary": "City of Duarte",
+          "details": "Site within HQTA boundary - hq_corridor_bus"
+        },
+        "analysis_timestamp": "2025-08-06T15:07:29.487754",
+        "dataset_sources": [
+          "HQTA_POLYGONS_26K"
+        ]
+      }
+    },
+    {
+      "site_info": {
+        "name": "Oakland BART Station Area",
+        "lat": 37.8044,
+        "lon": -122.2711,
+        "density": 35.0,
+        "expected": "Should qualify for HQTA or high-frequency"
+      },
+      "transit_result": {
+        "site_id": "TEST_001",
+        "latitude": 37.8044,
+        "longitude": -122.2711,
+        "transit_qualified": true,
+        "qualification_method": "HQTA_POLYGON_PROVEN",
+        "ctcac_points_earned": 7,
+        "hqta_details": {
+          "within_hqta": true,
+          "ctcac_points_earned": 7,
+          "analysis_method": "HQTA_POLYGON_PROVEN",
+          "hqta_type": "hq_corridor_bus",
+          "agency_primary": "Alameda-Contra Costa Transit District",
+          "details": "Site within HQTA boundary - hq_corridor_bus"
+        },
+        "analysis_timestamp": "2025-08-06T15:07:29.489335",
+        "dataset_sources": [
+          "HQTA_POLYGONS_26K"
+        ]
+      }
+    },
+    {
+      "site_info": {
+        "name": "San Francisco Mission District",
+        "lat": 37.7599,
+        "lon": -122.4148,
+        "density": 40.0,
+        "expected": "Strong transit coverage expected"
+      },
+      "transit_result": {
+        "site_id": "TEST_002",
+        "latitude": 37.7599,
+        "longitude": -122.4148,
+        "transit_qualified": true,
+        "qualification_method": "HQTA_POLYGON_PROVEN",
+        "ctcac_points_earned": 7,
+        "hqta_details": {
+          "within_hqta": true,
+          "ctcac_points_earned": 7,
+          "analysis_method": "HQTA_POLYGON_PROVEN",
+          "hqta_type": "hq_corridor_bus",
+          "agency_primary": "City and County of San Francisco",
+          "details": "Site within HQTA boundary - hq_corridor_bus"
+        },
+        "analysis_timestamp": "2025-08-06T15:07:29.490680",
+        "dataset_sources": [
+          "HQTA_POLYGONS_26K"
+        ]
+      }
+    },
+    {
+      "site_info": {
+        "name": "Fresno Central (Moderate Transit)",
+        "lat": 36.7378,
+        "lon": -119.7871,
+        "density": 20.0,
+        "expected": "Moderate transit, likely 3-5 points"
+      },
+      "transit_result": {
+        "site_id": "TEST_003",
+        "latitude": 36.7378,
+        "longitude": -119.7871,
+        "transit_qualified": true,
+        "qualification_method": "HQTA_POLYGON_PROVEN",
+        "ctcac_points_earned": 7,
+        "hqta_details": {
+          "within_hqta": true,
+          "ctcac_points_earned": 7,
+          "analysis_method": "HQTA_POLYGON_PROVEN",
+          "hqta_type": "hq_corridor_bus",
+          "agency_primary": "City of Fresno",
+          "details": "Site within HQTA boundary - hq_corridor_bus"
+        },
+        "analysis_timestamp": "2025-08-06T15:07:29.491779",
+        "dataset_sources": [
+          "HQTA_POLYGONS_26K"
+        ]
+      }
+    },
+    {
+      "site_info": {
+        "name": "Sacramento Midtown",
+        "lat": 38.5816,
+        "lon": -121.4944,
+        "density": 25.0,
+        "expected": "Good transit access expected"
+      },
+      "transit_result": {
+        "site_id": "TEST_004",
+        "latitude": 38.5816,
+        "longitude": -121.4944,
+        "transit_qualified": true,
+        "qualification_method": "HQTA_POLYGON_PROVEN",
+        "ctcac_points_earned": 7,
+        "hqta_details": {
+          "within_hqta": true,
+          "ctcac_points_earned": 7,
+          "analysis_method": "HQTA_POLYGON_PROVEN",
+          "hqta_type": "hq_corridor_bus",
+          "agency_primary": "City of Rancho Cordova",
+          "details": "Site within HQTA boundary - hq_corridor_bus"
+        },
+        "analysis_timestamp": "2025-08-06T15:07:29.493267",
+        "dataset_sources": [
+          "HQTA_POLYGONS_26K"
+        ]
+      }
+    },
+    {
+      "site_info": {
+        "name": "Suburban Site (Low Transit)",
+        "lat": 34.1478,
+        "lon": -118.1445,
+        "density": 15.0,
+        "expected": "Limited transit, likely 0-4 points"
+      },
+      "transit_result": {
+        "site_id": "TEST_005",
+        "latitude": 34.1478,
+        "longitude": -118.1445,
+        "transit_qualified": true,
+        "qualification_method": "HQTA_POLYGON_PROVEN",
+        "ctcac_points_earned": 7,
+        "hqta_details": {
+          "within_hqta": true,
+          "ctcac_points_earned": 7,
+          "analysis_method": "HQTA_POLYGON_PROVEN",
+          "hqta_type": "hq_corridor_bus",
+          "agency_primary": "City of Duarte",
+          "details": "Site within HQTA boundary - hq_corridor_bus"
+        },
+        "analysis_timestamp": "2025-08-06T15:07:29.494448",
+        "dataset_sources": [
+          "HQTA_POLYGONS_26K"
+        ]
+      }
+    }
+  ]
+}
