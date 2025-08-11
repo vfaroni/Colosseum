@@ -20,6 +20,10 @@ geopy>=2.3.0
 chromadb>=0.4.0
 sqlite3
 
+# Cloud Storage - AWS S3
+boto3>=1.26.0
+botocore>=1.29.0
+
 # Machine Learning and AI
 sentence-transformers>=2.2.0
 torch>=2.0.0

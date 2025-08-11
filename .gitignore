@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data directories - moved to cloud storage
+analysis_results/
+reports/
+logs/
+temp_data/
+
+# Large data files
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.h5
+*.hdf5
+*.parquet
+*.feather
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# AWS credentials (never commit these!)
+.aws/
+aws_credentials.json
+*credentials*.json
+
+# Project-specific
+data_sets/  # This is a symlink to cloud storage
+*.json.backup
+debug_output/
+scratch/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
