@@ -1,0 +1,176 @@
+{
+  "m1_system_profiles": {
+    "M1_8GB": {
+      "description": "M1 with 8GB unified memory - Conservative configuration",
+      "recommended_agents": 1,
+      "agent_configurations": {
+        "single_agent_optimized": {
+          "memory_per_agent": "6GB",
+          "model_recommendation": "llama3.2:8b-instruct-q4_K_M",
+          "context_window": 4096,
+          "concurrent_operations": 1
+        },
+        "two_agent_minimal": {
+          "memory_per_agent": "3GB",
+          "model_recommendation": "llama3.2:3b-instruct-q4_K_M", 
+          "context_window": 2048,
+          "concurrent_operations": 1,
+          "warning": "Very limited - use only if necessary"
+        }
+      }
+    },
+    "M1_16GB": {
+      "description": "M1 with 16GB unified memory - Balanced configuration",
+      "recommended_agents": 2,
+      "agent_configurations": {
+        "single_agent_optimized": {
+          "memory_per_agent": "12GB",
+          "model_recommendation": "llama3.2:13b-instruct-q4_K_M",
+          "context_window": 8192,
+          "concurrent_operations": 2
+        },
+        "two_agent_balanced": {
+          "memory_per_agent": "7GB", 
+          "model_recommendation": "llama3.2:8b-instruct-q4_K_M",
+          "context_window": 4096,
+          "concurrent_operations": 1
+        },
+        "three_agent_light": {
+          "memory_per_agent": "4GB",
+          "model_recommendation": "llama3.2:3b-instruct-q4_K_M",
+          "context_window": 2048,
+          "concurrent_operations": 1,
+          "warning": "Limited capabilities"
+        }
+      }
+    },
+    "M1_24GB_32GB": {
+      "description": "M1 with 24-32GB unified memory - Enhanced configuration",
+      "recommended_agents": 3,
+      "agent_configurations": {
+        "single_agent_optimized": {
+          "memory_per_agent": "20GB",
+          "model_recommendation": "llama3.1:34b-instruct-q4_K_M",
+          "context_window": 16384,
+          "concurrent_operations": 3
+        },
+        "two_agent_enhanced": {
+          "memory_per_agent": "12GB",
+          "model_recommendation": "llama3.2:13b-instruct-q4_K_M", 
+          "context_window": 8192,
+          "concurrent_operations": 2
+        },
+        "three_agent_balanced": {
+          "memory_per_agent": "8GB",
+          "model_recommendation": "llama3.2:8b-instruct-q4_K_M",
+          "context_window": 4096,
+          "concurrent_operations": 1
+        }
+      }
+    }
+  },
+  
+  "agent_role_optimization": {
+    "STRIKE_LEADER": {
+      "m1_focus": "Strategic coordination and planning",
+      "memory_priority": "medium",
+      "processing_requirements": "Multi-state analysis, deal pipeline management",
+      "recommended_models": {
+        "8GB_system": "llama3.2:8b-instruct-q4_K_M",
+        "16GB_system": "llama3.2:13b-instruct-q4_K_M", 
+        "24GB_plus": "llama3.1:34b-instruct-q4_K_M"
+      }
+    },
+    "WINGMAN": {
+      "m1_focus": "QAP analysis and definition intelligence",
+      "memory_priority": "high",
+      "processing_requirements": "Document extraction, definition lookup, BOTN calculations",
+      "recommended_models": {
+        "8GB_system": "llama3.2:8b-instruct-q4_K_M",
+        "16GB_system": "llama3.2:13b-instruct-q4_K_M",
+        "24GB_plus": "llama3.1:34b-instruct-q4_K_M"
+      },
+      "special_features": {
+        "definition_cache": "Prioritize caching of 2,159 LIHTC definitions",
+        "context_management": "Optimize for QAP document processing",
+        "memory_efficiency": "Use compressed definition storage"
+      }
+    },
+    "TOWER": {
+      "m1_focus": "Quality assurance and validation",
+      "memory_priority": "low",
+      "processing_requirements": "Validation, oversight, reporting",
+      "recommended_models": {
+        "8GB_system": "llama3.2:3b-instruct-q4_K_M",
+        "16GB_system": "llama3.2:8b-instruct-q4_K_M",
+        "24GB_plus": "llama3.2:13b-instruct-q4_K_M"
+      }
+    }
+  },
+  
+  "performance_optimizations": {
+    "memory_management": {
+      "swap_usage": "Minimize swap usage for better performance",
+      "model_caching": "Cache frequently used models",
+      "context_limits": "Adjust context windows based on available memory"
+    },
+    "processing_optimizations": {
+      "batch_processing": "Reduce batch sizes for M1 systems",
+      "concurrent_limits": "Limit concurrent operations based on memory",
+      "response_streaming": "Use streaming responses to reduce memory pressure"
+    },
+    "m1_specific": {
+      "neural_engine": "Leverage M1 Neural Engine for inference acceleration",
+      "unified_memory": "Optimize for unified memory architecture",
+      "thermal_management": "Monitor thermal conditions and adjust processing"
+    }
+  },
+  
+  "colosseum_features": {
+    "qap_processing": {
+      "m1_strategy": "Process QAPs in smaller chunks with caching",
+      "memory_allocation": "Reserve memory for document processing",
+      "context_optimization": "Use sliding window for large documents"
+    },
+    "definition_system": {
+      "m1_strategy": "Load critical definitions first, cache frequently accessed",
+      "compression": "Use compressed definition storage",
+      "lookup_optimization": "Implement efficient definition search"
+    },
+    "botn_calculations": {
+      "m1_strategy": "Optimize calculations for M1 architecture",
+      "memory_usage": "Stream calculations to reduce memory footprint",
+      "caching": "Cache common calculation results"
+    }
+  },
+  
+  "recommended_workflows": {
+    "M1_8GB": {
+      "workflow": "Single agent focus",
+      "best_practices": [
+        "Choose one agent per session",
+        "Process documents in smaller chunks", 
+        "Use compressed models",
+        "Clear cache frequently"
+      ]
+    },
+    "M1_16GB": {
+      "workflow": "Two agent coordination",
+      "best_practices": [
+        "Strike Leader + Wingman combination recommended",
+        "Alternate between agents for complex tasks",
+        "Use context caching",
+        "Monitor memory usage"
+      ]
+    },
+    "M1_24GB_PLUS": {
+      "workflow": "Full three agent collaboration",
+      "best_practices": [
+        "All three agents can run simultaneously",
+        "Use full context windows",
+        "Implement agent coordination",
+        "Leverage Neural Engine acceleration"
+      ]
+    }
+  }
+}

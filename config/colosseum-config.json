@@ -1,0 +1,216 @@
+{
+  "project": "COLOSSEUM_LIHTC_PLATFORM",
+  "machine": "M4_BEAST",
+  "version": "1.0.0",
+  "lastUpdated": "2024-08-02",
+  
+  "systemContext": {
+    "description": "Revolutionary Low-Income Housing Tax Credit (LIHTC) analysis platform transforming affordable housing development into systematic competitive advantage",
+    "mission": "Where Housing Battles Are Won - providing imperial intelligence across all 54 US jurisdictions",
+    "currentPhase": "Multi-State QAP Expansion + Beast Mode Implementation",
+    "primaryDeveloper": "Structured Consultants LLC"
+  },
+  
+  "hardwareProfile": {
+    "model": "MacBook Pro M4 Max",
+    "memory": "128GB unified",
+    "availableForLLM": "96GB",
+    "cores": {
+      "performance": 12,
+      "efficiency": 4,
+      "gpu": 40
+    }
+  },
+  
+  "agentCapabilities": {
+    "STRIKE_LEADER": {
+      "llmModel": "llama3.1:34b-instruct-q4_K_M",
+      "endpoint": "http://localhost:11434",
+      "primaryTasks": [
+        "Multi-state QAP strategy coordination",
+        "Cross-jurisdictional opportunity analysis",
+        "Resource allocation for 54 jurisdictions",
+        "Complex deal structure optimization"
+      ],
+      "memoryAllocation": "30GB",
+      "contextWindow": 8192
+    },
+    "WINGMAN": {
+      "llmModel": "llama3.1:70b-instruct-q4_K_M",
+      "endpoint": "http://localhost:11435",
+      "primaryTasks": [
+        "Deep QAP analysis and extraction",
+        "Legal hierarchy intelligence (Federal > State > Local)",
+        "BOTN (Back-of-the-Napkin) calculations",
+        "Regulatory compliance verification",
+        "206 validated LIHTC definitions integration"
+      ],
+      "memoryAllocation": "55GB",
+      "contextWindow": 16384
+    },
+    "TOWER": {
+      "llmModel": "mixtral:8x7b-instruct-q4_K_M",
+      "endpoint": "http://localhost:11437",
+      "primaryTasks": [
+        "Quality assurance and validation",
+        "Strategic oversight and reporting", 
+        "Cross-agent coordination",
+        "Performance monitoring"
+      ],
+      "memoryAllocation": "25GB",
+      "contextWindow": 4096
+    }
+  },
+
+  "beastModeCapabilities": {
+    "STRIKE_LEADER_BEAST": {
+      "llmModel": "llama3.1:70b-instruct-q4_K_M",
+      "endpoint": "http://localhost:11440",
+      "memoryAllocation": "96GB",
+      "contextWindow": 131072,
+      "exclusiveMode": true,
+      "primaryTasks": [
+        "Massive multi-state strategic analysis",
+        "Complete 54-jurisdiction coordination",
+        "Portfolio-level optimization",
+        "Complex regulatory interpretation",
+        "Master deal pipeline management"
+      ],
+      "useCases": [
+        "Complete 54-jurisdiction strategic analysis",
+        "Cross-state opportunity mapping", 
+        "Complex regulatory interpretation",
+        "Master deal pipeline coordination",
+        "Crisis response and rapid analysis"
+      ],
+      "performanceTargets": {
+        "contextCapacity": "10+ states simultaneously",
+        "processingSpeed": "2-3x collaborative mode",
+        "memoryUtilization": "96-100GB",
+        "responseTime": "<2 seconds first token"
+      }
+    },
+    "WINGMAN_BEAST": {
+      "llmModel": "llama3.1:70b-instruct-q4_K_M", 
+      "endpoint": "http://localhost:11441",
+      "memoryAllocation": "96GB",
+      "contextWindow": 131072,
+      "exclusiveMode": true,
+      "primaryTasks": [
+        "Complete QAP extraction with full context",
+        "Maximum definition intelligence (2,159 definitions)",
+        "Advanced BOTN calculations",
+        "Deep regulatory hierarchy analysis",
+        "Complex legal precedent research"
+      ],
+      "useCases": [
+        "Complete QAP processing (200+ pages)",
+        "Full definition intelligence integration",
+        "Advanced multi-scenario BOTN modeling",
+        "Complex regulatory research",
+        "Deep legal hierarchy analysis"
+      ],
+      "performanceTargets": {
+        "definitionsCapacity": "Full 2,159 definitions",
+        "contextCapacity": "Complete QAP documents",
+        "processingSpeed": "2-3x collaborative mode", 
+        "memoryUtilization": "96-100GB",
+        "accuracy": ">99.5% extraction"
+      }
+    }
+  },
+  
+  "colosseumModules": {
+    "QAP_RAG": {
+      "status": "active",
+      "coverage": ["CA", "TX", "AZ", "NM", "HI"],
+      "totalChunks": 27344,
+      "chunkSize": 300,
+      "overlap": 75,
+      "embeddingModel": "BAAI/bge-large-en-v1.5"
+    },
+    "BOTN_ENGINE": {
+      "status": "active",
+      "features": [
+        "130% basis boost optimization",
+        "QCT/DDA verification with HUD 2025",
+        "Multi-state tax credit calculations",
+        "Sources and uses automation"
+      ]
+    },
+    "ENVIRONMENTAL": {
+      "status": "active",
+      "databases": ["EPA", "TCEQ", "DTSC", "ADEQ"],
+      "thresholds": {
+        "cleanupSites": 500,
+        "hazardousWaste": 1000,
+        "leakingTanks": 500
+      }
+    },
+    "TRANSIT": {
+      "status": "active",
+      "compliance": "CTCAC",
+      "gtfsIntegration": true,
+      "peakHourValidation": true
+    }
+  },
+  
+  "workflowOptimizations": {
+    "parallelProcessing": {
+      "enabled": true,
+      "maxConcurrentQAPs": 3,
+      "chunkBatchSize": 50,
+      "beastModeExclusive": true
+    },
+    "caching": {
+      "qapCache": "/Users/shared/colosseum-cache/qaps/",
+      "embeddingCache": "/Users/shared/colosseum-cache/embeddings/",
+      "ttlHours": 168
+    },
+    "escalationRules": {
+      "claudeAI": {
+        "complexityThreshold": 0.85,
+        "multiStateAnalysis": true,
+        "regulatoryInterpretation": true,
+        "tokenThreshold": 12000,
+        "beastModeOverride": false
+      }
+    },
+    "resourceMonitoring": {
+      "memoryThreshold": 0.90,
+      "beastModeThreshold": 0.95,
+      "alerting": true,
+      "autoOptimization": true
+    }
+  },
+  
+  "localLLMIntegration": {
+    "framework": "ollama",
+    "alternativeFramework": "mlx",
+    "modelPriority": {
+      "reasoning": ["llama3.1:70b", "mixtral:8x7b", "llama3.1:34b"],
+      "extraction": ["llama3.1:34b", "llama3.2:13b"],
+      "validation": ["llama3.2:13b", "llama3.2:8b"]
+    },
+    "beastModeModels": {
+      "primary": "llama3.1:70b-instruct-q4_K_M",
+      "alternative": "llama3.1:405b-instruct-q4_K_M",
+      "fallback": "llama3.1:34b-instruct-q4_K_M"
+    }
+  },
+
+  "performanceBenchmarks": {
+    "collaborativeMode": {
+      "qapExtraction": "~100 pages/min",
+      "botnCalculation": "<30 seconds",
+      "environmentalScreen": "<10 seconds",
+      "transitAnalysis": "<15 seconds"
+    },
+    "beastMode": {
+      "qapExtraction": "~200-300 pages/min",
+      "botnCalculation": "<15 seconds",
+      "multiStateAnalysis": "<5 minutes",
+      "complexRegulatory": "<2 minutes"
+    }
+  }
+}
