@@ -1,5 +1,11 @@
 # Python
 __pycache__/
+
+# Application Cache (exclude cache contents but keep structure)
+cache/*.json
+cache/*/*.json
+!cache/.gitkeep
+!cache/*/.gitkeep
 *.py[cod]
 *$py.class
 *.so
