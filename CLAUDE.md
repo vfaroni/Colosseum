@@ -37,6 +37,7 @@ A comprehensive LIHTC (Low-Income Housing Tax Credit) analysis and development p
 - **Environmental Screening**: Multi-state contamination risk assessment
 - **Market Analysis**: Competitive intelligence and market positioning
 - **Weather Tracking**: NOAA API integration for construction planning
+- **Geocoding Services**: Alternative geocoding system with free providers
 
 ### Integration Module (`modules/integration/`)
 - **API Endpoints**: Standardized data access interfaces
@@ -266,6 +267,28 @@ python3 launchers/launch_all_agents.py
 - ❌ Incorrect: `python script.py`
 - This prevents version conflicts and ensures Python 3 execution
 
+### Geocoding Services Configuration
+**IMPORTANT: Position Stack API has been deprecated due to ongoing service issues (August 2025)**
+
+**Current Geocoding Solution**: Alternative Geocoding System (`modules/data_intelligence/geocoding/alternative_geocoder.py`)
+- **Primary Provider**: OpenStreetMap Nominatim (FREE, no API key required)
+- **Fallback Provider**: US Census Geocoder (FREE, US addresses only)
+- **Optional Providers**: Mapbox, Google Maps (require API keys for high volume)
+
+**Usage**:
+```python
+from modules.data_intelligence.geocoding.alternative_geocoder import AlternativeGeocoder
+geocoder = AlternativeGeocoder()
+result = geocoder.geocode(address="123 Main St", city="Los Angeles", state="CA")
+```
+
+**Features**:
+- Automatic caching to reduce API calls
+- Built-in rate limiting for provider compliance
+- Fallback support between multiple providers
+- Batch geocoding capabilities
+- No API keys required for basic operation
+
 ### Geospatial Data Collection Standards
 **All geospatial dataset collection must include comprehensive metadata documentation**:
 
@@ -276,12 +299,27 @@ python3 launchers/launch_all_agents.py
 5. **Coverage**: Geographic extent and limitations
 6. **Quality Notes**: Known issues, accuracy, completeness
 
-**Documentation Format**: Create either `.md` or `.json` metadata file in each dataset directory
+**Documentation Format**: 
+- **REQUIRED**: Create `README.txt` file in each dataset directory with the following structure:
+  ```
+  DATASET: [Name of dataset]
+  SOURCE: [URL or organization]
+  SOURCE DATE: [Date the source data was published/updated]
+  DOWNLOAD DATE: [Date we downloaded the data]
+  DESCRIPTION: [What the data contains]
+  FORMAT: [File format(s)]
+  RECORDS: [Number of records/features]
+  COVERAGE: [Geographic area covered]
+  UPDATE FREQUENCY: [How often source updates]
+  NOTES: [Any special considerations or known issues]
+  ```
+- **OPTIONAL**: Additional `.md` or `.json` metadata files for programmatic access
 
 **File Organization**:
 - Federal datasets: `data_sets/federal/[category]/`
 - State datasets: `data_sets/[state]/[category]/`
-- Always include metadata file alongside data files
+- Always include README.txt file alongside data files
+- Use consistent naming: `[COUNTY]_[SOURCE]_[TYPE].[ext]`
 
 ## 🏛️ ROMAN ENGINEERING STANDARDS
 
