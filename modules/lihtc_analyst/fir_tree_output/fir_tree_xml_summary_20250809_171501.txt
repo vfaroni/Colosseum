@@ -1,0 +1,26 @@
+FIR TREE PARK XML-PROMPTED EXTRACTION SUMMARY
+==================================================
+
+Property: Fir Tree Park Apartments
+Units: 60 (55 Section 8)
+Extraction Method: XML-Structured GPT-OSS Prompts
+Timestamp: 20250809_171501
+
+KEY FINDINGS:
+------------------------------
+NOI: $-22,127
+Total Revenue: $0
+HAP Payments: $0
+DSCR: 1.02
+Debt Yield: -0.0517
+
+Validations:
+  ✅ NOI extracted: $-22,127
+  ✅ HAP contract: WA19M000067
+  ✅ Contract rent: $699
+  ✅ Occupancy rate: 100.0%
+
+NEXT STEPS:
+1. Process Excel files with xlwings
+2. Chunk large PDFs (Appraisal, CNA) with GPT-OSS 120B
+3. Cross-validate all data sources

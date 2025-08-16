@@ -1,0 +1,27 @@
+# Jupyter Installation Commands
+# Copy and paste these commands into your terminal one by one:
+
+# 1. First, upgrade pip:
+python3 -m pip install --upgrade pip
+
+# 2. Install Jupyter and core packages:
+python3 -m pip install jupyter notebook
+
+# 3. Install data analysis packages:
+python3 -m pip install pandas numpy matplotlib seaborn
+
+# 4. Install interactive visualization packages:
+python3 -m pip install plotly ipywidgets
+
+# 5. Install Excel support:
+python3 -m pip install openpyxl xlrd
+
+# 6. Enable Jupyter extensions (run after installation):
+jupyter nbextension enable --py widgetsnbextension
+
+# 7. To start Jupyter after installation:
+cd /Users/vitorfaroni/Documents/Automation/Jupyter
+jupyter notebook
+
+# Note: If you get permission errors, add --user flag:
+# python3 -m pip install --user jupyter notebook

@@ -1,0 +1,5250 @@
+{
+  "site_info": {
+    "latitude": 34.1975,
+    "longitude": -118.5962,
+    "address": null,
+    "state": "CA",
+    "county": null,
+    "census_tract": null
+  },
+  "federal_status": {
+    "qct_qualified": true,
+    "dda_qualified": true,
+    "federal_basis_boost": true,
+    "basis_boost_percentage": 30.0,
+    "qct_details": {
+      "name": "Census Tract 1345.20",
+      "tract_id": "06037134520"
+    },
+    "dda_details": {
+      "metro_area": null,
+      "county": null,
+      "state": null
+    },
+    "analysis_notes": "Site qualifies for 30% basis boost as QCT: Census Tract 1345.20"
+  },
+  "state_scoring": {
+    "total_points": 24,
+    "max_possible_points": 30,
+    "scoring_breakdown": {
+      "opportunity_area_points": 0,
+      "amenity_points": 15,
+      "federal_bonus": 4,
+      "transit_points": 5
+    },
+    "opportunity_area": {
+      "resource_category": "Low Resource",
+      "resource_score": 2.0,
+      "qualified": true,
+      "tract_id": "06037134520",
+      "county": "Los Angeles",
+      "region": "Los Angeles Region",
+      "poverty_rate": 0.44955348660459815,
+      "bachelor_plus_rate": 0.19837822183608456,
+      "employment_rate": 0.7691842900302115,
+      "math_proficiency": 0.26888790260596535,
+      "reading_proficiency": 0.29236661168867933,
+      "graduation_rate": 0.8671509399732494
+    },
+    "state": "CA",
+    "allocation_agency": "CTCAC",
+    "data_year": 2025
+  },
+  "amenity_analysis": {
+    "total_amenity_points": 345,
+    "max_possible_points": 1233,
+    "amenity_breakdown": {
+      "schools": {
+        "points_earned": 15,
+        "max_possible": 114,
+        "details": [
+          {
+            "name": "Hart Street Elementary",
+            "distance": 0.22512690962290108,
+            "points_earned": 3
+          },
+          {
+            "name": "Owensmouth Continuation",
+            "distance": 0.40296660556918656,
+            "points_earned": 3
+          },
+          {
+            "name": "Canoga Park Senior High",
+            "distance": 0.5052018758550332,
+            "points_earned": 3
+          },
+          {
+            "name": "Village Charter Academy",
+            "distance": 0.6099500178068935,
+            "points_earned": 3
+          },
+          {
+            "name": "N.E.W. Academy Canoga Park",
+            "distance": 0.6416800869467743,
+            "points_earned": 3
+          }
+        ]
+      },
+      "medical": {
+        "points_earned": 330,
+        "max_possible": 1119,
+        "details": [
+          {
+            "name": "NORTHEAST VALLEY HEALTH CORPORATION, LAC-CANOGA PARK HEALTH CENTER",
+            "distance": 0.2825975310299831,
+            "points_earned": 3
+          },
+          {
+            "name": "SILVER YEARS HEALTHCARE, INC.",
+            "distance": 0.2971350276954517,
+            "points_earned": 3
+          },
+          {
+            "name": "EVERLOVING HOME HEALTH, INC.",
+            "distance": 0.2971350276954517,
+            "points_earned": 3
+          },
+          {
+            "name": "EVERLOVING HOSPICE INC.",
+            "distance": 0.2971350276954517,
+            "points_earned": 3
+          },
+          {
+            "name": "WICARE HOME HEALTH LLC",
+            "distance": 0.3088929942464738,
+            "points_earned": 3
+          },
+          {
+            "name": "INFINITY HOMECARE AGENCY, INC.",
+            "distance": 0.3088929942464738,
+            "points_earned": 3
+          },
+          {
+            "name": "LUNA MEDCARE HOME HEALTH SERVICES",
+            "distance": 0.3088929942464738,
+            "points_earned": 3
+          },
+          {
+            "name": "ABLE & AVAILABLE HOME HEALTH, INC.",
+            "distance": 0.3088929942464738,
+            "points_earned": 3
+          },
+          {
+            "name": "WELBY WAY HOME, LLC",
+            "distance": 0.3093797731099558,
+            "points_earned": 3
+          },
+          {
+            "name": "EASY CHOICE HOME HEALTH CARE INC.",
+            "distance": 0.31431924718262616,
+            "points_earned": 3
+          },
+          {
+            "name": "ARCHWOOD HOME HEALTH CARE",
+            "distance": 0.31431924718262616,
+            "points_earned": 3
+          },
+          {
+            "name": "EVERLASTING HOSPICE, INC.",
+            "distance": 0.31549791977671743,
+            "points_earned": 3
+          },
+          {
+            "name": "VERONA HOME HEALTH, INC.",
+            "distance": 0.31549791977671743,
+            "points_earned": 3
+          },
+          {
+            "name": "DEVOTED HANDS HOSPICE INC",
+            "distance": 0.31549791977671743,
+            "points_earned": 3
+          },
+          {
+            "name": "IHOME HEALTH SOLUTIONS",
+            "distance": 0.31549791977671743,
+            "points_earned": 3
+          },
+          {
+            "name": "AMELIORATE HOME HEALTH INC",
+            "distance": 0.3181079713113965,
+            "points_earned": 3
+          },
+          {
+            "name": "AYAS HOSPICE, INC.",
+            "distance": 0.322193920102454,
+            "points_earned": 3
+          },
+          {
+            "name": "ASAY HOME HEALTH, INC.",
+            "distance": 0.322193920102454,
+            "points_earned": 3
+          },
+          {
+            "name": "HOPE PLUS HEALTH CARE",
+            "distance": 0.3305769155054357,
+            "points_earned": 3
+          },
+          {
+            "name": "HOSPICE GROUP OF SOUTHERN CALIFORNIA, INC.",
+            "distance": 0.3338304863510405,
+            "points_earned": 3
+          },
+          {
+            "name": "SOCIAL HOME HEALTH CARE, INC.",
+            "distance": 0.4025239293523788,
+            "points_earned": 3
+          },
+          {
+            "name": "CLINICA MONSENOR OSCAR A. ROMERO - CANOGA PARK",
+            "distance": 0.405796243275189,
+            "points_earned": 3
+          },
+          {
+            "name": "LEGACY COMFORT CARE HOSPICE, INC.",
+            "distance": 0.4097272235993201,
+            "points_earned": 3
+          },
+          {
+            "name": "LUCKY PALLIATIVE SERVICES INCORPORATED",
+            "distance": 0.41120728029962517,
+            "points_earned": 3
+          },
+          {
+            "name": "ENSURE HOME HEALTH CARE, INC.",
+            "distance": 0.41120728029962517,
+            "points_earned": 3
+          },
+          {
+            "name": "TRUST IN FAITH HOME HEALTHCARE, INC.",
+            "distance": 0.41120728029962517,
+            "points_earned": 3
+          },
+          {
+            "name": "LOVING HOME HEALTH SERVICES INC",
+            "distance": 0.41120728029962517,
+            "points_earned": 3
+          },
+          {
+            "name": "AVRA HOME HEALTH CARE, INC",
+            "distance": 0.41525669785919367,
+            "points_earned": 3
+          },
+          {
+            "name": "MEDLITE HOME HEALTH, INC.",
+            "distance": 0.41525669785919367,
+            "points_earned": 3
+          },
+          {
+            "name": "ACCENT HOME HEALTH, INC.",
+            "distance": 0.41593974359056174,
+            "points_earned": 3
+          },
+          {
+            "name": "MARATHON HOSPICE CARE INC.",
+            "distance": 0.41593974359056174,
+            "points_earned": 3
+          },
+          {
+            "name": "GREATER VALLEY HOME HEALTH, INC.",
+            "distance": 0.4287851833786668,
+            "points_earned": 3
+          },
+          {
+            "name": "GOODLIFE HHA, INC.",
+            "distance": 0.4287851833786668,
+            "points_earned": 3
+          },
+          {
+            "name": "AYVA HOME HEALTH SERVICES INC",
+            "distance": 0.4325494590988732,
+            "points_earned": 3
+          },
+          {
+            "name": "PLANNED PARENTHOOD LOS ANGELES-CANOGA PARK CENTER",
+            "distance": 0.4341837299033011,
+            "points_earned": 3
+          },
+          {
+            "name": "ONE CARE HOSPICE, INC",
+            "distance": 0.4681515923348437,
+            "points_earned": 3
+          },
+          {
+            "name": "THE CROSSROADS HOSPICE, INC.",
+            "distance": 0.4726265595552668,
+            "points_earned": 3
+          },
+          {
+            "name": "VERITAS HOSPICE, INC.",
+            "distance": 0.4726265595552668,
+            "points_earned": 3
+          },
+          {
+            "name": "KINDRED HEART HOSPICE, INC.",
+            "distance": 0.4726265595552668,
+            "points_earned": 3
+          },
+          {
+            "name": "AVN HOSPICE CARE",
+            "distance": 0.48158775908810314,
+            "points_earned": 3
+          },
+          {
+            "name": "ANGEL HEART HOME HEALTH CARE",
+            "distance": 0.48192094470820934,
+            "points_earned": 3
+          },
+          {
+            "name": "FLORENCE HOSPICE LLC",
+            "distance": 0.5464102430809092,
+            "points_earned": 3
+          },
+          {
+            "name": "PERPETUAL HELP HOSPICE, INC.",
+            "distance": 0.5464102430809092,
+            "points_earned": 3
+          },
+          {
+            "name": "GOLDEN SKY HOSPICE, INC.",
+            "distance": 0.5464102430809092,
+            "points_earned": 3
+          },
+          {
+            "name": "ANGEL LOVE HOSPICE, INC.",
+            "distance": 0.5464102430809092,
+            "points_earned": 3
+          },
+          {
+            "name": "VALLEY VILLAGE",
+            "distance": 0.564955886099978,
+            "points_earned": 3
+          },
+          {
+            "name": "LA LOVING CARE HOME HEALTH",
+            "distance": 0.583370443581823,
+            "points_earned": 3
+          },
+          {
+            "name": "EL PROYECTO DEL BARRIO, INC. - WINNETKA CLINIC",
+            "distance": 0.5952101106357983,
+            "points_earned": 3
+          },
+          {
+            "name": "MALTA HOME HEALTH",
+            "distance": 0.5986910427589526,
+            "points_earned": 3
+          },
+          {
+            "name": "MALTA HOSPICE CARE",
+            "distance": 0.6012906265325193,
+            "points_earned": 3
+          },
+          {
+            "name": "LA HOME HEALTH AGENCY",
+            "distance": 0.6162248455686118,
+            "points_earned": 3
+          },
+          {
+            "name": "GOLDEN STATE HOME HEALTH AGENCY",
+            "distance": 0.6162248455686118,
+            "points_earned": 3
+          },
+          {
+            "name": "360 HOME HEALTH AGENCY",
+            "distance": 0.6179113473012178,
+            "points_earned": 3
+          },
+          {
+            "name": "TODOS PARA LA SALUD FQHC LOOK-ALIKE COMMUNITY CLINIC",
+            "distance": 0.6484769742112094,
+            "points_earned": 3
+          },
+          {
+            "name": "BLUE WAVES HOME HEALTH CARE, INC.",
+            "distance": 0.6637593969608069,
+            "points_earned": 3
+          },
+          {
+            "name": "RAY SUNNETIC HOME HEALTH CARE, INC.",
+            "distance": 0.6637593969608069,
+            "points_earned": 3
+          },
+          {
+            "name": "MEDI-KARE1 INC",
+            "distance": 0.6683118380258828,
+            "points_earned": 3
+          },
+          {
+            "name": "CALIFORNIA CARE SERVICES",
+            "distance": 0.6683118380258828,
+            "points_earned": 3
+          },
+          {
+            "name": "ROYAL CONGREGATE LIVING, LLC",
+            "distance": 0.668913600174961,
+            "points_earned": 3
+          },
+          {
+            "name": "MIRAFAITH HOSPICE, INC.",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "EMPRESS HOSPICE INC",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "SEASIDE HOMEHEALTH, INC.",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "LAND OF PEACE HOSPICE",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "OPTION HOSPICE, INC",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "PURE HEART HOSPICE, INC",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "LUMINERE HOSPICE, INC",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "EMINENT HOSPICE, INC.",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "GOLDEN LIFE HOME HEALTH, INC.",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "BEST HOPE HOSPICE, INC.",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "KAELIN'S HOME HEALTH, INC",
+            "distance": 0.684802994995128,
+            "points_earned": 3
+          },
+          {
+            "name": "CARESS HOME HEALTH PROVIDERS, INC.",
+            "distance": 0.6981545122466102,
+            "points_earned": 3
+          },
+          {
+            "name": "LOVECARE HOME HEALTH, INC.",
+            "distance": 0.6981545122466102,
+            "points_earned": 3
+          },
+          {
+            "name": "REGENT HOSPICE, INC.",
+            "distance": 0.6981545122466102,
+            "points_earned": 3
+          },
+          {
+            "name": "WARMCARE HOME HEALTH, INC.",
+            "distance": 0.6981545122466102,
+            "points_earned": 3
+          },
+          {
+            "name": "CAREMED HOSPICE INC",
+            "distance": 0.6981545122466102,
+            "points_earned": 3
+          },
+          {
+            "name": "CALSTATE HOSPICE, INC.",
+            "distance": 0.6981545122466102,
+            "points_earned": 3
+          },
+          {
+            "name": "EVOLVE HOME HEALTH",
+            "distance": 0.6981545122466102,
+            "points_earned": 3
+          },
+          {
+            "name": "LOVE AND PEACE HOSPICE, INC",
+            "distance": 0.6981545122466102,
+            "points_earned": 3
+          },
+          {
+            "name": "PURE LOVE HOSPICE, INC.",
+            "distance": 0.6981545122466102,
+            "points_earned": 3
+          },
+          {
+            "name": "ORIGIN PARENTHOOD",
+            "distance": 0.6981545122466102,
+            "points_earned": 3
+          },
+          {
+            "name": "BLESSED CARE HOSPICE INC.",
+            "distance": 0.6990027039579548,
+            "points_earned": 3
+          },
+          {
+            "name": "SWEET SUNSHINE HOME HEALTH",
+            "distance": 0.721433079827241,
+            "points_earned": 3
+          },
+          {
+            "name": "SELECTCARE HOME HEALTH",
+            "distance": 0.721433079827241,
+            "points_earned": 3
+          },
+          {
+            "name": "AMERICAN STANDARD HOME HEALTH",
+            "distance": 0.721433079827241,
+            "points_earned": 3
+          },
+          {
+            "name": "VISTA HOME HEALTH",
+            "distance": 0.721433079827241,
+            "points_earned": 3
+          },
+          {
+            "name": "FAMILY AID HOSPICE & PALLIATIVE CARE INC",
+            "distance": 0.7227436140145327,
+            "points_earned": 3
+          },
+          {
+            "name": "SAFE MISSION HOSPICE & PALLIATIVE CARE INC",
+            "distance": 0.7227436140145327,
+            "points_earned": 3
+          },
+          {
+            "name": "WEST HILLS ADHC",
+            "distance": 0.7318827399128174,
+            "points_earned": 3
+          },
+          {
+            "name": "TRUE CARE HOSPICE, INC.",
+            "distance": 0.7440681269267645,
+            "points_earned": 3
+          },
+          {
+            "name": "TRUE CARE HOME HEALTH SERVICES, INC.",
+            "distance": 0.7440681269267645,
+            "points_earned": 3
+          },
+          {
+            "name": "TRUE CARE HOSPICE SOUTHERN CALIFORNIA, INC.",
+            "distance": 0.7440681269267645,
+            "points_earned": 3
+          },
+          {
+            "name": "COURAGEOUS CARE HOSPICE, INC.",
+            "distance": 0.7630882616301696,
+            "points_earned": 3
+          },
+          {
+            "name": "HELP TO HEAL HHC, INC.",
+            "distance": 0.7630882616301696,
+            "points_earned": 3
+          },
+          {
+            "name": "APGUARD HOSPICE, LLC",
+            "distance": 0.783166864664977,
+            "points_earned": 3
+          },
+          {
+            "name": "VEGA HOSPICE, INC.",
+            "distance": 0.8046484115746431,
+            "points_earned": 3
+          },
+          {
+            "name": "BE WISE HOSPICE, INC.",
+            "distance": 0.8046484115746431,
+            "points_earned": 3
+          },
+          {
+            "name": "RECOUP HOME HEALTH",
+            "distance": 0.8081694174767018,
+            "points_earned": 3
+          },
+          {
+            "name": "VALROSE HOME HEALTH, INC.",
+            "distance": 0.8093213362678767,
+            "points_earned": 3
+          },
+          {
+            "name": "ALTERNATIVE CHOICE HOSPICE, INC.",
+            "distance": 0.8093213362678767,
+            "points_earned": 3
+          },
+          {
+            "name": "MOUNT OLIVES HOSPICE",
+            "distance": 0.8093837364813544,
+            "points_earned": 3
+          },
+          {
+            "name": "ANGELIC HOME HEALTH CARE, INC.",
+            "distance": 0.8182351963593217,
+            "points_earned": 3
+          },
+          {
+            "name": "HARBOR HOSPICE OF LOS ANGELES LP",
+            "distance": 0.8566477788299153,
+            "points_earned": 3
+          },
+          {
+            "name": "EDEN HOME HEALTH, INC.",
+            "distance": 0.8654284509132102,
+            "points_earned": 3
+          },
+          {
+            "name": "GREAT CHOICE HOSPICE, INC.",
+            "distance": 0.8912445627826385,
+            "points_earned": 3
+          },
+          {
+            "name": "THOUSAND OAKS HOSPICE, INC.",
+            "distance": 0.8912445627826385,
+            "points_earned": 3
+          },
+          {
+            "name": "PRESTIGE HOSPICE INC",
+            "distance": 0.9565130473653365,
+            "points_earned": 3
+          },
+          {
+            "name": "RELAXED HOME HOSPICE CARE",
+            "distance": 0.9565130473653365,
+            "points_earned": 3
+          },
+          {
+            "name": "RELAXED HOME HEALTH CARE",
+            "distance": 0.9565130473653365,
+            "points_earned": 3
+          },
+          {
+            "name": "HEARTS AND HALOS HEALTHCARE PROVIDERS",
+            "distance": 0.9565130473653365,
+            "points_earned": 3
+          },
+          {
+            "name": "CANYON OAKS NURSING AND REHABILITATION CENTER",
+            "distance": 0.9824082473168906,
+            "points_earned": 3
+          }
+        ]
+      },
+      "grocery": {
+        "points_earned": 0,
+        "max_possible": 0,
+        "details": []
+      },
+      "transit": {
+        "points_earned": 0,
+        "max_possible": 0,
+        "details": []
+      }
+    },
+    "nearby_amenities": {
+      "schools": [
+        {
+          "name": "Hart Street Elementary",
+          "type": "elementary",
+          "distance_miles": 0.22512690962290108,
+          "coordinates": [
+            34.19669385190019,
+            -118.59238025725591
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 670
+        },
+        {
+          "name": "Owensmouth Continuation",
+          "type": "high",
+          "distance_miles": 0.40296660556918656,
+          "coordinates": [
+            34.19643285127121,
+            -118.60313725849143
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 54
+        },
+        {
+          "name": "Canoga Park Senior High",
+          "type": "high",
+          "distance_miles": 0.5052018758550332,
+          "coordinates": [
+            34.19544485097285,
+            -118.60469025966644
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 1456
+        },
+        {
+          "name": "Village Charter Academy",
+          "type": "elementary",
+          "distance_miles": 0.6099500178068935,
+          "coordinates": [
+            34.204000852041865,
+            -118.60343225894253
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 305
+        },
+        {
+          "name": "N.E.W. Academy Canoga Park",
+          "type": "elementary",
+          "distance_miles": 0.6416800869467743,
+          "coordinates": [
+            34.20666385138456,
+            -118.59807125885398
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 429
+        },
+        {
+          "name": "Canoga Park Elementary",
+          "type": "elementary",
+          "distance_miles": 0.7945594355777124,
+          "coordinates": [
+            34.206034853260846,
+            -118.60553326118692
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 505
+        },
+        {
+          "name": "Multicultural Learning Center",
+          "type": "elementary",
+          "distance_miles": 0.8340005670231962,
+          "coordinates": [
+            34.20694985370473,
+            -118.58710325773129
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 500
+        },
+        {
+          "name": "Fullbright Avenue Elementary",
+          "type": "elementary",
+          "distance_miles": 1.1019124027413516,
+          "coordinates": [
+            34.19702485325536,
+            -118.57691325513677
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 321
+        },
+        {
+          "name": "Sunny Brae Avenue Elementary",
+          "type": "elementary",
+          "distance_miles": 1.3227948966838505,
+          "coordinates": [
+            34.21326685413045,
+            -118.58304025765125
+          ],
+          "address": "Winnetka, CA",
+          "enrollment": 440
+        },
+        {
+          "name": "Ingenium Charter",
+          "type": "elementary",
+          "distance_miles": 1.3646933783637576,
+          "coordinates": [
+            34.212327853268334,
+            -118.61200226221149
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 285
+        },
+        {
+          "name": "Canoga Park Middle",
+          "type": "middle",
+          "distance_miles": 1.3646933783637576,
+          "coordinates": [
+            34.212327853268334,
+            -118.61200226221149
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 617
+        },
+        {
+          "name": "Hamlin Charter Academy",
+          "type": "elementary",
+          "distance_miles": 1.4642032676563426,
+          "coordinates": [
+            34.18962585015406,
+            -118.62000526144958
+          ],
+          "address": "West Hills, CA",
+          "enrollment": 308
+        },
+        {
+          "name": "Ingenium Charter Middle",
+          "type": "middle",
+          "distance_miles": 1.5612010113851411,
+          "coordinates": [
+            34.20366885429368,
+            -118.56989825448925
+          ],
+          "address": "Winnetka, CA",
+          "enrollment": 166
+        },
+        {
+          "name": "John A. Sutter Middle",
+          "type": "middle",
+          "distance_miles": 1.5612010113851411,
+          "coordinates": [
+            34.20366885429368,
+            -118.56989825448925
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 849
+        },
+        {
+          "name": "Stanley Mosk Elementary",
+          "type": "elementary",
+          "distance_miles": 1.6445796869905966,
+          "coordinates": [
+            34.203346854597534,
+            -118.56828225356507
+          ],
+          "address": "Winnetka, CA",
+          "enrollment": 517
+        },
+        {
+          "name": "Ivy Academia",
+          "type": "elementary",
+          "distance_miles": 1.7451432981483834,
+          "coordinates": [
+            34.17777884888227,
+            -118.61531125866287
+          ],
+          "address": "Woodland Hills, CA",
+          "enrollment": 410
+        },
+        {
+          "name": "Capistrano Avenue Elementary",
+          "type": "elementary",
+          "distance_miles": 1.7771016651254354,
+          "coordinates": [
+            34.21712985248527,
+            -118.61632926367878
+          ],
+          "address": "West Hills, CA",
+          "enrollment": 422
+        },
+        {
+          "name": "Enadia Way Technology Charter",
+          "type": "elementary",
+          "distance_miles": 1.786160581248827,
+          "coordinates": [
+            34.19970884970874,
+            -118.62736326312714
+          ],
+          "address": "West Hills, CA",
+          "enrollment": 201
+        },
+        {
+          "name": "Citizens of the World Charter School West Valley",
+          "type": "elementary",
+          "distance_miles": 1.8070806374894253,
+          "coordinates": [
+            34.21447485527075,
+            -118.5721122549149
+          ],
+          "address": "Winnetka, CA",
+          "enrollment": 355
+        },
+        {
+          "name": "Woodland Hills Academy",
+          "type": "middle",
+          "distance_miles": 1.8658224028535892,
+          "coordinates": [
+            34.17172584982703,
+            -118.5863832544378
+          ],
+          "address": "Woodland Hills, CA",
+          "enrollment": 603
+        },
+        {
+          "name": "Nevada Avenue Elementary",
+          "type": "elementary",
+          "distance_miles": 1.945437578753224,
+          "coordinates": [
+            34.223869853767596,
+            -118.60820326262045
+          ],
+          "address": "West Hills, CA",
+          "enrollment": 386
+        },
+        {
+          "name": "Calvert Charter for Enriched Studies",
+          "type": "elementary",
+          "distance_miles": 2.0322749362808437,
+          "coordinates": [
+            34.18180785158372,
+            -118.56609525200528
+          ],
+          "address": "Woodland Hills, CA",
+          "enrollment": 330
+        },
+        {
+          "name": "Winnetka Avenue Elementary",
+          "type": "elementary",
+          "distance_miles": 2.110879191941995,
+          "coordinates": [
+            34.2195678556389,
+            -118.57061525561305
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 331
+        },
+        {
+          "name": "Limerick Avenue Elementary",
+          "type": "elementary",
+          "distance_miles": 2.1225091428670924,
+          "coordinates": [
+            34.22606985467418,
+            -118.58247825813478
+          ],
+          "address": "Canoga Park, CA",
+          "enrollment": 652
+        },
+        {
+          "name": "Shirley Avenue Elementary",
+          "type": "elementary",
+          "distance_miles": 2.2050436521687757,
+          "coordinates": [
+            34.19724385453766,
+            -118.55758925190366
+          ],
+          "address": "Reseda, CA",
+          "enrollment": 416
+        },
+        {
+          "name": "Melvin Avenue Elementary",
+          "type": "elementary",
+          "distance_miles": 2.2286087898506732,
+          "coordinates": [
+            34.209676854553614,
+            -118.56005625294763
+          ],
+          "address": "Reseda, CA",
+          "enrollment": 405
+        },
+        {
+          "name": "Virtual Academy of Business & Entrepreneurship",
+          "type": "elementary",
+          "distance_miles": 2.2749072451928827,
+          "coordinates": [
+            34.20332285434945,
+            -118.55699025257728
+          ],
+          "address": "Reseda, CA",
+          "enrollment": 741
+        },
+        {
+          "name": "Sven Lokrantz Special Education Center",
+          "type": "elementary",
+          "distance_miles": 2.2749072451928827,
+          "coordinates": [
+            34.20332285434945,
+            -118.55699025257728
+          ],
+          "address": "Reseda, CA",
+          "enrollment": 62
+        },
+        {
+          "name": "Taft Charter High",
+          "type": "high",
+          "distance_miles": 2.4222513503479877,
+          "coordinates": [
+            34.16907285060814,
+            -118.57134825124048
+          ],
+          "address": "Woodland Hills, CA",
+          "enrollment": 2236
+        },
+        {
+          "name": "Welby Way Charter Elementary School And Gifted-High Ability Magnet",
+          "type": "elementary",
+          "distance_miles": 2.436229264698543,
+          "coordinates": [
+            34.19158084903906,
+            -118.63825426515525
+          ],
+          "address": "West Hills, CA",
+          "enrollment": 777
+        },
+        {
+          "name": "Henry David Thoreau Continuation",
+          "type": "high",
+          "distance_miles": 2.4684721104517955,
+          "coordinates": [
+            34.16904385041367,
+            -118.57003725260978
+          ],
+          "address": "Woodland Hills, CA",
+          "enrollment": 57
+        },
+        {
+          "name": "Justice Street Academy Charter",
+          "type": "elementary",
+          "distance_miles": 2.5744097590869135,
+          "coordinates": [
+            34.215523850936975,
+            -118.63566726535902
+          ],
+          "address": "West Hills, CA",
+          "enrollment": 428
+        },
+        {
+          "name": "Woodlake Elementary Community Charter",
+          "type": "elementary",
+          "distance_miles": 2.591287438179173,
+          "coordinates": [
+            34.175878847369724,
+            -118.63328426308232
+          ],
+          "address": "Woodland Hills, CA",
+          "enrollment": 582
+        },
+        {
+          "name": "Serrania Avenue Charter For Enriched Studies",
+          "type": "elementary",
+          "distance_miles": 2.6023846037374785,
+          "coordinates": [
+            34.16042384836774,
+            -118.5880042526899
+          ],
+          "address": "Woodland Hills, CA",
+          "enrollment": 560
+        },
+        {
+          "name": "Diane S. Leichman Career Preparatory and Transition Center",
+          "type": "high",
+          "distance_miles": 2.7322410368368004,
+          "coordinates": [
+            34.19878685417377,
+            -118.54838124984855
+          ],
+          "address": "Reseda, CA",
+          "enrollment": 147
+        },
+        {
+          "name": "Woodland Hills Elementary Charter For Enriched Studies",
+          "type": "elementary",
+          "distance_miles": 2.778426981492393,
+          "coordinates": [
+            34.15903384680604,
+            -118.61048525832659
+          ],
+          "address": "Woodland Hills, CA",
+          "enrollment": 630
+        },
+        {
+          "name": "Pomelo Community Charter",
+          "type": "elementary",
+          "distance_miles": 2.7958785190743054,
+          "coordinates": [
+            34.20947584952985,
+            -118.64297126660986
+          ],
+          "address": "West Hills, CA",
+          "enrollment": 587
+        },
+        {
+          "name": "CHIME Institute's Schwarzenegger Community",
+          "type": "elementary",
+          "distance_miles": 2.9339812810102655,
+          "coordinates": [
+            34.16522784986188,
+            -118.56278324979098
+          ],
+          "address": "Woodland Hills, CA",
+          "enrollment": 761
+        }
+      ],
+      "medical": [
+        {
+          "name": "NORTHEAST VALLEY HEALTH CORPORATION, LAC-CANOGA PARK HEALTH CENTER",
+          "type": "clinic",
+          "distance_miles": 0.2825975310299831,
+          "coordinates": [
+            34.199415,
+            -118.6005735
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "SILVER YEARS HEALTHCARE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.2971350276954517,
+          "coordinates": [
+            34.196553,
+            -118.6012755
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "EVERLOVING HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.2971350276954517,
+          "coordinates": [
+            34.196553,
+            -118.6012755
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "EVERLOVING HOSPICE INC.",
+          "type": "clinic",
+          "distance_miles": 0.2971350276954517,
+          "coordinates": [
+            34.196553,
+            -118.6012755
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "WICARE HOME HEALTH LLC",
+          "type": "clinic",
+          "distance_miles": 0.3088929942464738,
+          "coordinates": [
+            34.198803,
+            -118.6013745
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "INFINITY HOMECARE AGENCY, INC.",
+          "type": "clinic",
+          "distance_miles": 0.3088929942464738,
+          "coordinates": [
+            34.198803,
+            -118.6013745
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "LUNA MEDCARE HOME HEALTH SERVICES",
+          "type": "clinic",
+          "distance_miles": 0.3088929942464738,
+          "coordinates": [
+            34.198803,
+            -118.6013745
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ABLE & AVAILABLE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.3088929942464738,
+          "coordinates": [
+            34.198803,
+            -118.6013745
+          ],
+          "address": "NORTHRIDGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WELBY WAY HOME, LLC",
+          "type": "clinic",
+          "distance_miles": 0.3093797731099558,
+          "coordinates": [
+            34.19599798,
+            -118.601304
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "EASY CHOICE HOME HEALTH CARE INC.",
+          "type": "clinic",
+          "distance_miles": 0.31431924718262616,
+          "coordinates": [
+            34.195959,
+            -118.601379
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ARCHWOOD HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 0.31431924718262616,
+          "coordinates": [
+            34.195959,
+            -118.601379
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "EVERLASTING HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.31549791977671743,
+          "coordinates": [
+            34.200846,
+            -118.5924375
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "VERONA HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.31549791977671743,
+          "coordinates": [
+            34.200846,
+            -118.5924375
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "DEVOTED HANDS HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 0.31549791977671743,
+          "coordinates": [
+            34.200846,
+            -118.5924375
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "IHOME HEALTH SOLUTIONS",
+          "type": "clinic",
+          "distance_miles": 0.31549791977671743,
+          "coordinates": [
+            34.200846,
+            -118.5924375
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "AMELIORATE HOME HEALTH INC",
+          "type": "clinic",
+          "distance_miles": 0.3181079713113965,
+          "coordinates": [
+            34.20071498,
+            -118.59221
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "AYAS HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.322193920102454,
+          "coordinates": [
+            34.198443,
+            -118.6017255
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ASAY HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.322193920102454,
+          "coordinates": [
+            34.198443,
+            -118.6017255
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HOPE PLUS HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 0.3305769155054357,
+          "coordinates": [
+            34.200846,
+            -118.5920595
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HOSPICE GROUP OF SOUTHERN CALIFORNIA, INC.",
+          "type": "clinic",
+          "distance_miles": 0.3338304863510405,
+          "coordinates": [
+            34.198569,
+            -118.601901
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SOCIAL HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.4025239293523788,
+          "coordinates": [
+            34.203329,
+            -118.596321
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CLINICA MONSENOR OSCAR A. ROMERO - CANOGA PARK",
+          "type": "clinic",
+          "distance_miles": 0.405796243275189,
+          "coordinates": [
+            34.20198,
+            -118.5916005
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "LEGACY COMFORT CARE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.4097272235993201,
+          "coordinates": [
+            34.20053,
+            -118.590031
+          ],
+          "address": "CANOGA PARK, CA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "LUCKY PALLIATIVE SERVICES INCORPORATED",
+          "type": "clinic",
+          "distance_miles": 0.41120728029962517,
+          "coordinates": [
+            34.20072,
+            -118.5901425
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ENSURE HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.41120728029962517,
+          "coordinates": [
+            34.20072,
+            -118.5901425
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "TRUST IN FAITH HOME HEALTHCARE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.41120728029962517,
+          "coordinates": [
+            34.20072,
+            -118.5901425
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "LOVING HOME HEALTH SERVICES INC",
+          "type": "clinic",
+          "distance_miles": 0.41120728029962517,
+          "coordinates": [
+            34.20072,
+            -118.5901425
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "AVRA HOME HEALTH CARE, INC",
+          "type": "clinic",
+          "distance_miles": 0.41525669785919367,
+          "coordinates": [
+            34.20351,
+            -118.596474
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "MEDLITE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.41525669785919367,
+          "coordinates": [
+            34.20351,
+            -118.596474
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ACCENT HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.41593974359056174,
+          "coordinates": [
+            34.20072102,
+            -118.590045
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "MARATHON HOSPICE CARE INC.",
+          "type": "clinic",
+          "distance_miles": 0.41593974359056174,
+          "coordinates": [
+            34.20072102,
+            -118.590045
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "GREATER VALLEY HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.4287851833786668,
+          "coordinates": [
+            34.200855,
+            -118.5898815
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GOODLIFE HHA, INC.",
+          "type": "clinic",
+          "distance_miles": 0.4287851833786668,
+          "coordinates": [
+            34.200855,
+            -118.5898815
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "AYVA HOME HEALTH SERVICES INC",
+          "type": "clinic",
+          "distance_miles": 0.4325494590988732,
+          "coordinates": [
+            34.200953,
+            -118.58988
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PLANNED PARENTHOOD LOS ANGELES-CANOGA PARK CENTER",
+          "type": "clinic",
+          "distance_miles": 0.4341837299033011,
+          "coordinates": [
+            34.201971,
+            -118.5908535
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "ONE CARE HOSPICE, INC",
+          "type": "clinic",
+          "distance_miles": 0.4681515923348437,
+          "coordinates": [
+            34.202502,
+            -118.6017345
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "THE CROSSROADS HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.4726265595552668,
+          "coordinates": [
+            34.199397,
+            -118.588248
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "VERITAS HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.4726265595552668,
+          "coordinates": [
+            34.199397,
+            -118.588248
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "KINDRED HEART HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.4726265595552668,
+          "coordinates": [
+            34.199397,
+            -118.588248
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "AVN HOSPICE CARE",
+          "type": "clinic",
+          "distance_miles": 0.48158775908810314,
+          "coordinates": [
+            34.200702,
+            -118.603692
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ANGEL HEART HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 0.48192094470820934,
+          "coordinates": [
+            34.19946101,
+            -118.588101
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "FLORENCE HOSPICE LLC",
+          "type": "clinic",
+          "distance_miles": 0.5464102430809092,
+          "coordinates": [
+            34.20141998,
+            -118.587888
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "PERPETUAL HELP HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.5464102430809092,
+          "coordinates": [
+            34.20141998,
+            -118.587888
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "GOLDEN SKY HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.5464102430809092,
+          "coordinates": [
+            34.20141998,
+            -118.587888
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ANGEL LOVE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.5464102430809092,
+          "coordinates": [
+            34.20141998,
+            -118.587888
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "VALLEY VILLAGE",
+          "type": "clinic",
+          "distance_miles": 0.564955886099978,
+          "coordinates": [
+            34.201485,
+            -118.5875595
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "ADHC"
+        },
+        {
+          "name": "LA LOVING CARE HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 0.583370443581823,
+          "coordinates": [
+            34.19588998,
+            -118.606228
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "EL PROYECTO DEL BARRIO, INC. - WINNETKA CLINIC",
+          "type": "clinic",
+          "distance_miles": 0.5952101106357983,
+          "coordinates": [
+            34.20063,
+            -118.5864885
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "MALTA HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 0.5986910427589526,
+          "coordinates": [
+            34.202637,
+            -118.604646
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "MALTA HOSPICE CARE",
+          "type": "clinic",
+          "distance_miles": 0.6012906265325193,
+          "coordinates": [
+            34.202655,
+            -118.6046865
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "LA HOME HEALTH AGENCY",
+          "type": "clinic",
+          "distance_miles": 0.6162248455686118,
+          "coordinates": [
+            34.188831,
+            -118.5936345
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GOLDEN STATE HOME HEALTH AGENCY",
+          "type": "clinic",
+          "distance_miles": 0.6162248455686118,
+          "coordinates": [
+            34.188831,
+            -118.5936345
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "360 HOME HEALTH AGENCY",
+          "type": "clinic",
+          "distance_miles": 0.6179113473012178,
+          "coordinates": [
+            34.18879399,
+            -118.593694
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "TODOS PARA LA SALUD FQHC LOOK-ALIKE COMMUNITY CLINIC",
+          "type": "clinic",
+          "distance_miles": 0.6484769742112094,
+          "coordinates": [
+            34.200846,
+            -118.6068105
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "BLUE WAVES HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.6637593969608069,
+          "coordinates": [
+            34.202421,
+            -118.606185
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "RAY SUNNETIC HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.6637593969608069,
+          "coordinates": [
+            34.202421,
+            -118.606185
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "MEDI-KARE1 INC",
+          "type": "clinic",
+          "distance_miles": 0.6683118380258828,
+          "coordinates": [
+            34.187823,
+            -118.595943
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CALIFORNIA CARE SERVICES",
+          "type": "clinic",
+          "distance_miles": 0.6683118380258828,
+          "coordinates": [
+            34.187823,
+            -118.595943
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ROYAL CONGREGATE LIVING, LLC",
+          "type": "clinic",
+          "distance_miles": 0.668913600174961,
+          "coordinates": [
+            34.204473,
+            -118.588068
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "MIRAFAITH HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "EMPRESS HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SEASIDE HOMEHEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "LAND OF PEACE HOSPICE",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "OPTION HOSPICE, INC",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "PURE HEART HOSPICE, INC",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "LUMINERE HOSPICE, INC",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "EMINENT HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "GOLDEN LIFE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "BEST HOPE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "KAELIN'S HOME HEALTH, INC",
+          "type": "clinic",
+          "distance_miles": 0.684802994995128,
+          "coordinates": [
+            34.203015,
+            -118.606167
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CARESS HOME HEALTH PROVIDERS, INC.",
+          "type": "clinic",
+          "distance_miles": 0.6981545122466102,
+          "coordinates": [
+            34.200747,
+            -118.607778
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "LOVECARE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.6981545122466102,
+          "coordinates": [
+            34.200747,
+            -118.607778
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "REGENT HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.6981545122466102,
+          "coordinates": [
+            34.200747,
+            -118.607778
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "WARMCARE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.6981545122466102,
+          "coordinates": [
+            34.200747,
+            -118.607778
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CAREMED HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 0.6981545122466102,
+          "coordinates": [
+            34.200747,
+            -118.607778
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CALSTATE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.6981545122466102,
+          "coordinates": [
+            34.200747,
+            -118.607778
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "EVOLVE HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 0.6981545122466102,
+          "coordinates": [
+            34.200747,
+            -118.607778
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "LOVE AND PEACE HOSPICE, INC",
+          "type": "clinic",
+          "distance_miles": 0.6981545122466102,
+          "coordinates": [
+            34.200747,
+            -118.607778
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "PURE LOVE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.6981545122466102,
+          "coordinates": [
+            34.200747,
+            -118.607778
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ORIGIN PARENTHOOD",
+          "type": "clinic",
+          "distance_miles": 0.6981545122466102,
+          "coordinates": [
+            34.200747,
+            -118.607778
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "REFRLAG"
+        },
+        {
+          "name": "BLESSED CARE HOSPICE INC.",
+          "type": "clinic",
+          "distance_miles": 0.6990027039579548,
+          "coordinates": [
+            34.20322302,
+            -118.606297
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SWEET SUNSHINE HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 0.721433079827241,
+          "coordinates": [
+            34.203906,
+            -118.6061805
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "SELECTCARE HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 0.721433079827241,
+          "coordinates": [
+            34.203906,
+            -118.6061805
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "AMERICAN STANDARD HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 0.721433079827241,
+          "coordinates": [
+            34.203906,
+            -118.6061805
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "VISTA HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 0.721433079827241,
+          "coordinates": [
+            34.203906,
+            -118.6061805
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "FAMILY AID HOSPICE & PALLIATIVE CARE INC",
+          "type": "clinic",
+          "distance_miles": 0.7227436140145327,
+          "coordinates": [
+            34.204131,
+            -118.605993
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SAFE MISSION HOSPICE & PALLIATIVE CARE INC",
+          "type": "clinic",
+          "distance_miles": 0.7227436140145327,
+          "coordinates": [
+            34.204131,
+            -118.605993
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "WEST HILLS ADHC",
+          "type": "clinic",
+          "distance_miles": 0.7318827399128174,
+          "coordinates": [
+            34.200738,
+            -118.6084035
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "ADHC"
+        },
+        {
+          "name": "TRUE CARE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.7440681269267645,
+          "coordinates": [
+            34.204419,
+            -118.6061895
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "TRUE CARE HOME HEALTH SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 0.7440681269267645,
+          "coordinates": [
+            34.204419,
+            -118.6061895
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "TRUE CARE HOSPICE SOUTHERN CALIFORNIA, INC.",
+          "type": "clinic",
+          "distance_miles": 0.7440681269267645,
+          "coordinates": [
+            34.204419,
+            -118.6061895
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "COURAGEOUS CARE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.7630882616301696,
+          "coordinates": [
+            34.200729,
+            -118.6089795
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "HELP TO HEAL HHC, INC.",
+          "type": "clinic",
+          "distance_miles": 0.7630882616301696,
+          "coordinates": [
+            34.200729,
+            -118.6089795
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "APGUARD HOSPICE, LLC",
+          "type": "clinic",
+          "distance_miles": 0.783166864664977,
+          "coordinates": [
+            34.18716691,
+            -118.5905441
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "VEGA HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.8046484115746431,
+          "coordinates": [
+            34.200738,
+            -118.6097355
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "BE WISE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.8046484115746431,
+          "coordinates": [
+            34.200738,
+            -118.6097355
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "RECOUP HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 0.8081694174767018,
+          "coordinates": [
+            34.2032562,
+            -118.6085226
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "VALROSE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.8093213362678767,
+          "coordinates": [
+            34.200711,
+            -118.60983
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ALTERNATIVE CHOICE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.8093213362678767,
+          "coordinates": [
+            34.200711,
+            -118.60983
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "MOUNT OLIVES HOSPICE",
+          "type": "clinic",
+          "distance_miles": 0.8093837364813544,
+          "coordinates": [
+            34.20072299,
+            -118.609827
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ANGELIC HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.8182351963593217,
+          "coordinates": [
+            34.200738,
+            -118.609983
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HARBOR HOSPICE OF LOS ANGELES LP",
+          "type": "clinic",
+          "distance_miles": 0.8566477788299153,
+          "coordinates": [
+            34.185105,
+            -118.596861
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "EDEN HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 0.8654284509132102,
+          "coordinates": [
+            34.185003,
+            -118.597367
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GREAT CHOICE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.8912445627826385,
+          "coordinates": [
+            34.200729,
+            -118.6113105
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "THOUSAND OAKS HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.8912445627826385,
+          "coordinates": [
+            34.200729,
+            -118.6113105
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "PRESTIGE HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 0.9565130473653365,
+          "coordinates": [
+            34.184547,
+            -118.6021395
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "RELAXED HOME HOSPICE CARE",
+          "type": "clinic",
+          "distance_miles": 0.9565130473653365,
+          "coordinates": [
+            34.184547,
+            -118.6021395
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "RELAXED HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 0.9565130473653365,
+          "coordinates": [
+            34.184547,
+            -118.6021395
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HEARTS AND HALOS HEALTHCARE PROVIDERS",
+          "type": "clinic",
+          "distance_miles": 0.9565130473653365,
+          "coordinates": [
+            34.184547,
+            -118.6021395
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CANYON OAKS NURSING AND REHABILITATION CENTER",
+          "type": "clinic",
+          "distance_miles": 0.9824082473168906,
+          "coordinates": [
+            34.208451,
+            -118.607184
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "A.S.H. HOME HEALTH CARE SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 1.0111771721333556,
+          "coordinates": [
+            34.18288544,
+            -118.5973436
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HELPNETIC HOME HEALTH SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 1.0111771721333556,
+          "coordinates": [
+            34.18288544,
+            -118.5973436
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CANOGA HOMECARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.0111771721333556,
+          "coordinates": [
+            34.18288544,
+            -118.5973436
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "NEWSTART HOME HEALTH, INC",
+          "type": "clinic",
+          "distance_miles": 1.0929961614594166,
+          "coordinates": [
+            34.18479723,
+            -118.6076201
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WEST VALLEY POST ACUTE",
+          "type": "clinic",
+          "distance_miles": 1.0931391365903464,
+          "coordinates": [
+            34.198866,
+            -118.6152705
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "WEST VALLEY ADULT DAY HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 1.1322902118404097,
+          "coordinates": [
+            34.18146,
+            -118.592073
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "ADHC"
+        },
+        {
+          "name": "VALLEY VILLAGE MARLIN HOUSE",
+          "type": "clinic",
+          "distance_miles": 1.1431450617383203,
+          "coordinates": [
+            34.197084,
+            -118.616211
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "ICFDDH"
+        },
+        {
+          "name": "TLC SHOUP HOUSE",
+          "type": "clinic",
+          "distance_miles": 1.1720732013290838,
+          "coordinates": [
+            34.204302,
+            -118.615005
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "ICFDDH"
+        },
+        {
+          "name": "WEST HILLS HEALTH AND REHABILITATION CENTER",
+          "type": "clinic",
+          "distance_miles": 1.2984563675701997,
+          "coordinates": [
+            34.214571,
+            -118.6057395
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "PROVISION HOME HEALTH CARE INC",
+          "type": "clinic",
+          "distance_miles": 1.2996666293818464,
+          "coordinates": [
+            34.178693,
+            -118.59525
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "UNITED HOME HEALTH CARE GROUP",
+          "type": "clinic",
+          "distance_miles": 1.3320248270318675,
+          "coordinates": [
+            34.17881701,
+            -118.602014
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WOODLAND HILLS DIALYSIS LLC",
+          "type": "clinic",
+          "distance_miles": 1.338345569033658,
+          "coordinates": [
+            34.178157,
+            -118.597716
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "ESRD/CDC"
+        },
+        {
+          "name": "THE DOCTOR'S CHOICE HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 1.3538960310902297,
+          "coordinates": [
+            34.17867,
+            -118.6028145
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HOPEFUL HEARTS HOSPICE, INC",
+          "type": "clinic",
+          "distance_miles": 1.426512517149803,
+          "coordinates": [
+            34.208118,
+            -118.5747705
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "NEW SPRING HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.426512517149803,
+          "coordinates": [
+            34.208118,
+            -118.5747705
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SUN CITY HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.426512517149803,
+          "coordinates": [
+            34.208118,
+            -118.5747705
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ADASTRA HEALTH CARE - ORION CENTER",
+          "type": "clinic",
+          "distance_miles": 1.4289546610559014,
+          "coordinates": [
+            34.212501,
+            -118.57896
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "WARNER CENTER DIALYSIS",
+          "type": "clinic",
+          "distance_miles": 1.44619853763575,
+          "coordinates": [
+            34.176933,
+            -118.591407
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "ESRD/CDC"
+        },
+        {
+          "name": "CAREMERIDIAN - VICTORY HOUSE",
+          "type": "clinic",
+          "distance_miles": 1.468656444165759,
+          "coordinates": [
+            34.186149,
+            -118.617948
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "GENESIS II ADULT DAY HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 1.5010006999631982,
+          "coordinates": [
+            34.208757,
+            -118.573713
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "ADHC"
+        },
+        {
+          "name": "AURORA CARE",
+          "type": "clinic",
+          "distance_miles": 1.5256154961055304,
+          "coordinates": [
+            34.192674,
+            -118.570131
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "NATIONAL HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.5752184648944985,
+          "coordinates": [
+            34.207146,
+            -118.571202
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SMART MEDICAL HOME HEALTH, INC",
+          "type": "clinic",
+          "distance_miles": 1.6217640736848227,
+          "coordinates": [
+            34.21990186,
+            -118.5876614
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PRESTIGIOUS HOME HEALTHCARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.6403256355700342,
+          "coordinates": [
+            34.220601,
+            -118.5894945
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PERSONALIZED HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 1.6408063585109962,
+          "coordinates": [
+            34.208478,
+            -118.570716
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "STARLINE HOME HEALTH CARE INC",
+          "type": "clinic",
+          "distance_miles": 1.6408063585109962,
+          "coordinates": [
+            34.208478,
+            -118.570716
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "NEW START HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.6714867623666756,
+          "coordinates": [
+            34.17335231,
+            -118.5941257
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "J-J EXCELCARE HOME 2",
+          "type": "clinic",
+          "distance_miles": 1.6855380817562613,
+          "coordinates": [
+            34.2153,
+            -118.575999
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "ICFDDH"
+        },
+        {
+          "name": "THE VILLAS AT TOPANGA TERRACE",
+          "type": "clinic",
+          "distance_miles": 1.6909910790320044,
+          "coordinates": [
+            34.21967371,
+            -118.6087744
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "HOLIDAY MANOR CARE CENTER",
+          "type": "clinic",
+          "distance_miles": 1.7242042867461276,
+          "coordinates": [
+            34.219368,
+            -118.5816195
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "TOPANGA TERRACE",
+          "type": "clinic",
+          "distance_miles": 1.72580910691432,
+          "coordinates": [
+            34.220196,
+            -118.6088625
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "LUNA HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.7782287389253197,
+          "coordinates": [
+            34.22211302,
+            -118.605369
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "LIFELONG HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.7823998266964802,
+          "coordinates": [
+            34.221798,
+            -118.606743
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CARE AND COMFORT HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.7925126726628156,
+          "coordinates": [
+            34.22217943,
+            -118.6059431
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "BRIGHT LIGHT HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.7925133290097572,
+          "coordinates": [
+            34.22217944,
+            -118.6059431
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "APOSTLES CREED HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 1.7925133290097572,
+          "coordinates": [
+            34.22217944,
+            -118.6059431
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CARE & COMFORT HOME HEALTH INC",
+          "type": "clinic",
+          "distance_miles": 1.7925133290097572,
+          "coordinates": [
+            34.22217944,
+            -118.6059431
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "AVL HOME HEALTH CARE, INC",
+          "type": "clinic",
+          "distance_miles": 1.8209789966868069,
+          "coordinates": [
+            34.19438501,
+            -118.564537
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WESTERN PALLIATIVE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.855066694814998,
+          "coordinates": [
+            34.171344,
+            -118.6036245
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "COSMOPOLITAN HEALTHCARE INC.",
+          "type": "clinic",
+          "distance_miles": 1.855066694814998,
+          "coordinates": [
+            34.171344,
+            -118.6036245
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "KAISER FOUNDATION HOSPITAL, WOOLAND HILLS/PD",
+          "type": "clinic",
+          "distance_miles": 1.8626558192738498,
+          "coordinates": [
+            34.171263,
+            -118.5886125
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "ESRD"
+        },
+        {
+          "name": "KAISER FOUNDATION HOSPITAL - WOODLAND HILLS",
+          "type": "clinic",
+          "distance_miles": 1.8626558192738498,
+          "coordinates": [
+            34.171263,
+            -118.5886125
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "GACH"
+        },
+        {
+          "name": "ALLIANCE HOME HEALTH GROUP",
+          "type": "clinic",
+          "distance_miles": 1.8678868644935198,
+          "coordinates": [
+            34.171315,
+            -118.604418
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CVHCARE LOS ANGELES",
+          "type": "clinic",
+          "distance_miles": 1.8714929774795113,
+          "coordinates": [
+            34.171479,
+            -118.605375
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "UCLA WEST VALLEY MEDICAL CENTER",
+          "type": "clinic",
+          "distance_miles": 1.8915130594119565,
+          "coordinates": [
+            34.202925,
+            -118.628667
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "GACH"
+        },
+        {
+          "name": "ADVANCED PAIN SURGICAL CENTER, INC.",
+          "type": "clinic",
+          "distance_miles": 1.8926491769360587,
+          "coordinates": [
+            34.201728,
+            -118.628946
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "PREMIER SPECIALTY SURGICAL CENTER LLC",
+          "type": "clinic",
+          "distance_miles": 1.8926491769360587,
+          "coordinates": [
+            34.201728,
+            -118.628946
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "PACIFIC COAST HOME HEALTH SERVICES",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "SUNRAY HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "BLUE OCEAN HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "RADIANT HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "GENTLE HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ZEN HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "UNITY HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "NUERA HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ELBRUS HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SAINT MARIAM HOSPICE SERVICES INC",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "NUVIDA HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "TBL HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.9064104170878202,
+          "coordinates": [
+            34.201296,
+            -118.5631335
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WEST HILLS SURGICAL CENTER",
+          "type": "clinic",
+          "distance_miles": 1.9172697902666016,
+          "coordinates": [
+            34.20225,
+            -118.629279
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "GROSSMAN SURGI CENTER INC",
+          "type": "clinic",
+          "distance_miles": 1.9502546144756034,
+          "coordinates": [
+            34.203276,
+            -118.62963
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "CALIFORNIA SURGERY CENTER, INC",
+          "type": "clinic",
+          "distance_miles": 1.9502546144756034,
+          "coordinates": [
+            34.203276,
+            -118.62963
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "CALIFORNIA SURGERY CENTER",
+          "type": "clinic",
+          "distance_miles": 1.9502546144756034,
+          "coordinates": [
+            34.203276,
+            -118.62963
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "VILLA MARTHA",
+          "type": "clinic",
+          "distance_miles": 1.9602596755515531,
+          "coordinates": [
+            34.173873,
+            -118.61523
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "WOODLAND CARE CENTER",
+          "type": "clinic",
+          "distance_miles": 1.9853897596936212,
+          "coordinates": [
+            34.200144,
+            -118.561581
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "BLUE STAR HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.0059743934029814,
+          "coordinates": [
+            34.16878999,
+            -118.601581
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "EXCELLENT IN-HOME CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.0176990424908925,
+          "coordinates": [
+            34.16976,
+            -118.60731
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ANNEX HEALTHCARE PROVIDERS, INC.",
+          "type": "clinic",
+          "distance_miles": 2.0176990424908925,
+          "coordinates": [
+            34.16976,
+            -118.60731
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "UCLA HEALTH DIGESTIVE DISEASE WEST HILLS",
+          "type": "clinic",
+          "distance_miles": 2.0336555011959647,
+          "coordinates": [
+            34.202457,
+            -118.631304
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "H&A HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.0518210904518814,
+          "coordinates": [
+            34.167798,
+            -118.5950565
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "NEXT LEVEL HOME HEALTH INC",
+          "type": "clinic",
+          "distance_miles": 2.0518210904518814,
+          "coordinates": [
+            34.167798,
+            -118.5950565
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WOODLAND HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.0518210904518814,
+          "coordinates": [
+            34.167798,
+            -118.5950565
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SPECIAL CARE HOSPICE SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 2.0569545125802775,
+          "coordinates": [
+            34.167735,
+            -118.594684
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "MEGACARE HOSPICE AND PALLIATIVE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.0569545125802775,
+          "coordinates": [
+            34.167735,
+            -118.594684
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "STATIM CARE HOSPICE, INC",
+          "type": "clinic",
+          "distance_miles": 2.0569545125802775,
+          "coordinates": [
+            34.167735,
+            -118.594684
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CARE PARTNERS HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 2.0569545125802775,
+          "coordinates": [
+            34.167735,
+            -118.594684
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "BURTON HOME",
+          "type": "clinic",
+          "distance_miles": 2.059600750972159,
+          "coordinates": [
+            34.218279,
+            -118.622079
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "ICFDDH"
+        },
+        {
+          "name": "COMMONWEALTH HOME HEALTH CARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.0632534119024695,
+          "coordinates": [
+            34.168923,
+            -118.606761
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "MONA HOSPICE, INC",
+          "type": "clinic",
+          "distance_miles": 2.0745538049960452,
+          "coordinates": [
+            34.16772,
+            -118.591375
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SUNBURST CARE CENTER - WINNETKA",
+          "type": "clinic",
+          "distance_miles": 2.098455593636697,
+          "coordinates": [
+            34.21341,
+            -118.5648885
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "ICFDDH"
+        },
+        {
+          "name": "COMFORT AT HOME",
+          "type": "clinic",
+          "distance_miles": 2.1137427454448345,
+          "coordinates": [
+            34.16692598,
+            -118.594312
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PRESIDENTIAL HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.11987247403905,
+          "coordinates": [
+            34.16896299,
+            -118.609892
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "BRIGHT FUTURE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.11987247403905,
+          "coordinates": [
+            34.16896299,
+            -118.609892
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GIBRALTAR HOME HEALTH SERVICES LLC",
+          "type": "clinic",
+          "distance_miles": 2.120625705444702,
+          "coordinates": [
+            34.168851,
+            -118.6095825
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GIBRALTAR HOSPICE INC.",
+          "type": "clinic",
+          "distance_miles": 2.120625705444702,
+          "coordinates": [
+            34.168851,
+            -118.6095825
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ANGELIC HOME HEALTH CARE LLC",
+          "type": "clinic",
+          "distance_miles": 2.120625705444702,
+          "coordinates": [
+            34.168851,
+            -118.6095825
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CITY OF ANGELS HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.120625705444702,
+          "coordinates": [
+            34.168851,
+            -118.6095825
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "MILLENNIUM HEALTH SERVICES",
+          "type": "clinic",
+          "distance_miles": 2.120625705444702,
+          "coordinates": [
+            34.168851,
+            -118.6095825
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "INFINITE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.125926804972962,
+          "coordinates": [
+            34.168869,
+            -118.609893
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "LIVLIFE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.125926804972962,
+          "coordinates": [
+            34.168869,
+            -118.609893
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "M AND M HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.125926804972962,
+          "coordinates": [
+            34.168869,
+            -118.609893
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "EVERYDAY HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 2.125926804972962,
+          "coordinates": [
+            34.168869,
+            -118.609893
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "DIVINE PROVIDENCE HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 2.125926804972962,
+          "coordinates": [
+            34.168869,
+            -118.609893
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "BLOOM HOME HEALTH CARE INC",
+          "type": "clinic",
+          "distance_miles": 2.125926804972962,
+          "coordinates": [
+            34.168869,
+            -118.609893
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "QUICK CARE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.125926804972962,
+          "coordinates": [
+            34.168869,
+            -118.609893
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WEST VALLEY CONGREGATE HEALTH LIVING, INC.",
+          "type": "clinic",
+          "distance_miles": 2.1260307058631356,
+          "coordinates": [
+            34.216542,
+            -118.5669405
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "HILLSIDE HOME HEALTH, INC",
+          "type": "clinic",
+          "distance_miles": 2.1507187455552437,
+          "coordinates": [
+            34.166763,
+            -118.590093
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "LIFESTAR HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2217149357026917,
+          "coordinates": [
+            34.16829001,
+            -118.579884
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GOLDEN HEALTH HOME CARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GOLDEN AGE HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ON CALL HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "AMERICAN ATA HOME HEALTH AGENCY, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "BEST CHANCE HOME HEALTH AGENCY CARE INC",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "TOPANGA HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WIND BREEZE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "BEST CHOICE HOME HEALTH AGENCY, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "MEADOW HOSPICE",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "S&A HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "TOUCH OF HOPE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "DIVINE TOUCH HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "BLOOM HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PRESTIGE LIFE HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "EXCELLENT HOME CARE INC",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "LIVING TREE HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CURATIO HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "SUNNY SMILE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "VAP HOME HEALTH CARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CALIFORNIA STATE HOME HEALTH AGENCY, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "DRIVEN HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "AMBITIONS HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "EXCELLENT HEALTHCARE SERVICES GROUP",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WILLOWS HOME HEALTH SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PEACEFUL HARBORS HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "VNS HOME HEALTH, INC",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GALAXI HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 2.2237692678232825,
+          "coordinates": [
+            34.166358,
+            -118.606131
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HAPPY CARING HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2286317046823925,
+          "coordinates": [
+            34.16631699,
+            -118.606276
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "DELANO HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.235793367934281,
+          "coordinates": [
+            34.168284,
+            -118.57932
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "LAKESHORE HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 2.241245222372098,
+          "coordinates": [
+            34.166556,
+            -118.5843465
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SERENITY HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2414372383016645,
+          "coordinates": [
+            34.169472,
+            -118.5763995
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ELI HOME HEALTH, INC",
+          "type": "clinic",
+          "distance_miles": 2.250428797511929,
+          "coordinates": [
+            34.165916,
+            -118.58647
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "QUALITY CHOICE HOSPICE INC.",
+          "type": "clinic",
+          "distance_miles": 2.2560247311513075,
+          "coordinates": [
+            34.16931,
+            -118.5762285
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SOUTHERN CALIFORNIA MEDICAL CENTER INC. - WOODLAND HILLS",
+          "type": "clinic",
+          "distance_miles": 2.259776800018576,
+          "coordinates": [
+            34.1720271,
+            -118.5713577
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "GENTLE WELL HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2630999074854454,
+          "coordinates": [
+            34.16976,
+            -118.5750945
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HEALING QUEST HEALTH SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2630999074854454,
+          "coordinates": [
+            34.16976,
+            -118.5750945
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PURE SHIELD HEALTH SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2630999074854454,
+          "coordinates": [
+            34.16976,
+            -118.5750945
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "DYNAMIC HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 2.290500344054139,
+          "coordinates": [
+            34.170939,
+            -118.572174
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "OPTIMUM HOME HEALTHCARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.290500344054139,
+          "coordinates": [
+            34.170939,
+            -118.572174
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ANTHEM HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.290500344054139,
+          "coordinates": [
+            34.170939,
+            -118.572174
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ART OF NURSING HOME CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.290500344054139,
+          "coordinates": [
+            34.170939,
+            -118.572174
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "FRIENDSHIP HOSPICE INC.",
+          "type": "clinic",
+          "distance_miles": 2.290500344054139,
+          "coordinates": [
+            34.170939,
+            -118.572174
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "XL CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.295879047639081,
+          "coordinates": [
+            34.168833,
+            -118.5758325
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "SILVER SKY HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.2974324034019347,
+          "coordinates": [
+            34.17093898,
+            -118.571972
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "VALLEY VILLAGE PARTHENIA HOUSE",
+          "type": "clinic",
+          "distance_miles": 2.3326012433807044,
+          "coordinates": [
+            34.227882,
+            -118.5783345
+          ],
+          "address": "WINNETKA, CA",
+          "facility_code": "ICFDDH"
+        },
+        {
+          "name": "DEMETRA HOME HEALTH CARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.3975563693718795,
+          "coordinates": [
+            34.167879,
+            -118.6181055
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "IMED HOSPICE",
+          "type": "clinic",
+          "distance_miles": 2.3975563693718795,
+          "coordinates": [
+            34.167879,
+            -118.6181055
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SPES HOME HEALTH INC",
+          "type": "clinic",
+          "distance_miles": 2.3975563693718795,
+          "coordinates": [
+            34.167879,
+            -118.6181055
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ONE & ONLY CONGREGATE LIVING",
+          "type": "clinic",
+          "distance_miles": 2.3979255502993624,
+          "coordinates": [
+            34.205742,
+            -118.636992
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "DELTA HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.447274253831683,
+          "coordinates": [
+            34.23237995,
+            -118.5885803
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "JOYCE EISENBERG KEEFER MEDICAL CENTER",
+          "type": "clinic",
+          "distance_miles": 2.4676959111278673,
+          "coordinates": [
+            34.200441,
+            -118.5531345
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "JOYCE EISENBERG KEEFER MEDICAL CENTER",
+          "type": "clinic",
+          "distance_miles": 2.4676959111278673,
+          "coordinates": [
+            34.200441,
+            -118.5531345
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "APH"
+        },
+        {
+          "name": "GRANCELL VILLAGE OF THE LOS ANGELES JEWISH HOME FOR THE AGING",
+          "type": "clinic",
+          "distance_miles": 2.4676959111278673,
+          "coordinates": [
+            34.200441,
+            -118.5531345
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "BRANDMAN CENTERS FOR SENIOR CARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.4676959111278673,
+          "coordinates": [
+            34.200441,
+            -118.5531345
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "AMERICA'S BEST CARE",
+          "type": "clinic",
+          "distance_miles": 2.467988853059774,
+          "coordinates": [
+            34.232706,
+            -118.588725
+          ],
+          "address": "CANOGA PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "FMC DIALYSIS SERVICES OF WOODLAND HILLS",
+          "type": "clinic",
+          "distance_miles": 2.484720365839467,
+          "coordinates": [
+            34.172118,
+            -118.565361
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "ESRD/CDC"
+        },
+        {
+          "name": "BELLAGIO IN THE DESERT",
+          "type": "clinic",
+          "distance_miles": 2.4859621647522534,
+          "coordinates": [
+            34.203078,
+            -118.553193
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "SUNLIGHT CONGREGATE LIVING HEALTH FACILITY, INC.",
+          "type": "clinic",
+          "distance_miles": 2.4936082040686127,
+          "coordinates": [
+            34.206363,
+            -118.553868
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "GENTLE CARE SERVICES HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.526591233093756,
+          "coordinates": [
+            34.172784,
+            -118.563579
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "PINNACLE PALLIATIVE SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 2.526591233093756,
+          "coordinates": [
+            34.172784,
+            -118.563579
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ALL TOGETHER HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.526591233093756,
+          "coordinates": [
+            34.172784,
+            -118.563579
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CA CHOICE HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 2.526591233093756,
+          "coordinates": [
+            34.172784,
+            -118.563579
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ASTER HOME HEALTH SERVICES, INC",
+          "type": "clinic",
+          "distance_miles": 2.526591233093756,
+          "coordinates": [
+            34.172784,
+            -118.563579
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "COMMUNITY HOME HEALTH AGENCY",
+          "type": "clinic",
+          "distance_miles": 2.526591233093756,
+          "coordinates": [
+            34.172784,
+            -118.563579
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WELLSPRING HOSPICE",
+          "type": "clinic",
+          "distance_miles": 2.561148097221052,
+          "coordinates": [
+            34.172316,
+            -118.5632775
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "OPTIMAL HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 2.5648812925014033,
+          "coordinates": [
+            34.172325,
+            -118.5631785
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "APRICUS HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 2.5805226935490686,
+          "coordinates": [
+            34.171905,
+            -118.563277
+          ],
+          "address": "VAN NUYS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "AVANTE HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "FIRST AID HEALTH CARE INC",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "LOVING HEART HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "BEST IN THE WEST HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "AVAN HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "FOUR SEASONS HEALTHCARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "FOUR SEASONS HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "WELLBEE NURSING HOME HEALTH INC.",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GOLDEN VALLEY HEALTHCARE INC",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PASSIONATE HEALTHCARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ACHIEVE HOME HEALTH CARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ADVANCED HOME DIALYSIS, INC",
+          "type": "clinic",
+          "distance_miles": 2.5889630952236593,
+          "coordinates": [
+            34.187211,
+            -118.552608
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "ESRD"
+        },
+        {
+          "name": "TAMPA SURGICAL CENTER",
+          "type": "clinic",
+          "distance_miles": 2.608411367863714,
+          "coordinates": [
+            34.209522,
+            -118.552896
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "CARE CONNECTION HOME HEALTH AGENCY, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6121679352027063,
+          "coordinates": [
+            34.18711099,
+            -118.55222
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ZION HEALTHCARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6121679352027063,
+          "coordinates": [
+            34.18711099,
+            -118.55222
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ASTRAL HOSPICE AND PALLIATIVE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.630066617597534,
+          "coordinates": [
+            34.172634,
+            -118.561317
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "HOPE OF LA HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 2.630066617597534,
+          "coordinates": [
+            34.172634,
+            -118.561317
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "OAK HOSPICE AND PALLIATIVE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.630066617597534,
+          "coordinates": [
+            34.172634,
+            -118.561317
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "DIAMOND HOME HEALTH, INC",
+          "type": "clinic",
+          "distance_miles": 2.640344250069335,
+          "coordinates": [
+            34.171731,
+            -118.5620445
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "VALLEY HOME HEALTH CARE AGENCY, INC.",
+          "type": "clinic",
+          "distance_miles": 2.640344250069335,
+          "coordinates": [
+            34.171731,
+            -118.5620445
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "AT HOME HEALTH SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 2.640344250069335,
+          "coordinates": [
+            34.171731,
+            -118.5620445
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CAREPARTNERS HOSPICE, LLC",
+          "type": "clinic",
+          "distance_miles": 2.640344250069335,
+          "coordinates": [
+            34.171731,
+            -118.5620445
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "MAR HOSPICE CARE",
+          "type": "clinic",
+          "distance_miles": 2.640344250069335,
+          "coordinates": [
+            34.171731,
+            -118.5620445
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ATHENS HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CARING ONE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CONNECT CARE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "GLORY HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PRO-CHOICE HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "FIRST OPTION HOSPICE CARE",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "INFLUENTIAL HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "EASE OF MIND HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CENTINELA HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "DIAMOND KEY HOSPICE, INC",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "RISE N SHINE HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ELIT HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "KIND HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "O2 HOME HEALTH CARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CARE CONTROL HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CAREHUG HOME HEALTH SERVICES INC.",
+          "type": "clinic",
+          "distance_miles": 2.6418758174549746,
+          "coordinates": [
+            34.17246,
+            -118.5612255
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "IN-HOME CARE CALIFORNIA",
+          "type": "clinic",
+          "distance_miles": 2.643259766911968,
+          "coordinates": [
+            34.17262988,
+            -118.5610169
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "EMERALD HEARTS HEALTHCARE",
+          "type": "clinic",
+          "distance_miles": 2.643259766911968,
+          "coordinates": [
+            34.17262988,
+            -118.5610169
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "RUBY HEARTS HEALTHCARE",
+          "type": "clinic",
+          "distance_miles": 2.643259766911968,
+          "coordinates": [
+            34.17262988,
+            -118.5610169
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PRIME HOME HEALTH GROUP, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6449814440747765,
+          "coordinates": [
+            34.17231198,
+            -118.561309
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "REMEDY HEALTH CARE INC",
+          "type": "clinic",
+          "distance_miles": 2.6449814440747765,
+          "coordinates": [
+            34.17231198,
+            -118.561309
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "BELMONT HOSPICE & PALLIATIVE CARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.6449814440747765,
+          "coordinates": [
+            34.17231198,
+            -118.561309
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "BRIGHT UNIVERSE HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6449814440747765,
+          "coordinates": [
+            34.17231198,
+            -118.561309
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "WELFARE HOME HEALTH, INC",
+          "type": "clinic",
+          "distance_miles": 2.6449814440747765,
+          "coordinates": [
+            34.17231198,
+            -118.561309
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "RING OF SALVATION HOSPICE CARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.6449814440747765,
+          "coordinates": [
+            34.17231198,
+            -118.561309
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "KIND HANDS HOME HEALTH CARE, INC",
+          "type": "clinic",
+          "distance_miles": 2.6449814440747765,
+          "coordinates": [
+            34.17231198,
+            -118.561309
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ATTENTIVE HOME HEALTH INC.",
+          "type": "clinic",
+          "distance_miles": 2.645293873254756,
+          "coordinates": [
+            34.172316,
+            -118.5612975
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "SYNERGY HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.645293873254756,
+          "coordinates": [
+            34.172316,
+            -118.5612975
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "BELLEVUE HOSPICE CARE INC",
+          "type": "clinic",
+          "distance_miles": 2.645293873254756,
+          "coordinates": [
+            34.172316,
+            -118.5612975
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "INTEGRITY HOME HEALTH CARE SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 2.645374106975907,
+          "coordinates": [
+            34.17180802,
+            -118.561841
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "RADIANCE HOME HEALTH CARE AGENCY, INC.",
+          "type": "clinic",
+          "distance_miles": 2.645374106975907,
+          "coordinates": [
+            34.17180802,
+            -118.561841
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CEDAR CARE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.645374106975907,
+          "coordinates": [
+            34.17180802,
+            -118.561841
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PARADISE HOME HEALTH OF LOS ANGELES INC.",
+          "type": "clinic",
+          "distance_miles": 2.645374106975907,
+          "coordinates": [
+            34.17180802,
+            -118.561841
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GARDEN OF ANGELS HOSPICE INC.",
+          "type": "clinic",
+          "distance_miles": 2.645374106975907,
+          "coordinates": [
+            34.17180802,
+            -118.561841
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "FIRST RESPONSE HOSPICE CARE",
+          "type": "clinic",
+          "distance_miles": 2.645374106975907,
+          "coordinates": [
+            34.17180802,
+            -118.561841
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "AT EASE HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6568083676162906,
+          "coordinates": [
+            34.16642001,
+            -118.623624
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PROFESSIONAL HOME CARE SERVICE",
+          "type": "clinic",
+          "distance_miles": 2.6572772460818435,
+          "coordinates": [
+            34.166411,
+            -118.623623
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "OC HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6582336646734817,
+          "coordinates": [
+            34.17232502,
+            -118.560988
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "OC HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6582336646734817,
+          "coordinates": [
+            34.17232502,
+            -118.560988
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ALL CARE - S.F. VALLEY",
+          "type": "clinic",
+          "distance_miles": 2.674547516816507,
+          "coordinates": [
+            34.203915,
+            -118.5500115
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "RN HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.6812620224693857,
+          "coordinates": [
+            34.180812,
+            -118.5538095
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PHYSICIANS PREFERRED HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 2.6812620224693857,
+          "coordinates": [
+            34.180812,
+            -118.5538095
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "RN HOSPICE INC.",
+          "type": "clinic",
+          "distance_miles": 2.6812620224693857,
+          "coordinates": [
+            34.180812,
+            -118.5538095
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "MOUNT SINAI HOSPICE AND PALLIATIVE CARE INC",
+          "type": "clinic",
+          "distance_miles": 2.6812620224693857,
+          "coordinates": [
+            34.180812,
+            -118.5538095
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SAINT INESS HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 2.6835793656577462,
+          "coordinates": [
+            34.18081299,
+            -118.553764
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "QUIETUDE HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.68454621289464,
+          "coordinates": [
+            34.180803,
+            -118.553751
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ARCLIGHT HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.7000057889821,
+          "coordinates": [
+            34.17271667,
+            -118.5596337
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "RECOVER HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 2.716415134025257,
+          "coordinates": [
+            34.1728621,
+            -118.5591211
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "TINOSA HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.716415134025257,
+          "coordinates": [
+            34.1728621,
+            -118.5591211
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "SHELDON HOSPICE",
+          "type": "clinic",
+          "distance_miles": 2.716415134025257,
+          "coordinates": [
+            34.1728621,
+            -118.5591211
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CHERISH HOSPICE, INC",
+          "type": "clinic",
+          "distance_miles": 2.716415134025257,
+          "coordinates": [
+            34.1728621,
+            -118.5591211
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "EFFORT HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.716415134025257,
+          "coordinates": [
+            34.1728621,
+            -118.5591211
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "RIGHTWAY HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 2.716415134025257,
+          "coordinates": [
+            34.1728621,
+            -118.5591211
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "PARADISE CARE HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 2.716415134025257,
+          "coordinates": [
+            34.1728621,
+            -118.5591211
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "VAGA MEDICAL",
+          "type": "clinic",
+          "distance_miles": 2.716415134025257,
+          "coordinates": [
+            34.1728621,
+            -118.5591211
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "KARE HOME HEALTH, INC",
+          "type": "clinic",
+          "distance_miles": 2.716415134025257,
+          "coordinates": [
+            34.1728621,
+            -118.5591211
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "911 HOME HEALTH CARE SERVICES INC",
+          "type": "clinic",
+          "distance_miles": 2.716415134025257,
+          "coordinates": [
+            34.1728621,
+            -118.5591211
+          ],
+          "address": "TARZANA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "VALLEY VILLAGE ARCHWOOD HOUSE",
+          "type": "clinic",
+          "distance_miles": 2.8039117192897858,
+          "coordinates": [
+            34.191891,
+            -118.6448265
+          ],
+          "address": "WEST HILLS, CA",
+          "facility_code": "ICFDDH"
+        },
+        {
+          "name": "THE OLIVE LEAF",
+          "type": "clinic",
+          "distance_miles": 2.8097068989513705,
+          "coordinates": [
+            34.212285,
+            -118.550358
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "ICFDDH"
+        },
+        {
+          "name": "VALVERDE",
+          "type": "clinic",
+          "distance_miles": 2.8109837909211723,
+          "coordinates": [
+            34.208802,
+            -118.548909
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "ICFDDN"
+        },
+        {
+          "name": "CALABASAS CARE HOSPICE INC.",
+          "type": "clinic",
+          "distance_miles": 2.831971325798809,
+          "coordinates": [
+            34.165233,
+            -118.6268085
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "OAKS HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 2.833998761441596,
+          "coordinates": [
+            34.165152,
+            -118.626741
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "AVIS HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.83442901218088,
+          "coordinates": [
+            34.164837,
+            -118.6262595
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "XTRA CARING HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.8754705680767634,
+          "coordinates": [
+            34.156701,
+            -118.606302
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ACCESS HOSPICE",
+          "type": "clinic",
+          "distance_miles": 2.89495173720141,
+          "coordinates": [
+            34.156386,
+            -118.60614
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "T.L.C. HOME HEALTH, LLC",
+          "type": "clinic",
+          "distance_miles": 2.89495173720141,
+          "coordinates": [
+            34.156386,
+            -118.60614
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "MED-CARE",
+          "type": "clinic",
+          "distance_miles": 2.89495173720141,
+          "coordinates": [
+            34.156386,
+            -118.60614
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "GRACE AND COMFORT HOSPICE CARE",
+          "type": "clinic",
+          "distance_miles": 2.89495173720141,
+          "coordinates": [
+            34.156386,
+            -118.60614
+          ],
+          "address": "WOODLAND HILLS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "THE OLIVE TREE",
+          "type": "clinic",
+          "distance_miles": 2.9066910066848948,
+          "coordinates": [
+            34.213113,
+            -118.548927
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "ICFDDH"
+        },
+        {
+          "name": "SHERMAN WAY SURGICAL CENTER",
+          "type": "clinic",
+          "distance_miles": 2.9226917547206073,
+          "coordinates": [
+            34.201269,
+            -118.5452235
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "ADK HOME HEALTH INC.",
+          "type": "clinic",
+          "distance_miles": 2.9322578603847353,
+          "coordinates": [
+            34.220691,
+            -118.5531795
+          ],
+          "address": "NORTHRIDGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "A1KARE HOSPICE & PALLIATIVE CARE INC",
+          "type": "clinic",
+          "distance_miles": 2.9322578603847353,
+          "coordinates": [
+            34.220691,
+            -118.5531795
+          ],
+          "address": "NORTHRIDGE, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "STARLITE HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 2.9322578603847353,
+          "coordinates": [
+            34.220691,
+            -118.5531795
+          ],
+          "address": "NORTHRIDGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "NORTHRIDGE OUTPATIENT SURGERY CENTER",
+          "type": "clinic",
+          "distance_miles": 2.9511325915665263,
+          "coordinates": [
+            34.232481,
+            -118.5664995
+          ],
+          "address": "NORTHRIDGE, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "WEST VALLEY SUBACUTE AND NURSING CENTER",
+          "type": "clinic",
+          "distance_miles": 2.968407443876179,
+          "coordinates": [
+            34.193178,
+            -118.5444855
+          ],
+          "address": "RESEDA, CA",
+          "facility_code": "SNF"
+        }
+      ],
+      "grocery": [],
+      "transit": []
+    },
+    "analysis_radius_miles": 5.0,
+    "project_type": "family"
+  },
+  "rent_analysis": {
+    "location": {
+      "state": "CA",
+      "county": null
+    },
+    "rent_limits_by_ami": {
+      "30%_ami": {
+        "studio": 600.0,
+        "1br": 650.0,
+        "2br": 800.0,
+        "3br": 1100.0,
+        "4br": 1250.0
+      },
+      "50%_ami": {
+        "studio": 1000.0,
+        "1br": 1083.33,
+        "2br": 1333.33,
+        "3br": 1833.33,
+        "4br": 2083.33
+      },
+      "60%_ami": {
+        "studio": 1200.0,
+        "1br": 1300.0,
+        "2br": 1600.0,
+        "3br": 2200.0,
+        "4br": 2500.0
+      },
+      "80%_ami": {
+        "studio": 1600.0,
+        "1br": 1733.33,
+        "2br": 2133.33,
+        "3br": 2933.33,
+        "4br": 3333.33
+      }
+    },
+    "basis_boost_qualified": true,
+    "boost_percentage": 30.0,
+    "analysis_year": 2025
+  },
+  "competitive_summary": {
+    "total_points": 24,
+    "percentile_rank": 85,
+    "competitive_tier": "Excellent"
+  },
+  "recommendations": {
+    "overall_recommendation": "Proceed with development",
+    "priority_level": "High",
+    "key_strengths": [],
+    "areas_for_improvement": [],
+    "next_steps": []
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-07-23T08:07:17.935612",
+    "analysis_duration_seconds": 0.450481,
+    "software_version": "1.0.0",
+    "data_sources_used": [
+      "HUD QCT/DDA 2025",
+      "OpenStreetMap",
+      "Census Bureau",
+      "State QAP Documents"
+    ],
+    "analysis_id": "LIHTC_20250723_080717"
+  }
+}

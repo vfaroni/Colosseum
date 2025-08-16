@@ -1,0 +1,50 @@
+{
+  "filename": "2024_4pct_R1_24-409.xlsx",
+  "application_data": {
+    "project_name": "Marina Towers",
+    "ctcac_project_number": "648-4395",
+    "year": "2024",
+    "county": "Solano",
+    "city": "Vallejo",
+    "general_contractor": "Wilshire Pacific Builders",
+    "new_construction": "Yes",
+    "housing_type": "Seniors",
+    "total_units": 155,
+    "total_sqft_low_income": 27878
+  },
+  "sources_uses_data": {
+    "land_cost": 660000.0,
+    "total_architectural": 286750.0,
+    "total_survey_engineering": 40000.0,
+    "local_impact_fees": 0.0,
+    "total_new_construction": 17252685.0,
+    "soft_cost_contingency": "75000"
+  },
+  "extraction_log": [
+    "\n================================================================================",
+    "CONTRACTED EXTRACTION: 2024_4pct_R1_24-409.xlsx",
+    "================================================================================",
+    "Application sheet loaded: 1103 rows x 153 columns",
+    "Searching for MANDATORY field: CTCAC Project Number",
+    "Using pattern matching for CTCAC Project Number: (\\d{2,4}-\\d{3,4})",
+    "\u2705 Found CTCAC Project Number: '648-4395' at Row 159, Col O (confidence: 15, strategy: pattern_match)",
+    "Searching for MANDATORY field: Year",
+    "\u2705 Found Year: '2024' at Row 501, Col b (confidence: 20, strategy: content_search)",
+    "Searching for MANDATORY field: City",
+    "\u2705 Found City: 'Vallejo' at Row 189, Col I (confidence: 30, strategy: content_search)",
+    "Searching for MANDATORY field: General Contractor",
+    "\u2705 Found General Contractor: 'Wilshire Pacific Builders' at Row 295, Col [ (confidence: 78, strategy: content_search)",
+    "Searching for MANDATORY field: New Construction",
+    "\u2705 Found New Construction: 'For new construction projects required to provide parking beneath residential units (not \"tuck under\" parking) or through construction of an on-site parking structure of two or more levels.' at Row 1007, Col D (confidence: 32, strategy: content_search)",
+    "Searching for MANDATORY field: Housing Type",
+    "\u2705 Found Housing Type: 'Seniors' at Row 211, Col D (confidence: 24, strategy: content_search)",
+    "Searching for MANDATORY field: Total Units",
+    "\u2705 Found Total Units: '155' at Row 884, Col ] (confidence: 42, strategy: content_search)",
+    "Searching for MANDATORY field: Soft Cost Contingency",
+    "\u2705 Found Soft Cost Contingency: '75000' at Row 80, Col B (confidence: 42, strategy: content_search)"
+  ],
+  "contract_violations": [
+    "SourcesUses.local_impact_fees"
+  ],
+  "contract_compliant": false
+}

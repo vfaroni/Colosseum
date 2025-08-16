@@ -1,0 +1,102 @@
+{
+  "extraction_timestamp": "20250809_164322",
+  "property": "Fir Tree Park Apartments",
+  "location": "Shelton, WA",
+  "categories": {
+    "financial": {
+      "income": {
+        "total_revenue": 504333,
+        "hap_payments": 230347
+      },
+      "expenses": {},
+      "debt_service": {},
+      "reserves": {
+        "replacement": 100288
+      },
+      "noi": 65538
+    },
+    "regulatory": {
+      "hud_programs": {
+        "section_8": {
+          "contract": "WA19M000067",
+          "expiration": "2034-08-31",
+          "covered_units": 55,
+          "rent_increase_factor": 1.051
+        },
+        "hud_202": {}
+      },
+      "state_programs": {},
+      "compliance_scores": {
+        "nspire": 92,
+        "mor": 72
+      }
+    },
+    "rent_occupancy": {
+      "rent_structure": {
+        "1BR": {
+          "contract_rent": 699,
+          "utility_allowance": 0,
+          "gross_rent": 699,
+          "units": 55
+        }
+      },
+      "unit_mix": {
+        "total_units": 60,
+        "section_8_units": 55,
+        "market_units": 5
+      },
+      "occupancy": {},
+      "utility_allowances": {
+        "owner_paid_utilities": true,
+        "tenant_allowances": 0
+      }
+    },
+    "physical": {
+      "property_details": {
+        "address": "614 North 4th Street, Shelton, WA 98584",
+        "total_units": 60,
+        "property_type": "Senior Housing (62+)"
+      },
+      "condition_scores": {
+        "nspire": 92,
+        "date": "2025-02-26"
+      },
+      "capital_needs": {},
+      "large_docs_pending": [
+        "Appraisal (100+ pages)",
+        "CNA Needs Assessment"
+      ]
+    },
+    "transaction": {
+      "ownership": {
+        "current_owner": "Riverside Charitable Corporation",
+        "acquired_from": "CHAPA",
+        "acquisition_date": "2023-01"
+      },
+      "sale_status": {
+        "held_for_sale": true,
+        "listing_date": "2024-12-02",
+        "expected_closing": "2025-06-30"
+      },
+      "debt": {
+        "htf_home_loans": {
+          "balance": 950000,
+          "terms": "40-year deferred, converts to grant"
+        },
+        "related_party_note": {
+          "balance": 428067,
+          "rate": 0.0475
+        }
+      }
+    }
+  },
+  "validations": [
+    "\u2705 NOI matches audit: $65,538",
+    "\u2705 HAP contract verified: WA19M000067",
+    "\u2705 Contract rent verified: $699"
+  ],
+  "metrics": {
+    "dscr": 1.02,
+    "debt_yield": 0.1531
+  }
+}

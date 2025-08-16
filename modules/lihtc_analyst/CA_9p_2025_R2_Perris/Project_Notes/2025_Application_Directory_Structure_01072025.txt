@@ -1,0 +1,83 @@
+================================================================================
+2025 CTCAC 9% APPLICATION DIRECTORY STRUCTURE
+San Jacinto Vista II - At-Risk Acquisition/Rehabilitation
+Based on 2016 Structure with 2025 Updates
+================================================================================
+
+DIRECTORY STRUCTURE CREATED:
+/9_Percent_Applications/
+├── _Local_Review_Package_
+├── Raw_Files
+├── TAB_00__APPLICATION
+│   └── 2025_9_Percent_Competitive_Tax_Credit_Application.xlsx
+├── TAB_01__Demonstrated_Site_Control
+├── TAB_02__Financial_Feasibility
+├── TAB_03__Set-Aside_Designation__NA (Not Applicable - At-Risk)
+├── TAB_04__Housing_Type__Additional_Threshold_Requirements
+├── TAB_05__Applicant_or_Development_Team
+├── TAB_06__Development_Team_Information
+├── TAB_07__Acquisition_Credit_Applications
+├── TAB_08__Rehabilitation_Credit_Applications
+├── TAB_09__Tenant_Information
+├── TAB_10__Project__Land__Building_and_Unit
+├── TAB_11__Project_Size_Limitations__NA (Not Applicable - Under 100 units)
+├── TAB_12__Site_and_Project_Limitations
+├── TAB_13__Market_Analysis
+├── TAB_14__Local_Approvals
+├── TAB_15__Enforceable_Financing_Commitments
+├── TAB_16__Syndication
+├── TAB_17__Evidence_of_Subsidies
+├── TAB_18__Threshold_Basis_Limit_Increases_and_Certs__NA (Not Applicable)
+├── TAB_19__Eligible_Basis_Certifications
+├── TAB_20__Public_Funds
+├── TAB_21__General_Partner_and_Mgmt_Company_Characteristics
+├── TAB_22__Management_Company_Experience
+├── TAB_23__Site_Amenities
+├── TAB_24__Service_Amenities
+├── TAB_25__Sustainable_Building_Methods
+├── TAB_26__Readiness_to_Proceed
+├── TAB_27__Misc_Fed_and_State_Policies__NA (Not Applicable)
+└── TAB_28__Farmworker_Application__NA (Not Applicable)
+
+NOTES:
+------
+- TAB_00 contains the main Excel application and sorts to top
+- NA tabs maintained from 2016 for At-Risk acquisition/rehabilitation
+- Directory names may need minor updates once 2025 checklist is reviewed
+- _Local_Review_Package_ for local jurisdiction submissions
+- Raw_Files for source documents and working files
+
+NEXT STEPS:
+-----------
+1. Review 2025 Excel checklist tab to verify current naming
+2. Update directory names if needed to match 2025 terminology
+3. Begin organizing documents into appropriate tabs
+4. Create README files in each directory explaining contents
+
+APPLICABLE TABS FOR AT-RISK PROJECT:
+------------------------------------
+✓ TAB_01: Site Control (deed, title, etc.)
+✓ TAB_02: Financial Feasibility (proformas, etc.)
+✓ TAB_04: Housing Type Requirements (at-risk documentation)
+✓ TAB_05: Applicant/Development Team
+✓ TAB_06: Development Team Information
+✓ TAB_07: Acquisition Credit Applications
+✓ TAB_08: Rehabilitation Credit Applications
+✓ TAB_09: Tenant Information (current tenant data)
+✓ TAB_10: Project/Land/Building/Unit information
+✓ TAB_12: Site and Project Limitations
+✓ TAB_13: Market Analysis (market study)
+✓ TAB_14: Local Approvals (zoning, permits)
+✓ TAB_15: Enforceable Financing Commitments
+✓ TAB_16: Syndication
+✓ TAB_17: Evidence of Subsidies (USDA documentation)
+✓ TAB_19: Eligible Basis Certifications
+✓ TAB_20: Public Funds
+✓ TAB_21: GP and Management Company Characteristics
+✓ TAB_22: Management Company Experience
+✓ TAB_23: Site Amenities
+✓ TAB_24: Service Amenities
+✓ TAB_25: Sustainable Building Methods
+✓ TAB_26: Readiness to Proceed
+
+Created: 01072025

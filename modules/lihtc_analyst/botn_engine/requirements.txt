@@ -1,0 +1,46 @@
+# Core dependencies
+pandas>=2.0.0
+geopandas>=0.13.0
+shapely>=2.0.0
+requests>=2.28.0
+numpy>=1.24.0
+
+# Geospatial and mapping
+folium>=0.14.0
+pyproj>=3.5.0
+pyogrio>=0.7.2
+
+# Data processing
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+json5>=0.9.0
+
+# APIs and web
+urllib3>=1.26.0
+certifi>=2022.12.7
+
+# Distance and geocoding
+geopy>=2.3.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+
+# Development tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Documentation
+sphinx>=6.0.0
+sphinx-rtd-theme>=1.2.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+click>=8.1.0
+
+# Optional: Enhanced features
+# googlemaps>=4.10.0  # Uncomment if using Google Maps API
+# psycopg2-binary>=2.9.0  # Uncomment if using PostgreSQL

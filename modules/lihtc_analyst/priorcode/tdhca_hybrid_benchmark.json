@@ -1,0 +1,262 @@
+{
+  "benchmark": {
+    "benchmark_date": "2025-07-26T19:22:14.736829",
+    "overall_completeness": 94.2,
+    "total_applications": 26,
+    "total_fields": 34,
+    "field_performance": [
+      {
+        "field": "filename",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "object"
+      },
+      {
+        "field": "total_units",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "unit_mix",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "object"
+      },
+      {
+        "field": "unit_square_footage",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "object"
+      },
+      {
+        "field": "unit_rents",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "object"
+      },
+      {
+        "field": "total_development_cost",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "development_cost_per_unit",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "site_acquisition_cost",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "building_acquisition_cost",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "total_hard_costs",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "total_soft_costs",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "developer_fee",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "general_contractor_fee",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "architectural_fees",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "engineering_fees",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "legal_fees",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "housing_tax_credit_equity",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "construction_loan",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "permanent_loan",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "government_grants",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "developer_cash_equity",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "int64"
+      },
+      {
+        "field": "ami_breakdown",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "object"
+      },
+      {
+        "field": "extraction_confidence",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "float64"
+      },
+      {
+        "field": "processing_time_seconds",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "float64"
+      },
+      {
+        "field": "processing_notes",
+        "completeness": 100.0,
+        "missing_count": 0,
+        "data_type": "object"
+      },
+      {
+        "field": "project_name",
+        "completeness": 92.3,
+        "missing_count": 2,
+        "data_type": "object"
+      },
+      {
+        "field": "city",
+        "completeness": 92.3,
+        "missing_count": 2,
+        "data_type": "object"
+      },
+      {
+        "field": "county",
+        "completeness": 92.3,
+        "missing_count": 2,
+        "data_type": "object"
+      },
+      {
+        "field": "developer_name",
+        "completeness": 92.3,
+        "missing_count": 2,
+        "data_type": "object"
+      },
+      {
+        "field": "general_contractor",
+        "completeness": 88.5,
+        "missing_count": 3,
+        "data_type": "object"
+      },
+      {
+        "field": "management_company",
+        "completeness": 88.5,
+        "missing_count": 3,
+        "data_type": "object"
+      },
+      {
+        "field": "architect",
+        "completeness": 76.9,
+        "missing_count": 6,
+        "data_type": "object"
+      },
+      {
+        "field": "zip_code",
+        "completeness": 53.8,
+        "missing_count": 12,
+        "data_type": "float64"
+      },
+      {
+        "field": "street_address",
+        "completeness": 26.9,
+        "missing_count": 19,
+        "data_type": "object"
+      }
+    ],
+    "performance_summary": {
+      "excellent": 29,
+      "good": 3,
+      "poor": 2
+    },
+    "improvement_opportunities": {
+      "docling_targets": [],
+      "granite_targets": [],
+      "ocr_candidates": [],
+      "complex_parsing": [
+        {
+          "field": "street_address",
+          "completeness": 26.9,
+          "missing_count": 19,
+          "data_type": "object"
+        }
+      ]
+    },
+    "projected_improvements": {
+      "docling_improvement": 25,
+      "granite_improvement": 20,
+      "overall_improvement": 15
+    }
+  },
+  "report": {
+    "current_performance": {
+      "overall_completeness": 94.2,
+      "excellent_fields": 29,
+      "poor_fields": 2,
+      "processing_time": "N/A"
+    },
+    "hybrid_model_targets": {
+      "docling_priority": 0,
+      "granite_priority": 0,
+      "complex_parsing": 1
+    },
+    "expected_improvements": {
+      "completeness": "+15%",
+      "processing_speed": "3-5x faster on M4 Beast",
+      "cost_savings": "90%+ vs cloud APIs"
+    },
+    "implementation_recommendations": [
+      "Deploy Docling for all table/matrix extraction",
+      "Use IBM Granite for scoring and compliance fields",
+      "Implement address parsing with specialized prompts",
+      "Add OCR preprocessing for scanned sections",
+      "Batch process with checkpoint recovery"
+    ]
+  }
+}

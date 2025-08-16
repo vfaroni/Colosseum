@@ -1,0 +1,200 @@
+{
+  "validation_timestamp": "2025-08-06T15:14:23.164527",
+  "overall_status": false,
+  "categories_passed": 4,
+  "total_categories": 6,
+  "detailed_results": {
+    "file_info": {
+      "status": true,
+      "checks": {
+        "has_data": true,
+        "reasonable_size": true,
+        "has_columns": true,
+        "expected_columns": true
+      },
+      "details": {
+        "row_count": 2760,
+        "column_count": 59,
+        "memory_usage_mb": 5.77
+      }
+    },
+    "data_quality": {
+      "status": false,
+      "checks": {
+        "all_required_columns_present": true,
+        "good_overall_completeness": false,
+        "reasonable_price_ranges": "True",
+        "has_metadata_columns": true
+      },
+      "details": {
+        "missing_required_columns": [],
+        "completeness_stats": {
+          "Property Name": 54.46,
+          "Property Address": 99.67,
+          "For Sale Price": 76.2,
+          "City": 100.0,
+          "State": 100.0
+        },
+        "price_issues_count": "24"
+      }
+    },
+    "column_preservation": {
+      "status": true,
+      "checks": {
+        "core_columns_preserved": true,
+        "has_metadata_columns": true,
+        "reasonable_total_columns": true,
+        "no_empty_column_names": true
+      },
+      "details": {
+        "total_columns": 59,
+        "missing_core_columns": [],
+        "metadata_columns_count": 6,
+        "sample_columns": [
+          "Property Address",
+          "Property Name",
+          "Land Area (AC)",
+          "Land Area (SF)",
+          "Property Type",
+          "Secondary Type",
+          "Market Name",
+          "Submarket Name",
+          "City",
+          "County Name"
+        ]
+      }
+    },
+    "source_tracking": {
+      "status": true,
+      "checks": {
+        "has_source_tracking": true,
+        "all_rows_have_source": "True",
+        "reasonable_source_count": true,
+        "source_files_named_correctly": true
+      },
+      "details": {
+        "source_column": "Source_File",
+        "unique_sources": [
+          "CostarExport-9.xlsx",
+          "CostarExport-13.xlsx",
+          "CostarExport-12.xlsx",
+          "CostarExport-10.xlsx",
+          "CostarExport-14.xlsx",
+          "CostarExport-8.xlsx",
+          "CostarExport-15.xlsx"
+        ],
+        "source_distribution": {
+          "CostarExport-10.xlsx": 472,
+          "CostarExport-12.xlsx": 466,
+          "CostarExport-14.xlsx": 466,
+          "CostarExport-9.xlsx": 446,
+          "CostarExport-13.xlsx": 444,
+          "CostarExport-8.xlsx": 319,
+          "CostarExport-15.xlsx": 147
+        }
+      }
+    },
+    "deduplication": {
+      "status": true,
+      "checks": {
+        "can_check_duplicates": true,
+        "low_duplicate_rate": "True",
+        "has_unique_properties": true
+      },
+      "details": {
+        "remaining_duplicates": "0",
+        "duplicate_rate_percent": 0.0,
+        "unique_properties": 1433,
+        "duplicate_examples": []
+      }
+    },
+    "business_logic": {
+      "status": false,
+      "checks": {
+        "has_price_data": true,
+        "reasonable_price_ranges": false,
+        "geographic_diversity": true,
+        "primarily_california": true
+      },
+      "details": {
+        "price_stats": {
+          "min_price": 15.0,
+          "max_price": 41000000.0,
+          "median_price": 980000.0,
+          "count_with_price": 2103
+        },
+        "geographic_stats": {
+          "states": {
+            "CA": 2758,
+            "NV": 2
+          },
+          "unique_cities": 518
+        }
+      }
+    }
+  },
+  "consolidation_stats": {
+    "consolidation_timestamp": "2025-08-06T15:10:50.079805",
+    "source_files": {
+      "count": 8,
+      "total_original_rows": 3260,
+      "file_details": {
+        "CostarExport-8.xlsx": {
+          "rows": 321,
+          "columns": 42,
+          "unique_properties": 173
+        },
+        "CostarExport-9.xlsx": {
+          "rows": 450,
+          "columns": 42,
+          "unique_properties": 233
+        },
+        "CostarExport-10.xlsx": {
+          "rows": 481,
+          "columns": 27,
+          "unique_properties": 226
+        },
+        "CostarExport-11.xlsx": {
+          "rows": 470,
+          "columns": 42,
+          "unique_properties": 248
+        },
+        "CostarExport-12.xlsx": {
+          "rows": 470,
+          "columns": 42,
+          "unique_properties": 248
+        },
+        "CostarExport-13.xlsx": {
+          "rows": 444,
+          "columns": 42,
+          "unique_properties": 252
+        },
+        "CostarExport-14.xlsx": {
+          "rows": 471,
+          "columns": 42,
+          "unique_properties": 247
+        },
+        "CostarExport-15.xlsx": {
+          "rows": 153,
+          "columns": 42,
+          "unique_properties": 85
+        }
+      }
+    },
+    "final_dataset": {
+      "total_rows": 2760,
+      "total_columns": 59,
+      "unique_properties": 1433,
+      "data_quality_distribution": {
+        "Good": 1305,
+        "Excellent": 1146,
+        "Fair": 309
+      }
+    },
+    "consolidation_impact": {
+      "rows_removed": 500,
+      "deduplication_rate": 15.34,
+      "data_completeness_avg": 86.07
+    }
+  }
+}

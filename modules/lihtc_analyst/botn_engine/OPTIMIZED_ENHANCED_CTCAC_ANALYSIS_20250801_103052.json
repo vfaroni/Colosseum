@@ -1,0 +1,1901 @@
+{
+  "summary": {
+    "total_sites_analyzed": 263,
+    "hqta_qualified": 0,
+    "frequency_qualified": 0,
+    "not_qualified": 114,
+    "total_qualified": 0,
+    "qualification_rate_percent": 0.0,
+    "processing_time_seconds": 17.769842,
+    "avg_time_per_site": 0.0675659391634981,
+    "analysis_method": "OPTIMIZED_ENHANCED_ANALYSIS"
+  },
+  "detailed_results": [
+    {
+      "site_id": "Site_0",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:34.603369"
+    },
+    {
+      "site_id": "Site_1",
+      "latitude": 34.6292058,
+      "longitude": -118.2401006,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:34.650305"
+    },
+    {
+      "site_id": "Site_2",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:34.700522"
+    },
+    {
+      "site_id": "Site_3",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:34.773300"
+    },
+    {
+      "site_id": "Site_4",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:34.868019"
+    },
+    {
+      "site_id": "Site_5",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:34.917882"
+    },
+    {
+      "site_id": "Site_6",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:34.966967"
+    },
+    {
+      "site_id": "Site_7",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:35.060854"
+    },
+    {
+      "site_id": "Site_8",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:35.153873"
+    },
+    {
+      "site_id": "Site_9",
+      "latitude": 34.1533659,
+      "longitude": -118.5303141,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:35.199934"
+    },
+    {
+      "site_id": "Site_10",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:35.270096"
+    },
+    {
+      "site_id": "Site_11",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:35.339996"
+    },
+    {
+      "site_id": "Site_12",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:35.410578"
+    },
+    {
+      "site_id": "Site_13",
+      "latitude": 34.2639638,
+      "longitude": -118.5339661,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:35.456114"
+    },
+    {
+      "site_id": "Site_14",
+      "latitude": 34.16788,
+      "longitude": -118.8441253,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:35.502606"
+    },
+    {
+      "site_id": "Site_15",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:35.572768"
+    },
+    {
+      "site_id": "Site_16",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:35.645679"
+    },
+    {
+      "site_id": "Site_17",
+      "latitude": 36.8628684,
+      "longitude": -119.7399771,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:35.692683"
+    },
+    {
+      "site_id": "Site_18",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:35.765811"
+    },
+    {
+      "site_id": "Site_19",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:35.861238"
+    },
+    {
+      "site_id": "Site_20",
+      "latitude": 35.390741,
+      "longitude": -119.14552,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:35.907872"
+    },
+    {
+      "site_id": "Site_21",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:35.980490"
+    },
+    {
+      "site_id": "Site_22",
+      "latitude": 36.8442693,
+      "longitude": -119.6385061,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:36.027424"
+    },
+    {
+      "site_id": "Site_23",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:36.119999"
+    },
+    {
+      "site_id": "Site_24",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:36.215809"
+    },
+    {
+      "site_id": "Site_25",
+      "latitude": 35.3691874,
+      "longitude": -119.1195033,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:36.263601"
+    },
+    {
+      "site_id": "Site_26",
+      "latitude": 37.7110566,
+      "longitude": -120.9449962,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:36.310757"
+    },
+    {
+      "site_id": "Site_27",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:36.405729"
+    },
+    {
+      "site_id": "Site_28",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:36.500294"
+    },
+    {
+      "site_id": "Site_29",
+      "latitude": 37.5364944,
+      "longitude": -120.8903152,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:36.547679"
+    },
+    {
+      "site_id": "Site_30",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:36.618582"
+    },
+    {
+      "site_id": "Site_31",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:36.712144"
+    },
+    {
+      "site_id": "Site_32",
+      "latitude": 36.6406179,
+      "longitude": -121.796992,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:36.758017"
+    },
+    {
+      "site_id": "Site_33",
+      "latitude": 35.3976092,
+      "longitude": -119.1637223,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:36.803925"
+    },
+    {
+      "site_id": "Site_34",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:36.882587"
+    },
+    {
+      "site_id": "Site_35",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:36.931793"
+    },
+    {
+      "site_id": "Site_36",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:37.026641"
+    },
+    {
+      "site_id": "Site_37",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:37.121725"
+    },
+    {
+      "site_id": "Site_38",
+      "latitude": 35.30791,
+      "longitude": -119.09842,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.168635"
+    },
+    {
+      "site_id": "Site_39",
+      "latitude": 36.9675064,
+      "longitude": -119.8929701,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.215059"
+    },
+    {
+      "site_id": "Site_40",
+      "latitude": 37.4641336,
+      "longitude": -121.1695555,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.261438"
+    },
+    {
+      "site_id": "Site_41",
+      "latitude": 36.8155568,
+      "longitude": -119.9160206,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.308239"
+    },
+    {
+      "site_id": "Site_42",
+      "latitude": 36.8975553,
+      "longitude": -119.7494263,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.357135"
+    },
+    {
+      "site_id": "Site_43",
+      "latitude": 37.3431294,
+      "longitude": -122.0977272,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.404310"
+    },
+    {
+      "site_id": "Site_44",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:37.499447"
+    },
+    {
+      "site_id": "Site_45",
+      "latitude": 36.975952,
+      "longitude": -121.944459,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.545800"
+    },
+    {
+      "site_id": "Site_46",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:37.594676"
+    },
+    {
+      "site_id": "Site_47",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:37.687929"
+    },
+    {
+      "site_id": "Site_48",
+      "latitude": 36.8375713,
+      "longitude": -119.654336,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.735217"
+    },
+    {
+      "site_id": "Site_49",
+      "latitude": 35.2369171,
+      "longitude": -119.015791,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.781943"
+    },
+    {
+      "site_id": "Site_50",
+      "latitude": 36.884758,
+      "longitude": -119.776061,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.829569"
+    },
+    {
+      "site_id": "Site_51",
+      "latitude": 37.4032207,
+      "longitude": -120.848448,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:37.876594"
+    },
+    {
+      "site_id": "Site_52",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:37.971757"
+    },
+    {
+      "site_id": "Site_53",
+      "latitude": 37.0968997,
+      "longitude": -120.9279508,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:38.018767"
+    },
+    {
+      "site_id": "Site_54",
+      "latitude": 37.0989278,
+      "longitude": -120.9309777,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:38.066042"
+    },
+    {
+      "site_id": "Site_55",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:38.161336"
+    },
+    {
+      "site_id": "Site_56",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:38.254297"
+    },
+    {
+      "site_id": "Site_57",
+      "latitude": 37.301844,
+      "longitude": -122.0538643,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:38.302945"
+    },
+    {
+      "site_id": "Site_58",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:38.374229"
+    },
+    {
+      "site_id": "Site_59",
+      "latitude": 36.809357,
+      "longitude": -119.640621,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:38.420090"
+    },
+    {
+      "site_id": "Site_60",
+      "latitude": 36.8094798,
+      "longitude": -119.6400287,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:38.467952"
+    },
+    {
+      "site_id": "Site_61",
+      "latitude": 37.4621369,
+      "longitude": -121.1690314,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:38.514378"
+    },
+    {
+      "site_id": "Site_62",
+      "latitude": 37.4634988,
+      "longitude": -121.1713861,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:38.560408"
+    },
+    {
+      "site_id": "Site_63",
+      "latitude": 35.2674182,
+      "longitude": -119.0571474,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:38.606242"
+    },
+    {
+      "site_id": "Site_64",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:38.701548"
+    },
+    {
+      "site_id": "Site_65",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:38.794020"
+    },
+    {
+      "site_id": "Site_66",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:38.887504"
+    },
+    {
+      "site_id": "Site_67",
+      "latitude": 38.784337,
+      "longitude": -121.226383,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:38.934563"
+    },
+    {
+      "site_id": "Site_68",
+      "latitude": 38.7431347,
+      "longitude": -121.181248,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:38.980681"
+    },
+    {
+      "site_id": "Site_69",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:39.072868"
+    },
+    {
+      "site_id": "Site_70",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:39.121290"
+    },
+    {
+      "site_id": "Site_71",
+      "latitude": 38.792426,
+      "longitude": -121.2957967,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:39.167298"
+    },
+    {
+      "site_id": "Site_72",
+      "latitude": 38.7912377,
+      "longitude": -121.2943234,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:39.213759"
+    },
+    {
+      "site_id": "Site_73",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:39.308350"
+    },
+    {
+      "site_id": "Site_74",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:39.379861"
+    },
+    {
+      "site_id": "Site_75",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:39.472472"
+    },
+    {
+      "site_id": "Site_76",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:39.520088"
+    },
+    {
+      "site_id": "Site_77",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:39.613707"
+    },
+    {
+      "site_id": "Site_78",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:39.708173"
+    },
+    {
+      "site_id": "Site_79",
+      "latitude": 38.8980955,
+      "longitude": -121.3318188,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:39.754427"
+    },
+    {
+      "site_id": "Site_80",
+      "latitude": 38.897911,
+      "longitude": -121.339027,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:39.800942"
+    },
+    {
+      "site_id": "Site_81",
+      "latitude": 38.7445976,
+      "longitude": -121.1991181,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:39.847302"
+    },
+    {
+      "site_id": "Site_82",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:39.917807"
+    },
+    {
+      "site_id": "Site_83",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:39.987947"
+    },
+    {
+      "site_id": "Site_84",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:40.038207"
+    },
+    {
+      "site_id": "Site_85",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:40.130866"
+    },
+    {
+      "site_id": "Site_86",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:40.201209"
+    },
+    {
+      "site_id": "Site_87",
+      "latitude": 38.31583,
+      "longitude": -120.943668,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:40.246983"
+    },
+    {
+      "site_id": "Site_88",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:40.322123"
+    },
+    {
+      "site_id": "Site_89",
+      "latitude": 38.11823,
+      "longitude": -121.31509,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:40.369577"
+    },
+    {
+      "site_id": "Site_90",
+      "latitude": 37.9203845,
+      "longitude": -121.69678,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:40.416077"
+    },
+    {
+      "site_id": "Site_91",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:40.509005"
+    },
+    {
+      "site_id": "Site_92",
+      "latitude": 37.793799,
+      "longitude": -121.552649,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:40.555418"
+    },
+    {
+      "site_id": "Site_93",
+      "latitude": 37.8024058,
+      "longitude": -121.251869,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:40.602054"
+    },
+    {
+      "site_id": "Site_94",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:40.652403"
+    },
+    {
+      "site_id": "Site_95",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:40.723415"
+    },
+    {
+      "site_id": "Site_96",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:40.773109"
+    },
+    {
+      "site_id": "Site_97",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:40.869697"
+    },
+    {
+      "site_id": "Site_98",
+      "latitude": 38.7779588,
+      "longitude": -121.2702593,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:40.916655"
+    },
+    {
+      "site_id": "Site_99",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:40.964232"
+    },
+    {
+      "site_id": "Site_100",
+      "latitude": 37.8912023,
+      "longitude": -121.6028785,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:41.010283"
+    },
+    {
+      "site_id": "Site_101",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:41.103193"
+    },
+    {
+      "site_id": "Site_102",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:41.152739"
+    },
+    {
+      "site_id": "Site_103",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:41.201556"
+    },
+    {
+      "site_id": "Site_104",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:41.250416"
+    },
+    {
+      "site_id": "Site_105",
+      "latitude": 38.8019592,
+      "longitude": -121.3535481,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:41.296844"
+    },
+    {
+      "site_id": "Site_106",
+      "latitude": 37.911934,
+      "longitude": -121.7339172,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:41.342999"
+    },
+    {
+      "site_id": "Site_107",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:41.414896"
+    },
+    {
+      "site_id": "Site_108",
+      "latitude": 38.692195,
+      "longitude": -121.087116,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:41.460783"
+    },
+    {
+      "site_id": "Site_109",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:41.554863"
+    },
+    {
+      "site_id": "Site_110",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:41.648650"
+    },
+    {
+      "site_id": "Site_111",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:41.741837"
+    },
+    {
+      "site_id": "Site_112",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:41.835036"
+    },
+    {
+      "site_id": "Site_113",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:41.906157"
+    },
+    {
+      "site_id": "Site_114",
+      "latitude": 38.8162448,
+      "longitude": -121.3018338,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:41.951943"
+    },
+    {
+      "site_id": "Site_115",
+      "latitude": 38.8164455,
+      "longitude": -121.30549,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:41.997804"
+    },
+    {
+      "site_id": "Site_116",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.069834"
+    },
+    {
+      "site_id": "Site_117",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.164384"
+    },
+    {
+      "site_id": "Site_118",
+      "latitude": 38.047408,
+      "longitude": -121.261338,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:42.210928"
+    },
+    {
+      "site_id": "Site_119",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.304107"
+    },
+    {
+      "site_id": "Site_120",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.374599"
+    },
+    {
+      "site_id": "Site_121",
+      "latitude": 38.6823117,
+      "longitude": -121.2016235,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:42.420567"
+    },
+    {
+      "site_id": "Site_122",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.491490"
+    },
+    {
+      "site_id": "Site_123",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.584212"
+    },
+    {
+      "site_id": "Site_124",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.677768"
+    },
+    {
+      "site_id": "Site_125",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.770884"
+    },
+    {
+      "site_id": "Site_126",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.819050"
+    },
+    {
+      "site_id": "Site_127",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.867782"
+    },
+    {
+      "site_id": "Site_128",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:42.960870"
+    },
+    {
+      "site_id": "Site_129",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:43.056828"
+    },
+    {
+      "site_id": "Site_130",
+      "latitude": 38.628949,
+      "longitude": -121.069906,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:43.103626"
+    },
+    {
+      "site_id": "Site_131",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:43.197502"
+    },
+    {
+      "site_id": "Site_132",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:43.291431"
+    },
+    {
+      "site_id": "Site_133",
+      "latitude": 38.3722932,
+      "longitude": -120.8076951,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:43.340803"
+    },
+    {
+      "site_id": "Site_134",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:43.411107"
+    },
+    {
+      "site_id": "Site_135",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:43.505259"
+    },
+    {
+      "site_id": "Site_136",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:43.597765"
+    },
+    {
+      "site_id": "Site_137",
+      "latitude": 38.634474,
+      "longitude": -121.0676554,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:43.644716"
+    },
+    {
+      "site_id": "Site_138",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:43.738452"
+    },
+    {
+      "site_id": "Site_139",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:43.832375"
+    },
+    {
+      "site_id": "Site_140",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:43.925006"
+    },
+    {
+      "site_id": "Site_141",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:44.018832"
+    },
+    {
+      "site_id": "Site_142",
+      "latitude": 38.830435,
+      "longitude": -121.28801,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:44.065387"
+    },
+    {
+      "site_id": "Site_143",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:44.158971"
+    },
+    {
+      "site_id": "Site_144",
+      "latitude": 37.89134,
+      "longitude": -121.69616,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:44.205563"
+    },
+    {
+      "site_id": "Site_145",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:44.298662"
+    },
+    {
+      "site_id": "Site_146",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:44.392113"
+    },
+    {
+      "site_id": "Site_147",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:44.485719"
+    },
+    {
+      "site_id": "Site_148",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:44.558065"
+    },
+    {
+      "site_id": "Site_149",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:44.652464"
+    },
+    {
+      "site_id": "Site_150",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:44.702047"
+    },
+    {
+      "site_id": "Site_151",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:44.794788"
+    },
+    {
+      "site_id": "Site_152",
+      "latitude": 39.2465546,
+      "longitude": -123.7676986,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:44.840556"
+    },
+    {
+      "site_id": "Site_153",
+      "latitude": 40.1928172,
+      "longitude": -122.2384978,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:44.886378"
+    },
+    {
+      "site_id": "Site_154",
+      "latitude": 40.588897,
+      "longitude": -122.332837,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:44.932571"
+    },
+    {
+      "site_id": "Site_155",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:45.025348"
+    },
+    {
+      "site_id": "Site_156",
+      "latitude": 33.5515298,
+      "longitude": -117.2078974,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:45.071906"
+    },
+    {
+      "site_id": "Site_157",
+      "latitude": 33.619419,
+      "longitude": -117.169858,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:45.118185"
+    },
+    {
+      "site_id": "Site_158",
+      "latitude": 33.6346618,
+      "longitude": -117.1730293,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:45.165189"
+    },
+    {
+      "site_id": "Site_159",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:45.258353"
+    },
+    {
+      "site_id": "Site_160",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:45.351463"
+    },
+    {
+      "site_id": "Site_161",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:45.447513"
+    },
+    {
+      "site_id": "Site_162",
+      "latitude": 33.5612257,
+      "longitude": -117.1899155,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:45.494979"
+    },
+    {
+      "site_id": "Site_163",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:45.587089"
+    },
+    {
+      "site_id": "Site_164",
+      "latitude": 33.7828,
+      "longitude": -116.352049,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:45.633315"
+    },
+    {
+      "site_id": "Site_165",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:45.725877"
+    },
+    {
+      "site_id": "Site_166",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:45.820155"
+    },
+    {
+      "site_id": "Site_167",
+      "latitude": 33.8022189,
+      "longitude": -116.3842075,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:45.868306"
+    },
+    {
+      "site_id": "Site_168",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:45.962193"
+    },
+    {
+      "site_id": "Site_169",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:46.009832"
+    },
+    {
+      "site_id": "Site_170",
+      "latitude": 32.9887281,
+      "longitude": -117.2546635,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:46.056541"
+    },
+    {
+      "site_id": "Site_171",
+      "latitude": 33.7867018,
+      "longitude": -116.3738705,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:46.102440"
+    },
+    {
+      "site_id": "Site_172",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:46.196949"
+    },
+    {
+      "site_id": "Site_173",
+      "latitude": 33.5371015,
+      "longitude": -117.1810534,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:46.244754"
+    },
+    {
+      "site_id": "Site_174",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:46.339150"
+    },
+    {
+      "site_id": "Site_175",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:46.432843"
+    },
+    {
+      "site_id": "Site_176",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:46.526701"
+    },
+    {
+      "site_id": "Site_177",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:46.621612"
+    },
+    {
+      "site_id": "Site_178",
+      "latitude": 33.5865027,
+      "longitude": -117.1306423,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:46.667618"
+    },
+    {
+      "site_id": "Site_179",
+      "latitude": 33.5875705,
+      "longitude": -117.1297437,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:46.714198"
+    },
+    {
+      "site_id": "Site_180",
+      "latitude": 33.8343001,
+      "longitude": -116.5170203,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:46.760099"
+    },
+    {
+      "site_id": "Site_181",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:46.852665"
+    },
+    {
+      "site_id": "Site_182",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:46.944855"
+    },
+    {
+      "site_id": "Site_183",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:47.015955"
+    },
+    {
+      "site_id": "Site_184",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:47.109786"
+    },
+    {
+      "site_id": "Site_185",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:47.183031"
+    },
+    {
+      "site_id": "Site_186",
+      "latitude": 33.6988,
+      "longitude": -116.4129092,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:47.235971"
+    },
+    {
+      "site_id": "Site_187",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:47.331141"
+    },
+    {
+      "site_id": "Site_188",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:47.424081"
+    },
+    {
+      "site_id": "Site_189",
+      "latitude": 33.6387717,
+      "longitude": -117.1743184,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:47.470392"
+    },
+    {
+      "site_id": "Site_190",
+      "latitude": 33.112064,
+      "longitude": -117.290843,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:47.516464"
+    },
+    {
+      "site_id": "Site_191",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:47.612055"
+    },
+    {
+      "site_id": "Site_192",
+      "latitude": 33.561914,
+      "longitude": -117.1895132,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:47.658649"
+    },
+    {
+      "site_id": "Site_193",
+      "latitude": 33.5619653,
+      "longitude": -117.188974,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:47.706190"
+    },
+    {
+      "site_id": "Site_194",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:47.799545"
+    },
+    {
+      "site_id": "Site_195",
+      "latitude": 33.66736,
+      "longitude": -117.19149,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:47.845211"
+    },
+    {
+      "site_id": "Site_196",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:47.938271"
+    },
+    {
+      "site_id": "Site_197",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:48.033091"
+    },
+    {
+      "site_id": "Site_198",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:48.126768"
+    },
+    {
+      "site_id": "Site_199",
+      "latitude": 33.638185,
+      "longitude": -117.1840183,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:48.173886"
+    },
+    {
+      "site_id": "Site_200",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:48.244230"
+    },
+    {
+      "site_id": "Site_201",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:48.339145"
+    },
+    {
+      "site_id": "Site_202",
+      "latitude": 33.786511,
+      "longitude": -116.3718111,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:48.386652"
+    },
+    {
+      "site_id": "Site_203",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:48.479620"
+    },
+    {
+      "site_id": "Site_204",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:48.572516"
+    },
+    {
+      "site_id": "Site_205",
+      "latitude": 33.5603303,
+      "longitude": -117.1904543,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:48.618877"
+    },
+    {
+      "site_id": "Site_206",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:48.715494"
+    },
+    {
+      "site_id": "Site_207",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:48.809022"
+    },
+    {
+      "site_id": "Site_208",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:48.881591"
+    },
+    {
+      "site_id": "Site_209",
+      "latitude": 33.6530936,
+      "longitude": -117.1737003,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:48.927797"
+    },
+    {
+      "site_id": "Site_210",
+      "latitude": 33.2717692,
+      "longitude": -117.1900456,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:48.974209"
+    },
+    {
+      "site_id": "Site_211",
+      "latitude": 33.7628206,
+      "longitude": -116.3972853,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.021245"
+    },
+    {
+      "site_id": "Site_212",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:49.115682"
+    },
+    {
+      "site_id": "Site_213",
+      "latitude": 33.9380413,
+      "longitude": -117.5459706,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.162329"
+    },
+    {
+      "site_id": "Site_214",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:49.254917"
+    },
+    {
+      "site_id": "Site_215",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:49.348101"
+    },
+    {
+      "site_id": "Site_216",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:49.421069"
+    },
+    {
+      "site_id": "Site_217",
+      "latitude": 33.9273589,
+      "longitude": -116.9345761,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.467243"
+    },
+    {
+      "site_id": "Site_218",
+      "latitude": 33.8372864,
+      "longitude": -117.5428924,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.513763"
+    },
+    {
+      "site_id": "Site_219",
+      "latitude": 33.7516715,
+      "longitude": -117.4566935,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.560528"
+    },
+    {
+      "site_id": "Site_220",
+      "latitude": 34.0623383,
+      "longitude": -117.1380962,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.606793"
+    },
+    {
+      "site_id": "Site_221",
+      "latitude": 34.0294808,
+      "longitude": -117.3263028,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.653556"
+    },
+    {
+      "site_id": "Site_222",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:49.747805"
+    },
+    {
+      "site_id": "Site_223",
+      "latitude": 33.93254,
+      "longitude": -117.53565,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.793756"
+    },
+    {
+      "site_id": "Site_224",
+      "latitude": 34.053695,
+      "longitude": -117.214229,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.839721"
+    },
+    {
+      "site_id": "Site_225",
+      "latitude": 33.7904898,
+      "longitude": -117.49765,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.887175"
+    },
+    {
+      "site_id": "Site_226",
+      "latitude": 33.9683069,
+      "longitude": -117.6080118,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.934869"
+    },
+    {
+      "site_id": "Site_227",
+      "latitude": 33.9683914,
+      "longitude": -117.6070193,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:49.982072"
+    },
+    {
+      "site_id": "Site_228",
+      "latitude": 33.968298,
+      "longitude": -117.610395,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:50.029561"
+    },
+    {
+      "site_id": "Site_229",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:50.102276"
+    },
+    {
+      "site_id": "Site_230",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:50.196443"
+    },
+    {
+      "site_id": "Site_231",
+      "latitude": 33.67738,
+      "longitude": -117.18247,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:50.243468"
+    },
+    {
+      "site_id": "Site_232",
+      "latitude": 33.67556,
+      "longitude": -117.18267,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:50.290075"
+    },
+    {
+      "site_id": "Site_233",
+      "latitude": 34.0230868,
+      "longitude": -117.1093442,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:50.337470"
+    },
+    {
+      "site_id": "Site_234",
+      "latitude": 33.9268872,
+      "longitude": -116.9184224,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:50.384895"
+    },
+    {
+      "site_id": "Site_235",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:50.479679"
+    },
+    {
+      "site_id": "Site_236",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:50.575625"
+    },
+    {
+      "site_id": "Site_237",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:50.670221"
+    },
+    {
+      "site_id": "Site_238",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:50.764371"
+    },
+    {
+      "site_id": "Site_239",
+      "latitude": 33.927193,
+      "longitude": -116.936898,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:50.810936"
+    },
+    {
+      "site_id": "Site_240",
+      "latitude": 33.6696492,
+      "longitude": -117.1893632,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:50.858267"
+    },
+    {
+      "site_id": "Site_241",
+      "latitude": 33.92744,
+      "longitude": -116.93558,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:50.905749"
+    },
+    {
+      "site_id": "Site_242",
+      "latitude": 33.909306,
+      "longitude": -117.339499,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:50.953831"
+    },
+    {
+      "site_id": "Site_243",
+      "latitude": 34.0027912,
+      "longitude": -117.0668802,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:51.001647"
+    },
+    {
+      "site_id": "Site_244",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:51.096424"
+    },
+    {
+      "site_id": "Site_245",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:51.190739"
+    },
+    {
+      "site_id": "Site_246",
+      "latitude": 33.8491768,
+      "longitude": -117.7698732,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:51.238728"
+    },
+    {
+      "site_id": "Site_247",
+      "latitude": 33.9278381,
+      "longitude": -116.9161292,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:51.285937"
+    },
+    {
+      "site_id": "Site_248",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:51.382073"
+    },
+    {
+      "site_id": "Site_249",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:51.453765"
+    },
+    {
+      "site_id": "Site_250",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:51.547082"
+    },
+    {
+      "site_id": "Site_251",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:51.642094"
+    },
+    {
+      "site_id": "Site_252",
+      "latitude": 33.964257,
+      "longitude": -117.037924,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:51.689146"
+    },
+    {
+      "site_id": "Site_253",
+      "latitude": 33.67656,
+      "longitude": -117.18253,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:51.735083"
+    },
+    {
+      "site_id": "Site_254",
+      "latitude": 33.67602,
+      "longitude": -117.18194,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:51.781159"
+    },
+    {
+      "site_id": "Site_255",
+      "latitude": 33.67561,
+      "longitude": -117.18157,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:51.827794"
+    },
+    {
+      "site_id": "Site_256",
+      "latitude": 33.67376,
+      "longitude": -117.18186,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:51.874356"
+    },
+    {
+      "site_id": "Site_257",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:51.967477"
+    },
+    {
+      "site_id": "Site_258",
+      "latitude": 33.927826,
+      "longitude": -116.930654,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:52.013354"
+    },
+    {
+      "site_id": "Site_259",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:52.086364"
+    },
+    {
+      "site_id": "Site_260",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:52.180807"
+    },
+    {
+      "site_id": "Site_261",
+      "error": "min() iterable argument is empty",
+      "analysis_timestamp": "2025-08-01T10:30:52.274137"
+    },
+    {
+      "site_id": "Site_262",
+      "latitude": 33.7152105,
+      "longitude": -117.0769361,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:30:52.320493"
+    }
+  ],
+  "analysis_timestamp": "2025-08-01T10:30:52.320663"
+}

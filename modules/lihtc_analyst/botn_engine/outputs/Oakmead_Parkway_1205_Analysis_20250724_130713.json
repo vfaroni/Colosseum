@@ -1,0 +1,625 @@
+{
+  "site_info": {
+    "latitude": 37.3897,
+    "longitude": -121.9927,
+    "address": "Sample Address at 37.389700, -121.992700",
+    "state": "CA",
+    "county": "Sample County",
+    "census_tract": "06037001.00"
+  },
+  "federal_status": {
+    "qct_qualified": false,
+    "dda_qualified": true,
+    "federal_basis_boost": true,
+    "basis_boost_percentage": 30.0,
+    "qct_details": null,
+    "dda_details": {
+      "metro_area": null,
+      "county": null,
+      "state": null
+    },
+    "analysis_notes": "Site qualifies for 30% basis boost as DDA: San Jose-Sunnyvale-Santa Clara, CA HUD Metro FMR Area"
+  },
+  "state_scoring": {
+    "total_points": 21,
+    "max_possible_points": 30,
+    "scoring_breakdown": {
+      "opportunity_area_points": 6,
+      "amenity_points": 15,
+      "federal_bonus": 0,
+      "transit_points": 0
+    },
+    "opportunity_area": {
+      "resource_category": "High Resource",
+      "resource_score": 6.0,
+      "qualified": true,
+      "tract_id": "06085508708",
+      "county": "Santa Clara",
+      "region": "Bay Area Region",
+      "poverty_rate": 0.848078096400244,
+      "bachelor_plus_rate": 0.9242910647405028,
+      "employment_rate": 0.8571428571428571,
+      "math_proficiency": 0.4172269449498793,
+      "reading_proficiency": 0.4377438291422847,
+      "graduation_rate": 0.930170388975367
+    },
+    "state": "CA",
+    "allocation_agency": "CTCAC",
+    "data_year": 2025,
+    "resource_category": "High Resource",
+    "resource_score": 6.0,
+    "opportunity_area_points": 6,
+    "in_opportunity_area": true,
+    "opportunity_area_details": {
+      "tract_id": "06085508708",
+      "county": "Santa Clara",
+      "region": "Bay Area Region",
+      "poverty_rate": 84.8,
+      "bachelor_plus_rate": 92.4,
+      "employment_rate": 85.7,
+      "math_proficiency": 41.7,
+      "reading_proficiency": 43.8,
+      "graduation_rate": 93.0
+    }
+  },
+  "amenity_analysis": {
+    "total_amenity_points": 9,
+    "max_possible_points": 117,
+    "amenity_breakdown": {
+      "schools": {
+        "points_earned": 6,
+        "max_possible": 66,
+        "details": [
+          {
+            "name": "Fairwood Elementary",
+            "distance": 0.4842052053209427,
+            "points_earned": 3
+          },
+          {
+            "name": "Mission Early College High",
+            "distance": 0.5892888585250369,
+            "points_earned": 3
+          }
+        ]
+      },
+      "medical": {
+        "points_earned": 3,
+        "max_possible": 51,
+        "details": [
+          {
+            "name": "INTOUCH HOME CARE, INC.",
+            "distance": 0.7170271238940714,
+            "points_earned": 3
+          }
+        ]
+      },
+      "grocery": {
+        "points_earned": 0,
+        "max_possible": 0,
+        "details": []
+      },
+      "transit": {
+        "points_earned": 0,
+        "max_possible": 0,
+        "details": []
+      }
+    },
+    "nearby_amenities": {
+      "schools": [
+        {
+          "name": "Fairwood Elementary",
+          "type": "elementary",
+          "distance_miles": 0.4842052053209427,
+          "coordinates": [
+            37.39640494404808,
+            -121.99011310803226
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 321
+        },
+        {
+          "name": "Mission Early College High",
+          "type": "high",
+          "distance_miles": 0.5892888585250369,
+          "coordinates": [
+            37.39129094419021,
+            -121.98214610428765
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 189
+        },
+        {
+          "name": "Lakewood Elementary",
+          "type": "elementary",
+          "distance_miles": 0.8142817191027387,
+          "coordinates": [
+            37.398104942202416,
+            -122.00311310910745
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 375
+        },
+        {
+          "name": "San Miguel Elementary",
+          "type": "elementary",
+          "distance_miles": 0.8754177605525004,
+          "coordinates": [
+            37.391404942666604,
+            -122.00851310865573
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 399
+        },
+        {
+          "name": "Columbia Middle",
+          "type": "middle",
+          "distance_miles": 1.5074273315439128,
+          "coordinates": [
+            37.39370494131933,
+            -122.01971311227699
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 672
+        },
+        {
+          "name": "Adrian Wilcox High",
+          "type": "high",
+          "distance_miles": 1.6676096749015863,
+          "coordinates": [
+            37.366004941116685,
+            -121.98681310371694
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 1695
+        },
+        {
+          "name": "Bishop Elementary",
+          "type": "elementary",
+          "distance_miles": 1.7629482390780726,
+          "coordinates": [
+            37.386828940833404,
+            -122.02463211249965
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 446
+        },
+        {
+          "name": "Bracher Elementary",
+          "type": "elementary",
+          "distance_miles": 1.8406873711828826,
+          "coordinates": [
+            37.36680494222912,
+            -121.97551310143487
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 263
+        },
+        {
+          "name": "Kathryn Hughes Elementary",
+          "type": "elementary",
+          "distance_miles": 1.9239333034355077,
+          "coordinates": [
+            37.405504945546284,
+            -121.96381310361132
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 293
+        },
+        {
+          "name": "Ponderosa Elementary",
+          "type": "elementary",
+          "distance_miles": 2.072436148968225,
+          "coordinates": [
+            37.36240493943922,
+            -122.00841310640166
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 513
+        },
+        {
+          "name": "Briarwood Elementary",
+          "type": "elementary",
+          "distance_miles": 2.1985819615893774,
+          "coordinates": [
+            37.358104941161905,
+            -121.98771310244386
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 267
+        },
+        {
+          "name": "Ellis Elementary",
+          "type": "elementary",
+          "distance_miles": 2.2127610931462733,
+          "coordinates": [
+            37.369404938872826,
+            -122.02391310903106
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 758
+        },
+        {
+          "name": "Braly Elementary",
+          "type": "elementary",
+          "distance_miles": 2.2432334110464174,
+          "coordinates": [
+            37.36450493808436,
+            -122.01851310858446
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 362
+        },
+        {
+          "name": "New Valley Continuation High",
+          "type": "high",
+          "distance_miles": 2.311303178052146,
+          "coordinates": [
+            37.35630494021849,
+            -121.99561310444473
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 157
+        },
+        {
+          "name": "Bowers Elementary",
+          "type": "elementary",
+          "distance_miles": 2.3744247272592385,
+          "coordinates": [
+            37.35810494258995,
+            -121.97561310009567
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 242
+        },
+        {
+          "name": "Juan Cabrillo Middle",
+          "type": "middle",
+          "distance_miles": 2.4367801238773272,
+          "coordinates": [
+            37.35830494098211,
+            -121.97241310072933
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 804
+        },
+        {
+          "name": "Montague Elementary",
+          "type": "elementary",
+          "distance_miles": 2.523903929955651,
+          "coordinates": [
+            37.3886049457539,
+            -121.94671309995127
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 288
+        },
+        {
+          "name": "Don Callejon",
+          "type": "elementary",
+          "distance_miles": 2.5521846642374992,
+          "coordinates": [
+            37.39850494640712,
+            -121.94751310091576
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 545
+        },
+        {
+          "name": "George Mayne Elementary",
+          "type": "elementary",
+          "distance_miles": 2.793980924887507,
+          "coordinates": [
+            37.42450494735943,
+            -121.96671310699529
+          ],
+          "address": "Alviso, CA",
+          "enrollment": 286
+        },
+        {
+          "name": "Scott Lane Elementary",
+          "type": "elementary",
+          "distance_miles": 2.8733585068744167,
+          "coordinates": [
+            37.35790494295083,
+            -121.95891309916367
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 410
+        },
+        {
+          "name": "Pomeroy Elementary",
+          "type": "elementary",
+          "distance_miles": 2.886009602669817,
+          "coordinates": [
+            37.34810493836541,
+            -121.98751310152903
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 292
+        },
+        {
+          "name": "Marian A. Peterson Middle",
+          "type": "middle",
+          "distance_miles": 2.905695923776372,
+          "coordinates": [
+            37.34920493771761,
+            -122.00711310494668
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 741
+        }
+      ],
+      "medical": [
+        {
+          "name": "INTOUCH HOME CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.7170271238940714,
+          "coordinates": [
+            37.397574,
+            -121.9841775
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GOLD STAR HOSPICE, LLC",
+          "type": "clinic",
+          "distance_miles": 1.0209429125779617,
+          "coordinates": [
+            37.383552,
+            -122.009625
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "FIVE STAR HOME CARE",
+          "type": "clinic",
+          "distance_miles": 1.0228788137945326,
+          "coordinates": [
+            37.38347801,
+            -122.009621
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "KAISER FOUNDATION HOSPITAL HOSPICE-SANTA CLARA",
+          "type": "clinic",
+          "distance_miles": 1.1180805360431152,
+          "coordinates": [
+            37.386666,
+            -121.97268
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "KAISER FOUNDATION HOSPITAL HOME HEALTH-SANTA CLARA",
+          "type": "clinic",
+          "distance_miles": 1.1180805360431152,
+          "coordinates": [
+            37.386666,
+            -121.97268
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HARMONY HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 1.4287267698709756,
+          "coordinates": [
+            37.38708,
+            -121.966866
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "MAYVIEW COMMUNITY HEALTH CENTER SUNNYVALE, A MEMBER OF RAVENSWOOD FAMILY HEALTH NETWORK",
+          "type": "clinic",
+          "distance_miles": 1.5368007703303106,
+          "coordinates": [
+            37.394163,
+            -122.020146
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "GRACE ADULT DAY HEALTH CARE CENTER",
+          "type": "clinic",
+          "distance_miles": 1.6290108831156762,
+          "coordinates": [
+            37.376856,
+            -121.967793
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "ADHC"
+        },
+        {
+          "name": "WILLOW PATHWAY HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 2.068548656762337,
+          "coordinates": [
+            37.36832399,
+            -121.966284
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "SATELLITE HEALTHCARE NORTH SUNNYVALE",
+          "type": "clinic",
+          "distance_miles": 2.234581398373723,
+          "coordinates": [
+            37.393065,
+            -122.033214
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "ESRD/CDC"
+        },
+        {
+          "name": "SANTA CLARA POST ACUTE",
+          "type": "clinic",
+          "distance_miles": 2.249143192553899,
+          "coordinates": [
+            37.389834,
+            -121.951701
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "FAIROAKS HEALTH CENTER",
+          "type": "clinic",
+          "distance_miles": 2.4099786602869324,
+          "coordinates": [
+            37.36510052,
+            -122.0238613
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "UNLICEN"
+        },
+        {
+          "name": "VALLEY HEALTH CENTER AT FAIR OAKS",
+          "type": "clinic",
+          "distance_miles": 2.4099786602869324,
+          "coordinates": [
+            37.36510052,
+            -122.0238613
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "FQHC"
+        },
+        {
+          "name": "PATHWAYS HOME HEALTH AND HOSPICE",
+          "type": "clinic",
+          "distance_miles": 2.488210518835724,
+          "coordinates": [
+            37.392678,
+            -122.037903
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "PATHWAYS HOME HEALTH AND HOSPICE",
+          "type": "clinic",
+          "distance_miles": 2.488210518835724,
+          "coordinates": [
+            37.392678,
+            -122.037903
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ALVISO HEALTH CENTER",
+          "type": "clinic",
+          "distance_miles": 2.6009354870324244,
+          "coordinates": [
+            37.424772,
+            -121.9753935
+          ],
+          "address": "ALVISO, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "CEDAR CREST NURSING AND REHABILITATION CENTER",
+          "type": "clinic",
+          "distance_miles": 2.9016948957451167,
+          "coordinates": [
+            37.352943,
+            -122.018337
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "SNF"
+        }
+      ],
+      "grocery": [],
+      "transit": []
+    },
+    "analysis_radius_miles": 5.0,
+    "project_type": "family"
+  },
+  "rent_analysis": {
+    "location": {
+      "state": "CA",
+      "county": "Sample County"
+    },
+    "rent_limits_by_ami": {
+      "30%_ami": {
+        "studio": 600.0,
+        "1br": 650.0,
+        "2br": 800.0,
+        "3br": 1100.0,
+        "4br": 1250.0
+      },
+      "50%_ami": {
+        "studio": 1000.0,
+        "1br": 1083.33,
+        "2br": 1333.33,
+        "3br": 1833.33,
+        "4br": 2083.33
+      },
+      "60%_ami": {
+        "studio": 1200.0,
+        "1br": 1300.0,
+        "2br": 1600.0,
+        "3br": 2200.0,
+        "4br": 2500.0
+      },
+      "80%_ami": {
+        "studio": 1600.0,
+        "1br": 1733.33,
+        "2br": 2133.33,
+        "3br": 2933.33,
+        "4br": 3333.33
+      }
+    },
+    "basis_boost_qualified": true,
+    "boost_percentage": 30.0,
+    "analysis_year": 2025
+  },
+  "competitive_summary": {
+    "total_points": 21,
+    "percentile_rank": 0,
+    "competitive_tier": "Not Eligible - Fails or Unknown Mandatory Criteria",
+    "mandatory_criteria_met": false,
+    "disqualifying_factors": [
+      "Fire hazard status unknown - manual verification required",
+      "Land use verification pending"
+    ]
+  },
+  "recommendations": {
+    "overall_recommendation": "MANUAL VERIFICATION REQUIRED - Fire Hazard Unknown",
+    "priority_level": "On Hold",
+    "key_strengths": [],
+    "areas_for_improvement": [],
+    "next_steps": [
+      "Verify fire hazard status with official CAL FIRE maps",
+      "Check local fire department hazard classifications",
+      "Consult with fire safety professionals",
+      "Do not proceed until fire hazard status is confirmed"
+    ],
+    "disqualifying_factors": [
+      "Fire hazard data unavailable from API - MANUAL VERIFICATION REQUIRED. Check: https://osfm.fire.ca.gov/divisions/wildfire-planning-engineering/wildland-hazards-building-codes/fire-hazard-severity-zones-maps/, https://egis.fire.ca.gov/FHSZ/, Local fire department hazard maps"
+    ]
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-07-24T13:07:13.292986",
+    "analysis_duration_seconds": 0.869551,
+    "software_version": "1.0.0",
+    "data_sources_used": [
+      "HUD QCT/DDA 2025",
+      "CAL FIRE Fire Hazard Severity Zones",
+      "California CTCAC Opportunity Maps",
+      "OpenStreetMap",
+      "Census Bureau",
+      "State QAP Documents"
+    ],
+    "analysis_id": "LIHTC_20250724_130713"
+  }
+}

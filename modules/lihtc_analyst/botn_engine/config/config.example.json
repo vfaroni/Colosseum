@@ -1,0 +1,53 @@
+{
+  "api_keys": {
+    "positionstack": "your_positionstack_api_key_here",
+    "google_maps": "your_google_maps_api_key_here",
+    "census": "your_census_api_key_here",
+    "noaa": "your_noaa_api_key_here"
+  },
+  "data_sources": {
+    "qct_dda_path": "data/boundaries/qct_dda.gpkg",
+    "opportunity_areas_path": "data/boundaries/opportunity_areas.gpkg",
+    "amenities_cache": "data/cache/amenities/",
+    "qap_documents": "data/qap/",
+    "rent_data": "data/rents/hud_ami_rent_data.xlsx"
+  },
+  "analysis_settings": {
+    "max_search_radius_miles": 5.0,
+    "cache_expiry_days": 30,
+    "request_timeout_seconds": 30,
+    "max_retries": 3,
+    "batch_size": 100
+  },
+  "distance_calculation": {
+    "default_method": "haversine",
+    "use_google_maps": false,
+    "walking_speed_mph": 3.0,
+    "driving_speed_factor": 1.2
+  },
+  "state_configs": {
+    "CA": {
+      "qap_name": "CTCAC",
+      "max_amenity_points": 15,
+      "opportunity_area_points": 8,
+      "rural_adjustments": true
+    },
+    "TX": {
+      "qap_name": "TDHCA", 
+      "max_amenity_points": 12,
+      "opportunity_area_points": 5,
+      "rural_adjustments": true
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/lihtc_scorer.log",
+    "max_file_size_mb": 10,
+    "backup_count": 5
+  },
+  "performance": {
+    "enable_caching": true,
+    "parallel_processing": true,
+    "max_workers": 4
+  }
+}

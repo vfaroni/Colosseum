@@ -1,0 +1,23 @@
+{
+  "filename": "2024_4pct_R1_24-553.xlsx",
+  "application_data": {
+    "project_name": "Pacific Street Apartments Four",
+    "county": "Placer",
+    "city": "Rocklin",
+    "general_contractor": "Not found",
+    "housing_type": "Non-Targeted",
+    "year": "Not found",
+    "total_units": 307188,
+    "ctcac_project_number": "24-553",
+    "total_sqft_low_income": 36490,
+    "new_construction": "Yes"
+  },
+  "sources_uses_data": {
+    "land_cost": 637991.0,
+    "total_architectural": 548318.0,
+    "total_survey_engineering": 302009.0,
+    "local_impact_fees": 942719.0,
+    "total_new_construction": 11691391.0,
+    "soft_cost_contingency": 471936.0
+  }
+}

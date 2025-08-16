@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-08-09T20:24:56.864048",
+  "statistics": {
+    "files_processed": 3,
+    "sheets_extracted": 27,
+    "cells_extracted": 19220,
+    "formulas_preserved": 8064,
+    "errors": []
+  },
+  "files": {
+    "2025_4pct_R1_25-464.xlsx": {
+      "sheets_extracted": [
+        "Application",
+        "Sources and Uses Budget",
+        "Basis & Credits",
+        "Sources and Basis Breakdown",
+        "Points System",
+        "Tie Breaker",
+        "CalHFA Addendum",
+        "Subsidy Contract Calculation",
+        "15 Year Pro Forma"
+      ],
+      "extraction_time": "2025-08-09T20:24:20.653649"
+    },
+    "2025_4pct_R1_25-433.xlsx": {
+      "sheets_extracted": [
+        "Application",
+        "Sources and Uses Budget",
+        "Basis & Credits",
+        "Sources and Basis Breakdown",
+        "Points System",
+        "Tie Breaker",
+        "CalHFA Addendum",
+        "Subsidy Contract Calculation",
+        "15 Year Pro Forma"
+      ],
+      "extraction_time": "2025-08-09T20:24:32.415533"
+    },
+    "2025_4pct_R1_25-425.xlsx": {
+      "sheets_extracted": [
+        "Application",
+        "Sources and Uses Budget",
+        "Basis & Credits",
+        "Sources and Basis Breakdown",
+        "Points System",
+        "Tie Breaker",
+        "CalHFA Addendum",
+        "Subsidy Contract Calculation",
+        "15 Year Pro Forma"
+      ],
+      "extraction_time": "2025-08-09T20:24:44.821546"
+    }
+  },
+  "summary": {
+    "total_files": 3,
+    "total_sheets": 27,
+    "sheets_found_per_app": {
+      "2025_4pct_R1_25-464.xlsx": 9,
+      "2025_4pct_R1_25-433.xlsx": 9,
+      "2025_4pct_R1_25-425.xlsx": 9
+    }
+  }
+}

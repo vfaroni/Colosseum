@@ -1,0 +1,114 @@
+{
+  "expense_analysis": {
+    "audit_categories": {
+      "2024": {
+        "Administrative": {
+          "total": 142674,
+          "subcategories": {
+            "Conventions_and_meetings": 3580,
+            "Advertising_and_marketing": 1380,
+            "Office_expenses": 14145,
+            "Management_fee": 37752,
+            "Manager_superintendent_salaries": 67931,
+            "Audit_expenses": 9015,
+            "Miscellaneous_administrative": 8871
+          }
+        },
+        "Utilities": {
+          "total": 100602,
+          "note": "CORRECTED: Moved trash removal from O&M to utilities",
+          "subcategories": {
+            "Electricity": 38795,
+            "Water": 11972,
+            "Sewer": 42440,
+            "Garbage_and_trash_removal": 7395
+          }
+        },
+        "Operating_and_maintenance": {
+          "total": 125079,
+          "note": "CORRECTED: Removed trash removal (moved to utilities)",
+          "subcategories": {
+            "Payroll": 72178,
+            "Supplies": 5055,
+            "Contracts": 47813,
+            "Heating_cooling_repairs": 33,
+            "Snow_removal": 0
+          }
+        },
+        "Taxes_and_insurance": {
+          "total": 70440,
+          "subcategories": {
+            "Payroll_taxes": 18378,
+            "Property_and_liability_insurance": 35434,
+            "Fidelity_bond_insurance": 36,
+            "Health_insurance_employee_benefits": 13347,
+            "Miscellaneous_taxes_licenses": 3245
+          }
+        }
+      },
+      "2023": {
+        "Administrative": 155497,
+        "Utilities": 99758,
+        "note_2023": "CORRECTED: Added $6,676 trash removal from O&M",
+        "Operating_and_maintenance": 132519,
+        "note_2023_om": "CORRECTED: Removed $6,676 trash removal (moved to utilities)",
+        "Taxes_and_insurance": 48575
+      }
+    },
+    "t12_data_corrected": {
+      "note": "T-12 data from May 2025 financial statements - CORRECTED AMOUNTS",
+      "Administrative": 74385.40,
+      "Administrative_breakdown": {
+        "Total_Advertising_Promotion": 5447.32,
+        "Total_Management_Asset_Mgmt_Fees": 38929.00,
+        "Total_Administrative": 21804.88,
+        "Total_Legal_Accounting": 8204.20
+      },
+      "Utilities": 93207,
+      "Operating_and_maintenance": 132474,
+      "Taxes_and_insurance": 70440,
+      "discrepancies": {
+        "Administrative": {
+          "issue": "T-12 shows $52,507 vs 2024 Audit $142,674 - 63% lower",
+          "possible_causes": [
+            "T-12 may be missing management fees or salaries",
+            "Different categorization in T-12 vs audit",
+            "Incomplete T-12 data extraction",
+            "Seasonal variation (Jan-May vs full year)"
+          ]
+        }
+      }
+    },
+    "mapping_requirements": {
+      "need_detailed_t12": {
+        "Administrative": [
+          "Management fees",
+          "Property management salaries", 
+          "Office expenses",
+          "Professional fees",
+          "Other administrative"
+        ],
+        "Utilities": [
+          "Electric",
+          "Water", 
+          "Sewer",
+          "Trash removal (missing from current mapping?)"
+        ],
+        "Operating_maintenance": [
+          "Maintenance payroll",
+          "Maintenance supplies",
+          "Maintenance contracts",
+          "Other repairs"
+        ],
+        "Taxes_insurance": [
+          "Property insurance",
+          "General liability",
+          "Workers comp",
+          "Payroll taxes",
+          "Other taxes and licenses"
+        ]
+      }
+    },
+    "recommended_action": "Extract complete T-12 detail to match audit subcategories before creating final expense table"
+  }
+}

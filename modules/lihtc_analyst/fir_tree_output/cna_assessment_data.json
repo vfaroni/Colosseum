@@ -1,0 +1,51 @@
+{
+  "document": "Capital Needs Assessment",
+  "file": "4) CNA Needs Assessment Fir Tree Park.pdf",
+  "extraction_date": "2025-08-09T17:47:39.867699",
+  "immediate_needs": [
+    "$872,923",
+    "$0",
+    "$0"
+  ],
+  "short_term_needs": [],
+  "long_term_needs": [],
+  "building_systems": {
+    "building_type": [
+      "garden"
+    ],
+    "construction": [
+      "wood frame",
+      "concrete"
+    ],
+    "roofing": [
+      "shingle",
+      "flat",
+      "membrane"
+    ],
+    "siding": [
+      "vinyl",
+      "wood"
+    ],
+    "hvac": [
+      "ptac",
+      "baseboard"
+    ],
+    "plumbing": [
+      "pex",
+      "galvanized",
+      "cast iron"
+    ],
+    "electrical": [
+      "panel"
+    ]
+  },
+  "property_description": {},
+  "reserve_requirements": "$872,923",
+  "system_conditions": {
+    "roof": "fair",
+    "siding": "poor",
+    "electrical": "poor",
+    "windows": "fair",
+    "parking": "good"
+  }
+}

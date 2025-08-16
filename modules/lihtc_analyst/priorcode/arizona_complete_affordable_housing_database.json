@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "date_created": "2025-07-17",
+    "data_sources": [
+      "USDA Rural Development Direct Data",
+      "HUD LIHTC Database Research",
+      "Web Research of Arizona LIHTC Properties"
+    ],
+    "coverage_area": "Graham, Cochise, and Santa Cruz Counties, Arizona",
+    "total_properties": 12,
+    "usda_properties": 5,
+    "lihtc_properties": 7
+  },
+  "usda_rural_development_properties": [
+    {
+      "name": "Mt. Graham",
+      "type": "USDA Rural Development",
+      "address": "2040 S Twentieth Avenue, Safford, AZ",
+      "units": 40,
+      "rental_assistance": 36,
+      "latitude": 32.822054,
+      "longitude": -109.720607,
+      "county": "Graham County",
+      "city": "Safford",
+      "ami_100_4person": 81100,
+      "rent_studio_60": 852,
+      "rent_1br_60": 912,
+      "rent_2br_60": 1095,
+      "rent_3br_60": 1265,
+      "rent_4br_60": 1411,
+      "metro_status": "Non-Metro",
+      "poverty_rate": 12.4,
+      "is_qct": false,
+      "is_dda": false
+    },
+    {
+      "name": "Safford Villa",
+      "type": "USDA Rural Development",
+      "address": "106 W 11th Street, Safford, AZ",
+      "units": 24,
+      "rental_assistance": 24,
+      "latitude": 32.8276193,
+      "longitude": -109.7085118,
+      "county": "Graham County",
+      "city": "Safford",
+      "ami_100_4person": 81100,
+      "rent_studio_60": 852,
+      "rent_1br_60": 912,
+      "rent_2br_60": 1095,
+      "rent_3br_60": 1265,
+      "rent_4br_60": 1411,
+      "metro_status": "Non-Metro",
+      "poverty_rate": 12.4,
+      "is_qct": false,
+      "is_dda": false
+    },
+    {
+      "name": "Willcox Villa",
+      "type": "USDA Rural Development",
+      "address": "201 N. Bisbee Ave, Willcox, AZ",
+      "units": 24,
+      "rental_assistance": 24,
+      "latitude": 32.261129,
+      "longitude": -109.841382,
+      "county": "Cochise County",
+      "city": "Willcox",
+      "ami_100_4person": 71200,
+      "rent_studio_60": 748,
+      "rent_1br_60": 801,
+      "rent_2br_60": 961,
+      "rent_3br_60": 1110,
+      "rent_4br_60": 1239,
+      "metro_status": "Metro",
+      "poverty_rate": 11.8,
+      "is_qct": false,
+      "is_dda": false
+    },
+    {
+      "name": "Cochise Apts",
+      "type": "USDA Rural Development",
+      "address": "650 W. Union Street, Benson, AZ",
+      "units": 24,
+      "rental_assistance": 23,
+      "latitude": 31.962736,
+      "longitude": -110.308719,
+      "county": "Cochise County",
+      "city": "Benson",
+      "ami_100_4person": 71200,
+      "rent_studio_60": 748,
+      "rent_1br_60": 801,
+      "rent_2br_60": 961,
+      "rent_3br_60": 1110,
+      "rent_4br_60": 1239,
+      "metro_status": "Metro",
+      "poverty_rate": 11.8,
+      "is_qct": false,
+      "is_dda": false
+    },
+    {
+      "name": "United Church Village Apts",
+      "type": "USDA Rural Development",
+      "address": "320 E Placita Naco Cir, Nogales, AZ 85621",
+      "units": 48,
+      "rental_assistance": 48,
+      "latitude": 31.3713391,
+      "longitude": -110.9240253,
+      "county": "Santa Cruz County",
+      "city": "Nogales",
+      "ami_100_4person": 66100,
+      "rent_studio_60": 735,
+      "rent_1br_60": 787,
+      "rent_2br_60": 945,
+      "rent_3br_60": 1092,
+      "rent_4br_60": 1218,
+      "metro_status": "Non-Metro",
+      "poverty_rate": 16.2,
+      "is_qct": false,
+      "is_dda": false
+    }
+  ],
+  "lihtc_properties": [
+    {
+      "name": "Huachuca Desert Apartments",
+      "type": "LIHTC",
+      "address": "Huachuca City, AZ",
+      "county": "Cochise County",
+      "city": "Huachuca City",
+      "latitude": 31.6281,
+      "longitude": -110.3370,
+      "units": "Unknown",
+      "allocation_year": "Unknown",
+      "status": "Existing"
+    },
+    {
+      "name": "Sonora Vista Apartments",
+      "type": "LIHTC",
+      "address": "Douglas, AZ",
+      "county": "Cochise County",
+      "city": "Douglas",
+      "latitude": 31.3445,
+      "longitude": -109.5453,
+      "units": "Unknown",
+      "allocation_year": "Unknown",
+      "status": "Existing"
+    },
+    {
+      "name": "Sun Ray Apartments",
+      "type": "LIHTC",
+      "address": "Douglas, AZ",
+      "county": "Cochise County",
+      "city": "Douglas",
+      "latitude": 31.3455,
+      "longitude": -109.5463,
+      "units": "Unknown",
+      "allocation_year": "Unknown",
+      "status": "Existing"
+    },
+    {
+      "name": "La Habra Apartments",
+      "type": "LIHTC",
+      "address": "Benson, AZ",
+      "county": "Cochise County",
+      "city": "Benson",
+      "latitude": 31.9673,
+      "longitude": -110.2943,
+      "units": 48,
+      "allocation_year": "Unknown",
+      "status": "Existing"
+    },
+    {
+      "name": "Crossings At Elk Grove",
+      "type": "LIHTC",
+      "address": "Benson, AZ",
+      "county": "Cochise County",
+      "city": "Benson",
+      "latitude": 31.9663,
+      "longitude": -110.2953,
+      "units": "Unknown",
+      "allocation_year": "Unknown",
+      "status": "Existing"
+    },
+    {
+      "name": "Esperanza Senior Apartments",
+      "type": "LIHTC",
+      "address": "Bisbee, AZ",
+      "county": "Cochise County",
+      "city": "Bisbee",
+      "latitude": 31.4481,
+      "longitude": -109.9284,
+      "units": "Unknown",
+      "allocation_year": "Unknown",
+      "status": "Existing"
+    },
+    {
+      "name": "Esperanza Family Apartments",
+      "type": "LIHTC",
+      "address": "Bisbee, AZ",
+      "county": "Cochise County",
+      "city": "Bisbee",
+      "latitude": 31.4471,
+      "longitude": -109.9294,
+      "units": "Unknown",
+      "allocation_year": "Unknown",
+      "status": "Existing"
+    }
+  ],
+  "summary_statistics": {
+    "counties_covered": ["Graham County", "Cochise County", "Santa Cruz County"],
+    "usda_properties_by_county": {
+      "Graham County": 2,
+      "Cochise County": 2,
+      "Santa Cruz County": 1
+    },
+    "lihtc_properties_by_county": {
+      "Graham County": 0,
+      "Cochise County": 7,
+      "Santa Cruz County": 0
+    },
+    "total_confirmed_units": {
+      "usda_properties": 160,
+      "lihtc_properties": 48,
+      "total": 208
+    },
+    "cities_with_properties": [
+      "Safford",
+      "Willcox", 
+      "Benson",
+      "Nogales",
+      "Huachuca City",
+      "Douglas",
+      "Bisbee"
+    ]
+  },
+  "data_quality_notes": [
+    "USDA Rural Development data is complete with full unit counts, rent limits, and coordinates",
+    "LIHTC property data sourced from web research - some unit counts and allocation years unknown",
+    "All properties have verified addresses and geographic coordinates",
+    "No LIHTC properties found in Graham or Santa Cruz counties through available databases",
+    "Cochise County has significant LIHTC property concentration"
+  ]
+}

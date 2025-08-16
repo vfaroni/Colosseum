@@ -1,0 +1,5867 @@
+{
+  "site_info": {
+    "latitude": 37.3897,
+    "longitude": -121.9927,
+    "address": "Sample Address at 37.389700, -121.992700",
+    "state": "CA",
+    "county": "Sample County",
+    "census_tract": "06037001.00"
+  },
+  "federal_status": {
+    "qct_qualified": false,
+    "dda_qualified": true,
+    "federal_basis_boost": true,
+    "basis_boost_percentage": 30.0,
+    "qct_details": null,
+    "dda_details": {
+      "metro_area": null,
+      "county": null,
+      "state": null
+    },
+    "analysis_notes": "Site qualifies for 30% basis boost as DDA: San Jose-Sunnyvale-Santa Clara, CA HUD Metro FMR Area"
+  },
+  "state_scoring": {
+    "total_points": 21,
+    "max_possible_points": 30,
+    "scoring_breakdown": {
+      "opportunity_area_points": 6,
+      "amenity_points": 15,
+      "federal_bonus": 0,
+      "transit_points": 0
+    },
+    "opportunity_area": {
+      "resource_category": "High Resource",
+      "resource_score": 6.0,
+      "qualified": true,
+      "tract_id": "06085508708",
+      "county": "Santa Clara",
+      "region": "Bay Area Region",
+      "poverty_rate": 0.848078096400244,
+      "bachelor_plus_rate": 0.9242910647405028,
+      "employment_rate": 0.8571428571428571,
+      "math_proficiency": 0.4172269449498793,
+      "reading_proficiency": 0.4377438291422847,
+      "graduation_rate": 0.930170388975367
+    },
+    "state": "CA",
+    "allocation_agency": "CTCAC",
+    "data_year": 2025,
+    "resource_category": "High Resource",
+    "resource_score": 6.0,
+    "opportunity_area_points": 6,
+    "in_opportunity_area": true,
+    "opportunity_area_details": {
+      "tract_id": "06085508708",
+      "county": "Santa Clara",
+      "region": "Bay Area Region",
+      "poverty_rate": 84.8,
+      "bachelor_plus_rate": 92.4,
+      "employment_rate": 85.7,
+      "math_proficiency": 41.7,
+      "reading_proficiency": 43.8,
+      "graduation_rate": 93.0
+    }
+  },
+  "amenity_analysis": {
+    "total_amenity_points": 24,
+    "max_possible_points": 2570,
+    "amenity_breakdown": {
+      "schools": {
+        "points_earned": 6,
+        "max_possible": 66,
+        "details": [
+          {
+            "name": "Fairwood Elementary",
+            "distance": 0.4842052053209427,
+            "points_earned": 3
+          },
+          {
+            "name": "Mission Early College High",
+            "distance": 0.5892888585250369,
+            "points_earned": 3
+          }
+        ]
+      },
+      "medical": {
+        "points_earned": 3,
+        "max_possible": 51,
+        "details": [
+          {
+            "name": "INTOUCH HOME CARE, INC.",
+            "distance": 0.7170271238940714,
+            "points_earned": 3
+          }
+        ]
+      },
+      "grocery": {
+        "points_earned": 0,
+        "max_possible": 0,
+        "details": []
+      },
+      "transit": {
+        "points_earned": 15,
+        "max_possible": 2453,
+        "details": [
+          {
+            "name": "Lawrence & Oakmead",
+            "distance": 0.21409207660975485,
+            "points_earned": 5
+          },
+          {
+            "name": "Duane & Lawrence",
+            "distance": 0.2925846894130656,
+            "points_earned": 5
+          },
+          {
+            "name": "Duane & Lawrence",
+            "distance": 0.29267726042470227,
+            "points_earned": 5
+          }
+        ]
+      }
+    },
+    "nearby_amenities": {
+      "schools": [
+        {
+          "name": "Fairwood Elementary",
+          "type": "elementary",
+          "distance_miles": 0.4842052053209427,
+          "coordinates": [
+            37.39640494404808,
+            -121.99011310803226
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 321
+        },
+        {
+          "name": "Mission Early College High",
+          "type": "high",
+          "distance_miles": 0.5892888585250369,
+          "coordinates": [
+            37.39129094419021,
+            -121.98214610428765
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 189
+        },
+        {
+          "name": "Lakewood Elementary",
+          "type": "elementary",
+          "distance_miles": 0.8142817191027387,
+          "coordinates": [
+            37.398104942202416,
+            -122.00311310910745
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 375
+        },
+        {
+          "name": "San Miguel Elementary",
+          "type": "elementary",
+          "distance_miles": 0.8754177605525004,
+          "coordinates": [
+            37.391404942666604,
+            -122.00851310865573
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 399
+        },
+        {
+          "name": "Columbia Middle",
+          "type": "middle",
+          "distance_miles": 1.5074273315439128,
+          "coordinates": [
+            37.39370494131933,
+            -122.01971311227699
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 672
+        },
+        {
+          "name": "Adrian Wilcox High",
+          "type": "high",
+          "distance_miles": 1.6676096749015863,
+          "coordinates": [
+            37.366004941116685,
+            -121.98681310371694
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 1695
+        },
+        {
+          "name": "Bishop Elementary",
+          "type": "elementary",
+          "distance_miles": 1.7629482390780726,
+          "coordinates": [
+            37.386828940833404,
+            -122.02463211249965
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 446
+        },
+        {
+          "name": "Bracher Elementary",
+          "type": "elementary",
+          "distance_miles": 1.8406873711828826,
+          "coordinates": [
+            37.36680494222912,
+            -121.97551310143487
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 263
+        },
+        {
+          "name": "Kathryn Hughes Elementary",
+          "type": "elementary",
+          "distance_miles": 1.9239333034355077,
+          "coordinates": [
+            37.405504945546284,
+            -121.96381310361132
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 293
+        },
+        {
+          "name": "Ponderosa Elementary",
+          "type": "elementary",
+          "distance_miles": 2.072436148968225,
+          "coordinates": [
+            37.36240493943922,
+            -122.00841310640166
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 513
+        },
+        {
+          "name": "Briarwood Elementary",
+          "type": "elementary",
+          "distance_miles": 2.1985819615893774,
+          "coordinates": [
+            37.358104941161905,
+            -121.98771310244386
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 267
+        },
+        {
+          "name": "Ellis Elementary",
+          "type": "elementary",
+          "distance_miles": 2.2127610931462733,
+          "coordinates": [
+            37.369404938872826,
+            -122.02391310903106
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 758
+        },
+        {
+          "name": "Braly Elementary",
+          "type": "elementary",
+          "distance_miles": 2.2432334110464174,
+          "coordinates": [
+            37.36450493808436,
+            -122.01851310858446
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 362
+        },
+        {
+          "name": "New Valley Continuation High",
+          "type": "high",
+          "distance_miles": 2.311303178052146,
+          "coordinates": [
+            37.35630494021849,
+            -121.99561310444473
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 157
+        },
+        {
+          "name": "Bowers Elementary",
+          "type": "elementary",
+          "distance_miles": 2.3744247272592385,
+          "coordinates": [
+            37.35810494258995,
+            -121.97561310009567
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 242
+        },
+        {
+          "name": "Juan Cabrillo Middle",
+          "type": "middle",
+          "distance_miles": 2.4367801238773272,
+          "coordinates": [
+            37.35830494098211,
+            -121.97241310072933
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 804
+        },
+        {
+          "name": "Montague Elementary",
+          "type": "elementary",
+          "distance_miles": 2.523903929955651,
+          "coordinates": [
+            37.3886049457539,
+            -121.94671309995127
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 288
+        },
+        {
+          "name": "Don Callejon",
+          "type": "elementary",
+          "distance_miles": 2.5521846642374992,
+          "coordinates": [
+            37.39850494640712,
+            -121.94751310091576
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 545
+        },
+        {
+          "name": "George Mayne Elementary",
+          "type": "elementary",
+          "distance_miles": 2.793980924887507,
+          "coordinates": [
+            37.42450494735943,
+            -121.96671310699529
+          ],
+          "address": "Alviso, CA",
+          "enrollment": 286
+        },
+        {
+          "name": "Scott Lane Elementary",
+          "type": "elementary",
+          "distance_miles": 2.8733585068744167,
+          "coordinates": [
+            37.35790494295083,
+            -121.95891309916367
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 410
+        },
+        {
+          "name": "Pomeroy Elementary",
+          "type": "elementary",
+          "distance_miles": 2.886009602669817,
+          "coordinates": [
+            37.34810493836541,
+            -121.98751310152903
+          ],
+          "address": "Santa Clara, CA",
+          "enrollment": 292
+        },
+        {
+          "name": "Marian A. Peterson Middle",
+          "type": "middle",
+          "distance_miles": 2.905695923776372,
+          "coordinates": [
+            37.34920493771761,
+            -122.00711310494668
+          ],
+          "address": "Sunnyvale, CA",
+          "enrollment": 741
+        }
+      ],
+      "medical": [
+        {
+          "name": "INTOUCH HOME CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.7170271238940714,
+          "coordinates": [
+            37.397574,
+            -121.9841775
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "GOLD STAR HOSPICE, LLC",
+          "type": "clinic",
+          "distance_miles": 1.0209429125779617,
+          "coordinates": [
+            37.383552,
+            -122.009625
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "FIVE STAR HOME CARE",
+          "type": "clinic",
+          "distance_miles": 1.0228788137945326,
+          "coordinates": [
+            37.38347801,
+            -122.009621
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "KAISER FOUNDATION HOSPITAL HOSPICE-SANTA CLARA",
+          "type": "clinic",
+          "distance_miles": 1.1180805360431152,
+          "coordinates": [
+            37.386666,
+            -121.97268
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "KAISER FOUNDATION HOSPITAL HOME HEALTH-SANTA CLARA",
+          "type": "clinic",
+          "distance_miles": 1.1180805360431152,
+          "coordinates": [
+            37.386666,
+            -121.97268
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HARMONY HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 1.4287267698709756,
+          "coordinates": [
+            37.38708,
+            -121.966866
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "MAYVIEW COMMUNITY HEALTH CENTER SUNNYVALE, A MEMBER OF RAVENSWOOD FAMILY HEALTH NETWORK",
+          "type": "clinic",
+          "distance_miles": 1.5368007703303106,
+          "coordinates": [
+            37.394163,
+            -122.020146
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "GRACE ADULT DAY HEALTH CARE CENTER",
+          "type": "clinic",
+          "distance_miles": 1.6290108831156762,
+          "coordinates": [
+            37.376856,
+            -121.967793
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "ADHC"
+        },
+        {
+          "name": "WILLOW PATHWAY HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 2.068548656762337,
+          "coordinates": [
+            37.36832399,
+            -121.966284
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "SATELLITE HEALTHCARE NORTH SUNNYVALE",
+          "type": "clinic",
+          "distance_miles": 2.234581398373723,
+          "coordinates": [
+            37.393065,
+            -122.033214
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "ESRD/CDC"
+        },
+        {
+          "name": "SANTA CLARA POST ACUTE",
+          "type": "clinic",
+          "distance_miles": 2.249143192553899,
+          "coordinates": [
+            37.389834,
+            -121.951701
+          ],
+          "address": "SANTA CLARA, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "FAIROAKS HEALTH CENTER",
+          "type": "clinic",
+          "distance_miles": 2.4099786602869324,
+          "coordinates": [
+            37.36510052,
+            -122.0238613
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "UNLICEN"
+        },
+        {
+          "name": "VALLEY HEALTH CENTER AT FAIR OAKS",
+          "type": "clinic",
+          "distance_miles": 2.4099786602869324,
+          "coordinates": [
+            37.36510052,
+            -122.0238613
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "FQHC"
+        },
+        {
+          "name": "PATHWAYS HOME HEALTH AND HOSPICE",
+          "type": "clinic",
+          "distance_miles": 2.488210518835724,
+          "coordinates": [
+            37.392678,
+            -122.037903
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "PATHWAYS HOME HEALTH AND HOSPICE",
+          "type": "clinic",
+          "distance_miles": 2.488210518835724,
+          "coordinates": [
+            37.392678,
+            -122.037903
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ALVISO HEALTH CENTER",
+          "type": "clinic",
+          "distance_miles": 2.6009354870324244,
+          "coordinates": [
+            37.424772,
+            -121.9753935
+          ],
+          "address": "ALVISO, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "CEDAR CREST NURSING AND REHABILITATION CENTER",
+          "type": "clinic",
+          "distance_miles": 2.9016948957451167,
+          "coordinates": [
+            37.352943,
+            -122.018337
+          ],
+          "address": "SUNNYVALE, CA",
+          "facility_code": "SNF"
+        }
+      ],
+      "grocery": [],
+      "transit": [
+        {
+          "name": "Lawrence & Oakmead",
+          "type": "bus_stop",
+          "distance_miles": 0.21409207660975485,
+          "coordinates": [
+            37.38767,
+            -121.99565
+          ],
+          "stop_id": "62347",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 0.2925846894130656,
+          "coordinates": [
+            37.386953,
+            -121.996761
+          ],
+          "stop_id": "62372",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 0.29267726042470227,
+          "coordinates": [
+            37.38695,
+            -121.99676
+          ],
+          "stop_id": "62372",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & San Simeon",
+          "type": "bus_stop",
+          "distance_miles": 0.439077325132725,
+          "coordinates": [
+            37.38842,
+            -122.00054
+          ],
+          "stop_id": "62346",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & San Simeon",
+          "type": "bus_stop",
+          "distance_miles": 0.44238761124564163,
+          "coordinates": [
+            37.38858,
+            -122.00064
+          ],
+          "stop_id": "62373",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lakehaven & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 0.489889110160626,
+          "coordinates": [
+            37.39597,
+            -121.99688
+          ],
+          "stop_id": "62354",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lakehaven & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 0.5081200921510852,
+          "coordinates": [
+            37.39615,
+            -121.99716
+          ],
+          "stop_id": "62348",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lakehaven & Silverlake",
+          "type": "bus_stop",
+          "distance_miles": 0.5448208833692608,
+          "coordinates": [
+            37.39597,
+            -121.99873
+          ],
+          "stop_id": "62353",
+          "agency": "VTA"
+        },
+        {
+          "name": "Stewart & Santa Trinita",
+          "type": "bus_stop",
+          "distance_miles": 0.5653519535883454,
+          "coordinates": [
+            37.38417,
+            -122.0003
+          ],
+          "stop_id": "64689",
+          "agency": "VTA"
+        },
+        {
+          "name": "Stewart & Santa Trinita",
+          "type": "bus_stop",
+          "distance_miles": 0.5665890483287392,
+          "coordinates": [
+            37.38405,
+            -122.00019
+          ],
+          "stop_id": "61915",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & San Rafael",
+          "type": "bus_stop",
+          "distance_miles": 0.575927693524045,
+          "coordinates": [
+            37.38835,
+            -122.00306
+          ],
+          "stop_id": "62345",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lawrence & Sandia",
+          "type": "bus_stop",
+          "distance_miles": 0.6003610070069211,
+          "coordinates": [
+            37.39808,
+            -121.99562
+          ],
+          "stop_id": "62355",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Lakeside",
+          "type": "bus_stop",
+          "distance_miles": 0.6292318788526711,
+          "coordinates": [
+            37.38059,
+            -121.99301
+          ],
+          "stop_id": "61912",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & De Guigne",
+          "type": "bus_stop",
+          "distance_miles": 0.6356568151784427,
+          "coordinates": [
+            37.38851,
+            -122.00419
+          ],
+          "stop_id": "62374",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Lakeside",
+          "type": "bus_stop",
+          "distance_miles": 0.6437261989678441,
+          "coordinates": [
+            37.38038,
+            -121.99301
+          ],
+          "stop_id": "62410",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Oakmead",
+          "type": "bus_stop",
+          "distance_miles": 0.665968592042481,
+          "coordinates": [
+            37.38063,
+            -121.98857
+          ],
+          "stop_id": "61911",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 0.6696522925853152,
+          "coordinates": [
+            37.38062,
+            -121.99699
+          ],
+          "stop_id": "61913",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Curve",
+          "type": "bus_stop",
+          "distance_miles": 0.6708383282239382,
+          "coordinates": [
+            37.39713,
+            -121.98482
+          ],
+          "stop_id": "61935",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Curve",
+          "type": "bus_stop",
+          "distance_miles": 0.6739224955599306,
+          "coordinates": [
+            37.39735,
+            -121.98507
+          ],
+          "stop_id": "61960",
+          "agency": "VTA"
+        },
+        {
+          "name": "Santa Trinita & Kern",
+          "type": "bus_stop",
+          "distance_miles": 0.6919740320713602,
+          "coordinates": [
+            37.3819,
+            -122.00062
+          ],
+          "stop_id": "65651",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lakebird & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 0.7017615602757068,
+          "coordinates": [
+            37.39941,
+            -121.99648
+          ],
+          "stop_id": "62368",
+          "agency": "VTA"
+        },
+        {
+          "name": "Santa Trinita & Kern",
+          "type": "bus_stop",
+          "distance_miles": 0.7039808116228359,
+          "coordinates": [
+            37.38161,
+            -122.00051
+          ],
+          "stop_id": "61914",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 0.7049433567962177,
+          "coordinates": [
+            37.38036,
+            -121.99789
+          ],
+          "stop_id": "62409",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Oakmead",
+          "type": "bus_stop",
+          "distance_miles": 0.7124554765190391,
+          "coordinates": [
+            37.38039,
+            -121.9871
+          ],
+          "stop_id": "62411",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 0.716207616159856,
+          "coordinates": [
+            37.380385,
+            -121.998444
+          ],
+          "stop_id": "62409",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mission College",
+          "type": "bus_stop",
+          "distance_miles": 0.7248982677100327,
+          "coordinates": [
+            37.39194,
+            -121.97979
+          ],
+          "stop_id": "62523",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lakehaven & Meadowlake",
+          "type": "bus_stop",
+          "distance_miles": 0.728179032096608,
+          "coordinates": [
+            37.39592,
+            -122.00342
+          ],
+          "stop_id": "65925",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & Santa Paula",
+          "type": "bus_stop",
+          "distance_miles": 0.7352501258268789,
+          "coordinates": [
+            37.38845,
+            -122.00601
+          ],
+          "stop_id": "62375",
+          "agency": "VTA"
+        },
+        {
+          "name": "Santa Trinita & Arques",
+          "type": "bus_stop",
+          "distance_miles": 0.7454760290493233,
+          "coordinates": [
+            37.38099,
+            -122.00073
+          ],
+          "stop_id": "64690",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & Santa Paula",
+          "type": "bus_stop",
+          "distance_miles": 0.7492281102347911,
+          "coordinates": [
+            37.38828,
+            -122.00624
+          ],
+          "stop_id": "62344",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lakebird & Silverlake",
+          "type": "bus_stop",
+          "distance_miles": 0.7517996500920888,
+          "coordinates": [
+            37.39932,
+            -121.99912
+          ],
+          "stop_id": "62349",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Garrett",
+          "type": "bus_stop",
+          "distance_miles": 0.7547849878687358,
+          "coordinates": [
+            37.38063,
+            -121.98502
+          ],
+          "stop_id": "61910",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Garrett",
+          "type": "bus_stop",
+          "distance_miles": 0.7656546563272709,
+          "coordinates": [
+            37.38042,
+            -121.98506
+          ],
+          "stop_id": "62412",
+          "agency": "VTA"
+        },
+        {
+          "name": "Stewart & De Guigne",
+          "type": "bus_stop",
+          "distance_miles": 0.7786708817871761,
+          "coordinates": [
+            37.38399,
+            -122.00494
+          ],
+          "stop_id": "61916",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry Drive (4750)",
+          "type": "bus_stop",
+          "distance_miles": 0.7847921498884889,
+          "coordinates": [
+            37.39932,
+            -121.98508
+          ],
+          "stop_id": "61959",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Santa Trinita",
+          "type": "bus_stop",
+          "distance_miles": 0.7917834554142783,
+          "coordinates": [
+            37.380404,
+            -122.001151
+          ],
+          "stop_id": "62408",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Santa Trinita",
+          "type": "bus_stop",
+          "distance_miles": 0.7919752458422792,
+          "coordinates": [
+            37.3804,
+            -122.00115
+          ],
+          "stop_id": "62408",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry Drive (4750)",
+          "type": "bus_stop",
+          "distance_miles": 0.8017398171037987,
+          "coordinates": [
+            37.39954,
+            -121.98494
+          ],
+          "stop_id": "61936",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Old Ironsides",
+          "type": "bus_stop",
+          "distance_miles": 0.8081477238954812,
+          "coordinates": [
+            37.39602,
+            -121.9803
+          ],
+          "stop_id": "61934",
+          "agency": "VTA"
+        },
+        {
+          "name": "Stewart & De Guigne",
+          "type": "bus_stop",
+          "distance_miles": 0.8229060661721277,
+          "coordinates": [
+            37.38388,
+            -122.00579
+          ],
+          "stop_id": "64687",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Santa Trinita",
+          "type": "bus_stop",
+          "distance_miles": 0.8260431982387715,
+          "coordinates": [
+            37.38059,
+            -122.00246
+          ],
+          "stop_id": "62489",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Oakmead Village",
+          "type": "bus_stop",
+          "distance_miles": 0.8489597920677554,
+          "coordinates": [
+            37.38033,
+            -121.98268
+          ],
+          "stop_id": "62413",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides & Patrick Henry",
+          "type": "bus_stop",
+          "distance_miles": 0.8633236710669202,
+          "coordinates": [
+            37.39641,
+            -121.97942
+          ],
+          "stop_id": "62527",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Oakmead Village",
+          "type": "bus_stop",
+          "distance_miles": 0.8731237118238699,
+          "coordinates": [
+            37.3807,
+            -121.98152
+          ],
+          "stop_id": "61909",
+          "agency": "VTA"
+        },
+        {
+          "name": "Meadowlake & Lakechime",
+          "type": "bus_stop",
+          "distance_miles": 0.8866086755894782,
+          "coordinates": [
+            37.39885,
+            -122.00404
+          ],
+          "stop_id": "65608",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Mission College",
+          "type": "bus_stop",
+          "distance_miles": 0.8961014005977541,
+          "coordinates": [
+            37.3917,
+            -121.97656
+          ],
+          "stop_id": "62535",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & San Luisito",
+          "type": "bus_stop",
+          "distance_miles": 0.8990834336312093,
+          "coordinates": [
+            37.3882,
+            -122.00898
+          ],
+          "stop_id": "62343",
+          "agency": "VTA"
+        },
+        {
+          "name": "De Guigne & Stewart",
+          "type": "bus_stop",
+          "distance_miles": 0.9013988032297596,
+          "coordinates": [
+            37.38365,
+            -122.00726
+          ],
+          "stop_id": "61917",
+          "agency": "VTA"
+        },
+        {
+          "name": "De Guigne & Stewart",
+          "type": "bus_stop",
+          "distance_miles": 0.901608697667437,
+          "coordinates": [
+            37.383648,
+            -122.00726300099996
+          ],
+          "stop_id": "61917",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Patrick Henry",
+          "type": "bus_stop",
+          "distance_miles": 0.903259721229014,
+          "coordinates": [
+            37.39561,
+            -121.97801
+          ],
+          "stop_id": "61962",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Mission College",
+          "type": "bus_stop",
+          "distance_miles": 0.9046051387655636,
+          "coordinates": [
+            37.39353,
+            -121.97693
+          ],
+          "stop_id": "61933",
+          "agency": "VTA"
+        },
+        {
+          "name": "De Guigne & Stewart",
+          "type": "bus_stop",
+          "distance_miles": 0.909321919487313,
+          "coordinates": [
+            37.38322,
+            -122.00713
+          ],
+          "stop_id": "65639",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lawrence & Tasman",
+          "type": "bus_stop",
+          "distance_miles": 0.9119263227158584,
+          "coordinates": [
+            37.40264,
+            -121.99603
+          ],
+          "stop_id": "62367",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & San Luisito",
+          "type": "bus_stop",
+          "distance_miles": 0.915885845433249,
+          "coordinates": [
+            37.38836,
+            -122.00931
+          ],
+          "stop_id": "62376",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Birchwood",
+          "type": "bus_stop",
+          "distance_miles": 0.9347614713251648,
+          "coordinates": [
+            37.40323,
+            -121.9921
+          ],
+          "stop_id": "62362",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mission College & Great America",
+          "type": "bus_stop",
+          "distance_miles": 0.9391534171960825,
+          "coordinates": [
+            37.39255,
+            -121.97596
+          ],
+          "stop_id": "61963",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Lakeside",
+          "type": "bus_stop",
+          "distance_miles": 0.944961346647834,
+          "coordinates": [
+            37.380413,
+            -121.980048
+          ],
+          "stop_id": "64691",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Lakeside",
+          "type": "bus_stop",
+          "distance_miles": 0.9450213448332524,
+          "coordinates": [
+            37.38041,
+            -121.98005
+          ],
+          "stop_id": "64691",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 0.9459610971806717,
+          "coordinates": [
+            37.40331,
+            -121.99468
+          ],
+          "stop_id": "62361",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Democracy",
+          "type": "bus_stop",
+          "distance_miles": 0.9511045348332522,
+          "coordinates": [
+            37.40195,
+            -121.98477
+          ],
+          "stop_id": "61937",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Patrick Henry",
+          "type": "bus_stop",
+          "distance_miles": 0.9523149108931539,
+          "coordinates": [
+            37.39663,
+            -121.97769
+          ],
+          "stop_id": "62524",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Birchwood",
+          "type": "bus_stop",
+          "distance_miles": 0.9528937354379583,
+          "coordinates": [
+            37.4035,
+            -121.99291
+          ],
+          "stop_id": "62366",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Reamwood",
+          "type": "bus_stop",
+          "distance_miles": 0.9704172163248659,
+          "coordinates": [
+            37.4034,
+            -121.98875
+          ],
+          "stop_id": "62363",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reamwood Station",
+          "type": "rail_station",
+          "distance_miles": 0.9720668987478525,
+          "coordinates": [
+            37.40357,
+            -121.98966
+          ],
+          "stop_id": "64811",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides & Old Glory",
+          "type": "bus_stop",
+          "distance_miles": 0.98124073392906,
+          "coordinates": [
+            37.39923,
+            -121.97943
+          ],
+          "stop_id": "62528",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides & Old Glory",
+          "type": "bus_stop",
+          "distance_miles": 0.9821189454027778,
+          "coordinates": [
+            37.39943,
+            -121.97964
+          ],
+          "stop_id": "62531",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reamwood Station",
+          "type": "rail_station",
+          "distance_miles": 0.9828708047505622,
+          "coordinates": [
+            37.40355,
+            -121.98856
+          ],
+          "stop_id": "PS_REAM",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Reamwood",
+          "type": "bus_stop",
+          "distance_miles": 0.9859206811539429,
+          "coordinates": [
+            37.40366,
+            -121.98892
+          ],
+          "stop_id": "62365",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Democracy",
+          "type": "bus_stop",
+          "distance_miles": 0.9863743433190888,
+          "coordinates": [
+            37.40251,
+            -121.98474
+          ],
+          "stop_id": "61958",
+          "agency": "VTA"
+        },
+        {
+          "name": "Vienna Station",
+          "type": "rail_station",
+          "distance_miles": 0.9904166178384382,
+          "coordinates": [
+            37.40335,
+            -121.99825
+          ],
+          "stop_id": "64795",
+          "agency": "VTA"
+        },
+        {
+          "name": "Vienna Station",
+          "type": "rail_station",
+          "distance_miles": 0.9907468762006274,
+          "coordinates": [
+            37.403354,
+            -121.998254
+          ],
+          "stop_id": "64795",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Commercial (Cambrios)",
+          "type": "bus_stop",
+          "distance_miles": 0.992660108391755,
+          "coordinates": [
+            37.38082,
+            -122.00693
+          ],
+          "stop_id": "62406",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Bowers",
+          "type": "bus_stop",
+          "distance_miles": 0.9965172156565882,
+          "coordinates": [
+            37.38068,
+            -121.97852
+          ],
+          "stop_id": "61908",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reamwood Station",
+          "type": "rail_station",
+          "distance_miles": 0.9966895627991812,
+          "coordinates": [
+            37.40351,
+            -121.98741
+          ],
+          "stop_id": "64796",
+          "agency": "VTA"
+        },
+        {
+          "name": "Vienna Station",
+          "type": "rail_station",
+          "distance_miles": 1.0173446713143752,
+          "coordinates": [
+            37.40338,
+            -121.99959
+          ],
+          "stop_id": "PS_VIEN",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Scott",
+          "type": "bus_stop",
+          "distance_miles": 1.019415124431271,
+          "coordinates": [
+            37.38114,
+            -121.97756
+          ],
+          "stop_id": "62522",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & De Guigne (Arques Square)",
+          "type": "bus_stop",
+          "distance_miles": 1.0210534942221183,
+          "coordinates": [
+            37.381,
+            -122.00775
+          ],
+          "stop_id": "61918",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Old Glory",
+          "type": "bus_stop",
+          "distance_miles": 1.0321944396401321,
+          "coordinates": [
+            37.39917,
+            -121.97814
+          ],
+          "stop_id": "62534",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lawrence & Tasman",
+          "type": "bus_stop",
+          "distance_miles": 1.0326598749189209,
+          "coordinates": [
+            37.40446,
+            -121.99574
+          ],
+          "stop_id": "64467",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Vienna",
+          "type": "bus_stop",
+          "distance_miles": 1.0335477498288197,
+          "coordinates": [
+            37.40349,
+            -122.00003
+          ],
+          "stop_id": "65697",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & San Juan",
+          "type": "bus_stop",
+          "distance_miles": 1.0424081135957426,
+          "coordinates": [
+            37.38814,
+            -122.0116
+          ],
+          "stop_id": "62342",
+          "agency": "VTA"
+        },
+        {
+          "name": "Vienna Station",
+          "type": "rail_station",
+          "distance_miles": 1.046710009632391,
+          "coordinates": [
+            37.4034,
+            -122.00087
+          ],
+          "stop_id": "64812",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Scott",
+          "type": "bus_stop",
+          "distance_miles": 1.0482007294865008,
+          "coordinates": [
+            37.38006,
+            -121.97794
+          ],
+          "stop_id": "62536",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Patrick Henry",
+          "type": "bus_stop",
+          "distance_miles": 1.0575338398914036,
+          "coordinates": [
+            37.4037,
+            -121.98488
+          ],
+          "stop_id": "62364",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & San Juan",
+          "type": "bus_stop",
+          "distance_miles": 1.058803695907097,
+          "coordinates": [
+            37.3883,
+            -122.01192
+          ],
+          "stop_id": "62377",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry Pocket Track (NOT A PUBLIC STOP)",
+          "type": "bus_stop",
+          "distance_miles": 1.0589609272630247,
+          "coordinates": [
+            37.40349,
+            -121.98425
+          ],
+          "stop_id": "65866",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Patrick Henry",
+          "type": "bus_stop",
+          "distance_miles": 1.0601698554043206,
+          "coordinates": [
+            37.40328,
+            -121.98368
+          ],
+          "stop_id": "61938",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Bowers",
+          "type": "bus_stop",
+          "distance_miles": 1.064385754712093,
+          "coordinates": [
+            37.38046,
+            -121.97717
+          ],
+          "stop_id": "62414",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & Copper",
+          "type": "bus_stop",
+          "distance_miles": 1.0820058900158083,
+          "coordinates": [
+            37.37405,
+            -121.99372
+          ],
+          "stop_id": "64553",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mission College & Freedom",
+          "type": "bus_stop",
+          "distance_miles": 1.0890202948345578,
+          "coordinates": [
+            37.39104,
+            -121.97292
+          ],
+          "stop_id": "61964",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Tasman",
+          "type": "bus_stop",
+          "distance_miles": 1.0904953503528312,
+          "coordinates": [
+            37.40397,
+            -121.98418
+          ],
+          "stop_id": "62530",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & Copper",
+          "type": "bus_stop",
+          "distance_miles": 1.092518930027155,
+          "coordinates": [
+            37.37391,
+            -121.99141
+          ],
+          "stop_id": "61904",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mission College & Freedom",
+          "type": "bus_stop",
+          "distance_miles": 1.103101251116232,
+          "coordinates": [
+            37.39111,
+            -121.97267
+          ],
+          "stop_id": "61932",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides & Tasman",
+          "type": "bus_stop",
+          "distance_miles": 1.1249173051568062,
+          "coordinates": [
+            37.40261,
+            -121.98019
+          ],
+          "stop_id": "62623",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Old Glory",
+          "type": "bus_stop",
+          "distance_miles": 1.1307607865394411,
+          "coordinates": [
+            37.40078,
+            -121.97752
+          ],
+          "stop_id": "62525",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & San Ysidro",
+          "type": "bus_stop",
+          "distance_miles": 1.1329277009791419,
+          "coordinates": [
+            37.37381,
+            -121.99785
+          ],
+          "stop_id": "65473",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & San Ysidro",
+          "type": "bus_stop",
+          "distance_miles": 1.1330082484029886,
+          "coordinates": [
+            37.373809,
+            -121.997851
+          ],
+          "stop_id": "65473",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & Semiconductor",
+          "type": "bus_stop",
+          "distance_miles": 1.1488616540707395,
+          "coordinates": [
+            37.37399,
+            -121.9996
+          ],
+          "stop_id": "65060",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides & Tasman",
+          "type": "bus_stop",
+          "distance_miles": 1.149332614012799,
+          "coordinates": [
+            37.40297,
+            -121.98005
+          ],
+          "stop_id": "64647",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Central",
+          "type": "bus_stop",
+          "distance_miles": 1.1494784779129947,
+          "coordinates": [
+            37.3782,
+            -121.97755
+          ],
+          "stop_id": "61907",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Central",
+          "type": "bus_stop",
+          "distance_miles": 1.1495899636778204,
+          "coordinates": [
+            37.378196,
+            -121.977552
+          ],
+          "stop_id": "61907",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Bunker Hill",
+          "type": "bus_stop",
+          "distance_miles": 1.1520239985875371,
+          "coordinates": [
+            37.40502,
+            -121.98438
+          ],
+          "stop_id": "65252",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides Station",
+          "type": "rail_station",
+          "distance_miles": 1.1525920888014993,
+          "coordinates": [
+            37.40348,
+            -121.98084
+          ],
+          "stop_id": "62526",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Central",
+          "type": "bus_stop",
+          "distance_miles": 1.1579346673643967,
+          "coordinates": [
+            37.37772,
+            -121.97793
+          ],
+          "stop_id": "62537",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Tasman",
+          "type": "bus_stop",
+          "distance_miles": 1.1642373841378024,
+          "coordinates": [
+            37.40184,
+            -121.97797
+          ],
+          "stop_id": "62533",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & Calabazas",
+          "type": "bus_stop",
+          "distance_miles": 1.1661038951307074,
+          "coordinates": [
+            37.37398,
+            -121.98493
+          ],
+          "stop_id": "61905",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & Oakmead Village",
+          "type": "bus_stop",
+          "distance_miles": 1.1673310617347152,
+          "coordinates": [
+            37.37417,
+            -121.98429
+          ],
+          "stop_id": "61972",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides Station",
+          "type": "rail_station",
+          "distance_miles": 1.1754579287555111,
+          "coordinates": [
+            37.40333,
+            -121.97986
+          ],
+          "stop_id": "PS_OLDI",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides Station",
+          "type": "rail_station",
+          "distance_miles": 1.177363248860696,
+          "coordinates": [
+            37.40314,
+            -121.97949
+          ],
+          "stop_id": "62532",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Caliente",
+          "type": "bus_stop",
+          "distance_miles": 1.1786210652764353,
+          "coordinates": [
+            37.39154,
+            -122.01406
+          ],
+          "stop_id": "61035",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & San Conrado",
+          "type": "bus_stop",
+          "distance_miles": 1.1907139576519534,
+          "coordinates": [
+            37.391653,
+            -122.01426600099995
+          ],
+          "stop_id": "60857",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & San Conrado",
+          "type": "bus_stop",
+          "distance_miles": 1.190908509229718,
+          "coordinates": [
+            37.39165,
+            -122.01427
+          ],
+          "stop_id": "60857",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides & Tasman",
+          "type": "bus_stop",
+          "distance_miles": 1.2019602812380477,
+          "coordinates": [
+            37.40402,
+            -121.98024
+          ],
+          "stop_id": "61957",
+          "agency": "VTA"
+        },
+        {
+          "name": "Duane & Fair Oaks",
+          "type": "bus_stop",
+          "distance_miles": 1.2059025660168785,
+          "coordinates": [
+            37.38862,
+            -122.01464
+          ],
+          "stop_id": "62341",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides Station",
+          "type": "rail_station",
+          "distance_miles": 1.2071665478735762,
+          "coordinates": [
+            37.4033,
+            -121.97887
+          ],
+          "stop_id": "64797",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Ironsides Station",
+          "type": "rail_station",
+          "distance_miles": 1.2079169511907009,
+          "coordinates": [
+            37.40402,
+            -121.98005
+          ],
+          "stop_id": "61939",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & Texas Instruments",
+          "type": "bus_stop",
+          "distance_miles": 1.2084593316003467,
+          "coordinates": [
+            37.37399,
+            -122.00241
+          ],
+          "stop_id": "64555",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & Intuitive",
+          "type": "bus_stop",
+          "distance_miles": 1.2087538922975458,
+          "coordinates": [
+            37.3738,
+            -122.00192
+          ],
+          "stop_id": "61922",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Weddell",
+          "type": "bus_stop",
+          "distance_miles": 1.2121742874975596,
+          "coordinates": [
+            37.39881,
+            -122.01159
+          ],
+          "stop_id": "61036",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Duane",
+          "type": "bus_stop",
+          "distance_miles": 1.2144844766477838,
+          "coordinates": [
+            37.38921,
+            -122.01483
+          ],
+          "stop_id": "61034",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Coronado",
+          "type": "bus_stop",
+          "distance_miles": 1.2204234083816514,
+          "coordinates": [
+            37.37998,
+            -121.97412
+          ],
+          "stop_id": "62415",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Bunker Hill",
+          "type": "bus_stop",
+          "distance_miles": 1.2249914567931377,
+          "coordinates": [
+            37.4061,
+            -121.98418
+          ],
+          "stop_id": "61940",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Weddell",
+          "type": "bus_stop",
+          "distance_miles": 1.2309041539991552,
+          "coordinates": [
+            37.39907,
+            -122.01179
+          ],
+          "stop_id": "60856",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Arques",
+          "type": "bus_stop",
+          "distance_miles": 1.2373030303542978,
+          "coordinates": [
+            37.38035,
+            -122.01194
+          ],
+          "stop_id": "65638",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Arques",
+          "type": "bus_stop",
+          "distance_miles": 1.2471181688939583,
+          "coordinates": [
+            37.38047,
+            -122.01224
+          ],
+          "stop_id": "61919",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks Station",
+          "type": "rail_station",
+          "distance_miles": 1.2471442789325973,
+          "coordinates": [
+            37.40258,
+            -122.00864
+          ],
+          "stop_id": "PS_FAIR",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mission College & Agnew",
+          "type": "bus_stop",
+          "distance_miles": 1.2506405193718875,
+          "coordinates": [
+            37.38923,
+            -121.96991
+          ],
+          "stop_id": "65932",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Cypress",
+          "type": "bus_stop",
+          "distance_miles": 1.2570190479116168,
+          "coordinates": [
+            37.387849,
+            -122.015495
+          ],
+          "stop_id": "60858",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Bunker Hill",
+          "type": "bus_stop",
+          "distance_miles": 1.2572492354336684,
+          "coordinates": [
+            37.40671,
+            -121.98452
+          ],
+          "stop_id": "61956",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Cypress",
+          "type": "bus_stop",
+          "distance_miles": 1.2572848957878449,
+          "coordinates": [
+            37.38785,
+            -122.0155
+          ],
+          "stop_id": "60858",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Wolfe",
+          "type": "bus_stop",
+          "distance_miles": 1.2622579521678192,
+          "coordinates": [
+            37.38108,
+            -122.01299
+          ],
+          "stop_id": "62491",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Wolfe",
+          "type": "bus_stop",
+          "distance_miles": 1.2712359807666833,
+          "coordinates": [
+            37.38088,
+            -122.01304
+          ],
+          "stop_id": "62405",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Mission College",
+          "type": "bus_stop",
+          "distance_miles": 1.2803946665406203,
+          "coordinates": [
+            37.38964,
+            -121.96936
+          ],
+          "stop_id": "65931",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Old Mountain View-Alviso",
+          "type": "bus_stop",
+          "distance_miles": 1.2808164967945412,
+          "coordinates": [
+            37.40706,
+            -121.98447
+          ],
+          "stop_id": "65782",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks Station",
+          "type": "rail_station",
+          "distance_miles": 1.2922461464466768,
+          "coordinates": [
+            37.40278,
+            -122.00955
+          ],
+          "stop_id": "64813",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mission College & Freedom",
+          "type": "bus_stop",
+          "distance_miles": 1.2996425991767435,
+          "coordinates": [
+            37.38891,
+            -121.96903
+          ],
+          "stop_id": "61965",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Bunker Hill",
+          "type": "bus_stop",
+          "distance_miles": 1.3180070766024747,
+          "coordinates": [
+            37.4077,
+            -121.9847
+          ],
+          "stop_id": "61941",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Tasman",
+          "type": "bus_stop",
+          "distance_miles": 1.3243042363272355,
+          "coordinates": [
+            37.4025,
+            -122.01068
+          ],
+          "stop_id": "60855",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Convention Center",
+          "type": "bus_stop",
+          "distance_miles": 1.3287692601061278,
+          "coordinates": [
+            37.40358,
+            -121.97592
+          ],
+          "stop_id": "62694",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Old Mountain View-Alviso",
+          "type": "bus_stop",
+          "distance_miles": 1.3308541923277373,
+          "coordinates": [
+            37.40796,
+            -121.98493
+          ],
+          "stop_id": "61955",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 1.3319437611657632,
+          "coordinates": [
+            37.3707,
+            -121.9969
+          ],
+          "stop_id": "lawrence",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lawrence Caltrain Station Northbound",
+          "type": "rail_station",
+          "distance_miles": 1.3407759497037743,
+          "coordinates": [
+            37.3706,
+            -121.99711
+          ],
+          "stop_id": "70231",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Tasman",
+          "type": "bus_stop",
+          "distance_miles": 1.3434000319651704,
+          "coordinates": [
+            37.40348,
+            -122.00999
+          ],
+          "stop_id": "61037",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lawrence Caltrain Station Southbound",
+          "type": "rail_station",
+          "distance_miles": 1.3492224184571455,
+          "coordinates": [
+            37.37048,
+            -121.99714
+          ],
+          "stop_id": "70232",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America Station",
+          "type": "rail_station",
+          "distance_miles": 1.3624190675349224,
+          "coordinates": [
+            37.40347,
+            -121.97491
+          ],
+          "stop_id": "PS_GRAM",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Walsh",
+          "type": "bus_stop",
+          "distance_miles": 1.3775337982870284,
+          "coordinates": [
+            37.37376,
+            -121.9776
+          ],
+          "stop_id": "62521",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Maude",
+          "type": "bus_stop",
+          "distance_miles": 1.383706385603364,
+          "coordinates": [
+            37.38497,
+            -122.01721
+          ],
+          "stop_id": "61033",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Kifer",
+          "type": "bus_stop",
+          "distance_miles": 1.3869140222751393,
+          "coordinates": [
+            37.37345,
+            -121.97784
+          ],
+          "stop_id": "62538",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Fair Oaks",
+          "type": "bus_stop",
+          "distance_miles": 1.3921953187127352,
+          "coordinates": [
+            37.38546,
+            -122.01751
+          ],
+          "stop_id": "62378",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Bunker Hill",
+          "type": "bus_stop",
+          "distance_miles": 1.3944222725564936,
+          "coordinates": [
+            37.40616,
+            -121.97797
+          ],
+          "stop_id": "65928",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & Commercial",
+          "type": "bus_stop",
+          "distance_miles": 1.3948661467198402,
+          "coordinates": [
+            37.37413,
+            -122.0089
+          ],
+          "stop_id": "61921",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Maude",
+          "type": "bus_stop",
+          "distance_miles": 1.3993662589636902,
+          "coordinates": [
+            37.38486,
+            -122.01747
+          ],
+          "stop_id": "60859",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America Station",
+          "type": "rail_station",
+          "distance_miles": 1.3999603616977232,
+          "coordinates": [
+            37.40355,
+            -121.97406
+          ],
+          "stop_id": "64798",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Bunker Hill",
+          "type": "bus_stop",
+          "distance_miles": 1.4013545711129891,
+          "coordinates": [
+            37.40606,
+            -121.97758
+          ],
+          "stop_id": "65927",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Octavius",
+          "type": "bus_stop",
+          "distance_miles": 1.4066751213598707,
+          "coordinates": [
+            37.37937,
+            -121.9706
+          ],
+          "stop_id": "62416",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & Commercial",
+          "type": "bus_stop",
+          "distance_miles": 1.4130080054792906,
+          "coordinates": [
+            37.37459,
+            -122.01007
+          ],
+          "stop_id": "64556",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Fair Oaks",
+          "type": "bus_stop",
+          "distance_miles": 1.4161970489683058,
+          "coordinates": [
+            37.38547,
+            -122.01796
+          ],
+          "stop_id": "62340",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Central",
+          "type": "bus_stop",
+          "distance_miles": 1.4358706817336537,
+          "coordinates": [
+            37.37713,
+            -122.01355
+          ],
+          "stop_id": "65784",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Central",
+          "type": "bus_stop",
+          "distance_miles": 1.4360852804789948,
+          "coordinates": [
+            37.377128,
+            -122.013553
+          ],
+          "stop_id": "65784",
+          "agency": "VTA"
+        },
+        {
+          "name": "Patrick Henry & Old Mountain View-Alviso",
+          "type": "bus_stop",
+          "distance_miles": 1.4707448302862653,
+          "coordinates": [
+            37.41008,
+            -121.9849
+          ],
+          "stop_id": "61954",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mission College & Juliette",
+          "type": "bus_stop",
+          "distance_miles": 1.4817227379899383,
+          "coordinates": [
+            37.38869,
+            -121.96572
+          ],
+          "stop_id": "61966",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & San Lazaro",
+          "type": "bus_stop",
+          "distance_miles": 1.4838179014675938,
+          "coordinates": [
+            37.37485,
+            -122.01225
+          ],
+          "stop_id": "61920",
+          "agency": "VTA"
+        },
+        {
+          "name": "Walsh & Bowers",
+          "type": "bus_stop",
+          "distance_miles": 1.4930401272807823,
+          "coordinates": [
+            37.37344,
+            -121.97476
+          ],
+          "stop_id": "66022",
+          "agency": "VTA"
+        },
+        {
+          "name": "Arques & Fair Oaks",
+          "type": "bus_stop",
+          "distance_miles": 1.4962313013846982,
+          "coordinates": [
+            37.38149,
+            -122.01794
+          ],
+          "stop_id": "62404",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Arques",
+          "type": "bus_stop",
+          "distance_miles": 1.4978188714628555,
+          "coordinates": [
+            37.38197,
+            -122.01821
+          ],
+          "stop_id": "61032",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mission College & Burton",
+          "type": "bus_stop",
+          "distance_miles": 1.5006505984134466,
+          "coordinates": [
+            37.38898,
+            -121.96536
+          ],
+          "stop_id": "61930",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Kifer",
+          "type": "bus_stop",
+          "distance_miles": 1.5028416881879088,
+          "coordinates": [
+            37.37563,
+            -122.0136
+          ],
+          "stop_id": "64557",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Mountain View-Alviso & Patrick Henry",
+          "type": "bus_stop",
+          "distance_miles": 1.5159573756453548,
+          "coordinates": [
+            37.41063,
+            -121.98435
+          ],
+          "stop_id": "61942",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Lakeshore",
+          "type": "bus_stop",
+          "distance_miles": 1.5497947410372905,
+          "coordinates": [
+            37.39224,
+            -121.96463
+          ],
+          "stop_id": "65934",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Arques",
+          "type": "bus_stop",
+          "distance_miles": 1.5529000898081462,
+          "coordinates": [
+            37.38092,
+            -122.01876
+          ],
+          "stop_id": "60860",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Lakeshore",
+          "type": "bus_stop",
+          "distance_miles": 1.5529289181102086,
+          "coordinates": [
+            37.39249,
+            -121.96461
+          ],
+          "stop_id": "65933",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Mountain View-Alviso & Betsy Ross",
+          "type": "bus_stop",
+          "distance_miles": 1.5543680801002169,
+          "coordinates": [
+            37.41074,
+            -121.98262
+          ],
+          "stop_id": "61953",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Morse",
+          "type": "bus_stop",
+          "distance_miles": 1.5571621497552726,
+          "coordinates": [
+            37.38657,
+            -122.02081
+          ],
+          "stop_id": "62379",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Mountain View-Alviso & Betsy Ross",
+          "type": "bus_stop",
+          "distance_miles": 1.5613604318553016,
+          "coordinates": [
+            37.41051,
+            -121.98156
+          ],
+          "stop_id": "61943",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 1.5648883967951661,
+          "coordinates": [
+            37.36704,
+            -121.99328
+          ],
+          "stop_id": "61331",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Monticello",
+          "type": "bus_stop",
+          "distance_miles": 1.5730780122886887,
+          "coordinates": [
+            37.36697,
+            -121.99074
+          ],
+          "stop_id": "61330",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Monticello",
+          "type": "bus_stop",
+          "distance_miles": 1.584719741754741,
+          "coordinates": [
+            37.36681,
+            -121.99058
+          ],
+          "stop_id": "61302",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & California",
+          "type": "bus_stop",
+          "distance_miles": 1.5870055016900149,
+          "coordinates": [
+            37.37994,
+            -122.01889
+          ],
+          "stop_id": "61031",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Pacific",
+          "type": "bus_stop",
+          "distance_miles": 1.587007663082054,
+          "coordinates": [
+            37.36676,
+            -121.99451
+          ],
+          "stop_id": "61301",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Marchese",
+          "type": "bus_stop",
+          "distance_miles": 1.5952272382240626,
+          "coordinates": [
+            37.36701,
+            -121.98722
+          ],
+          "stop_id": "61329",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & California",
+          "type": "bus_stop",
+          "distance_miles": 1.5966549881031018,
+          "coordinates": [
+            37.37995,
+            -122.01909
+          ],
+          "stop_id": "60861",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & California",
+          "type": "bus_stop",
+          "distance_miles": 1.596912215985581,
+          "coordinates": [
+            37.379948,
+            -122.019094
+          ],
+          "stop_id": "60861",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Morse",
+          "type": "bus_stop",
+          "distance_miles": 1.598176763600667,
+          "coordinates": [
+            37.38666,
+            -122.02158
+          ],
+          "stop_id": "62339",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Marchese",
+          "type": "bus_stop",
+          "distance_miles": 1.6007394218842073,
+          "coordinates": [
+            37.36684,
+            -121.98784
+          ],
+          "stop_id": "61303",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reed & Willow",
+          "type": "bus_stop",
+          "distance_miles": 1.6036772246446405,
+          "coordinates": [
+            37.36695,
+            -121.99859
+          ],
+          "stop_id": "61332",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Mountain View-Alviso & Great America",
+          "type": "bus_stop",
+          "distance_miles": 1.6046365288593931,
+          "coordinates": [
+            37.41042,
+            -121.97945
+          ],
+          "stop_id": "65751",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reed & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 1.6072877428099819,
+          "coordinates": [
+            37.3667,
+            -121.99722
+          ],
+          "stop_id": "61300",
+          "agency": "VTA"
+        },
+        {
+          "name": "Caribbean & Moffett Park",
+          "type": "bus_stop",
+          "distance_miles": 1.611425980072996,
+          "coordinates": [
+            37.41215,
+            -122.00073
+          ],
+          "stop_id": "64488",
+          "agency": "VTA"
+        },
+        {
+          "name": "Caribbean & Moffett Park",
+          "type": "bus_stop",
+          "distance_miles": 1.6115952503142281,
+          "coordinates": [
+            37.412153,
+            -122.000728
+          ],
+          "stop_id": "64488",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Old Mountain View-Alviso",
+          "type": "bus_stop",
+          "distance_miles": 1.6185384071043025,
+          "coordinates": [
+            37.40998,
+            -121.9779
+          ],
+          "stop_id": "64666",
+          "agency": "VTA"
+        },
+        {
+          "name": "Caribbean & Moffett Park",
+          "type": "bus_stop",
+          "distance_miles": 1.624902819922898,
+          "coordinates": [
+            37.41241,
+            -122.00047
+          ],
+          "stop_id": "64468",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Mountain View-Alviso & Great America",
+          "type": "bus_stop",
+          "distance_miles": 1.6454064897339011,
+          "coordinates": [
+            37.41054,
+            -121.97815
+          ],
+          "stop_id": "65640",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old Mountain View-Alviso & Great America",
+          "type": "bus_stop",
+          "distance_miles": 1.645534364394761,
+          "coordinates": [
+            37.41054299900003,
+            -121.978152
+          ],
+          "stop_id": "65640",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mission College & Burton",
+          "type": "bus_stop",
+          "distance_miles": 1.6560625021449373,
+          "coordinates": [
+            37.38835,
+            -121.96256
+          ],
+          "stop_id": "61929",
+          "agency": "VTA"
+        },
+        {
+          "name": "Crossman Station",
+          "type": "rail_station",
+          "distance_miles": 1.6655064527884298,
+          "coordinates": [
+            37.40884,
+            -122.01118
+          ],
+          "stop_id": "PS_CRSS",
+          "agency": "VTA"
+        },
+        {
+          "name": "Crossman & Java",
+          "type": "bus_stop",
+          "distance_miles": 1.674817609832584,
+          "coordinates": [
+            37.40934,
+            -122.01062
+          ],
+          "stop_id": "64486",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Old Mountain View-Alviso",
+          "type": "bus_stop",
+          "distance_miles": 1.6842152341708858,
+          "coordinates": [
+            37.41089,
+            -121.97749
+          ],
+          "stop_id": "61944",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reed & Evelyn",
+          "type": "bus_stop",
+          "distance_miles": 1.6860878171355933,
+          "coordinates": [
+            37.36662,
+            -122.00274
+          ],
+          "stop_id": "61299",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mission College & Wyatt",
+          "type": "bus_stop",
+          "distance_miles": 1.6949517583278624,
+          "coordinates": [
+            37.38835,
+            -121.96185
+          ],
+          "stop_id": "61967",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Fillmore",
+          "type": "bus_stop",
+          "distance_miles": 1.6972243780895957,
+          "coordinates": [
+            37.39333,
+            -121.9621
+          ],
+          "stop_id": "65936",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reed & Evelyn",
+          "type": "bus_stop",
+          "distance_miles": 1.7013808840512488,
+          "coordinates": [
+            37.366852,
+            -122.004314
+          ],
+          "stop_id": "61333",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reed & Evelyn",
+          "type": "bus_stop",
+          "distance_miles": 1.701426749291783,
+          "coordinates": [
+            37.36685,
+            -122.00431
+          ],
+          "stop_id": "61333",
+          "agency": "VTA"
+        },
+        {
+          "name": "Walsh & Northwestern",
+          "type": "bus_stop",
+          "distance_miles": 1.702359513595115,
+          "coordinates": [
+            37.37089,
+            -121.97264
+          ],
+          "stop_id": "61970",
+          "agency": "VTA"
+        },
+        {
+          "name": "Java & Crossman",
+          "type": "bus_stop",
+          "distance_miles": 1.707599612516488,
+          "coordinates": [
+            37.409246,
+            -122.01177399899996
+          ],
+          "stop_id": "60854",
+          "agency": "VTA"
+        },
+        {
+          "name": "Java & Crossman",
+          "type": "bus_stop",
+          "distance_miles": 1.7076835098552883,
+          "coordinates": [
+            37.40925,
+            -122.01177
+          ],
+          "stop_id": "60854",
+          "agency": "VTA"
+        },
+        {
+          "name": "Java & Crossman",
+          "type": "bus_stop",
+          "distance_miles": 1.7146037966845316,
+          "coordinates": [
+            37.40951,
+            -122.01155
+          ],
+          "stop_id": "61039",
+          "agency": "VTA"
+        },
+        {
+          "name": "Java & Crossman",
+          "type": "bus_stop",
+          "distance_miles": 1.7146368182430152,
+          "coordinates": [
+            37.40950999900008,
+            -122.011551
+          ],
+          "stop_id": "61039",
+          "agency": "VTA"
+        },
+        {
+          "name": "Crossman Station",
+          "type": "rail_station",
+          "distance_miles": 1.7173819203013743,
+          "coordinates": [
+            37.40947,
+            -122.0117
+          ],
+          "stop_id": "64814",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Sunnyvale",
+          "type": "bus_stop",
+          "distance_miles": 1.7179028341761322,
+          "coordinates": [
+            37.38757,
+            -122.0239
+          ],
+          "stop_id": "62380",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kifer & Hendy",
+          "type": "bus_stop",
+          "distance_miles": 1.722652613402418,
+          "coordinates": [
+            37.37638,
+            -122.01925
+          ],
+          "stop_id": "65726",
+          "agency": "VTA"
+        },
+        {
+          "name": "Crossman & Java",
+          "type": "bus_stop",
+          "distance_miles": 1.7305729867668294,
+          "coordinates": [
+            37.4104,
+            -122.01049
+          ],
+          "stop_id": "64470",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Sunnyvale",
+          "type": "bus_stop",
+          "distance_miles": 1.7372701916163096,
+          "coordinates": [
+            37.38753,
+            -122.02425
+          ],
+          "stop_id": "62338",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Sunnyvale",
+          "type": "bus_stop",
+          "distance_miles": 1.7374162704277423,
+          "coordinates": [
+            37.387533,
+            -122.024253
+          ],
+          "stop_id": "62338",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Cheeny",
+          "type": "bus_stop",
+          "distance_miles": 1.7438017212214214,
+          "coordinates": [
+            37.39388,
+            -121.96135
+          ],
+          "stop_id": "65935",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & San Tomas",
+          "type": "bus_stop",
+          "distance_miles": 1.7558312261278606,
+          "coordinates": [
+            37.37793,
+            -121.96433
+          ],
+          "stop_id": "62418",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & San Tomas",
+          "type": "bus_stop",
+          "distance_miles": 1.7645541612764726,
+          "coordinates": [
+            37.37807,
+            -121.96406
+          ],
+          "stop_id": "62485",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Chromite",
+          "type": "bus_stop",
+          "distance_miles": 1.7754612094286495,
+          "coordinates": [
+            37.36757,
+            -121.97622
+          ],
+          "stop_id": "62520",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Wolfe",
+          "type": "bus_stop",
+          "distance_miles": 1.7886760764179628,
+          "coordinates": [
+            37.3709,
+            -122.01513
+          ],
+          "stop_id": "61336",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reed & Sequoia",
+          "type": "bus_stop",
+          "distance_miles": 1.79864869570318,
+          "coordinates": [
+            37.36664,
+            -122.00795
+          ],
+          "stop_id": "61298",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reed & Sequoia",
+          "type": "bus_stop",
+          "distance_miles": 1.798918709494343,
+          "coordinates": [
+            37.366636,
+            -122.007951
+          ],
+          "stop_id": "61298",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America Pkwy & Great America Way",
+          "type": "bus_stop",
+          "distance_miles": 1.8041357664210529,
+          "coordinates": [
+            37.41286,
+            -121.97747
+          ],
+          "stop_id": "65781",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reed & Sequoia",
+          "type": "bus_stop",
+          "distance_miles": 1.8058324514491733,
+          "coordinates": [
+            37.3668,
+            -122.0086
+          ],
+          "stop_id": "61334",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Chromite",
+          "type": "bus_stop",
+          "distance_miles": 1.8101428853255668,
+          "coordinates": [
+            37.36692,
+            -121.97637
+          ],
+          "stop_id": "62539",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Wolfe",
+          "type": "bus_stop",
+          "distance_miles": 1.8138871581002958,
+          "coordinates": [
+            37.37107,
+            -122.01601
+          ],
+          "stop_id": "61296",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Holly Terrace",
+          "type": "bus_stop",
+          "distance_miles": 1.8140503331742779,
+          "coordinates": [
+            37.3727,
+            -122.01791
+          ],
+          "stop_id": "65725",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Holly Terrace",
+          "type": "bus_stop",
+          "distance_miles": 1.8198696030003383,
+          "coordinates": [
+            37.37245,
+            -122.01778
+          ],
+          "stop_id": "65724",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale & Hazelton",
+          "type": "bus_stop",
+          "distance_miles": 1.8219365386110355,
+          "coordinates": [
+            37.38604,
+            -122.02559
+          ],
+          "stop_id": "62337",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America ACE Amtrak Station",
+          "type": "rail_station",
+          "distance_miles": 1.826760234272934,
+          "coordinates": [
+            37.40643,
+            -121.9669
+          ],
+          "stop_id": "64692",
+          "agency": "VTA"
+        },
+        {
+          "name": "Station Entrance",
+          "type": "rail_station",
+          "distance_miles": 1.828885730661912,
+          "coordinates": [
+            37.40643,
+            -121.96685
+          ],
+          "stop_id": "mtc:1591227410942",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale & Hazelton",
+          "type": "bus_stop",
+          "distance_miles": 1.8370971994268483,
+          "coordinates": [
+            37.38577,
+            -122.02582
+          ],
+          "stop_id": "62381",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America & Great America Way",
+          "type": "bus_stop",
+          "distance_miles": 1.837870424946271,
+          "coordinates": [
+            37.41353,
+            -121.97777
+          ],
+          "stop_id": "61951",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America Parkway Station",
+          "type": "rail_station",
+          "distance_miles": 1.8380397173473277,
+          "coordinates": [
+            37.40683,
+            -121.96705
+          ],
+          "stop_id": "73422",
+          "agency": "VTA"
+        },
+        {
+          "name": "",
+          "type": "bus_stop",
+          "distance_miles": 1.838612325719766,
+          "coordinates": [
+            37.40689,
+            -121.9671
+          ],
+          "stop_id": "mtc:1591227660386",
+          "agency": "VTA"
+        },
+        {
+          "name": "Java & Geneva",
+          "type": "bus_stop",
+          "distance_miles": 1.8387072921290462,
+          "coordinates": [
+            37.41054,
+            -122.01357
+          ],
+          "stop_id": "60853",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America",
+          "type": "bus_stop",
+          "distance_miles": 1.839719737098479,
+          "coordinates": [
+            37.40683,
+            -121.96701
+          ],
+          "stop_id": "mtc:great-america",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lafayette North Entrance",
+          "type": "bus_stop",
+          "distance_miles": 1.8516072071144165,
+          "coordinates": [
+            37.40757,
+            -121.96753
+          ],
+          "stop_id": "mtc:1591227161216",
+          "agency": "VTA"
+        },
+        {
+          "name": "Crossman & Baltic",
+          "type": "bus_stop",
+          "distance_miles": 1.867919116828994,
+          "coordinates": [
+            37.41321,
+            -122.00955
+          ],
+          "stop_id": "64469",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Jay",
+          "type": "bus_stop",
+          "distance_miles": 1.8799240646785769,
+          "coordinates": [
+            37.37751,
+            -121.96206
+          ],
+          "stop_id": "62484",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Fair Oaks",
+          "type": "bus_stop",
+          "distance_miles": 1.8965787797639673,
+          "coordinates": [
+            37.37332,
+            -122.02045
+          ],
+          "stop_id": "61337",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Fair Oaks",
+          "type": "bus_stop",
+          "distance_miles": 1.8968784913399137,
+          "coordinates": [
+            37.373317,
+            -122.020454
+          ],
+          "stop_id": "61337",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Fair Oaks",
+          "type": "bus_stop",
+          "distance_miles": 1.9049444117572,
+          "coordinates": [
+            37.37316,
+            -122.02049
+          ],
+          "stop_id": "61295",
+          "agency": "VTA"
+        },
+        {
+          "name": "Crossman & Baltic",
+          "type": "bus_stop",
+          "distance_miles": 1.910539133401263,
+          "coordinates": [
+            37.41415,
+            -122.00901
+          ],
+          "stop_id": "64487",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale & Central",
+          "type": "bus_stop",
+          "distance_miles": 1.922122458027308,
+          "coordinates": [
+            37.38279,
+            -122.02664
+          ],
+          "stop_id": "62336",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale & Central",
+          "type": "bus_stop",
+          "distance_miles": 1.9311582772645997,
+          "coordinates": [
+            37.38279,
+            -122.02681
+          ],
+          "stop_id": "62382",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Jay",
+          "type": "bus_stop",
+          "distance_miles": 1.932274541902351,
+          "coordinates": [
+            37.377052,
+            -121.96128200099997
+          ],
+          "stop_id": "62419",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Jay",
+          "type": "bus_stop",
+          "distance_miles": 1.9324349022110425,
+          "coordinates": [
+            37.37705,
+            -121.96128
+          ],
+          "stop_id": "62419",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Brown",
+          "type": "bus_stop",
+          "distance_miles": 1.9432239912906055,
+          "coordinates": [
+            37.36337,
+            -121.98019
+          ],
+          "stop_id": "61328",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reed & Wolfe",
+          "type": "bus_stop",
+          "distance_miles": 1.9466204363597202,
+          "coordinates": [
+            37.36674,
+            -122.01329
+          ],
+          "stop_id": "61335",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Evelyn",
+          "type": "bus_stop",
+          "distance_miles": 1.9472896548844811,
+          "coordinates": [
+            37.37288,
+            -122.02119
+          ],
+          "stop_id": "61029",
+          "agency": "VTA"
+        },
+        {
+          "name": "Reed & Wolfe",
+          "type": "bus_stop",
+          "distance_miles": 1.9490594942745638,
+          "coordinates": [
+            37.36659,
+            -122.0131
+          ],
+          "stop_id": "61297",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Brown",
+          "type": "bus_stop",
+          "distance_miles": 1.9610372561956622,
+          "coordinates": [
+            37.3632,
+            -121.97984
+          ],
+          "stop_id": "61304",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America Way & Santa Clara Gateway",
+          "type": "bus_stop",
+          "distance_miles": 1.9658959431660574,
+          "coordinates": [
+            37.41483,
+            -121.97585
+          ],
+          "stop_id": "65930",
+          "agency": "VTA"
+        },
+        {
+          "name": "Great America Way & Santa Clara Gateway",
+          "type": "bus_stop",
+          "distance_miles": 1.9659052522174962,
+          "coordinates": [
+            37.41483099900006,
+            -121.975852
+          ],
+          "stop_id": "65930",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Deodar",
+          "type": "bus_stop",
+          "distance_miles": 1.9682172819329842,
+          "coordinates": [
+            37.37396,
+            -122.02261
+          ],
+          "stop_id": "60862",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Bryan",
+          "type": "bus_stop",
+          "distance_miles": 1.9779630269935784,
+          "coordinates": [
+            37.37251,
+            -122.02154
+          ],
+          "stop_id": "60866",
+          "agency": "VTA"
+        },
+        {
+          "name": "Walsh & San Tomas",
+          "type": "bus_stop",
+          "distance_miles": 1.984140306310544,
+          "coordinates": [
+            37.369602,
+            -121.966852
+          ],
+          "stop_id": "65390",
+          "agency": "VTA"
+        },
+        {
+          "name": "Walsh & San Tomas",
+          "type": "bus_stop",
+          "distance_miles": 1.9843153278203916,
+          "coordinates": [
+            37.3696,
+            -121.96685
+          ],
+          "stop_id": "65390",
+          "agency": "VTA"
+        },
+        {
+          "name": "Borregas Station",
+          "type": "rail_station",
+          "distance_miles": 1.9908055048382196,
+          "coordinates": [
+            37.41133,
+            -122.0167
+          ],
+          "stop_id": "64792",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old San Francisco & Wolfe",
+          "type": "bus_stop",
+          "distance_miles": 1.9925638733259061,
+          "coordinates": [
+            37.366653,
+            -122.014557
+          ],
+          "stop_id": "61025",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Avina",
+          "type": "bus_stop",
+          "distance_miles": 1.9928028277286058,
+          "coordinates": [
+            37.39537,
+            -121.95708
+          ],
+          "stop_id": "62630",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old San Francisco & Wolfe",
+          "type": "bus_stop",
+          "distance_miles": 1.9928283724029932,
+          "coordinates": [
+            37.36665,
+            -122.01456
+          ],
+          "stop_id": "61025",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Avina",
+          "type": "bus_stop",
+          "distance_miles": 1.9958979889660973,
+          "coordinates": [
+            37.39567,
+            -121.9571
+          ],
+          "stop_id": "62686",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Space Park",
+          "type": "bus_stop",
+          "distance_miles": 2.008203394437078,
+          "coordinates": [
+            37.37654800100006,
+            -121.960052
+          ],
+          "stop_id": "62483",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Space Park",
+          "type": "bus_stop",
+          "distance_miles": 2.0082388361137227,
+          "coordinates": [
+            37.37655,
+            -121.96005
+          ],
+          "stop_id": "62483",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Marshall",
+          "type": "bus_stop",
+          "distance_miles": 2.0089443998117025,
+          "coordinates": [
+            37.37589,
+            -122.02493
+          ],
+          "stop_id": "60863",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & San Aleso",
+          "type": "bus_stop",
+          "distance_miles": 2.013427627401484,
+          "coordinates": [
+            37.39422,
+            -122.02896
+          ],
+          "stop_id": "62265",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lick Mill Station",
+          "type": "rail_station",
+          "distance_miles": 2.0161066989754524,
+          "coordinates": [
+            37.40762,
+            -121.96368
+          ],
+          "stop_id": "64808",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Space Park",
+          "type": "bus_stop",
+          "distance_miles": 2.0262031020236306,
+          "coordinates": [
+            37.37609,
+            -121.95998
+          ],
+          "stop_id": "62420",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Old San Francisco",
+          "type": "bus_stop",
+          "distance_miles": 2.0292840277410757,
+          "coordinates": [
+            37.36574,
+            -122.01412
+          ],
+          "stop_id": "60870",
+          "agency": "VTA"
+        },
+        {
+          "name": "Java & Borregas",
+          "type": "bus_stop",
+          "distance_miles": 2.029344034289697,
+          "coordinates": [
+            37.41141,
+            -122.01764
+          ],
+          "stop_id": "60852",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Almanor",
+          "type": "bus_stop",
+          "distance_miles": 2.029805647732948,
+          "coordinates": [
+            37.39532,
+            -122.02902
+          ],
+          "stop_id": "62280",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Ross",
+          "type": "bus_stop",
+          "distance_miles": 2.031526845458405,
+          "coordinates": [
+            37.40062,
+            -122.02709
+          ],
+          "stop_id": "62266",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Bayview",
+          "type": "bus_stop",
+          "distance_miles": 2.037944360956016,
+          "coordinates": [
+            37.37618,
+            -122.02572
+          ],
+          "stop_id": "60865",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Bowers",
+          "type": "bus_stop",
+          "distance_miles": 2.039646382012534,
+          "coordinates": [
+            37.3633,
+            -121.97602
+          ],
+          "stop_id": "61327",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Monroe",
+          "type": "bus_stop",
+          "distance_miles": 2.039994860798261,
+          "coordinates": [
+            37.36351,
+            -121.97549
+          ],
+          "stop_id": "62519",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Calle Del Sol",
+          "type": "bus_stop",
+          "distance_miles": 2.046573712655713,
+          "coordinates": [
+            37.40792,
+            -121.96327
+          ],
+          "stop_id": "64511",
+          "agency": "VTA"
+        },
+        {
+          "name": "Borregas Station",
+          "type": "rail_station",
+          "distance_miles": 2.0565165714518407,
+          "coordinates": [
+            37.41166,
+            -122.01803
+          ],
+          "stop_id": "PS_BORR",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lick Mill Station",
+          "type": "rail_station",
+          "distance_miles": 2.056706346372873,
+          "coordinates": [
+            37.4078,
+            -121.96292
+          ],
+          "stop_id": "PS_LICK",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Maude",
+          "type": "bus_stop",
+          "distance_miles": 2.0591536782029896,
+          "coordinates": [
+            37.39024,
+            -122.03023
+          ],
+          "stop_id": "62264",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Monroe",
+          "type": "bus_stop",
+          "distance_miles": 2.063973759938706,
+          "coordinates": [
+            37.36307,
+            -121.97561
+          ],
+          "stop_id": "61305",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Ross",
+          "type": "bus_stop",
+          "distance_miles": 2.0641822252170607,
+          "coordinates": [
+            37.40151,
+            -122.02727
+          ],
+          "stop_id": "62279",
+          "agency": "VTA"
+        },
+        {
+          "name": "America Center Terminal",
+          "type": "bus_stop",
+          "distance_miles": 2.0705299004723403,
+          "coordinates": [
+            37.4176,
+            -121.97886
+          ],
+          "stop_id": "65750",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Bowers",
+          "type": "bus_stop",
+          "distance_miles": 2.075315356907499,
+          "coordinates": [
+            37.36312,
+            -121.97504
+          ],
+          "stop_id": "65550",
+          "agency": "VTA"
+        },
+        {
+          "name": "Java & Borregas",
+          "type": "bus_stop",
+          "distance_miles": 2.0772108473917203,
+          "coordinates": [
+            37.41187,
+            -122.0183
+          ],
+          "stop_id": "61041",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Maude",
+          "type": "bus_stop",
+          "distance_miles": 2.0910462694537846,
+          "coordinates": [
+            37.38911,
+            -122.03081
+          ],
+          "stop_id": "62282",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale & Hendy",
+          "type": "bus_stop",
+          "distance_miles": 2.1067640218616432,
+          "coordinates": [
+            37.37828,
+            -122.02831
+          ],
+          "stop_id": "62383",
+          "agency": "VTA"
+        },
+        {
+          "name": "Walsh & Martin",
+          "type": "bus_stop",
+          "distance_miles": 2.1097335087281195,
+          "coordinates": [
+            37.36958,
+            -121.96376
+          ],
+          "stop_id": "64551",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Gallup",
+          "type": "bus_stop",
+          "distance_miles": 2.1097707104532137,
+          "coordinates": [
+            37.364179,
+            -121.97155400099996
+          ],
+          "stop_id": "65554",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Lick Mill",
+          "type": "bus_stop",
+          "distance_miles": 2.1152120534216374,
+          "coordinates": [
+            37.40806,
+            -121.96183
+          ],
+          "stop_id": "64492",
+          "agency": "VTA"
+        },
+        {
+          "name": "Borregas Station",
+          "type": "rail_station",
+          "distance_miles": 2.1214340905454114,
+          "coordinates": [
+            37.41199,
+            -122.01932
+          ],
+          "stop_id": "64815",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Mathilda",
+          "type": "bus_stop",
+          "distance_miles": 2.125375564617161,
+          "coordinates": [
+            37.3901,
+            -122.03144
+          ],
+          "stop_id": "65922",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Olive",
+          "type": "bus_stop",
+          "distance_miles": 2.1261614085485134,
+          "coordinates": [
+            37.36975,
+            -122.02222
+          ],
+          "stop_id": "61028",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale & Evelyn",
+          "type": "bus_stop",
+          "distance_miles": 2.130574575876391,
+          "coordinates": [
+            37.37761,
+            -122.02843
+          ],
+          "stop_id": "62335",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Indio",
+          "type": "bus_stop",
+          "distance_miles": 2.135691487037637,
+          "coordinates": [
+            37.38593,
+            -122.03134
+          ],
+          "stop_id": "65629",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Moffett Park",
+          "type": "bus_stop",
+          "distance_miles": 2.1424963306646085,
+          "coordinates": [
+            37.406047,
+            -122.0259
+          ],
+          "stop_id": "62267",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Moffett Park",
+          "type": "bus_stop",
+          "distance_miles": 2.1426054274603725,
+          "coordinates": [
+            37.40605,
+            -122.0259
+          ],
+          "stop_id": "62267",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Central",
+          "type": "bus_stop",
+          "distance_miles": 2.147407943720808,
+          "coordinates": [
+            37.37342,
+            -121.95935
+          ],
+          "stop_id": "62736",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Central",
+          "type": "bus_stop",
+          "distance_miles": 2.1476310856913425,
+          "coordinates": [
+            37.373419,
+            -121.959346
+          ],
+          "stop_id": "62736",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old San Francisco & Ironwood",
+          "type": "bus_stop",
+          "distance_miles": 2.155471050735567,
+          "coordinates": [
+            37.36669,
+            -122.01925
+          ],
+          "stop_id": "60869",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Olive",
+          "type": "bus_stop",
+          "distance_miles": 2.1564729319614804,
+          "coordinates": [
+            37.369382,
+            -122.022551
+          ],
+          "stop_id": "60867",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Olive",
+          "type": "bus_stop",
+          "distance_miles": 2.156521116724633,
+          "coordinates": [
+            37.36938,
+            -122.02255
+          ],
+          "stop_id": "60867",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Garrity",
+          "type": "bus_stop",
+          "distance_miles": 2.158814743757507,
+          "coordinates": [
+            37.39665,
+            -121.95433
+          ],
+          "stop_id": "62685",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Indio",
+          "type": "bus_stop",
+          "distance_miles": 2.1597426505888535,
+          "coordinates": [
+            37.38571,
+            -122.031747
+          ],
+          "stop_id": "62283",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Indio",
+          "type": "bus_stop",
+          "distance_miles": 2.159905884886104,
+          "coordinates": [
+            37.38571,
+            -122.03175
+          ],
+          "stop_id": "62283",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Central",
+          "type": "bus_stop",
+          "distance_miles": 2.1734724419930798,
+          "coordinates": [
+            37.37232,
+            -121.95967
+          ],
+          "stop_id": "62737",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old San Francisco & Creek",
+          "type": "bus_stop",
+          "distance_miles": 2.1737345853219074,
+          "coordinates": [
+            37.36693,
+            -122.02006
+          ],
+          "stop_id": "61026",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Innovation",
+          "type": "bus_stop",
+          "distance_miles": 2.181679183900448,
+          "coordinates": [
+            37.40647,
+            -122.02641
+          ],
+          "stop_id": "65923",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Garrity",
+          "type": "bus_stop",
+          "distance_miles": 2.1850600170199135,
+          "coordinates": [
+            37.3964,
+            -121.95377
+          ],
+          "stop_id": "62631",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Cabrillo",
+          "type": "bus_stop",
+          "distance_miles": 2.191715890433385,
+          "coordinates": [
+            37.36099,
+            -121.97566
+          ],
+          "stop_id": "61326",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Pastoria",
+          "type": "bus_stop",
+          "distance_miles": 2.203520374376672,
+          "coordinates": [
+            37.39033,
+            -122.03286
+          ],
+          "stop_id": "65918",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Iris",
+          "type": "bus_stop",
+          "distance_miles": 2.2052271436724866,
+          "coordinates": [
+            37.36265,
+            -122.01407
+          ],
+          "stop_id": "61024",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & San Tomas Aquino Creek",
+          "type": "bus_stop",
+          "distance_miles": 2.205676684758247,
+          "coordinates": [
+            37.36399,
+            -121.96884
+          ],
+          "stop_id": "65553",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Cabrillo",
+          "type": "bus_stop",
+          "distance_miles": 2.2098816998270467,
+          "coordinates": [
+            37.36051,
+            -121.97618
+          ],
+          "stop_id": "62540",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Roosevelt",
+          "type": "bus_stop",
+          "distance_miles": 2.2216271164942327,
+          "coordinates": [
+            37.36404,
+            -121.96827
+          ],
+          "stop_id": "65551",
+          "agency": "VTA"
+        },
+        {
+          "name": "Java & Bordeaux",
+          "type": "bus_stop",
+          "distance_miles": 2.2229713281376555,
+          "coordinates": [
+            37.41228,
+            -122.02159
+          ],
+          "stop_id": "60851",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & California",
+          "type": "bus_stop",
+          "distance_miles": 2.2287777702528033,
+          "coordinates": [
+            37.38334,
+            -122.03253
+          ],
+          "stop_id": "62284",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Iris",
+          "type": "bus_stop",
+          "distance_miles": 2.233289355517149,
+          "coordinates": [
+            37.36227,
+            -122.01427
+          ],
+          "stop_id": "60871",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & California",
+          "type": "bus_stop",
+          "distance_miles": 2.2335242619553224,
+          "coordinates": [
+            37.38253,
+            -122.0324
+          ],
+          "stop_id": "62262",
+          "agency": "VTA"
+        },
+        {
+          "name": "Walsh & Scott",
+          "type": "bus_stop",
+          "distance_miles": 2.237101299329941,
+          "coordinates": [
+            37.3696,
+            -121.96072
+          ],
+          "stop_id": "64550",
+          "agency": "VTA"
+        },
+        {
+          "name": "Old San Francisco & Fair Oaks",
+          "type": "bus_stop",
+          "distance_miles": 2.2439530288271183,
+          "coordinates": [
+            37.36705,
+            -122.02203
+          ],
+          "stop_id": "60868",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Old San Francisco",
+          "type": "bus_stop",
+          "distance_miles": 2.2469838335822456,
+          "coordinates": [
+            37.36771,
+            -122.02289
+          ],
+          "stop_id": "61027",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale Caltrain Station Northbound",
+          "type": "rail_station",
+          "distance_miles": 2.2482918619358117,
+          "coordinates": [
+            37.37892,
+            -122.03137
+          ],
+          "stop_id": "70221",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Frances",
+          "type": "bus_stop",
+          "distance_miles": 2.2534052253076835,
+          "coordinates": [
+            37.37818,
+            -122.03113
+          ],
+          "stop_id": "62191",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale Caltrain Station Southbound",
+          "type": "rail_station",
+          "distance_miles": 2.253866210310083,
+          "coordinates": [
+            37.37879,
+            -122.03142
+          ],
+          "stop_id": "70222",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale",
+          "type": "bus_stop",
+          "distance_miles": 2.25479505951891,
+          "coordinates": [
+            37.37893,
+            -122.0315
+          ],
+          "stop_id": "sunnyvale",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale Transit Center",
+          "type": "bus_stop",
+          "distance_miles": 2.259445210607558,
+          "coordinates": [
+            37.37759,
+            -122.03096
+          ],
+          "stop_id": "62190",
+          "agency": "VTA"
+        },
+        {
+          "name": "Evelyn & Frances",
+          "type": "bus_stop",
+          "distance_miles": 2.260158852528355,
+          "coordinates": [
+            37.37803,
+            -122.03119
+          ],
+          "stop_id": "65472",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale Transit Center",
+          "type": "bus_stop",
+          "distance_miles": 2.273058683700697,
+          "coordinates": [
+            37.37726,
+            -122.03106
+          ],
+          "stop_id": "60864",
+          "agency": "VTA"
+        },
+        {
+          "name": "Gold & Gold St Connector",
+          "type": "bus_stop",
+          "distance_miles": 2.275581662287369,
+          "coordinates": [
+            37.41959,
+            -121.97522
+          ],
+          "stop_id": "61950",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale Transit Center",
+          "type": "bus_stop",
+          "distance_miles": 2.27656988673811,
+          "coordinates": [
+            37.37734,
+            -122.03117
+          ],
+          "stop_id": "61338",
+          "agency": "VTA"
+        },
+        {
+          "name": "Gold & Gold St Connector",
+          "type": "bus_stop",
+          "distance_miles": 2.282737616409498,
+          "coordinates": [
+            37.41954,
+            -121.97478
+          ],
+          "stop_id": "61945",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Pastoria",
+          "type": "bus_stop",
+          "distance_miles": 2.2928327447296413,
+          "coordinates": [
+            37.39108,
+            -122.03446
+          ],
+          "stop_id": "65919",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale & McKinley",
+          "type": "bus_stop",
+          "distance_miles": 2.2961929193225337,
+          "coordinates": [
+            37.37443,
+            -122.02988
+          ],
+          "stop_id": "62384",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale & McKinley",
+          "type": "bus_stop",
+          "distance_miles": 2.296581905718227,
+          "coordinates": [
+            37.37425,
+            -122.02977
+          ],
+          "stop_id": "62334",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & Old San Francisco",
+          "type": "bus_stop",
+          "distance_miles": 2.304714274222248,
+          "coordinates": [
+            37.3669,
+            -122.02338
+          ],
+          "stop_id": "62388",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Walsh",
+          "type": "bus_stop",
+          "distance_miles": 2.3135634461918535,
+          "coordinates": [
+            37.36888,
+            -121.95966
+          ],
+          "stop_id": "62738",
+          "agency": "VTA"
+        },
+        {
+          "name": "Java & Bordeaux",
+          "type": "bus_stop",
+          "distance_miles": 2.318100628998416,
+          "coordinates": [
+            37.41334,
+            -122.02271
+          ],
+          "stop_id": "61042",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Walsh",
+          "type": "bus_stop",
+          "distance_miles": 2.3209535576956144,
+          "coordinates": [
+            37.36902,
+            -121.95935
+          ],
+          "stop_id": "62735",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lockheed Martin Station",
+          "type": "rail_station",
+          "distance_miles": 2.327361019570707,
+          "coordinates": [
+            37.4094,
+            -122.02713
+          ],
+          "stop_id": "64816",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lockheed Martin Station",
+          "type": "rail_station",
+          "distance_miles": 2.337517626217255,
+          "coordinates": [
+            37.40977,
+            -122.02702
+          ],
+          "stop_id": "PS_LOCK",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Sun Fire",
+          "type": "bus_stop",
+          "distance_miles": 2.3429249956470617,
+          "coordinates": [
+            37.39537,
+            -121.95059
+          ],
+          "stop_id": "62684",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lockheed Martin Station",
+          "type": "rail_station",
+          "distance_miles": 2.343316825446951,
+          "coordinates": [
+            37.41005,
+            -122.02689
+          ],
+          "stop_id": "64791",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Sun Fire",
+          "type": "bus_stop",
+          "distance_miles": 2.3635256211376148,
+          "coordinates": [
+            37.39472,
+            -121.95008
+          ],
+          "stop_id": "62632",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lockheed Martin Transit Center (Bay 6)",
+          "type": "bus_stop",
+          "distance_miles": 2.38339225555271,
+          "coordinates": [
+            37.41035,
+            -122.02752
+          ],
+          "stop_id": "64477",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lockheed Martin Transit Center",
+          "type": "bus_stop",
+          "distance_miles": 2.3891100346800607,
+          "coordinates": [
+            37.41035,
+            -122.02765
+          ],
+          "stop_id": "PS_LMTC",
+          "agency": "VTA"
+        },
+        {
+          "name": "Java & Mathilda",
+          "type": "bus_stop",
+          "distance_miles": 2.3930871358046444,
+          "coordinates": [
+            37.41383,
+            -122.02402
+          ],
+          "stop_id": "60850",
+          "agency": "VTA"
+        },
+        {
+          "name": "Moffett Park Station",
+          "type": "rail_station",
+          "distance_miles": 2.400874574167102,
+          "coordinates": [
+            37.40237,
+            -122.03346
+          ],
+          "stop_id": "PS_MOFF",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lockheed Martin Transit Center",
+          "type": "bus_stop",
+          "distance_miles": 2.402470195896283,
+          "coordinates": [
+            37.41062,
+            -122.0277
+          ],
+          "stop_id": "64699",
+          "agency": "VTA"
+        },
+        {
+          "name": "Gold & Sunrise",
+          "type": "bus_stop",
+          "distance_miles": 2.4061372260795464,
+          "coordinates": [
+            37.42199,
+            -121.9762
+          ],
+          "stop_id": "61949",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Primrose",
+          "type": "bus_stop",
+          "distance_miles": 2.407970427682984,
+          "coordinates": [
+            37.35923,
+            -122.01405
+          ],
+          "stop_id": "61023",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Martin",
+          "type": "bus_stop",
+          "distance_miles": 2.408968564543344,
+          "coordinates": [
+            37.36697,
+            -121.95939
+          ],
+          "stop_id": "62734",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Gary",
+          "type": "bus_stop",
+          "distance_miles": 2.4121243778601187,
+          "coordinates": [
+            37.35925,
+            -122.01425
+          ],
+          "stop_id": "60872",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Gary",
+          "type": "bus_stop",
+          "distance_miles": 2.4122920953417673,
+          "coordinates": [
+            37.35924900100008,
+            -122.014254
+          ],
+          "stop_id": "60872",
+          "agency": "VTA"
+        },
+        {
+          "name": "Scott & Martin",
+          "type": "bus_stop",
+          "distance_miles": 2.4163764668024923,
+          "coordinates": [
+            37.36656,
+            -121.95966
+          ],
+          "stop_id": "62739",
+          "agency": "VTA"
+        },
+        {
+          "name": "Gold & Sunrise",
+          "type": "bus_stop",
+          "distance_miles": 2.419451976897767,
+          "coordinates": [
+            37.42214,
+            -121.97602
+          ],
+          "stop_id": "61946",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Renaissance",
+          "type": "bus_stop",
+          "distance_miles": 2.4231330010381713,
+          "coordinates": [
+            37.4114,
+            -121.95798
+          ],
+          "stop_id": "64510",
+          "agency": "VTA"
+        },
+        {
+          "name": "Lockheed Martin Transit Center (Bay 2)",
+          "type": "bus_stop",
+          "distance_miles": 2.426075355656352,
+          "coordinates": [
+            37.41052,
+            -122.02833
+          ],
+          "stop_id": "64478",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Mary",
+          "type": "bus_stop",
+          "distance_miles": 2.440164080202672,
+          "coordinates": [
+            37.39171,
+            -122.03711
+          ],
+          "stop_id": "65916",
+          "agency": "VTA"
+        },
+        {
+          "name": "Moffett Park Station",
+          "type": "rail_station",
+          "distance_miles": 2.4471103694561793,
+          "coordinates": [
+            37.40244,
+            -122.03433
+          ],
+          "stop_id": "65024",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Vista Montana",
+          "type": "bus_stop",
+          "distance_miles": 2.461195019187743,
+          "coordinates": [
+            37.41119,
+            -121.9569
+          ],
+          "stop_id": "64493",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale & Olive",
+          "type": "bus_stop",
+          "distance_miles": 2.4624381067860397,
+          "coordinates": [
+            37.37112,
+            -122.03101
+          ],
+          "stop_id": "65778",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Warburton",
+          "type": "bus_stop",
+          "distance_miles": 2.464648574654876,
+          "coordinates": [
+            37.35607,
+            -121.97764
+          ],
+          "stop_id": "62518",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Los Padres",
+          "type": "bus_stop",
+          "distance_miles": 2.4694895225758,
+          "coordinates": [
+            37.362195,
+            -121.96393
+          ],
+          "stop_id": "65552",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale & Olive",
+          "type": "bus_stop",
+          "distance_miles": 2.4702965067009366,
+          "coordinates": [
+            37.3708,
+            -122.03093
+          ],
+          "stop_id": "65777",
+          "agency": "VTA"
+        },
+        {
+          "name": "Mathilda & Java",
+          "type": "bus_stop",
+          "distance_miles": 2.477022058492918,
+          "coordinates": [
+            37.41483,
+            -122.02493
+          ],
+          "stop_id": "64471",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & Warburton",
+          "type": "bus_stop",
+          "distance_miles": 2.4865943252066867,
+          "coordinates": [
+            37.35568,
+            -121.97783
+          ],
+          "stop_id": "62541",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Mary",
+          "type": "bus_stop",
+          "distance_miles": 2.5036397737863205,
+          "coordinates": [
+            37.39232,
+            -122.03822
+          ],
+          "stop_id": "65917",
+          "agency": "VTA"
+        },
+        {
+          "name": "Washington & Charles",
+          "type": "bus_stop",
+          "distance_miles": 2.506746470482125,
+          "coordinates": [
+            37.37714,
+            -122.03557
+          ],
+          "stop_id": "61339",
+          "agency": "VTA"
+        },
+        {
+          "name": "Agnew & Montague",
+          "type": "bus_stop",
+          "distance_miles": 2.5088570562354415,
+          "coordinates": [
+            37.39353,
+            -121.94722
+          ],
+          "stop_id": "62683",
+          "agency": "VTA"
+        },
+        {
+          "name": "Washington & Charles",
+          "type": "bus_stop",
+          "distance_miles": 2.5140829827839353,
+          "coordinates": [
+            37.37707,
+            -122.03568
+          ],
+          "stop_id": "61294",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Deborah",
+          "type": "bus_stop",
+          "distance_miles": 2.5202436325940574,
+          "coordinates": [
+            37.36193,
+            -121.96289
+          ],
+          "stop_id": "65555",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Deborah",
+          "type": "bus_stop",
+          "distance_miles": 2.5281129757654814,
+          "coordinates": [
+            37.36174,
+            -121.96295
+          ],
+          "stop_id": "65556",
+          "agency": "VTA"
+        },
+        {
+          "name": "Montague & De La Cruz",
+          "type": "bus_stop",
+          "distance_miles": 2.545763243664072,
+          "coordinates": [
+            37.39301,
+            -121.94648
+          ],
+          "stop_id": "64571",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Maria",
+          "type": "bus_stop",
+          "distance_miles": 2.5667922050811898,
+          "coordinates": [
+            37.3567,
+            -122.01424
+          ],
+          "stop_id": "60873",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Flora Vista",
+          "type": "bus_stop",
+          "distance_miles": 2.5692175072182897,
+          "coordinates": [
+            37.3525,
+            -121.99382
+          ],
+          "stop_id": "60476",
+          "agency": "VTA"
+        },
+        {
+          "name": "Fair Oaks & El Camino",
+          "type": "bus_stop",
+          "distance_miles": 2.5718586077787426,
+          "coordinates": [
+            37.36243,
+            -122.02463
+          ],
+          "stop_id": "62328",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Champion",
+          "type": "bus_stop",
+          "distance_miles": 2.5814038874457217,
+          "coordinates": [
+            37.40989,
+            -121.95309
+          ],
+          "stop_id": "64509",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Pomeroy",
+          "type": "bus_stop",
+          "distance_miles": 2.5822949512662334,
+          "coordinates": [
+            37.35256,
+            -121.98716
+          ],
+          "stop_id": "60475",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Champion",
+          "type": "bus_stop",
+          "distance_miles": 2.58287654748948,
+          "coordinates": [
+            37.40905,
+            -121.9524
+          ],
+          "stop_id": "64494",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Champion",
+          "type": "bus_stop",
+          "distance_miles": 2.582946027529334,
+          "coordinates": [
+            37.409048,
+            -121.95239699899997
+          ],
+          "stop_id": "64494",
+          "agency": "VTA"
+        },
+        {
+          "name": "Champion Station",
+          "type": "rail_station",
+          "distance_miles": 2.5859115896079725,
+          "coordinates": [
+            37.40942,
+            -121.95262
+          ],
+          "stop_id": "64807",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Lawrence",
+          "type": "bus_stop",
+          "distance_miles": 2.58726826903784,
+          "coordinates": [
+            37.35248,
+            -121.99816
+          ],
+          "stop_id": "60477",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Flora Vista",
+          "type": "bus_stop",
+          "distance_miles": 2.587831853291615,
+          "coordinates": [
+            37.35222,
+            -121.99253
+          ],
+          "stop_id": "60374",
+          "agency": "VTA"
+        },
+        {
+          "name": "Champion Station",
+          "type": "rail_station",
+          "distance_miles": 2.5992074417862243,
+          "coordinates": [
+            37.4089,
+            -121.95194
+          ],
+          "stop_id": "PS_CHMP",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Calabazas",
+          "type": "bus_stop",
+          "distance_miles": 2.6032214535609395,
+          "coordinates": [
+            37.35253,
+            -121.98475
+          ],
+          "stop_id": "60474",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Fair Oaks",
+          "type": "bus_stop",
+          "distance_miles": 2.606204705685871,
+          "coordinates": [
+            37.36252,
+            -122.02566
+          ],
+          "stop_id": "60482",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Cezanne",
+          "type": "bus_stop",
+          "distance_miles": 2.6065217990808622,
+          "coordinates": [
+            37.36483,
+            -122.02844
+          ],
+          "stop_id": "60483",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Pomeroy",
+          "type": "bus_stop",
+          "distance_miles": 2.6112954282749907,
+          "coordinates": [
+            37.35223,
+            -121.98624
+          ],
+          "stop_id": "60375",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Halford",
+          "type": "bus_stop",
+          "distance_miles": 2.61463505285005,
+          "coordinates": [
+            37.35212,
+            -121.99857
+          ],
+          "stop_id": "60373",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Sunnyvale",
+          "type": "bus_stop",
+          "distance_miles": 2.625262416096127,
+          "coordinates": [
+            37.36708,
+            -122.03116
+          ],
+          "stop_id": "60484",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Cezanne",
+          "type": "bus_stop",
+          "distance_miles": 2.6252873089940985,
+          "coordinates": [
+            37.3645,
+            -122.02853
+          ],
+          "stop_id": "60367",
+          "agency": "VTA"
+        },
+        {
+          "name": "Washington & Pastoria",
+          "type": "bus_stop",
+          "distance_miles": 2.629778732657791,
+          "coordinates": [
+            37.377591,
+            -122.038147
+          ],
+          "stop_id": "61293",
+          "agency": "VTA"
+        },
+        {
+          "name": "Washington & Pastoria",
+          "type": "bus_stop",
+          "distance_miles": 2.629956747664231,
+          "coordinates": [
+            37.37759,
+            -122.03815
+          ],
+          "stop_id": "61293",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Remington",
+          "type": "bus_stop",
+          "distance_miles": 2.633253814499864,
+          "coordinates": [
+            37.36101,
+            -122.02432
+          ],
+          "stop_id": "60368",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Calabazas",
+          "type": "bus_stop",
+          "distance_miles": 2.6397711505647514,
+          "coordinates": [
+            37.35223,
+            -121.98314
+          ],
+          "stop_id": "60376",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Sycamore",
+          "type": "bus_stop",
+          "distance_miles": 2.6404714683838586,
+          "coordinates": [
+            37.35237,
+            -122.00315
+          ],
+          "stop_id": "60478",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Sunnyvale-Saratoga",
+          "type": "bus_stop",
+          "distance_miles": 2.6434034192130165,
+          "coordinates": [
+            37.3668,
+            -122.03131
+          ],
+          "stop_id": "60366",
+          "agency": "VTA"
+        },
+        {
+          "name": "Washington & Pastoria",
+          "type": "bus_stop",
+          "distance_miles": 2.649267796234683,
+          "coordinates": [
+            37.37778,
+            -122.0386
+          ],
+          "stop_id": "61340",
+          "agency": "VTA"
+        },
+        {
+          "name": "Bowers & El Camino Real",
+          "type": "bus_stop",
+          "distance_miles": 2.653923901323461,
+          "coordinates": [
+            37.35321,
+            -121.9775
+          ],
+          "stop_id": "62517",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Alpine",
+          "type": "bus_stop",
+          "distance_miles": 2.654900495195332,
+          "coordinates": [
+            37.35252,
+            -121.98036
+          ],
+          "stop_id": "60473",
+          "agency": "VTA"
+        },
+        {
+          "name": "Remington & El Camino",
+          "type": "bus_stop",
+          "distance_miles": 2.6582426501753367,
+          "coordinates": [
+            37.36122,
+            -122.0253
+          ],
+          "stop_id": "62390",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Alpine",
+          "type": "bus_stop",
+          "distance_miles": 2.668390111777002,
+          "coordinates": [
+            37.35223,
+            -121.98079
+          ],
+          "stop_id": "60377",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Sunken Gardens",
+          "type": "bus_stop",
+          "distance_miles": 2.6688415451457517,
+          "coordinates": [
+            37.35495,
+            -122.014
+          ],
+          "stop_id": "61021",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Sunken Gardens",
+          "type": "bus_stop",
+          "distance_miles": 2.669199983655006,
+          "coordinates": [
+            37.354945,
+            -122.014002
+          ],
+          "stop_id": "61021",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale-Saratoga & El Camino",
+          "type": "bus_stop",
+          "distance_miles": 2.6725144437808717,
+          "coordinates": [
+            37.36704,
+            -122.03219
+          ],
+          "stop_id": "65902",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Macara",
+          "type": "bus_stop",
+          "distance_miles": 2.677756776284154,
+          "coordinates": [
+            37.39306,
+            -122.04133
+          ],
+          "stop_id": "61285",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Henderson",
+          "type": "bus_stop",
+          "distance_miles": 2.6781680754999417,
+          "coordinates": [
+            37.35207,
+            -122.00454
+          ],
+          "stop_id": "60372",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Rio Robles",
+          "type": "bus_stop",
+          "distance_miles": 2.678499402958471,
+          "coordinates": [
+            37.40807,
+            -121.94969
+          ],
+          "stop_id": "64508",
+          "agency": "VTA"
+        },
+        {
+          "name": "Sunnyvale-Saratoga & El Camino",
+          "type": "bus_stop",
+          "distance_miles": 2.685071778503395,
+          "coordinates": [
+            37.36706,
+            -122.03249
+          ],
+          "stop_id": "65901",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Mathilda",
+          "type": "bus_stop",
+          "distance_miles": 2.691918074436515,
+          "coordinates": [
+            37.41784,
+            -122.02667
+          ],
+          "stop_id": "65029",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Grand",
+          "type": "bus_stop",
+          "distance_miles": 2.693632302579474,
+          "coordinates": [
+            37.425097,
+            -121.972051
+          ],
+          "stop_id": "62590",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Grand",
+          "type": "bus_stop",
+          "distance_miles": 2.6938432910071923,
+          "coordinates": [
+            37.4251,
+            -121.97205
+          ],
+          "stop_id": "62590",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Liberty",
+          "type": "bus_stop",
+          "distance_miles": 2.6949073939924313,
+          "coordinates": [
+            37.42592,
+            -121.97439
+          ],
+          "stop_id": "65908",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Maria",
+          "type": "bus_stop",
+          "distance_miles": 2.69788259901845,
+          "coordinates": [
+            37.35621,
+            -122.01803
+          ],
+          "stop_id": "60481",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & C",
+          "type": "bus_stop",
+          "distance_miles": 2.697953329078348,
+          "coordinates": [
+            37.41777,
+            -122.02692
+          ],
+          "stop_id": "64485",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Scott",
+          "type": "bus_stop",
+          "distance_miles": 2.7029042825469096,
+          "coordinates": [
+            37.36108,
+            -121.95909
+          ],
+          "stop_id": "62733",
+          "agency": "VTA"
+        },
+        {
+          "name": "Liberty & Taylor",
+          "type": "bus_stop",
+          "distance_miles": 2.7035304104580935,
+          "coordinates": [
+            37.426198,
+            -121.974848
+          ],
+          "stop_id": "62598",
+          "agency": "VTA"
+        },
+        {
+          "name": "Liberty & Taylor",
+          "type": "bus_stop",
+          "distance_miles": 2.7036194025709652,
+          "coordinates": [
+            37.4262,
+            -121.97485
+          ],
+          "stop_id": "62598",
+          "agency": "VTA"
+        },
+        {
+          "name": "Gold & Taylor",
+          "type": "bus_stop",
+          "distance_miles": 2.7084194018952115,
+          "coordinates": [
+            37.42661,
+            -121.97598
+          ],
+          "stop_id": "62591",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Scott",
+          "type": "bus_stop",
+          "distance_miles": 2.7095001730951416,
+          "coordinates": [
+            37.36092,
+            -121.95913
+          ],
+          "stop_id": "62740",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Poplar",
+          "type": "bus_stop",
+          "distance_miles": 2.710342539100546,
+          "coordinates": [
+            37.35234,
+            -122.00786
+          ],
+          "stop_id": "60479",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Bowers",
+          "type": "bus_stop",
+          "distance_miles": 2.714503205215765,
+          "coordinates": [
+            37.35252,
+            -121.97662
+          ],
+          "stop_id": "60472",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & Rio Robles",
+          "type": "bus_stop",
+          "distance_miles": 2.7184234964250584,
+          "coordinates": [
+            37.40768,
+            -121.94861
+          ],
+          "stop_id": "64495",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Alviso Park",
+          "type": "bus_stop",
+          "distance_miles": 2.719529276136893,
+          "coordinates": [
+            37.42428,
+            -121.96896
+          ],
+          "stop_id": "62589",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Poplar",
+          "type": "bus_stop",
+          "distance_miles": 2.720826680164633,
+          "coordinates": [
+            37.35207,
+            -122.00742
+          ],
+          "stop_id": "60371",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & El Camino",
+          "type": "bus_stop",
+          "distance_miles": 2.7209488017515495,
+          "coordinates": [
+            37.3542,
+            -122.01423
+          ],
+          "stop_id": "60874",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Lamplighter",
+          "type": "bus_stop",
+          "distance_miles": 2.7253172579565277,
+          "coordinates": [
+            37.41593,
+            -121.95557
+          ],
+          "stop_id": "62600",
+          "agency": "VTA"
+        },
+        {
+          "name": "Vista Montana & 1st",
+          "type": "bus_stop",
+          "distance_miles": 2.7315918704097757,
+          "coordinates": [
+            37.41464,
+            -121.95404
+          ],
+          "stop_id": "65426",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Maria",
+          "type": "bus_stop",
+          "distance_miles": 2.7316406466281236,
+          "coordinates": [
+            37.3554,
+            -122.01751
+          ],
+          "stop_id": "60369",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Holger",
+          "type": "bus_stop",
+          "distance_miles": 2.7322416543141808,
+          "coordinates": [
+            37.4168,
+            -121.9564
+          ],
+          "stop_id": "62586",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Nortech",
+          "type": "bus_stop",
+          "distance_miles": 2.7326187544901317,
+          "coordinates": [
+            37.42242,
+            -121.96467
+          ],
+          "stop_id": "62599",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kiely & El Camino",
+          "type": "bus_stop",
+          "distance_miles": 2.7328316430904884,
+          "coordinates": [
+            37.35194,
+            -121.97777
+          ],
+          "stop_id": "62542",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Macara",
+          "type": "bus_stop",
+          "distance_miles": 2.7373898458155,
+          "coordinates": [
+            37.39367,
+            -122.04235
+          ],
+          "stop_id": "61348",
+          "agency": "VTA"
+        },
+        {
+          "name": "Maude & Macara",
+          "type": "bus_stop",
+          "distance_miles": 2.737416912476857,
+          "coordinates": [
+            37.393666,
+            -122.04235100099999
+          ],
+          "stop_id": "61348",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Tony P. Santos",
+          "type": "bus_stop",
+          "distance_miles": 2.737457616607254,
+          "coordinates": [
+            37.42348,
+            -121.96657
+          ],
+          "stop_id": "65175",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Kiely",
+          "type": "bus_stop",
+          "distance_miles": 2.739504889624073,
+          "coordinates": [
+            37.3522,
+            -121.97639
+          ],
+          "stop_id": "60378",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Tony P. Santos",
+          "type": "bus_stop",
+          "distance_miles": 2.745111924224288,
+          "coordinates": [
+            37.42375,
+            -121.96686
+          ],
+          "stop_id": "62588",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Tony P. Santos",
+          "type": "bus_stop",
+          "distance_miles": 2.745461693940857,
+          "coordinates": [
+            37.423754,
+            -121.966856
+          ],
+          "stop_id": "62588",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Nortech",
+          "type": "bus_stop",
+          "distance_miles": 2.74747493628333,
+          "coordinates": [
+            37.42261,
+            -121.96454
+          ],
+          "stop_id": "62587",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Bowe",
+          "type": "bus_stop",
+          "distance_miles": 2.7605236160914552,
+          "coordinates": [
+            37.35252,
+            -121.9742
+          ],
+          "stop_id": "60471",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Headquarters",
+          "type": "bus_stop",
+          "distance_miles": 2.76317064984347,
+          "coordinates": [
+            37.41535,
+            -121.95403
+          ],
+          "stop_id": "65050",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Wolfe",
+          "type": "bus_stop",
+          "distance_miles": 2.7656689581360596,
+          "coordinates": [
+            37.35377,
+            -122.01498
+          ],
+          "stop_id": "60480",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Vista Montana",
+          "type": "bus_stop",
+          "distance_miles": 2.7846448711008955,
+          "coordinates": [
+            37.41368,
+            -121.95188
+          ],
+          "stop_id": "62601",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Mathilda",
+          "type": "bus_stop",
+          "distance_miles": 2.7863187557537517,
+          "coordinates": [
+            37.36877,
+            -122.03612
+          ],
+          "stop_id": "60365",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Bowe",
+          "type": "bus_stop",
+          "distance_miles": 2.8002925585497085,
+          "coordinates": [
+            37.35223,
+            -121.97317
+          ],
+          "stop_id": "60379",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Wolfe",
+          "type": "bus_stop",
+          "distance_miles": 2.801478797671551,
+          "coordinates": [
+            37.35261,
+            -122.0134
+          ],
+          "stop_id": "60370",
+          "agency": "VTA"
+        },
+        {
+          "name": "Vista Montana & 1st",
+          "type": "bus_stop",
+          "distance_miles": 2.8093796249843055,
+          "coordinates": [
+            37.41569,
+            -121.95329
+          ],
+          "stop_id": "65700",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & El Camino",
+          "type": "bus_stop",
+          "distance_miles": 2.8218996241454115,
+          "coordinates": [
+            37.3525,
+            -122.014
+          ],
+          "stop_id": "61020",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Mathilda",
+          "type": "bus_stop",
+          "distance_miles": 2.8359876013152165,
+          "coordinates": [
+            37.36942,
+            -122.03765
+          ],
+          "stop_id": "60485",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Rose Orchard (Infiniti)",
+          "type": "bus_stop",
+          "distance_miles": 2.8370822693349074,
+          "coordinates": [
+            37.41289,
+            -121.95
+          ],
+          "stop_id": "62584",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Rose Orchard",
+          "type": "bus_stop",
+          "distance_miles": 2.841138905915003,
+          "coordinates": [
+            37.41204,
+            -121.9492
+          ],
+          "stop_id": "62602",
+          "agency": "VTA"
+        },
+        {
+          "name": "Washington & Carson",
+          "type": "bus_stop",
+          "distance_miles": 2.8542619830425062,
+          "coordinates": [
+            37.37867,
+            -122.04284
+          ],
+          "stop_id": "61341",
+          "agency": "VTA"
+        },
+        {
+          "name": "Washington & Carson",
+          "type": "bus_stop",
+          "distance_miles": 2.857327568743095,
+          "coordinates": [
+            37.37859,
+            -122.04287
+          ],
+          "stop_id": "61292",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & San Tomas",
+          "type": "bus_stop",
+          "distance_miles": 2.8659016593016027,
+          "coordinates": [
+            37.35252,
+            -121.96948
+          ],
+          "stop_id": "60470",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Stardust",
+          "type": "bus_stop",
+          "distance_miles": 2.887734263527114,
+          "coordinates": [
+            37.36017,
+            -121.95543
+          ],
+          "stop_id": "62741",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kiely & El Sobrante",
+          "type": "bus_stop",
+          "distance_miles": 2.8959447566479417,
+          "coordinates": [
+            37.34948,
+            -121.97773
+          ],
+          "stop_id": "62543",
+          "agency": "VTA"
+        },
+        {
+          "name": "Wolfe & Fremont",
+          "type": "bus_stop",
+          "distance_miles": 2.906668025204499,
+          "coordinates": [
+            37.3513,
+            -122.01441
+          ],
+          "stop_id": "60875",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Nicholson",
+          "type": "bus_stop",
+          "distance_miles": 2.908699027547554,
+          "coordinates": [
+            37.41103,
+            -121.94697
+          ],
+          "stop_id": "61368",
+          "agency": "VTA"
+        },
+        {
+          "name": "Kiely & El Sobrante",
+          "type": "bus_stop",
+          "distance_miles": 2.91363075734052,
+          "coordinates": [
+            37.34926,
+            -121.97753
+          ],
+          "stop_id": "62516",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & 1st",
+          "type": "bus_stop",
+          "distance_miles": 2.913660426643071,
+          "coordinates": [
+            37.40909,
+            -121.94552
+          ],
+          "stop_id": "64507",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Nicholson",
+          "type": "bus_stop",
+          "distance_miles": 2.915776165783946,
+          "coordinates": [
+            37.41025,
+            -121.94626
+          ],
+          "stop_id": "62603",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman & 1st",
+          "type": "bus_stop",
+          "distance_miles": 2.922666099296619,
+          "coordinates": [
+            37.40888,
+            -121.9452
+          ],
+          "stop_id": "66024",
+          "agency": "VTA"
+        },
+        {
+          "name": "Monroe & Cabrillo",
+          "type": "bus_stop",
+          "distance_miles": 2.9350418567412477,
+          "coordinates": [
+            37.35983,
+            -121.95464
+          ],
+          "stop_id": "62732",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & San Tomas",
+          "type": "bus_stop",
+          "distance_miles": 2.935460955805621,
+          "coordinates": [
+            37.352250999000034,
+            -121.967374
+          ],
+          "stop_id": "60380",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & San Tomas",
+          "type": "bus_stop",
+          "distance_miles": 2.935625629459563,
+          "coordinates": [
+            37.35225,
+            -121.96737
+          ],
+          "stop_id": "60380",
+          "agency": "VTA"
+        },
+        {
+          "name": "Headquarters & Rose Orchard",
+          "type": "bus_stop",
+          "distance_miles": 2.9454142906524914,
+          "coordinates": [
+            37.41726,
+            -121.95171
+          ],
+          "stop_id": "65701",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman Station",
+          "type": "rail_station",
+          "distance_miles": 2.95244962268148,
+          "coordinates": [
+            37.40867,
+            -121.94446
+          ],
+          "stop_id": "PS_TASM",
+          "agency": "VTA"
+        },
+        {
+          "name": "Tasman Station",
+          "type": "rail_station",
+          "distance_miles": 2.956792741259893,
+          "coordinates": [
+            37.40806,
+            -121.944
+          ],
+          "stop_id": "64762",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Tasman",
+          "type": "bus_stop",
+          "distance_miles": 2.9607110135549886,
+          "coordinates": [
+            37.40965,
+            -121.94492
+          ],
+          "stop_id": "61367",
+          "agency": "VTA"
+        },
+        {
+          "name": "Headquarters & Rose Orchard",
+          "type": "bus_stop",
+          "distance_miles": 2.9654247462050685,
+          "coordinates": [
+            37.41738,
+            -121.95136
+          ],
+          "stop_id": "65425",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Rio Robles",
+          "type": "bus_stop",
+          "distance_miles": 2.969220023335855,
+          "coordinates": [
+            37.40573,
+            -121.94247
+          ],
+          "stop_id": "65642",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Los Padres",
+          "type": "bus_stop",
+          "distance_miles": 2.9733120499660313,
+          "coordinates": [
+            37.35252,
+            -121.96536
+          ],
+          "stop_id": "60469",
+          "agency": "VTA"
+        },
+        {
+          "name": "Washington & Matadero",
+          "type": "bus_stop",
+          "distance_miles": 2.9858109249410565,
+          "coordinates": [
+            37.37853600100004,
+            -122.045279
+          ],
+          "stop_id": "61291",
+          "agency": "VTA"
+        },
+        {
+          "name": "El Camino & Pastoria",
+          "type": "bus_stop",
+          "distance_miles": 2.9860476366138133,
+          "coordinates": [
+            37.37036,
+            -122.04138
+          ],
+          "stop_id": "60486",
+          "agency": "VTA"
+        },
+        {
+          "name": "1st & Rio Robles",
+          "type": "bus_stop",
+          "distance_miles": 2.9878569318891333,
+          "coordinates": [
+            37.40592,
+            -121.9422
+          ],
+          "stop_id": "65650",
+          "agency": "VTA"
+        }
+      ]
+    },
+    "analysis_radius_miles": 5.0,
+    "project_type": "family"
+  },
+  "rent_analysis": {
+    "location": {
+      "state": "CA",
+      "county": "Sample County"
+    },
+    "rent_limits_by_ami": {
+      "30%_ami": {
+        "studio": 600.0,
+        "1br": 650.0,
+        "2br": 800.0,
+        "3br": 1100.0,
+        "4br": 1250.0
+      },
+      "50%_ami": {
+        "studio": 1000.0,
+        "1br": 1083.33,
+        "2br": 1333.33,
+        "3br": 1833.33,
+        "4br": 2083.33
+      },
+      "60%_ami": {
+        "studio": 1200.0,
+        "1br": 1300.0,
+        "2br": 1600.0,
+        "3br": 2200.0,
+        "4br": 2500.0
+      },
+      "80%_ami": {
+        "studio": 1600.0,
+        "1br": 1733.33,
+        "2br": 2133.33,
+        "3br": 2933.33,
+        "4br": 3333.33
+      }
+    },
+    "basis_boost_qualified": true,
+    "boost_percentage": 30.0,
+    "analysis_year": 2025
+  },
+  "competitive_summary": {
+    "total_points": 21,
+    "percentile_rank": 0,
+    "competitive_tier": "Not Eligible - Fails or Unknown Mandatory Criteria",
+    "mandatory_criteria_met": false,
+    "disqualifying_factors": [
+      "Fire hazard status unknown - manual verification required",
+      "Land use verification pending"
+    ]
+  },
+  "recommendations": {
+    "overall_recommendation": "MANUAL VERIFICATION REQUIRED - Fire Hazard Unknown",
+    "priority_level": "On Hold",
+    "key_strengths": [],
+    "areas_for_improvement": [],
+    "next_steps": [
+      "Verify fire hazard status with official CAL FIRE maps",
+      "Check local fire department hazard classifications",
+      "Consult with fire safety professionals",
+      "Do not proceed until fire hazard status is confirmed"
+    ],
+    "disqualifying_factors": [
+      "Fire hazard data unavailable from API - MANUAL VERIFICATION REQUIRED. Check: https://osfm.fire.ca.gov/divisions/wildfire-planning-engineering/wildland-hazards-building-codes/fire-hazard-severity-zones-maps/, https://egis.fire.ca.gov/FHSZ/, Local fire department hazard maps"
+    ]
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-07-24T13:46:41.101719",
+    "analysis_duration_seconds": 2.313368,
+    "software_version": "1.0.0",
+    "data_sources_used": [
+      "HUD QCT/DDA 2025",
+      "CAL FIRE Fire Hazard Severity Zones",
+      "California CTCAC Opportunity Maps",
+      "OpenStreetMap",
+      "Census Bureau",
+      "State QAP Documents"
+    ],
+    "analysis_id": "LIHTC_20250724_134641"
+  }
+}

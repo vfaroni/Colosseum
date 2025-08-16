@@ -1,0 +1,54 @@
+{
+  "data_sources": {
+    "base_path": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Data_Sets",
+    "federal": {
+      "qct_dda_path": "federal/HUD_QCT_DDA_Data/HUD QCT DDA 2025 Merged.gpkg",
+      "ami_data_path": "federal/HUD_AMI_Geographic/"
+    },
+    "california": {
+      "opportunity_areas": "california/CA_CTCAC_2025_Opp_MAP_shapefile/final_opp_2025_public.gpkg",
+      "hqta_data": "california/CA_Transit_Data/High_Quality_Transit_Areas.geojson",
+      "schools": "california/CA_Public Schools/SchoolSites2324_661351912866317522.gpkg",
+      "medical": "california/CA_Hospitals_Medical/Licensed_and_Certified_Healthcare_Facilities.geojson",
+      "grocery": "california/CA_Grocery_Stores/CA_Grocery_Stores.geojson",
+      "transit_stops": "california/CA_Transit_Data/California_Transit_Stops.geojson",
+      "transit_stops_enhanced": "/Users/vitorfaroni/Documents/Automation/CALIHTCScorer/data/transit/california_transit_stops_master.geojson"
+    }
+  },
+  "analysis_settings": {
+    "amenity_search_radius_miles": 3.0,
+    "hqta_proximity_miles": 0.25,
+    "cache_enabled": true,
+    "max_analysis_time_seconds": 30
+  },
+  "scoring_rules": {
+    "california_ctcac": {
+      "max_points": 30,
+      "opportunity_area_points": {
+        "Highest Resource": 8,
+        "High Resource": 6,
+        "Moderate Resource": 4,
+        "Low Resource": 0
+      },
+      "hqta_points": {
+        "within_hqta": 5,
+        "near_hqta": 3,
+        "no_hqta": 0
+      },
+      "federal_bonus": {
+        "qct_qualified": 4,
+        "dda_qualified": 2
+      }
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "logs/lihtc_scorer.log"
+  },
+  "performance": {
+    "enable_caching": true,
+    "cache_ttl_hours": 24,
+    "max_concurrent_analyses": 5
+  }
+}

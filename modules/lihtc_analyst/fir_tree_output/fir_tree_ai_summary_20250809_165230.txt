@@ -1,0 +1,19 @@
+FIR TREE PARK AI EXTRACTION SUMMARY
+==================================================
+
+Property: Fir Tree Park Apartments
+Units: 60 (55 Section 8)
+Extraction Method: GPT-OSS Models via Ollama API
+Timestamp: 20250809_165230
+
+KEY FINDINGS:
+------------------------------
+NOI: $0
+Total Revenue: $0
+HAP Payments: $0
+DSCR: 0
+Debt Yield: 0.0
+
+Validations:
+  ✅ HAP contract: WA19M000067
+  ✅ Contract rent: $699

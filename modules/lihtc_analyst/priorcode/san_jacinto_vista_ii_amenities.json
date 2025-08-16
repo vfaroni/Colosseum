@@ -1,0 +1,443 @@
+[
+  {
+    "id": 1,
+    "name": "Redlands FS Jarvis",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.2 miles",
+    "latitude": 33.79178000100006,
+    "longitude": -117.217515
+  },
+  {
+    "id": 2,
+    "name": "Redlands FS Jarvis",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.2 miles",
+    "latitude": 33.79234,
+    "longitude": -117.217304
+  },
+  {
+    "id": 3,
+    "name": "Redlands FS Dale",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.2 miles",
+    "latitude": 33.790497,
+    "longitude": -117.21729900099996
+  },
+  {
+    "id": 4,
+    "name": "Redlands FS Dale",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.2 miles",
+    "latitude": 33.789976,
+    "longitude": -117.217465
+  },
+  {
+    "id": 5,
+    "name": "Redlands NS Mildred",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.2 miles",
+    "latitude": 33.796051,
+    "longitude": -117.217499
+  },
+  {
+    "id": 6,
+    "name": "Redlands FS Mildred",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.2 miles",
+    "latitude": 33.795943,
+    "longitude": -117.217325
+  },
+  {
+    "id": 7,
+    "name": "Perris FS Jarvis",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.2 miles",
+    "latitude": 33.792266,
+    "longitude": -117.226025
+  },
+  {
+    "id": 8,
+    "name": "Perris FS Jarvis",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.3 miles",
+    "latitude": 33.791809,
+    "longitude": -117.226232999
+  },
+  {
+    "id": 9,
+    "name": "Perris FS San Jacinto",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.4 miles",
+    "latitude": 33.787877,
+    "longitude": -117.225964
+  },
+  {
+    "id": 10,
+    "name": "San Jacinto NS F St",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.4 miles",
+    "latitude": 33.786688,
+    "longitude": -117.22307299899995
+  },
+  {
+    "id": 11,
+    "name": "Redlands NS San Jacinto",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.4 miles",
+    "latitude": 33.787318,
+    "longitude": -117.21552499899997
+  },
+  {
+    "id": 12,
+    "name": "Redlands FS San Jacinto",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.5 miles",
+    "latitude": 33.787067,
+    "longitude": -117.21527
+  },
+  {
+    "id": 13,
+    "name": "Perris FS San Jacinto",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.5 miles",
+    "latitude": 33.786194,
+    "longitude": -117.226227
+  },
+  {
+    "id": 14,
+    "name": "Perris NS Nuevo",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.5 miles",
+    "latitude": 33.799946,
+    "longitude": -117.226026
+  },
+  {
+    "id": 15,
+    "name": "Nuevo FS Ruby",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.5 miles",
+    "latitude": 33.80102,
+    "longitude": -117.22144
+  },
+  {
+    "id": 16,
+    "name": "San Jacinto NS D St.",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.5 miles",
+    "latitude": 33.78668,
+    "longitude": -117.227488
+  },
+  {
+    "id": 17,
+    "name": "Nuevo FS Ruby",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.5 miles",
+    "latitude": 33.801186,
+    "longitude": -117.222112
+  },
+  {
+    "id": 18,
+    "name": "Perris FS Nuevo",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.5 miles",
+    "latitude": 33.800254,
+    "longitude": -117.226265
+  },
+  {
+    "id": 19,
+    "name": "Nuevo NS Redlands",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.5 miles",
+    "latitude": 33.801023,
+    "longitude": -117.21791900099998
+  },
+  {
+    "id": 20,
+    "name": "Nuevo FS Redlands",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.5 miles",
+    "latitude": 33.801196,
+    "longitude": -117.217960001
+  },
+  {
+    "id": 21,
+    "name": "Wilkerson & Fourth",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.6 miles",
+    "latitude": 33.78347,
+    "longitude": -117.218927
+  },
+  {
+    "id": 22,
+    "name": "Nuevo FS Perris",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.6 miles",
+    "latitude": 33.801262,
+    "longitude": -117.22726899899999
+  },
+  {
+    "id": 23,
+    "name": "Perris Downtown",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.7 miles",
+    "latitude": 33.785282,
+    "longitude": -117.229836
+  },
+  {
+    "id": 24,
+    "name": "Perris-South Metrolink Station",
+    "type": "Metrolink Station",
+    "category": "Transit",
+    "distance": "0.7 miles",
+    "latitude": 33.784939,
+    "longitude": -117.229453
+  },
+  {
+    "id": 25,
+    "name": "Perris Transit Center",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.7 miles",
+    "latitude": 33.784938999000076,
+    "longitude": -117.229453
+  },
+  {
+    "id": 26,
+    "name": "Fourth NS G Street",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.7 miles",
+    "latitude": 33.782468,
+    "longitude": -117.221077
+  },
+  {
+    "id": 27,
+    "name": "Fourth FS G Street",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.7 miles",
+    "latitude": 33.782328,
+    "longitude": -117.221085
+  },
+  {
+    "id": 28,
+    "name": "Perris NS Perris Plaza",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.7 miles",
+    "latitude": 33.803032001000076,
+    "longitude": -117.22626999899995
+  },
+  {
+    "id": 29,
+    "name": "Perris  FS Crossroad Center",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.7 miles",
+    "latitude": 33.803172,
+    "longitude": -117.225983
+  },
+  {
+    "id": 30,
+    "name": "Perris FS Fourth",
+    "type": "Transit Stop",
+    "category": "Transit",
+    "distance": "0.7 miles",
+    "latitude": 33.782706001000065,
+    "longitude": -117.226012
+  },
+  {
+    "id": 31,
+    "name": "Panther Park",
+    "type": "Park Community Center",
+    "category": "Public Parks",
+    "distance": "0.1 miles",
+    "latitude": 33.7957270852976,
+    "longitude": -117.22176457363486
+  },
+  {
+    "id": 32,
+    "name": "SkyDive Baseball Park",
+    "type": "Park Community Center",
+    "category": "Public Parks",
+    "distance": "0.2 miles",
+    "latitude": 33.79019902329205,
+    "longitude": -117.2173979373695
+  },
+  {
+    "id": 33,
+    "name": "Bob Long Park",
+    "type": "Park Community Center",
+    "category": "Public Parks",
+    "distance": "0.4 miles",
+    "latitude": 33.78838895125164,
+    "longitude": -117.21413637134552
+  },
+  {
+    "id": 34,
+    "name": "Metz Park",
+    "type": "Park Community Center",
+    "category": "Public Parks",
+    "distance": "0.5 miles",
+    "latitude": 33.79216063453689,
+    "longitude": -117.22986484480622
+  },
+  {
+    "id": 35,
+    "name": "Ceaser E. Chavez Library",
+    "type": "Public Library",
+    "category": "Libraries",
+    "distance": "0.5 miles",
+    "latitude": 33.786201,
+    "longitude": -117.2267178
+  },
+  {
+    "id": 36,
+    "name": "Walmart Supercenter - Perris",
+    "type": "Full Scale",
+    "category": "Grocery",
+    "distance": "0.3 miles",
+    "latitude": 33.7956,
+    "longitude": -117.2156
+  },
+  {
+    "id": 37,
+    "name": "Stater Bros. Markets - Perris",
+    "type": "Full Scale",
+    "category": "Grocery",
+    "distance": "0.4 miles",
+    "latitude": 33.7889,
+    "longitude": -117.2278
+  },
+  {
+    "id": 38,
+    "name": "Mother's Market - Perris",
+    "type": "Neighborhood",
+    "category": "Grocery",
+    "distance": "0.5 miles",
+    "latitude": 33.7945,
+    "longitude": -117.2301
+  },
+  {
+    "id": 39,
+    "name": "Food 4 Less - Perris",
+    "type": "Neighborhood",
+    "category": "Grocery",
+    "distance": "0.6 miles",
+    "latitude": 33.7834,
+    "longitude": -117.2189
+  },
+  {
+    "id": 40,
+    "name": "Cardenas Markets - Perris",
+    "type": "Neighborhood",
+    "category": "Grocery",
+    "distance": "0.7 miles",
+    "latitude": 33.7827,
+    "longitude": -117.2264
+  },
+  {
+    "id": 41,
+    "name": "Palms Elementary",
+    "type": "Elementary",
+    "category": "Schools",
+    "distance": "0.1 miles",
+    "latitude": 33.79110488,
+    "longitude": -117.22091199
+  },
+  {
+    "id": 42,
+    "name": "Perris High",
+    "type": "High",
+    "category": "Schools",
+    "distance": "0.4 miles",
+    "latitude": 33.79965388,
+    "longitude": -117.22364199
+  },
+  {
+    "id": 43,
+    "name": "Sky View Elementary",
+    "type": "Elementary",
+    "category": "Schools",
+    "distance": "0.6 miles",
+    "latitude": 33.79508588,
+    "longitude": -117.21008999
+  },
+  {
+    "id": 44,
+    "name": "PERRIS VALLEY COMMUNITY HEALTH CENTER",
+    "type": "Federally Qualified Health Center",
+    "category": "Medical",
+    "distance": "0.4 miles",
+    "latitude": 33.786945,
+    "longitude": -117.2164725
+  },
+  {
+    "id": 45,
+    "name": "TRUECARE",
+    "type": "Community Clinic",
+    "category": "Medical",
+    "distance": "0.6 miles",
+    "latitude": 33.802488,
+    "longitude": -117.2255535
+  },
+  {
+    "id": 46,
+    "name": "Nuevo Pharmacy",
+    "type": "Pharmacy",
+    "category": "Pharmacies",
+    "distance": "0.5 miles",
+    "latitude": 33.7993168454692,
+    "longitude": -117.2263355644368
+  },
+  {
+    "id": 47,
+    "name": "Rite Aid",
+    "type": "Pharmacy",
+    "category": "Pharmacies",
+    "distance": "0.6 miles",
+    "latitude": 33.801294338306406,
+    "longitude": -117.2264010610232
+  },
+  {
+    "id": 48,
+    "name": "Smart Care & Pharmacy",
+    "type": "Pharmacy",
+    "category": "Pharmacies",
+    "distance": "0.6 miles",
+    "latitude": 33.801294338306406,
+    "longitude": -117.2264010610232
+  },
+  {
+    "id": 49,
+    "name": "Walmart Pharmacy",
+    "type": "Pharmacy",
+    "category": "Pharmacies",
+    "distance": "0.9 miles",
+    "latitude": 33.80536956324574,
+    "longitude": -117.22705410833696
+  }
+]

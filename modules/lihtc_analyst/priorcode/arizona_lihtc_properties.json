@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Huachuca Desert Apartments",
+    "type": "LIHTC",
+    "address": "Huachuca City, AZ",
+    "county": "Cochise County",
+    "latitude": 31.6281,
+    "longitude": -110.3370,
+    "units": null,
+    "year": null,
+    "status": "Existing"
+  },
+  {
+    "name": "Sonora Vista Apartments",
+    "type": "LIHTC",
+    "address": "Douglas, AZ",
+    "county": "Cochise County",
+    "latitude": 31.3445,
+    "longitude": -109.5453,
+    "units": null,
+    "year": null,
+    "status": "Existing"
+  },
+  {
+    "name": "Sun Ray Apartments",
+    "type": "LIHTC",
+    "address": "Douglas, AZ",
+    "county": "Cochise County",
+    "latitude": 31.3445,
+    "longitude": -109.5453,
+    "units": null,
+    "year": null,
+    "status": "Existing"
+  },
+  {
+    "name": "La Habra Apartments",
+    "type": "LIHTC",
+    "address": "Benson, AZ",
+    "county": "Cochise County",
+    "latitude": 31.9673,
+    "longitude": -110.2943,
+    "units": 48,
+    "year": null,
+    "status": "Existing"
+  },
+  {
+    "name": "Crossings At Elk Grove",
+    "type": "LIHTC",
+    "address": "Benson, AZ",
+    "county": "Cochise County",
+    "latitude": 31.9673,
+    "longitude": -110.2943,
+    "units": null,
+    "year": null,
+    "status": "Existing"
+  },
+  {
+    "name": "Esperanza Senior Apartments",
+    "type": "LIHTC",
+    "address": "Bisbee, AZ",
+    "county": "Cochise County",
+    "latitude": 31.4481,
+    "longitude": -109.9284,
+    "units": null,
+    "year": null,
+    "status": "Existing"
+  },
+  {
+    "name": "Esperanza Family Apartments",
+    "type": "LIHTC",
+    "address": "Bisbee, AZ",
+    "county": "Cochise County",
+    "latitude": 31.4481,
+    "longitude": -109.9284,
+    "units": null,
+    "year": null,
+    "status": "Existing"
+  }
+]

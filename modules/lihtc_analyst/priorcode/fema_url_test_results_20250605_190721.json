@@ -1,0 +1,183 @@
+{
+  "test_date": "2025-06-05T19:07:21.948481",
+  "test_county": "Alameda (06001)",
+  "results": [
+    {
+      "url": "https://hazards.fema.gov/nfhlv2/output/County/NFHL_06001_GeoDatabase.zip",
+      "status_code": 404,
+      "headers": {
+        "Date": "Fri, 06 Jun 2025 02:07:19 GMT",
+        "Content-Type": "text/html",
+        "Connection": "keep-alive",
+        "Set-Cookie": "AWSALB=iStQfDPbCoJN42gjyYZ9g/YTZBO9JKgHVucNQvtz9OIxtrK3Q/hmuy6IPmvUGLwRBB4iSY0fCFCvCqEN4fMyHrlNljsgFOVI+aClR3nSy+RjhHSeCT7aAHjKtGiM; Expires=Fri, 13 Jun 2025 02:07:19 GMT; Path=/, AWSALBCORS=iStQfDPbCoJN42gjyYZ9g/YTZBO9JKgHVucNQvtz9OIxtrK3Q/hmuy6IPmvUGLwRBB4iSY0fCFCvCqEN4fMyHrlNljsgFOVI+aClR3nSy+RjhHSeCT7aAHjKtGiM; Expires=Fri, 13 Jun 2025 02:07:19 GMT; Path=/; SameSite=None; Secure",
+        "p3p": "CP=\"NON CUR OTPi OUR NOR UNI\"",
+        "server": "Microsoft-IIS/10.0",
+        "x-old-content-length": "1245",
+        "x-xss-protection": "1; mode=block",
+        "strict-transport-security": "max-age=31536000; includeSubDomains"
+      },
+      "final_url": null,
+      "success": false
+    },
+    {
+      "url": "https://hazards.fema.gov/nfhlv2/output/County/06001_NFHL.zip",
+      "status_code": 404,
+      "headers": {
+        "Date": "Fri, 06 Jun 2025 02:07:19 GMT",
+        "Content-Type": "text/html",
+        "Connection": "keep-alive",
+        "Set-Cookie": "AWSALB=6JyRVRvmaSTvMY9OXF5qvMpWb5khq2wMbjMrtw6ToKmefEYq1t+4XDL1iAJLr9oT7DlQJMdnH9e68p7vaOfjVxDTiRNgzGfZ7SjR3kmSSbNTciawIvmMwqpLtz2f; Expires=Fri, 13 Jun 2025 02:07:19 GMT; Path=/, AWSALBCORS=6JyRVRvmaSTvMY9OXF5qvMpWb5khq2wMbjMrtw6ToKmefEYq1t+4XDL1iAJLr9oT7DlQJMdnH9e68p7vaOfjVxDTiRNgzGfZ7SjR3kmSSbNTciawIvmMwqpLtz2f; Expires=Fri, 13 Jun 2025 02:07:19 GMT; Path=/; SameSite=None; Secure",
+        "p3p": "CP=\"NON CUR OTPi OUR NOR UNI\"",
+        "server": "Microsoft-IIS/10.0",
+        "x-old-content-length": "1245",
+        "x-xss-protection": "1; mode=block",
+        "strict-transport-security": "max-age=31536000; includeSubDomains"
+      },
+      "final_url": null,
+      "success": false
+    },
+    {
+      "url": "https://msc.fema.gov/portal/NFHL/NFHL_06001.zip",
+      "status_code": 404,
+      "headers": {
+        "Date": "Fri, 06 Jun 2025 02:07:19 GMT",
+        "Content-Type": "text/html;charset=UTF-8",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "X-Powered-By": "Servlet/3.1",
+        "X-FRAME-OPTIONS": "DENY",
+        "Content-Security-Policy": "frame-ancestors 'none'",
+        "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0",
+        "X-XSS-Protection": "1; mode=block",
+        "$WSEP": "",
+        "Content-Language": "en-US"
+      },
+      "final_url": null,
+      "success": false
+    },
+    {
+      "url": "https://hazards.fema.gov/gis/nfhl/rest/services/public/NFHLV2/MapServer",
+      "status_code": 404,
+      "headers": {
+        "Date": "Fri, 06 Jun 2025 02:07:20 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": "1569",
+        "Connection": "keep-alive",
+        "Set-Cookie": "AWSALB=YaRS+0FbYTh+vJ1NdARms3WS9jiOyFj+SUZAMgpLJ9b9TyqWjQoltXS4eFkqrLyszccbT9H6mskSjX9QfiID0dcitE6LavR2RJwlsdNNUVL4qVfxdjmsq6WXjIXm; Expires=Fri, 13 Jun 2025 02:07:20 GMT; Path=/, AWSALBCORS=YaRS+0FbYTh+vJ1NdARms3WS9jiOyFj+SUZAMgpLJ9b9TyqWjQoltXS4eFkqrLyszccbT9H6mskSjX9QfiID0dcitE6LavR2RJwlsdNNUVL4qVfxdjmsq6WXjIXm; Expires=Fri, 13 Jun 2025 02:07:20 GMT; Path=/; SameSite=None; Secure",
+        "p3p": "CP=\"NON CUR OTPi OUR NOR UNI\"",
+        "server": "WebSEAL/10.0.7.0",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "cache-control": "no-store",
+        "x-xss-protection": "1",
+        "content-security-policy": "frame-ancestors 'none'",
+        "pragma": "no-cache"
+      },
+      "final_url": null,
+      "success": false
+    },
+    {
+      "url": "https://hazards.fema.gov/gis/nfhl/NFHL_06001.zip",
+      "status_code": 404,
+      "headers": {
+        "Date": "Fri, 06 Jun 2025 02:07:20 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": "1546",
+        "Connection": "keep-alive",
+        "Set-Cookie": "AWSALB=IkOMxTWFmVOCSFGupjHiHMlyeN5Kj9wgEDBVVEoxwHQQY1uUTZcUUG8H29Yq8yd7DubksQMfzJ6sUXr5F8232sIlQ3wuX88GwEkEzOz0UAl0eFzTtENsu2glgNmf; Expires=Fri, 13 Jun 2025 02:07:20 GMT; Path=/, AWSALBCORS=IkOMxTWFmVOCSFGupjHiHMlyeN5Kj9wgEDBVVEoxwHQQY1uUTZcUUG8H29Yq8yd7DubksQMfzJ6sUXr5F8232sIlQ3wuX88GwEkEzOz0UAl0eFzTtENsu2glgNmf; Expires=Fri, 13 Jun 2025 02:07:20 GMT; Path=/; SameSite=None; Secure",
+        "p3p": "CP=\"NON CUR OTPi OUR NOR UNI\"",
+        "server": "WebSEAL/10.0.7.0",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "cache-control": "no-store",
+        "x-xss-protection": "1",
+        "content-security-policy": "frame-ancestors 'none'",
+        "pragma": "no-cache"
+      },
+      "final_url": null,
+      "success": false
+    },
+    {
+      "url": "https://msc.fema.gov/portal/NFHL/06001_NFHL.zip",
+      "status_code": 404,
+      "headers": {
+        "Date": "Fri, 06 Jun 2025 02:07:20 GMT",
+        "Content-Type": "text/html;charset=UTF-8",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "X-Powered-By": "Servlet/3.1",
+        "X-FRAME-OPTIONS": "DENY",
+        "Content-Security-Policy": "frame-ancestors 'none'",
+        "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0",
+        "X-XSS-Protection": "1; mode=block",
+        "$WSEP": "",
+        "Content-Language": "en-US"
+      },
+      "final_url": null,
+      "success": false
+    },
+    {
+      "url": "https://msc.fema.gov/nfhl/rest/services/public/NFHLV2/MapServer",
+      "status_code": 200,
+      "headers": {
+        "Date": "Fri, 06 Jun 2025 02:07:21 GMT",
+        "Content-Type": "text/html",
+        "Content-Length": "1920",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Last-Modified": "Sat, 01 Mar 2025 02:11:42 GMT",
+        "ETag": "\"6e33921ff88893044fe1a19cc65797b4\"",
+        "Server": "AmazonS3",
+        "Cache-Control": "private, max-age=0",
+        "Expires": "-1",
+        "Strict-Transport-Security": "max-age=63072000",
+        "Content-Security-Policy": "upgrade-insecure-requests",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "X-Cached": "HIT",
+        "Link": "<https://www.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd>; rel=\"canonical\""
+      },
+      "final_url": "https://hazards-fema.maps.arcgis.com:443/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd",
+      "success": true
+    },
+    {
+      "url": "https://hazards.fema.gov/nfhlv2/output/State/NFHL_06_GeoDatabase.zip",
+      "status_code": 404,
+      "headers": {
+        "Date": "Fri, 06 Jun 2025 02:07:21 GMT",
+        "Content-Type": "text/html",
+        "Connection": "keep-alive",
+        "Set-Cookie": "AWSALB=A9PqYP/Q1blMzDFtzQC+YQdT0RYMBoZI93Fubtxdb39eJn9H7D4r80orpTJuqi/vAGKk2hRG1deAlFsrS6YumTWq2xinGF9jePyGPkFbjAghtMY0QBEGU6QZ1C63; Expires=Fri, 13 Jun 2025 02:07:21 GMT; Path=/, AWSALBCORS=A9PqYP/Q1blMzDFtzQC+YQdT0RYMBoZI93Fubtxdb39eJn9H7D4r80orpTJuqi/vAGKk2hRG1deAlFsrS6YumTWq2xinGF9jePyGPkFbjAghtMY0QBEGU6QZ1C63; Expires=Fri, 13 Jun 2025 02:07:21 GMT; Path=/; SameSite=None; Secure",
+        "p3p": "CP=\"NON CUR OTPi OUR NOR UNI\"",
+        "server": "Microsoft-IIS/10.0",
+        "x-old-content-length": "1245",
+        "x-xss-protection": "1; mode=block",
+        "strict-transport-security": "max-age=31536000; includeSubDomains"
+      },
+      "final_url": null,
+      "success": false
+    },
+    {
+      "url": "https://hazards.fema.gov/nfhlv2/output/State/06_NFHL.zip",
+      "status_code": 404,
+      "headers": {
+        "Date": "Fri, 06 Jun 2025 02:07:21 GMT",
+        "Content-Type": "text/html",
+        "Connection": "keep-alive",
+        "Set-Cookie": "AWSALB=DpXyaVtsbntqrZRxQSFX65XOWjNI56BTJiFw+crOhm7Z0QXdwN4/mb0QHhjzvHOPklUmqRKsT1Lz0ZCdyeQlR7Zyd/wcZOzYEjldK4mcApyA+03QHjCb8kJs12Wa; Expires=Fri, 13 Jun 2025 02:07:21 GMT; Path=/, AWSALBCORS=DpXyaVtsbntqrZRxQSFX65XOWjNI56BTJiFw+crOhm7Z0QXdwN4/mb0QHhjzvHOPklUmqRKsT1Lz0ZCdyeQlR7Zyd/wcZOzYEjldK4mcApyA+03QHjCb8kJs12Wa; Expires=Fri, 13 Jun 2025 02:07:21 GMT; Path=/; SameSite=None; Secure",
+        "p3p": "CP=\"NON CUR OTPi OUR NOR UNI\"",
+        "server": "Microsoft-IIS/10.0",
+        "x-old-content-length": "1245",
+        "x-xss-protection": "1; mode=block",
+        "strict-transport-security": "max-age=31536000; includeSubDomains"
+      },
+      "final_url": null,
+      "success": false
+    }
+  ]
+}

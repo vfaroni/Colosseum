@@ -1,0 +1,114 @@
+================================================================================
+BATCH 1 ANALYSIS COMPLETE
+================================================================================
+Total emails in batch: 50
+Emails to DELETE: 10
+Emails to KEEP: 40
+
+================================================================================
+EMAILS TO BE DELETED:
+================================================================================
+  1. Call for Offers - August 5 | Russellville Commons | 283 Units in Portland, OR
+     Reason: Wrong state: Oregon
+  2. Price Reduced | 21 Unit RTI Development Site | North Park
+     Reason: Wrong state: Texas
+  3. Price Reduction: 490 Page Street Apartments | 9-Unit, Investment Opportunity in San Jose, CA | Northmarq CV
+     Reason: Too few units: 9
+  4. Just Closed | 12 Units | Yuba City, CA
+     Reason: Non-deal email
+  5. Exclusive Offering: 193-Site MHC Portfolio in Buffalo, NY MSA | 88% Occupancy with Minimal Home Inventory
+     Reason: Wrong state: New York
+  6. REAC/NSPIRE Appeal Webinar – Seats Still Available!
+     Reason: Non-deal email
+  7. Only 18 Days Remain! Don't Miss Exclusive AI Trainings – Final Chance to Attend
+     Reason: Non-deal email
+  8. JUST LISTED: 6-Property Senior Living Portfolio – Kansas City MSA
+     Reason: Wrong state: Kansas
+  9. eNews: Join CalHFA at NAREB's Building Black Wealth Event in Los Angeles
+     Reason: Non-deal email
+ 10. Final Call For Offers - July 24th | Schmidt Street Apartments
+     Reason: Too few units: 14
+
+================================================================================
+EMAILS TO BE KEPT:
+================================================================================
+  1. Centerra: Document Alert
+     Reason: Could not determine - kept for review
+  2. Offers Due 8/13: 115-Unit Tri-Valley Townhome Development Site
+     Reason: Could not determine - kept for review
+  3. Just Listed: Rare Triplex with Separate SFR Parcel  | Owner-User or Investor Opportunity with Upside Potential
+     Reason: Could not determine - kept for review
+  4. Call for Offers: Weds, July 30th | ±16.4-Acre Coastal Residential Development Opportunity | North San Diego County, CA
+     Reason: 
+  5. REMINDER - CALL FOR OFFERS - July 29, 2025 :: Residences Kierland | 290-Unit Ultra-Core Multifamily Investment Opportunity | North Scottsdale
+     Reason: Arizona, 290 units
+  6. Cortland Powers North I & II | Offers Due Thursday, August 14th | New Financials Available
+     Reason: Could not determine - kept for review
+  7. REMINDER - CALL FOR OFFERS: July 29, 2025 :: Capri North and South | 624 Units | Value-Add Multifamily Community in Las Vegas
+     Reason: Could not determine - kept for review
+  8. On Market: New Class A Senior Living Nearing Stabilization
+     Reason: Could not determine - kept for review
+  9. Now Touring:  100% Market Rate, 213 Apartments with Tax PILOT - 25 minutes to Manhattan
+     Reason: California, 213 units
+ 10. Just Listed! 58 Units Located in Ridgecrest, CA
+     Reason: California, 58 units
+ 11. BIDS DUE: Wednesday, July 30, 2025 - Newport Crossings | ±5.7 Acre Multifamily Mixed-Use Development Site | Newport Beach, Orange County, CA
+     Reason: Land opportunity in California
+ 12. Back on Market | The Nest 1 & 2
+     Reason: Could not determine - kept for review
+ 13. Now Available: Esperanza at Duarte Station | 344-Unit, Transit-Oriented Class A Investment Opportunity in the San Gabriel Valley
+     Reason: Could not determine - kept for review
+ 14. Superbly Located Pasadena Jewel Box Investment Opportunity | The Chamber Building | Pasadena, CA
+     Reason: 
+ 15. FW: Stone - New $23.9M Echo Park Listing | 2024 Built
+     Reason: California, 62 units
+ 16. ANCHOR 532 - REMINDER: CFO 7/30/2025 | New Construction Offered Below Replacement Cost | 132 Units | Vallejo, CA
+     Reason: California, 132 units
+ 17. Re: New Listing | A 205-Unit Workforce Housing Opportunity Adjacent to Downtown LA
+     Reason: California, 205 units
+ 18. CALL FOR OFFERS | 21 Townhome Condo Units in San Diego County | Condo Sale-Out Opportunity
+     Reason: 
+ 19. CALL FOR OFFERS | 21 Townhome Condo Units in San Diego County | Condo Sale-Out Opportunity
+     Reason: 
+ 20. Re: New Listing | A 205-Unit Workforce Housing Opportunity Adjacent to Downtown LA
+     Reason: California, 205 units
+ 21. Re: New Listing | A 205-Unit Workforce Housing Opportunity Adjacent to Downtown LA
+     Reason: California, 205 units
+ 22. Fwd: New Listing | A 205-Unit Workforce Housing Opportunity Adjacent to Downtown LA
+     Reason: California, 205 units
+ 23. Fwd: New Listing | A 205-Unit Workforce Housing Opportunity Adjacent to Downtown LA
+     Reason: California, 205 units
+ 24. New Listing | A 205-Unit Workforce Housing Opportunity Adjacent to Downtown LA
+     Reason: California, 205 units
+ 25. Just Listed | Moraga | 6 Value-Add Apartments | 4 Units Delivered Vacant
+     Reason: Could not determine - kept for review
+ 26. SOLASTA - REMINDER: CFO 7/30/2025 | New Construction Multifamily Community | 266 Units | Sacramento, CA
+     Reason: California, 266 units
+ 27. Value-Add Opportunity | Prime Cal State Fresno Location | 50 Units in Fresno, CA
+     Reason: California, 50 units
+ 28. AHA EXCLUSIVE LISTING: 100% Project-Based Section 8 // Elderly & Family Designated // 83 Units // Los Angeles, CA
+     Reason: California, 83 units
+ 29. Fwd: FOR SALE: 1206 Oakmead Parkway in Sunnyvale, CA | ±1.26-Acre Redevelopment Opportunity
+     Reason: 
+ 30. Fully Occupied | Attractive Location | 52 Units in Santa Ana, CA
+     Reason: California, 52 units
+ 31. Call for Offers: California Institutional MHC Portfolio | 715 Sites | 5 Properties | 92% Occupancy
+     Reason: 
+ 32. OFFERS DUE TODAY! | Fully Entitled 2.2-Acre Residential Development Site in Ventura, CA | Entitled for 134 Units with Optional Townhome Conversion
+     Reason: California, 134 units
+ 33. ZETA - REMINDER: CFO 7/30/2025 | Best-in-Class Multifamily Community | 270 Units | Sacramento, CA
+     Reason: California, 270 units
+ 34. CBRE Offering: The Woods Senior Living | 59 Units in Riverside | 2021 New Construction | Pride of Ownership
+     Reason: California, 59 units
+ 35. CBRE Offering: The Woods Senior Living | 59 Units in Riverside | 2021 New Construction | Pride of Ownership
+     Reason: California, 59 units
+ 36. Remodeled 5.55% Cap in Gardena | Seller Financing Available
+     Reason: Could not determine - kept for review
+ 37. Press Release | Green Street Elevates IJGlobal's Exclusive Infrastructure & Energy Market Intelligence
+     Reason: Could not determine - kept for review
+ 38. Now Available: Esperanza at Duarte Station | 344-Unit, Transit-Oriented Class A Investment Opportunity in the San Gabriel Valley
+     Reason: California, 344 units
+ 39. Value-Add Opportunity | Prime Cal State Fresno Location | 50 Units in Fresno, CA
+     Reason: California, 50 units
+ 40. Call For Offers: Friday, August 15th | ±9.23-Acre, Residential Development Opportunity | San Luis Obispo, CA
+     Reason: 

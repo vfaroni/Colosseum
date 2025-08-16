@@ -1,0 +1,63 @@
+================================================================================
+CLAUDE PROJECT KNOWLEDGE UPDATE - SAN JACINTO VISTA II
+Key Updates for Project Continuity
+================================================================================
+
+MAJOR PROGRESS UPDATES:
+-----------------------
+1. **Third-Party Reports Status**: 7 of 11 required reports COMPLETE
+   - ✓ CTCAC Appraisal, Market Study, Phase I, PCNA, Construction Budget, Relocation Plan
+   - ✓ CUAC Report ordered
+   - Still needed: Title Report, Legal Opinion (at-risk), Eligible Basis Cert, Chain of Title
+
+2. **Application Directory Structure**: COMPLETE
+   - Full 30-directory structure created in 9_Percent_Applications/
+   - Based on proven 2016 template with 2025 updates
+   - TAB_00__APPLICATION contains main Excel file
+   - 22 applicable tabs for At-Risk project (8 marked NA)
+
+3. **QAP Analysis**: COMPLETE
+   - Full at-risk requirements extracted and documented
+   - Enhanced developer fee confirmed (15% of acquisition basis vs 5%)
+   - Key timing requirements identified (180-day, 120-day, 90-day windows)
+
+CRITICAL SUCCESS FACTORS IDENTIFIED:
+------------------------------------
+1. **At-Risk Set-Aside Advantage**: 5% allocation, no Round 1 applicants
+2. **Non-Competitive Nature**: Focus on threshold compliance vs. scoring
+3. **USDA Coordination Required**: Funding commitment must be in place at application
+4. **Enhanced Developer Fee**: 15% of acquisition basis available
+
+KEY DOCUMENTS CREATED FOR REFERENCE:
+------------------------------------
+1. QAP_At_Risk_Requirements_Analysis_01072025.txt (CTCAC_Rules/)
+2. At_Risk_Application_Checklist_01072025.txt (Project_Notes/)
+3. 2025_Application_Directory_Structure_01072025.txt (Project_Notes/)
+4. CTCAC_Document_Download_Summary_01072025.txt (Project_Notes/)
+
+IMMEDIATE NEXT PRIORITIES:
+--------------------------
+1. Order Title Report (April 2025 target)
+2. Obtain Third-Party Legal Opinion for at-risk qualification
+3. Begin organizing completed reports into TAB directories
+4. Verify 2025 checklist tab names match directory structure
+5. Coordinate USDA funding commitment timing
+
+PROJECT ADVANTAGES CONFIRMED:
+-----------------------------
+- Most third-party reports already complete (ahead of schedule)
+- At-Risk set-aside provides near-certain allocation path
+- Enhanced developer fee provides better project economics
+- USDA RD 515 property meets all at-risk qualifications
+- 64-unit project with 4 new ADA units + 3 ADA conversions
+
+DIRECTORY ORGANIZATION COMPLETE:
+--------------------------------
+- All 22 applicable tabs ready for document organization
+- _Local_Review_Package_ for jurisdictional requirements
+- Raw_Files for working documents
+- TAB_00 sorts first and contains main application Excel file
+
+STATUS: Project is well-positioned for successful July 8, 2025 application with excellent foundation work completed.
+
+Date: 01072025

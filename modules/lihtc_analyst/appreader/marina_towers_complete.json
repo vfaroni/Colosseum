@@ -1,0 +1,19 @@
+{
+  "filename": "2024_4pct_R1_24-409.xlsx",
+  "application_data": {
+    "project_name": "Marina Towers",
+    "county": "Solano",
+    "city": "Vallejo",
+    "general_contractor": "Wilshire Pacific Builders",
+    "new_construction": "Yes",
+    "total_units": 155,
+    "total_sqft_low_income": 27878
+  },
+  "sources_uses_data": {
+    "land_cost": 660000.0,
+    "total_architectural": 286750.0,
+    "total_survey_engineering": 40000.0,
+    "local_impact_fees": 0.0,
+    "total_new_construction": 18397737.0
+  }
+}

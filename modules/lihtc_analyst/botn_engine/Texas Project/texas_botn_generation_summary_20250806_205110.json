@@ -1,0 +1,14 @@
+{
+  "generation_date": "2025-08-06T20:51:10.108795",
+  "sites_processed": 3,
+  "files_generated": 3,
+  "generated_files": [
+    "BOTN_Texas_DMarco_Richland_Hills_Tract_20250806_205049.xlsx",
+    "BOTN_Texas_DMarco_2505_Walton_Rd_20250806_205102.xlsx",
+    "BOTN_Texas_DMarco_6053_Bellfort_Ave_20250806_205108.xlsx"
+  ],
+  "cost_modifiers_applied": true,
+  "hud_ami_integrated": true,
+  "tdhca_regional_coding": true,
+  "dda_qct_qualified": true
+}

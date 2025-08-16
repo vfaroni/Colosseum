@@ -1,0 +1,16 @@
+{
+  "total_features_available": 569381,
+  "downloaded_features": 32830,
+  "simplified_features": 304,
+  "data_location": "/Users/williamrice/HERR Dropbox/Bill Rice/Data_Sets/texas/TxDOT_Roadways",
+  "classifications": [
+    "Interstate",
+    "US_Highway",
+    "State_Highway",
+    "FM_Road",
+    "Business_Route",
+    "Loop_Spur",
+    "Park_Road"
+  ],
+  "download_date": "2025-07-02T23:17:36.319356"
+}

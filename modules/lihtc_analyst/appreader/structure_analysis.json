@@ -1,0 +1,123 @@
+{
+  "filename": "2024_4pct_R1_24-409.xlsx",
+  "sheets": [
+    "Instructions-App Completion ",
+    "Checklist Items ",
+    "Instructions-Electronic Submit",
+    "Application Checklist",
+    "Application",
+    "Sources and Uses Budget",
+    "Sources and Basis Breakdown",
+    "Points System",
+    "Tie Breaker",
+    "CalHFA Addendum",
+    "Basis & Credits",
+    "Subsidy Contract Calculation",
+    "15 Year Pro Forma",
+    "Post-award Instructions",
+    "Post-award Project Cost Changes"
+  ],
+  "application_tab": {
+    "found": true,
+    "sheet_name": "Application",
+    "fields": {
+      "Project Name": {
+        "label_location": "Row 18, Col A",
+        "label_text": "PROJECT NAME:",
+        "row": 18,
+        "col": 1
+      },
+      "City": {
+        "label_location": "Row 153, Col O",
+        "label_text": "City of Vallejo",
+        "row": 153,
+        "col": 15
+      },
+      "County": {
+        "label_location": "Row 189, Col Q",
+        "label_text": "County:",
+        "row": 189,
+        "col": 17
+      },
+      "General Contractor": {
+        "label_location": "Row 295, Col T",
+        "label_text": "General Contractor:",
+        "row": 295,
+        "col": 20
+      },
+      "New Construction": null,
+      "Total Number of Units": null,
+      "Total Square Footage": null,
+      "Low Income Units": null
+    }
+  },
+  "sources_uses_tab": {
+    "found": true,
+    "sheet_name": "Sources and Uses Budget",
+    "fields": {
+      "Land Cost or Value": {
+        "label_location": "Row 4, Col A",
+        "label_text": "Land Cost or Value",
+        "row": 4,
+        "col": 1,
+        "data_value": 660000,
+        "data_location": "Row 4, Col B"
+      },
+      "Total New Construction Costs": {
+        "label_location": "Row 38, Col A",
+        "label_text": "Total New Construction Costs",
+        "row": 38,
+        "col": 1,
+        "data_value": 0,
+        "data_location": "Row 38, Col B"
+      },
+      "Total Architectural Costs": {
+        "label_location": "Row 42, Col A",
+        "label_text": "Total Architectural Costs",
+        "row": 42,
+        "col": 1,
+        "data_value": 286750,
+        "data_location": "Row 42, Col B"
+      },
+      "Total Survey and Engineering": null,
+      "Local Development Impact Fees": {
+        "label_location": "Row 85, Col A",
+        "label_text": "Local Development Impact Fees",
+        "row": 85,
+        "col": 1,
+        "data_value": 0,
+        "data_location": "Row 85, Col B"
+      },
+      "Architectural": {
+        "label_location": "Row 39, Col A",
+        "label_text": "ARCHITECTURAL FEES",
+        "row": 39,
+        "col": 1
+      },
+      "Survey": {
+        "label_location": "Row 43, Col A",
+        "label_text": "Total Survey & Engineering",
+        "row": 43,
+        "col": 1,
+        "data_value": 40000,
+        "data_location": "Row 43, Col B"
+      },
+      "Engineering": {
+        "label_location": "Row 43, Col A",
+        "label_text": "Total Survey & Engineering",
+        "row": 43,
+        "col": 1,
+        "data_value": 40000,
+        "data_location": "Row 43, Col B"
+      },
+      "Impact Fees": {
+        "label_location": "Row 85, Col A",
+        "label_text": "Local Development Impact Fees",
+        "row": 85,
+        "col": 1,
+        "data_value": 0,
+        "data_location": "Row 85, Col B"
+      }
+    }
+  }
+}

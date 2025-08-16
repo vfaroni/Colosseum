@@ -1,0 +1,1337 @@
+{
+  "site_info": {
+    "latitude": 34.175076,
+    "longitude": -118.86318,
+    "address": "Sample Address at 34.175076, -118.863180",
+    "state": "CA",
+    "county": "Sample County",
+    "census_tract": "06037001.00"
+  },
+  "federal_status": {
+    "qct_qualified": false,
+    "dda_qualified": true,
+    "federal_basis_boost": true,
+    "basis_boost_percentage": 30.0,
+    "qct_details": null,
+    "dda_details": {
+      "metro_area": null,
+      "county": null,
+      "state": null
+    },
+    "analysis_notes": "Site qualifies for 30% basis boost as DDA: Oxnard-Thousand Oaks-Ventura, CA MSA"
+  },
+  "state_scoring": {
+    "total_points": 23,
+    "max_possible_points": 30,
+    "scoring_breakdown": {
+      "opportunity_area_points": 8,
+      "amenity_points": 15,
+      "federal_bonus": 0,
+      "transit_points": 0
+    },
+    "opportunity_area": {
+      "resource_category": "Highest Resource",
+      "resource_score": 8.0,
+      "qualified": true,
+      "tract_id": "06111005906",
+      "county": "Ventura",
+      "region": "Central Coast Region",
+      "poverty_rate": 0.8569304477118784,
+      "bachelor_plus_rate": 0.5013380909901873,
+      "employment_rate": 0.7669068736141907,
+      "math_proficiency": 0.6167561158521264,
+      "reading_proficiency": 0.6765974443371359,
+      "graduation_rate": 0.595609321745058
+    },
+    "state": "CA",
+    "allocation_agency": "CTCAC",
+    "data_year": 2025,
+    "resource_category": "Highest Resource",
+    "resource_score": 8.0,
+    "opportunity_area_points": 8,
+    "in_opportunity_area": true,
+    "opportunity_area_details": {
+      "tract_id": "06111005906",
+      "county": "Ventura",
+      "region": "Central Coast Region",
+      "poverty_rate": 85.7,
+      "bachelor_plus_rate": 50.1,
+      "employment_rate": 76.7,
+      "math_proficiency": 61.7,
+      "reading_proficiency": 67.7,
+      "graduation_rate": 59.6
+    }
+  },
+  "amenity_analysis": {
+    "total_amenity_points": 69,
+    "max_possible_points": 287,
+    "amenity_breakdown": {
+      "schools": {
+        "points_earned": 3,
+        "max_possible": 63,
+        "details": [
+          {
+            "name": "Colina Middle",
+            "distance": 0.8171110083038566,
+            "points_earned": 3
+          }
+        ]
+      },
+      "medical": {
+        "points_earned": 66,
+        "max_possible": 219,
+        "details": [
+          {
+            "name": "UCLA HEALTH PAIN MANAGEMENT THOUSAND OAKS",
+            "distance": 0.1909771341697253,
+            "points_earned": 3
+          },
+          {
+            "name": "BELLA VISTA HOSPICE CARE, INC.",
+            "distance": 0.20229658857705615,
+            "points_earned": 3
+          },
+          {
+            "name": "CENTER FOR DISCOVERY-THOUSAND OAKS",
+            "distance": 0.2426722301126245,
+            "points_earned": 3
+          },
+          {
+            "name": "ASSISTED HOME HOSPICE",
+            "distance": 0.24336394113702603,
+            "points_earned": 3
+          },
+          {
+            "name": "ASSISTED HEALTH CARE SERVICES - BRANCH",
+            "distance": 0.24522110486008544,
+            "points_earned": 3
+          },
+          {
+            "name": "ASSISTED HOME CARE - BRANCH",
+            "distance": 0.24522110486008544,
+            "points_earned": 3
+          },
+          {
+            "name": "CENTER FOR ADVANCED PLASTIC SURGERY, INC.",
+            "distance": 0.33314378980443876,
+            "points_earned": 3
+          },
+          {
+            "name": "ROLLING OAKS SURGERY CENTER, LLC",
+            "distance": 0.3341872751068559,
+            "points_earned": 3
+          },
+          {
+            "name": "THOUSAND OAKS SURGICAL HOSP., A CAMPUS OF LOS ROBLES HOSP. & MEDICAL CTR.",
+            "distance": 0.34092929669749145,
+            "points_earned": 3
+          },
+          {
+            "name": "SRS-THOUSAND OAKS",
+            "distance": 0.42256925809388335,
+            "points_earned": 3
+          },
+          {
+            "name": "CONEJO VALLEY HOSPICE",
+            "distance": 0.4911971674054349,
+            "points_earned": 3
+          },
+          {
+            "name": "CAMBRIDGE HHA LLC",
+            "distance": 0.5509436168011744,
+            "points_earned": 3
+          },
+          {
+            "name": "ACA HOME HEALTH CARE INC",
+            "distance": 0.628310597569967,
+            "points_earned": 3
+          },
+          {
+            "name": "CONEJO FREE CLINIC",
+            "distance": 0.7691991949103125,
+            "points_earned": 3
+          },
+          {
+            "name": "CONEJO VALLEY WOMENS RESOURCE CENTER",
+            "distance": 0.7691991949103125,
+            "points_earned": 3
+          },
+          {
+            "name": "CONEJO FREE CLINIC DENTAL CLINIC",
+            "distance": 0.7691991949103125,
+            "points_earned": 3
+          },
+          {
+            "name": "CONEJO SURGICAL CENTER",
+            "distance": 0.7940486945502713,
+            "points_earned": 3
+          },
+          {
+            "name": "GENERATION CARE INC.",
+            "distance": 0.9355766890516287,
+            "points_earned": 3
+          },
+          {
+            "name": "DEDICATION HOSPICE CARE INC.",
+            "distance": 0.9477551775847056,
+            "points_earned": 3
+          },
+          {
+            "name": "CARELINK HOSPICE, INC.",
+            "distance": 0.9492162512556176,
+            "points_earned": 3
+          },
+          {
+            "name": "CARELINK HOME HEALTH INC",
+            "distance": 0.9591430032546262,
+            "points_earned": 3
+          },
+          {
+            "name": "BLUE RIBBON HOSPICE, INC.",
+            "distance": 0.9591430032546262,
+            "points_earned": 3
+          }
+        ]
+      },
+      "grocery": {
+        "points_earned": 0,
+        "max_possible": 5,
+        "details": []
+      },
+      "transit": {
+        "points_earned": 0,
+        "max_possible": 0,
+        "details": []
+      }
+    },
+    "nearby_amenities": {
+      "schools": [
+        {
+          "name": "Colina Middle",
+          "type": "middle",
+          "distance_miles": 0.8171110083038566,
+          "coordinates": [
+            34.18180483518087,
+            -118.85141229912493
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 796
+        },
+        {
+          "name": "Conejo Academy of Leadership and Language Immersion",
+          "type": "elementary",
+          "distance_miles": 1.2499573358363787,
+          "coordinates": [
+            34.17760483578807,
+            -118.84151229695868
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 251
+        },
+        {
+          "name": "Glenwood Elementary",
+          "type": "elementary",
+          "distance_miles": 1.32756459520831,
+          "coordinates": [
+            34.19410483629396,
+            -118.86651230261955
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 225
+        },
+        {
+          "name": "Conejo Valley High (Continuation)",
+          "type": "high",
+          "distance_miles": 1.6920357701002688,
+          "coordinates": [
+            34.19845199394445,
+            -118.85428698708587
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 82
+        },
+        {
+          "name": "Acacia Magnet School for Enriched Learning",
+          "type": "elementary",
+          "distance_miles": 1.7084298409725984,
+          "coordinates": [
+            34.19750483556721,
+            -118.87581230383789
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 369
+        },
+        {
+          "name": "Meadows Arts and Technology Elementary",
+          "type": "elementary",
+          "distance_miles": 1.7322157253832056,
+          "coordinates": [
+            34.19284583653818,
+            -118.84177129742478
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 400
+        },
+        {
+          "name": "Redwood Middle",
+          "type": "middle",
+          "distance_miles": 1.9769793166864933,
+          "coordinates": [
+            34.198004835195235,
+            -118.88391230585528
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 653
+        },
+        {
+          "name": "Westlake Hills Elementary",
+          "type": "elementary",
+          "distance_miles": 2.131763058763997,
+          "coordinates": [
+            34.16780483533568,
+            -118.82691229395456
+          ],
+          "address": "Westlake Village, CA",
+          "enrollment": 410
+        },
+        {
+          "name": "Aspen Elementary",
+          "type": "elementary",
+          "distance_miles": 2.2126421683459148,
+          "coordinates": [
+            34.20260483633737,
+            -118.88301230533169
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 288
+        },
+        {
+          "name": "Westlake Elementary",
+          "type": "elementary",
+          "distance_miles": 2.26347230061983,
+          "coordinates": [
+            34.143904831718594,
+            -118.85091229593947
+          ],
+          "address": "Westlake Village, CA",
+          "enrollment": 528
+        },
+        {
+          "name": "Madrona Elementary",
+          "type": "elementary",
+          "distance_miles": 2.278908613275779,
+          "coordinates": [
+            34.197804835105444,
+            -118.89211230743177
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 261
+        },
+        {
+          "name": "Compass Charter Schools of Los Angeles",
+          "type": "elementary",
+          "distance_miles": 2.2814726297610277,
+          "coordinates": [
+            34.15577783387851,
+            -118.83076329252582
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 956
+        },
+        {
+          "name": "Compass Charter Schools of San Diego",
+          "type": "elementary",
+          "distance_miles": 2.2814726297610277,
+          "coordinates": [
+            34.15577783387851,
+            -118.83076329252582
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 790
+        },
+        {
+          "name": "Compass Charter School of Yolo",
+          "type": "elementary",
+          "distance_miles": 2.2814726297610277,
+          "coordinates": [
+            34.15577783387851,
+            -118.83076329252582
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 706
+        },
+        {
+          "name": "River Oaks Academy",
+          "type": "elementary",
+          "distance_miles": 2.2902800814973774,
+          "coordinates": [
+            34.15586983387153,
+            -118.8304942929123
+          ],
+          "address": "Westlake Village, CA",
+          "enrollment": 337
+        },
+        {
+          "name": "Thousand Oaks High",
+          "type": "high",
+          "distance_miles": 2.553917917482532,
+          "coordinates": [
+            34.21160483811721,
+            -118.87021230427307
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 1728
+        },
+        {
+          "name": "Los Cerritos Middle",
+          "type": "middle",
+          "distance_miles": 2.555510706595916,
+          "coordinates": [
+            34.20750483901359,
+            -118.84161230011105
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 720
+        },
+        {
+          "name": "BRIDGES Charter",
+          "type": "elementary",
+          "distance_miles": 2.59741126237289,
+          "coordinates": [
+            34.212248837814506,
+            -118.85619630142502
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 378
+        },
+        {
+          "name": "Century Academy",
+          "type": "elementary",
+          "distance_miles": 2.7122221063931398,
+          "coordinates": [
+            34.213001008592435,
+            -118.87555397082005
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 230
+        },
+        {
+          "name": "Westlake High",
+          "type": "high",
+          "distance_miles": 2.8590032403931294,
+          "coordinates": [
+            34.161004836514074,
+            -118.81611229216301
+          ],
+          "address": "Westlake Village, CA",
+          "enrollment": 2010
+        },
+        {
+          "name": "Ladera STARS Academy",
+          "type": "elementary",
+          "distance_miles": 2.963831265664654,
+          "coordinates": [
+            34.21780483913099,
+            -118.85821230328058
+          ],
+          "address": "Thousand Oaks, CA",
+          "enrollment": 327
+        }
+      ],
+      "medical": [
+        {
+          "name": "UCLA HEALTH PAIN MANAGEMENT THOUSAND OAKS",
+          "type": "clinic",
+          "distance_miles": 0.1909771341697253,
+          "coordinates": [
+            34.177302,
+            -118.8651645
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "BELLA VISTA HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.20229658857705615,
+          "coordinates": [
+            34.177878,
+            -118.862145
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CENTER FOR DISCOVERY-THOUSAND OAKS",
+          "type": "clinic",
+          "distance_miles": 0.2426722301126245,
+          "coordinates": [
+            34.173315,
+            -118.8668565
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "ASSISTED HOME HOSPICE",
+          "type": "clinic",
+          "distance_miles": 0.24336394113702603,
+          "coordinates": [
+            34.178076,
+            -118.8654165
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ASSISTED HEALTH CARE SERVICES - BRANCH",
+          "type": "clinic",
+          "distance_miles": 0.24522110486008544,
+          "coordinates": [
+            34.178103,
+            -118.8654255
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ASSISTED HOME CARE - BRANCH",
+          "type": "clinic",
+          "distance_miles": 0.24522110486008544,
+          "coordinates": [
+            34.178103,
+            -118.8654255
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CENTER FOR ADVANCED PLASTIC SURGERY, INC.",
+          "type": "clinic",
+          "distance_miles": 0.33314378980443876,
+          "coordinates": [
+            34.179741,
+            -118.8616905
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "ROLLING OAKS SURGERY CENTER, LLC",
+          "type": "clinic",
+          "distance_miles": 0.3341872751068559,
+          "coordinates": [
+            34.175025,
+            -118.86903
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "THOUSAND OAKS SURGICAL HOSP., A CAMPUS OF LOS ROBLES HOSP. & MEDICAL CTR.",
+          "type": "clinic",
+          "distance_miles": 0.34092929669749145,
+          "coordinates": [
+            34.174971,
+            -118.869147
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "GACH"
+        },
+        {
+          "name": "SRS-THOUSAND OAKS",
+          "type": "clinic",
+          "distance_miles": 0.42256925809388335,
+          "coordinates": [
+            34.174782,
+            -118.870569
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ESRD/CDC"
+        },
+        {
+          "name": "CONEJO VALLEY HOSPICE",
+          "type": "clinic",
+          "distance_miles": 0.4911971674054349,
+          "coordinates": [
+            34.179363,
+            -118.8563175
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CAMBRIDGE HHA LLC",
+          "type": "clinic",
+          "distance_miles": 0.5509436168011744,
+          "coordinates": [
+            34.177806,
+            -118.872243
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ACA HOME HEALTH CARE INC",
+          "type": "clinic",
+          "distance_miles": 0.628310597569967,
+          "coordinates": [
+            34.180038,
+            -118.8724005
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "CONEJO FREE CLINIC",
+          "type": "clinic",
+          "distance_miles": 0.7691991949103125,
+          "coordinates": [
+            34.180758,
+            -118.874763
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "FREEC"
+        },
+        {
+          "name": "CONEJO VALLEY WOMENS RESOURCE CENTER",
+          "type": "clinic",
+          "distance_miles": 0.7691991949103125,
+          "coordinates": [
+            34.180758,
+            -118.874763
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "CONEJO FREE CLINIC DENTAL CLINIC",
+          "type": "clinic",
+          "distance_miles": 0.7691991949103125,
+          "coordinates": [
+            34.180758,
+            -118.874763
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "FREEC"
+        },
+        {
+          "name": "CONEJO SURGICAL CENTER",
+          "type": "clinic",
+          "distance_miles": 0.7940486945502713,
+          "coordinates": [
+            34.174062,
+            -118.8770265
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "GENERATION CARE INC.",
+          "type": "clinic",
+          "distance_miles": 0.9355766890516287,
+          "coordinates": [
+            34.185411,
+            -118.873773
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "DEDICATION HOSPICE CARE INC.",
+          "type": "clinic",
+          "distance_miles": 0.9477551775847056,
+          "coordinates": [
+            34.185392,
+            -118.874126
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CARELINK HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.9492162512556176,
+          "coordinates": [
+            34.186716,
+            -118.8720225
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CARELINK HOME HEALTH INC",
+          "type": "clinic",
+          "distance_miles": 0.9591430032546262,
+          "coordinates": [
+            34.18686,
+            -118.872072
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "BLUE RIBBON HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 0.9591430032546262,
+          "coordinates": [
+            34.18686,
+            -118.872072
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CONEJO VALLEY MEDICAL GROUP",
+          "type": "clinic",
+          "distance_miles": 1.009589083055388,
+          "coordinates": [
+            34.179021,
+            -118.880199
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "FQHC"
+        },
+        {
+          "name": "ST. CHARLES SURGICAL CENTER",
+          "type": "clinic",
+          "distance_miles": 1.0980528871544717,
+          "coordinates": [
+            34.185843,
+            -118.877328
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "ALSANA - THOUSAND OAKS SOUTH",
+          "type": "clinic",
+          "distance_miles": 1.171506338918666,
+          "coordinates": [
+            34.189731,
+            -118.8528435
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "FLORENCE HOME HEALTH CARE",
+          "type": "clinic",
+          "distance_miles": 1.2716591825138073,
+          "coordinates": [
+            34.173792,
+            -118.8409725
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "SKIN SURGERY CENTER",
+          "type": "clinic",
+          "distance_miles": 1.3047614356421022,
+          "coordinates": [
+            34.183224,
+            -118.88379
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "LOS ROBLES HOMECARE SERVICES INC",
+          "type": "clinic",
+          "distance_miles": 1.3106674106177947,
+          "coordinates": [
+            34.18475802,
+            -118.882917
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "FULL CARE HOSPICE AND PALLIATIVE CARE INC",
+          "type": "clinic",
+          "distance_miles": 1.3106674106177947,
+          "coordinates": [
+            34.18475802,
+            -118.882917
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "STARBRIGHT HOME HEALTH SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 1.33719053954257,
+          "coordinates": [
+            34.183863,
+            -118.884042
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "H & A HOSPICE INC",
+          "type": "clinic",
+          "distance_miles": 1.3377015547592062,
+          "coordinates": [
+            34.183872,
+            -118.8840465
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "ALSANA - THOUSAND OAKS NORTH",
+          "type": "clinic",
+          "distance_miles": 1.4577319418005479,
+          "coordinates": [
+            34.193286,
+            -118.850265
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "SHERWOOD OAKS POST ACUTE",
+          "type": "clinic",
+          "distance_miles": 1.4928472235089025,
+          "coordinates": [
+            34.165035,
+            -118.8400365
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "SNF"
+        },
+        {
+          "name": "DLV VISION ASC",
+          "type": "clinic",
+          "distance_miles": 1.5240383728162274,
+          "coordinates": [
+            34.16535,
+            -118.839231
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "SUNSHINE LOVELY, INC.",
+          "type": "clinic",
+          "distance_miles": 1.611031374746615,
+          "coordinates": [
+            34.196103,
+            -118.8754065
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "CARE 4U HOME HEALTH SERVICES, INC.",
+          "type": "clinic",
+          "distance_miles": 1.612900878681359,
+          "coordinates": [
+            34.16978501,
+            -118.835679
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HOMEAID HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 1.6134599824406848,
+          "coordinates": [
+            34.16976,
+            -118.835676
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "NEIGHBOR CARE HOME HEALTH",
+          "type": "clinic",
+          "distance_miles": 1.6453894648232579,
+          "coordinates": [
+            34.17345,
+            -118.834443
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WEST COAST NURSING VENTURA INC",
+          "type": "clinic",
+          "distance_miles": 1.6453894648232579,
+          "coordinates": [
+            34.17345,
+            -118.834443
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HILLCREST HOSPICE INC.",
+          "type": "clinic",
+          "distance_miles": 1.6453894648232579,
+          "coordinates": [
+            34.17345,
+            -118.834443
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "NEIGHBOR CARE HOSPICE",
+          "type": "clinic",
+          "distance_miles": 1.668854651330512,
+          "coordinates": [
+            34.173358,
+            -118.834039
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "METACARE HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 1.7553364622104617,
+          "coordinates": [
+            34.16166,
+            -118.83708
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "ROYAL HOME CARE INC",
+          "type": "clinic",
+          "distance_miles": 1.924184574909571,
+          "coordinates": [
+            34.161435,
+            -118.8338085
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "SPECIALTY SURGICAL CENTER OF WESTLAKE VILLAGE LP",
+          "type": "clinic",
+          "distance_miles": 2.0050853352964144,
+          "coordinates": [
+            34.158672,
+            -118.834218
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "SYNERGY SURGICAL CENTER, LLC",
+          "type": "clinic",
+          "distance_miles": 2.0050853352964144,
+          "coordinates": [
+            34.158672,
+            -118.834218
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "ALLIED HEALTHCARE PROFESSIONALS, INC.",
+          "type": "clinic",
+          "distance_miles": 2.207993053613092,
+          "coordinates": [
+            34.179534,
+            -118.901457
+          ],
+          "address": "NEWBURY PARK, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "HEAVENLY GARDEN HOME HEALTH CARE INC",
+          "type": "clinic",
+          "distance_miles": 2.2589349027034245,
+          "coordinates": [
+            34.158483,
+            -118.8291015
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "WESTLAKE SURGICAL CENTER",
+          "type": "clinic",
+          "distance_miles": 2.3357406974154507,
+          "coordinates": [
+            34.153461,
+            -118.8317295
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "CONEJO VALLEY SURGERY CENTER",
+          "type": "clinic",
+          "distance_miles": 2.385679353702927,
+          "coordinates": [
+            34.182441,
+            -118.903986
+          ],
+          "address": "NEWBURY PARK, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "24-7 QUALITY INFUSION & HOME HEALTH, INC.",
+          "type": "clinic",
+          "distance_miles": 2.418820042082136,
+          "coordinates": [
+            34.156422,
+            -118.827342
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "24-7 QUALITY HOSPICE CARE INC",
+          "type": "clinic",
+          "distance_miles": 2.418820042082136,
+          "coordinates": [
+            34.156422,
+            -118.827342
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "WESTLAKE VILLAGE HOSPICE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.418820042082136,
+          "coordinates": [
+            34.156422,
+            -118.827342
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CLINICAS DEL CAMINO REAL INC NEWBURY PARK",
+          "type": "clinic",
+          "distance_miles": 2.425216185412847,
+          "coordinates": [
+            34.182585,
+            -118.9046565
+          ],
+          "address": "NEWBURY PARK, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "MISSION HOSPICE SERVICES OF LOS ANGELES LLC",
+          "type": "clinic",
+          "distance_miles": 2.4310609056467176,
+          "coordinates": [
+            34.15560899,
+            -118.827722
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "CLINICAS DEL CAMINO REAL, INC., NEWBURY PARK",
+          "type": "clinic",
+          "distance_miles": 2.435898089488087,
+          "coordinates": [
+            34.182846,
+            -118.904778
+          ],
+          "address": "NEWBURY PARK, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "INFINITE HOME HEALTH INC",
+          "type": "clinic",
+          "distance_miles": 2.437771803018899,
+          "coordinates": [
+            34.155576,
+            -118.8276075
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "THOUSAND OAKS SURGERY CENTER",
+          "type": "clinic",
+          "distance_miles": 2.478687245926197,
+          "coordinates": [
+            34.18353,
+            -118.905354
+          ],
+          "address": "NEWBURY PARK, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "LOS ROBLES HOSPITAL & MEDICAL CENTER",
+          "type": "clinic",
+          "distance_miles": 2.492385758992843,
+          "coordinates": [
+            34.20747,
+            -118.8824355
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "GACH"
+        },
+        {
+          "name": "LOS ROBLES SURGICENTER",
+          "type": "clinic",
+          "distance_miles": 2.4991404805907003,
+          "coordinates": [
+            34.206804,
+            -118.88424
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "CONEJO VALLEY RENAL CENTER",
+          "type": "clinic",
+          "distance_miles": 2.4991404805907003,
+          "coordinates": [
+            34.206804,
+            -118.88424
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ESRD/CDC"
+        },
+        {
+          "name": "WESTLAKE REVIVE",
+          "type": "clinic",
+          "distance_miles": 2.4991404805907003,
+          "coordinates": [
+            34.206804,
+            -118.88424
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "BRIGHTSTAR CARE CONEJO VALLEY",
+          "type": "clinic",
+          "distance_miles": 2.511274920682363,
+          "coordinates": [
+            34.164369,
+            -118.821168
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "AVENIDA LIVING HOME, INC.",
+          "type": "clinic",
+          "distance_miles": 2.53782314903382,
+          "coordinates": [
+            34.2117,
+            -118.859418
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "CLHF"
+        },
+        {
+          "name": "PLANNED PARENTHOOD OF THOUSAND OAKS",
+          "type": "clinic",
+          "distance_miles": 2.593935443142771,
+          "coordinates": [
+            34.184907,
+            -118.90701
+          ],
+          "address": "NEWBURY PARK, CA",
+          "facility_code": "COMTYC"
+        },
+        {
+          "name": "LYNN EYE SURGERY CENTER",
+          "type": "clinic",
+          "distance_miles": 2.6311403077066706,
+          "coordinates": [
+            34.20882,
+            -118.8845865
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "OAK TREE SURGICAL CENTER LLC",
+          "type": "clinic",
+          "distance_miles": 2.6311403077066706,
+          "coordinates": [
+            34.20882,
+            -118.8845865
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "WESTLAKE EYE SURGERY CENTER",
+          "type": "clinic",
+          "distance_miles": 2.8013819869758323,
+          "coordinates": [
+            34.151328,
+            -118.8234225
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "ASC"
+        },
+        {
+          "name": "MOMENTUM AGENCIES ICF/DD-N HILLCREST",
+          "type": "clinic",
+          "distance_miles": 2.843772099414877,
+          "coordinates": [
+            34.201701,
+            -118.825191
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "ICFDDN"
+        },
+        {
+          "name": "MOMENTUM AGENCIES BEL AIR HOUSE",
+          "type": "clinic",
+          "distance_miles": 2.85855385099658,
+          "coordinates": [
+            34.202727,
+            -118.825929
+          ],
+          "address": "WESTLAKE VILLAGE, CA",
+          "facility_code": "ICFDDN"
+        },
+        {
+          "name": "AUTHENTIC HOSPICE CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.9088842342168166,
+          "coordinates": [
+            34.216938,
+            -118.8689175
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HOSPICE"
+        },
+        {
+          "name": "AUTHENTIC HOME HEALTH CARE, INC.",
+          "type": "clinic",
+          "distance_miles": 2.9088842342168166,
+          "coordinates": [
+            34.216938,
+            -118.8689175
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "BILLET HOME HEALTH - THOUSAND OAKS",
+          "type": "clinic",
+          "distance_miles": 2.9147710532223665,
+          "coordinates": [
+            34.217026,
+            -118.868894
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "HHA"
+        },
+        {
+          "name": "SAXON SURGICAL CENTER INC",
+          "type": "clinic",
+          "distance_miles": 2.950328042516392,
+          "coordinates": [
+            34.217487,
+            -118.8694845
+          ],
+          "address": "THOUSAND OAKS, CA",
+          "facility_code": "ASC"
+        }
+      ],
+      "grocery": [
+        {
+          "name": "Vons - Thousand Oaks",
+          "type": "supermarket",
+          "distance_miles": 1.5408993374335431,
+          "coordinates": [
+            34.1697,
+            -118.837
+          ],
+          "address": ""
+        }
+      ],
+      "transit": []
+    },
+    "analysis_radius_miles": 5.0,
+    "project_type": "family"
+  },
+  "rent_analysis": {
+    "location": {
+      "state": "CA",
+      "county": "Sample County"
+    },
+    "rent_limits_by_ami": {
+      "30%_ami": {
+        "studio": 600.0,
+        "1br": 650.0,
+        "2br": 800.0,
+        "3br": 1100.0,
+        "4br": 1250.0
+      },
+      "50%_ami": {
+        "studio": 1000.0,
+        "1br": 1083.33,
+        "2br": 1333.33,
+        "3br": 1833.33,
+        "4br": 2083.33
+      },
+      "60%_ami": {
+        "studio": 1200.0,
+        "1br": 1300.0,
+        "2br": 1600.0,
+        "3br": 2200.0,
+        "4br": 2500.0
+      },
+      "80%_ami": {
+        "studio": 1600.0,
+        "1br": 1733.33,
+        "2br": 2133.33,
+        "3br": 2933.33,
+        "4br": 3333.33
+      }
+    },
+    "basis_boost_qualified": true,
+    "boost_percentage": 30.0,
+    "analysis_year": 2025
+  },
+  "competitive_summary": {
+    "total_points": 23,
+    "percentile_rank": 85,
+    "competitive_tier": "Excellent",
+    "mandatory_criteria_met": true
+  },
+  "recommendations": {
+    "overall_recommendation": "Proceed with development",
+    "priority_level": "High",
+    "key_strengths": [
+      "DDA Qualified - 30% basis boost",
+      "Strong CTCAC score: 23/30"
+    ],
+    "areas_for_improvement": [],
+    "next_steps": [
+      "Complete detailed financial feasibility analysis",
+      "Engage with local community for support",
+      "Prepare LIHTC application materials"
+    ],
+    "mandatory_criteria_met": true
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-07-23T10:10:40.039925",
+    "analysis_duration_seconds": 1.937964,
+    "software_version": "1.0.0",
+    "data_sources_used": [
+      "HUD QCT/DDA 2025",
+      "CAL FIRE Fire Hazard Severity Zones",
+      "California CTCAC Opportunity Maps",
+      "OpenStreetMap",
+      "Census Bureau",
+      "State QAP Documents"
+    ],
+    "analysis_id": "LIHTC_20250723_101040"
+  }
+}

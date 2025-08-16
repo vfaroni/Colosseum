@@ -1,0 +1,112 @@
+================================================================================
+BATCH 2 ANALYSIS COMPLETE
+================================================================================
+Total emails in batch: 49
+Emails to DELETE: 13
+Emails to KEEP: 36
+
+================================================================================
+EMAILS TO BE DELETED:
+================================================================================
+  1. Call for Offers - August 5 | Russellville Commons | 283 Units in Portland, OR
+     Reason: Wrong state: Oregon
+  2. Price Reduced | 21 Unit RTI Development Site | North Park
+     Reason: Wrong state: Texas
+  3. Price Reduction: 490 Page Street Apartments | 9-Unit, Investment Opportunity in San Jose, CA | Northmarq CV
+     Reason: Too few units: 9
+  4. Just Closed | 12 Units | Yuba City, CA
+     Reason: Non-deal email
+  5. Exclusive Offering: 193-Site MHC Portfolio in Buffalo, NY MSA | 88% Occupancy with Minimal Home Inventory
+     Reason: Wrong state: New York
+  6. REAC/NSPIRE Appeal Webinar – Seats Still Available!
+     Reason: Non-deal email
+  7. Only 18 Days Remain! Don't Miss Exclusive AI Trainings – Final Chance to Attend
+     Reason: Non-deal email
+  8. JUST LISTED: 6-Property Senior Living Portfolio – Kansas City MSA
+     Reason: Wrong state: Kansas
+  9. eNews: Join CalHFA at NAREB's Building Black Wealth Event in Los Angeles
+     Reason: Non-deal email
+ 10. Final Call For Offers - July 24th | Schmidt Street Apartments
+     Reason: Too few units: 14
+ 11. NOW TOURING | 230 Church | 31-Unit New Construction Multifamily Investment Opportunity | Chula Vista, CA
+     Reason: Too few units: 31
+ 12. JUST LISTED: A Line Townhomes | 10 Premium Townhome Units | 2024 YOC | Prime Central Park Location | Designer Finishes & Features | Denver, CO
+     Reason: Wrong state: Colorado
+ 13. Now Touring: Value-Add Opportunity | 8-Property Portfolio | Ohio River Valley Submarket | 557 Units
+     Reason: Wrong state: Ohio
+
+================================================================================
+EMAILS TO BE KEPT:
+================================================================================
+  1. ZETA - REMINDER: CFO 7/30/2025 | Best-in-Class Multifamily Community | 270 Units | Sacramento, CA
+     Reason: California, 270 units
+  2. CBRE Offering: The Woods Senior Living | 59 Units in Riverside | 2021 New Construction | Pride of Ownership
+     Reason: California, 59 units
+  3. CBRE Offering: The Woods Senior Living | 59 Units in Riverside | 2021 New Construction | Pride of Ownership
+     Reason: California, 59 units
+  4. Remodeled 5.55% Cap in Gardena | Seller Financing Available
+     Reason: Could not determine - kept for review
+  5. Press Release | Green Street Elevates IJGlobal's Exclusive Infrastructure & Energy Market Intelligence
+     Reason: Could not determine - kept for review
+  6. Now Available: Esperanza at Duarte Station | 344-Unit, Transit-Oriented Class A Investment Opportunity in the San Gabriel Valley
+     Reason: California, 344 units
+  7. Value-Add Opportunity | Prime Cal State Fresno Location | 50 Units in Fresno, CA
+     Reason: California, 50 units
+  8. Call For Offers: Friday, August 15th | ±9.23-Acre, Residential Development Opportunity | San Luis Obispo, CA
+     Reason: 
+  9. San Francisco Investment Opportunity | 243-Home Value-Add Multifamily Community in San Francisco, California
+     Reason: 
+ 10. For Sale - Completed Residential Conversion in Lease Up (DLB)
+     Reason: California - kept for review
+ 11. CALL FOR OFFERS | Investment Opportunity for The Valley Residences
+     Reason: Could not determine - kept for review
+ 12. Covered Land Play - Multifamily Land For Sale in San Mateo
+     Reason: 
+ 13. Now Touring | 505 West | 334-Unit Value-Add Opportunity | Tempe, AZ
+     Reason: Arizona, 334 units
+ 14. Outstanding Rural Parcels For Sale | ±5-1,605 Acres | Prestigious Sonoma County Wine Country
+     Reason: California - kept for review
+ 15. REMINDER - CALL FOR OFFERS: July 24, 2025 | The Lofts at Continental | 11.23 Acres | Residential Development Site | Flagstaff, Arizona
+     Reason: Land opportunity in Arizona
+ 16. NEW OFFERING | Centerra Apartments | 347-Unit High-Rise Opportunity in Downtown San Jose's Vibrant San Pedro District
+     Reason: California, 347 units
+ 17. Just Listed: New Class A Senior Living Nearing Stabilization
+     Reason: Could not determine - kept for review
+ 18. Now Available: Cortland at The Battery - Luxury Midrise Apartments Adjacent to Truist Park, Home of the Atlanta Braves
+     Reason: Could not determine - kept for review
+ 19. CALL FOR OFFERS Aug. 5th | West Oaks Multifamily Site | 371 Garden Units | Rocklin, CA
+     Reason: 
+ 20. Silicon Valley Investment Opportunity | 134-Unit Value-Add Community | Fremont, California
+     Reason: California, 134 units
+ 21. Investment Opportunity for 4825 - 4857 College Ave
+     Reason: Could not determine - kept for review
+ 22. Just Sold | First Waterfront Transaction Since 2019 | Villa Del Mar in Marina Del Rey
+     Reason: California, 198 units
+ 23. FOR SALE: 1206 Oakmead Parkway in Sunnyvale, CA | ±1.26-Acre Redevelopment Opportunity
+     Reason: 
+ 24. Call for Offers: August 12th | Yardly Paradisi | 193-Home Build-to-Rent Community | Phoenix MSA
+     Reason: 
+ 25. JUST LISTED | Trophy Value-Add Retail, Restaurant, & Office/Medical Investment Opportunity & Parking Lot Along Ventura Blvd in Tarzana, CA
+     Reason: 
+ 26. Reminder - Now Touring & Call for Offers: 76 LIHTC Units in Placerville, CA
+     Reason: 
+ 27. REMINDER - CALL FOR OFFERS - July 29, 2025 :: Residences Kierland | 290-Unit Ultra-Core Multifamily Investment Opportunity | North Scottsdale
+     Reason: Arizona, 290 units
+ 28. Coming Soon - August 25th | You're Invited! | Catholic Big Brothers Big Sisters Annual Golf Classic
+     Reason: Could not determine - kept for review
+ 29. REMINDER - CALL FOR OFFERS: July 29, 2025 :: Capri North and South | 624 Units | Value-Add Multifamily Community in Las Vegas
+     Reason: Could not determine - kept for review
+ 30. Reminder - Now Touring & Call for Offers: 80 LIHTC Units in Sacramento, CA
+     Reason: 
+ 31. Reminder - Now Touring & Call for Offers: 76 LIHTC Units in Placerville, CA
+     Reason: 
+ 32. Reminder - Now Touring & Call for Offers: 80 LIHTC Units in Sacramento, CA
+     Reason: 
+ 33. Now Available: District at Parkview | Stabilized, New Construction, Luxury Garden Community located in South Gwinnett
+     Reason: Could not determine - kept for review
+ 34. Exceptional Investment Opportunity | Low Price Per Unit in Mountain View
+     Reason: 
+ 35. RE: The Baxter - 31MM Hollywood Hills 2024 Build 6.3% Y1 Cap Rate
+     Reason: 
+ 36. Solasta - Now Touring! | New Construction Multifamily Community | 266 Units | Sacramento, CA
+     Reason: California, 266 units

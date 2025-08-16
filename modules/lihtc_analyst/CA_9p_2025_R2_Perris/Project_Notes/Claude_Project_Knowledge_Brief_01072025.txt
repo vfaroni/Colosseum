@@ -1,0 +1,215 @@
+================================================================================
+CLAUDE PROJECT KNOWLEDGE BRIEF: SAN JACINTO VISTA II - 9% TAX CREDIT APPLICATION
+Project Setup and Document Collection Phase
+================================================================================
+
+PROJECT OVERVIEW:
+-----------------
+Property: San Jacinto Vista II ("SJV")
+Location: Perris, California
+Existing Units: 60 units (mix of 1BR and 2BR)
+Proposed Units: 64 total units
+- Adding 4 new 1BR ADA units
+- Converting 3 existing 2BR end units to ADA units
+- New community room
+- New office
+Type: At-Risk USDA RD 515 property (non-rural designation)
+Application: 2025 CTCAC 9% Competitive Tax Credit Application
+Set-Aside Category: AT-RISK/PRESERVATION SET-ASIDE
+Application Deadline: JULY 8, 2025 (ROUND 2)
+Award Announcement: SEPTEMBER 9, 2025
+Base Path: /Users/williamrice/HERR Dropbox/Bill Rice/Structured Consultants/AI Projects/CA_9p_2025_R2_Perris
+
+CRITICAL TIMELINE (FROM 2025 CTCAC CALENDAR):
+---------------------------------------------
+- Application Deadline: July 8, 2025
+- Committee Meeting: September 9, 2025 (Award Decision)
+- Time to Prepare: ~6 months from January 2025
+- Key Milestones:
+  * Market Study: Must be ordered by early May (6 months fresh)
+  * Local Approvals: Should be complete by June
+  * All commitments: Must be dated within 180 days of application
+
+CRITICAL SET-ASIDE INFORMATION:
+-------------------------------
+- Applying in AT-RISK/PRESERVATION SET-ASIDE (5% of annual allocation)
+- NO PROJECTS APPLIED IN 1ST ROUND 2025 (excellent opportunity)
+- Generally NOT COMPETITIVE - at-risk transactions usually receive allocation
+- Not applying in Geographic set-aside
+- While still scored, threshold compliance is more critical than maximizing points
+
+CRITICAL CONTEXT FOR FUTURE SESSIONS:
+-------------------------------------
+1. This is an AT-RISK preservation project, which has specific scoring advantages under CTCAC regulations
+2. USDA RD 515 properties have unique requirements and documentation needs
+3. The property has a non-rural designation despite being USDA financed
+4. Application deadline is July 8, 2025 - firm deadline
+5. EXPANSION PROJECT: Adding 4 units (60 to 64) plus ADA conversions - this affects scoring and basis calculations
+6. Focus should be on MEETING THRESHOLDS rather than maximizing competitive scoring
+
+DIRECTORY STRUCTURE CREATED:
+----------------------------
+/CA_9p_2025_R2_Perris/
+├── CTCAC_Rules/
+│   ├── December_11_2024_QAP_Regulations_FINAL.pdf (PRIMARY REGULATORY DOCUMENT)
+│   └── 2025_CTCAC_Calendar.pdf
+├── Application_Information/
+│   ├── Application_and_Attachment_FAQ.pdf
+│   └── Developer_Fee_Calculator.xlsx
+├── 9_Percent_Applications/
+│   └── 2025_9_Percent_Competitive_Tax_Credit_Application.xlsx
+├── Market_Study_Documents/
+│   ├── Market_Study_Guidelines.pdf
+│   ├── Market_Study_Rent_Comparability_Matrixes.xls
+│   ├── Market_Study_Index.doc
+│   └── Rent_Overburden_for_Unsubsidized_Units.pdf
+├── Financial_Documents/
+│   ├── 2025_Threshold_Basis_Limits.pdf
+│   ├── 2022_Operating_Expense_Minimums.pdf
+│   ├── 2025_Income_Limits_040125.pdf
+│   └── 2025_Rent_Limits_040125.pdf
+├── Mapping_Resources/ (empty - manual downloads needed)
+└── Project_Notes/
+    ├── CTCAC_Document_Download_Summary_01072025.txt
+    ├── QAP_Download_Note_01072025.txt
+    └── Claude_Project_Knowledge_Brief_01072025.txt
+
+RECOMMENDED APPLICATION DIRECTORY STRUCTURE (FROM 2016 - NEEDS VERIFICATION):
+-----------------------------------------------------------------------------
+Application_Submission/
+├── _Local_Review_Package_
+├── Raw_Files
+├── TAB_00__APPLICATION
+├── TAB_01__Demonstrated_Site_Control
+├── TAB_02__Financial_Feasibility
+├── TAB_03__Set-Aside_Designation - NA
+├── TAB_04__Housing_Type__Additional_Threshold_Requirements
+├── TAB_05__Applicant_or_Development_Team
+├── TAB_06__Development_Team_Information
+├── TAB_07__Acquisition_Credit_Applications
+├── TAB_08__Rehabilitation_Credit_Applications
+├── TAB_09__Tenant_Information
+├── TAB_10__Project__Land__Building_and_Unit
+├── TAB_11__Project_Size_Limitations__NA
+├── TAB_12__Site_and_Project_Limitations
+├── TAB_13__Market_Analysis
+├── TAB_14__Local_Approvals
+├── TAB_15__Enforceable_Financing_Commitments
+├── TAB_16__Syndication
+├── TAB_17__Evidence_of_Subsidies
+├── TAB_18__Threshold_Basis_Limit_Increases_and_Certs__NA
+├── TAB_19__Eligible_Basis_Certifications
+├── TAB_20__Public_Funds
+├── TAB_21__General_Partner_and_Mgmt_Company_Characteristics
+├── TAB_22__Management_Company_Experience
+├── TAB_23__Site_Amenities
+├── TAB_24__Service_Amenities
+├── TAB_25__Sustainable_Building_Methods
+├── TAB_26__Readiness_to_Proceed
+├── TAB_27__Misc_Fed_and_State_Policies__NA
+└── TAB_28__Farmworker_Application__NA
+
+ACTION ITEM: Verify current tab structure against 2025 application Excel file
+
+KEY DOCUMENTS AND THEIR PURPOSES:
+---------------------------------
+1. December_11_2024_QAP_Regulations_FINAL.pdf
+   - THE governing document for all scoring and requirements
+   - Contains threshold requirements, scoring criteria, tiebreakers
+   - Must be referenced for all application decisions
+   - Check specific At-Risk set-aside requirements
+
+2. 2025_9_Percent_Competitive_Tax_Credit_Application.xlsx
+   - The actual application workbook to be completed
+   - Contains all tabs and calculations required for submission
+
+3. Developer_Fee_Calculator.xlsx
+   - Critical for calculating allowable developer fees
+   - Must be used to ensure compliance with fee limits
+
+4. Income/Rent Limits (040125 versions)
+   - For projects placing in service on/after 4/1/2025
+   - Essential for rent calculations and income targeting
+
+5. 2025_CTCAC_Calendar.pdf
+   - Official deadlines and meeting dates
+   - July 8, 2025 application deadline for Round 2
+
+RESOURCES REQUIRING MANUAL ACCESS:
+----------------------------------
+1. Training Videos (https://www.treasurer.ca.gov/ctcac/2025/training.asp)
+2. Application Attachments Index (https://www.treasurer.ca.gov/ctcac/2025/applications/index.asp)
+3. Submission Instructions (online guide)
+4. LRA Process Information
+5. Opportunity Area Maps (interactive) - Less critical for At-Risk set-aside
+6. Historical Income/Rent Limits
+7. California Utility Allowance Calculator (CUAC)
+
+IMPORTANT NOTES FOR NEXT STEPS:
+-------------------------------
+1. PRIORITY FOCUS - THRESHOLD REQUIREMENTS (since not competitive):
+   - Verify property qualifies as "at-risk" under CTCAC definitions
+   - Site control documentation
+   - Zoning confirmation (verify allows 64 units)
+   - Environmental reviews (Phase I)
+   - Financial feasibility (including new construction)
+   - Management company requirements
+   - Minimum construction standards
+   - Relocation plan requirements (for units being converted to ADA)
+
+2. SCORING CONSIDERATIONS (still required but not competitive):
+   - Meet minimum score requirements
+   - Focus on easily documentable points
+   - Don't spend excessive time maximizing points
+   - Ensure all claimed points are fully supported
+
+3. USDA COORDINATION:
+   - Will need USDA approval for subordination
+   - Rent restrictions overlay with tax credit rents
+   - Potential for project-based rental assistance
+   - Approval for adding 4 new units to existing property
+
+4. TIMELINE MILESTONES FOR JULY 8, 2025 APPLICATION:
+   - January 2025: Begin application preparation
+   - February 2025: Order Phase I Environmental
+   - March 2025: Finalize development team, begin local approvals
+   - April 2025: Draft financial projections, begin commitment letters
+   - May 2025: Order market study (must be <6 months old)
+   - June 2025: Finalize all documentation, local approvals
+   - Early July 2025: Final review and submission
+
+5. AT-RISK SPECIFIC REQUIREMENTS:
+   - Must document at-risk status (expiring restrictions, etc.)
+   - May need evidence from USDA on program status
+   - Tenant notification requirements
+   - Preservation plan documentation
+
+6. CONSTRUCTION SCOPE CONSIDERATIONS:
+   - 4 new 1BR ADA units (new construction eligible basis)
+   - 3 existing 2BR conversions to ADA (rehabilitation eligible basis)
+   - New community room (common area basis)
+   - New office (common area basis)
+   - Remaining 57 units rehabilitation scope
+
+RECOMMENDED IMMEDIATE ACTIONS:
+------------------------------
+1. Read QAP sections specific to At-Risk set-aside requirements
+2. Document property's at-risk qualification status
+3. Review the main application Excel workbook structure
+4. Verify 2025 tab structure matches historical structure
+5. Focus on threshold requirement documentation
+6. Confirm zoning allows 64 units (density increase)
+7. Begin USDA coordination for approvals
+8. Create project timeline working backward from July 8, 2025
+
+DATA ORGANIZATION TIPS:
+-----------------------
+- All downloaded documents maintain original CTCAC naming where possible
+- Project_Notes folder contains summaries and tracking documents
+- Consider creating subfolders in 9_Percent_Applications for attachments as collected
+- May want to create a "Working_Documents" folder for drafts
+- Tab folders should contain all supporting documents for that section
+- Create "At_Risk_Documentation" folder for preservation evidence
+
+This brief prepared for Claude Project Knowledge Base to ensure continuity across sessions.
+Prepared: 01072025

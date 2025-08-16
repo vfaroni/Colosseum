@@ -1,0 +1,23 @@
+{
+  "filename": "2024_4pct_R1_24-409.xlsx",
+  "application_data": {
+    "project_name": "Marina Towers",
+    "county": "Solano",
+    "city": "Vallejo",
+    "general_contractor": "Not found",
+    "housing_type": "Seniors",
+    "year": "Not found",
+    "total_units": 1476738,
+    "ctcac_project_number": "24-409",
+    "total_sqft_low_income": 91612,
+    "new_construction": "No"
+  },
+  "sources_uses_data": {
+    "land_cost": 660000.0,
+    "total_architectural": 286750.0,
+    "total_survey_engineering": 40000.0,
+    "local_impact_fees": 0.0,
+    "total_new_construction": 0.0,
+    "soft_cost_contingency": 75000.0
+  }
+}

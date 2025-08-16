@@ -1,0 +1,96 @@
+{
+  "Interstate": {
+    "prefixes": [
+      "IH"
+    ],
+    "description": "Interstate Highways",
+    "examples": [
+      "I-10",
+      "I-35",
+      "I-45"
+    ],
+    "scoring_weight": 1.0,
+    "search_radius_miles": 5
+  },
+  "US_Highway": {
+    "prefixes": [
+      "US"
+    ],
+    "description": "US Highways",
+    "examples": [
+      "US-290",
+      "US-287",
+      "US-90"
+    ],
+    "scoring_weight": 0.8,
+    "search_radius_miles": 4
+  },
+  "State_Highway": {
+    "prefixes": [
+      "SH"
+    ],
+    "description": "State Highways",
+    "examples": [
+      "SH-130",
+      "SH-71",
+      "SH-6"
+    ],
+    "scoring_weight": 0.6,
+    "search_radius_miles": 3
+  },
+  "FM_Road": {
+    "prefixes": [
+      "FM",
+      "RM"
+    ],
+    "description": "Farm/Ranch to Market Roads",
+    "examples": [
+      "FM-1960",
+      "FM-620",
+      "RM-12"
+    ],
+    "scoring_weight": 0.3,
+    "search_radius_miles": 2
+  },
+  "Business_Route": {
+    "prefixes": [
+      "BI",
+      "BS",
+      "BU",
+      "BF"
+    ],
+    "description": "Business Routes (through towns)",
+    "examples": [
+      "BS-287",
+      "BU-290"
+    ],
+    "scoring_weight": 0.4,
+    "search_radius_miles": 2
+  },
+  "Loop_Spur": {
+    "prefixes": [
+      "LP",
+      "SP",
+      "RE"
+    ],
+    "description": "Loops and Spurs",
+    "examples": [
+      "LP-610",
+      "SP-347"
+    ],
+    "scoring_weight": 0.5,
+    "search_radius_miles": 3
+  },
+  "Park_Road": {
+    "prefixes": [
+      "PR",
+      "PA"
+    ],
+    "description": "Park Roads",
+    "examples": [
+      "PR-4"
+    ],
+    "scoring_weight": 0.1,
+    "search_radius_miles": 1
+  }
+}

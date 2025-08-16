@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Caltrans High‑Quality Transit Areas (HQTA)",
+    "type": "polygon dataset",
+    "description": "Statewide polygons representing half‑mile buffers around high‑quality transit corridors and major transit stops, derived from GTFS schedules. The methodology estimates corridor segments with headways of 20 minutes or less.",
+    "usage_for_1_3_mile_analysis": "Use the ArcGIS FeatureServer query with geometry and geometryType parameters to test whether a point falls within an HQTA polygon; suitable for eligibility screening rather than counting stops.",
+    "evidence": ["400416525257726\u2020L15-L20"]
+  },
+  {
+    "name": "Caltrans High‑Quality Transit Stops (HQTS)",
+    "type": "point dataset",
+    "description": "Points representing stops along high‑quality corridors and major bus‑rapid transit, rail, or ferry stations. Each stop record includes fields like stop ID, agency, route IDs and average trips per peak hour.",
+    "usage_for_1_3_mile_analysis": "Query the FeatureServer with parameters geometry=<lon,lat>, distance=536, units=esriSRUnit_Meter and use outStatistics to count stops or sum average trips per peak hour within 1/3‑mile (~536 m).",
+    "evidence": ["362531998659850\u2020L15-L18"]
+  },
+  {
+    "name": "Caltrans California Transit Stops",
+    "type": "point dataset",
+    "description": "Comprehensive point layer of all transit stops in California compiled from GTFS data. Attributes include the number of routes serving each stop (n_routes), number of arrivals, hours in service and route IDs.",
+    "usage_for_1_3_mile_analysis": "Use the FeatureServer query with geometry=<lon,lat> and distance=536 to return all stops within 1/3‑mile; aggregate n_routes or n_arrivals across returned records to estimate transit supply.",
+    "evidence": ["288672930671660\u2020L45-L49", "207402934541260\u2020L94-L124"]
+  },
+  {
+    "name": "Caltrans California Transit Routes",
+    "type": "polyline dataset",
+    "description": "Polyline layer of bus, rail and ferry routes compiled from GTFS. Includes attributes like route name, route type and number of trips.",
+    "usage_for_1_3_mile_analysis": "Query the FeatureServer with geometry=<lon,lat> and distance=536 to find route segments within 1/3‑mile; count distinct route IDs or sum the n_trips field to approximate service frequency.",
+    "evidence": ["421384583892393\u2020L45-L49", "368109629178711\u2020L92-L107"]
+  },
+  {
+    "name": "Transitland v2 REST API",
+    "type": "national API aggregating GTFS data",
+    "description": "REST API that aggregates GTFS feeds for the U.S. It supports geographic queries using lat, lon and radius parameters, with optional filters for vehicle type or operator.",
+    "usage_for_1_3_mile_analysis": "Send a GET request to `https://transit.land/api/v2/rest/stops?lat=<lat>&lon=<lon>&radius=536` to obtain all stops within ~1/3‑mile. Count the stops or group by operator/route to measure transit supply. Maximum radius allowed is 10 km.",
+    "evidence": ["923668645505626\u2020L54-L56", "923668645505626\u2020L90-L138"]
+  },
+  {
+    "name": "OpenStreetMap Overpass API",
+    "type": "OpenStreetMap query service",
+    "description": "API for querying OpenStreetMap data. The `around` command fetches nodes near a given point, and is often used to retrieve features like bus stops.",
+    "usage_for_1_3_mile_analysis": "Construct an Overpass QL query such as `[out:json];node(around:536,<lat>,<lon>)[highway=bus_stop];out;` to return all bus stops within ~536 m (~1/3‑mile). Coverage depends on user contributions and does not include service frequency.",
+    "evidence": ["887781702916002\u2020L645-L672"]
+  },
+  {
+    "name": "OpenTripPlanner GraphQL API (stopsByRadius)",
+    "type": "GraphQL API on OTP servers",
+    "description": "Query that returns all transit stops within a specified radius from a location; radius is measured as walking distance along the street network rather than straight line.",
+    "usage_for_1_3_mile_analysis": "If you have access to an OTP server, call `stopsByRadius` with variables `{lat: <lat>, lon: <lon>, radius: 536}`. The result lists stops and walking distances within ~1/3‑mile and can include additional data like route patterns or departure times.",
+    "evidence": ["977803983921719\u2020L264-L319"]
+  },
+  {
+    "name": "EPA Smart Location Database (SLD)",
+    "type": "national block‑group dataset",
+    "description": "Provides precomputed metrics describing transit accessibility, including D4a (distance to nearest transit stop), D4b (proportion of population within 0.25/0.5 mile of rail stations) and D4c (aggregate peak‑hour transit frequency). Metrics are derived using network-based measures and TravelTime API.",
+    "usage_for_1_3_mile_analysis": "This is not an API. To use, spatially join the latitude/longitude to a census block group and read the D4a–D4c metrics. It yields transit accessibility measures but does not return counts of stops within a custom radius.",
+    "evidence": ["185111963923083\u2020L2606-L2618", "185111963923083\u2020L2667-L2703", "185111963923083\u2020L2704-L2712"]
+  }
+]

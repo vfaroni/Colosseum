@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Mt. Graham",
+    "address": "2040 S Twentieth Avenue, Safford, AZ",
+    "units": 40,
+    "rental_assistance": 36,
+    "latitude": 32.822054,
+    "longitude": -109.720607,
+    "is_qct": false,
+    "is_dda": false
+  },
+  {
+    "name": "Safford Villa",
+    "address": "106 W 11th Street, Safford, AZ",
+    "units": 24,
+    "rental_assistance": 24,
+    "latitude": 32.8276193,
+    "longitude": -109.7085118,
+    "is_qct": false,
+    "is_dda": false
+  },
+  {
+    "name": "Willcox Villa",
+    "address": "201 N. Bisbee Ave, Wilcox, AZ",
+    "units": 24,
+    "rental_assistance": 24,
+    "latitude": 32.261129,
+    "longitude": -109.841382,
+    "is_qct": false,
+    "is_dda": false
+  },
+  {
+    "name": "Cochise Apts",
+    "address": "650 W. Union Street, Benson, AZ",
+    "units": 24,
+    "rental_assistance": 23,
+    "latitude": 31.962736,
+    "longitude": -110.308719,
+    "is_qct": false,
+    "is_dda": false
+  },
+  {
+    "name": "United Church Village Apts",
+    "address": "320 E Placita Naco Cir, Nogales, AZ 85621",
+    "units": 48,
+    "rental_assistance": 48,
+    "latitude": 31.3713391,
+    "longitude": -110.9240253,
+    "is_qct": false,
+    "is_dda": false
+  }
+]

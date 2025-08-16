@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": 404,
+    "message": "Service public/NFHLV2/MapServer not found ",
+    "details": []
+  }
+}

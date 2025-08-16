@@ -1,0 +1,3967 @@
+{
+  "summary": {
+    "total_sites_analyzed": 263,
+    "hqta_qualified": 28,
+    "frequency_qualified": 78,
+    "not_qualified": 157,
+    "total_qualified": 106,
+    "qualification_rate_percent": 40.3041825095057,
+    "processing_time_seconds": 16.266709,
+    "avg_time_per_site": 0.06185060456273764,
+    "analysis_method": "OPTIMIZED_ENHANCED_ANALYSIS"
+  },
+  "detailed_results": [
+    {
+      "site_id": "Site_0",
+      "latitude": 34.148609,
+      "longitude": -118.258263,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.225987"
+    },
+    {
+      "site_id": "Site_1",
+      "latitude": 34.6292058,
+      "longitude": -118.2401006,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:53.275012"
+    },
+    {
+      "site_id": "Site_2",
+      "latitude": 34.094632,
+      "longitude": -118.343706,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.276279"
+    },
+    {
+      "site_id": "Site_3",
+      "latitude": 34.3791347,
+      "longitude": -118.5457397,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 8,
+      "best_frequency_minutes": 8.333333333333334,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.350003"
+    },
+    {
+      "site_id": "Site_4",
+      "latitude": 34.6133257,
+      "longitude": -118.1987078,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 600.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.444430"
+    },
+    {
+      "site_id": "Site_5",
+      "latitude": 34.0278369,
+      "longitude": -118.4815799,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.445737"
+    },
+    {
+      "site_id": "Site_6",
+      "latitude": 34.04161,
+      "longitude": -118.4602499,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.446934"
+    },
+    {
+      "site_id": "Site_7",
+      "latitude": 34.2830754,
+      "longitude": -118.7626911,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 42.857142857142854,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.540525"
+    },
+    {
+      "site_id": "Site_8",
+      "latitude": 34.4898259,
+      "longitude": -118.6205979,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 27.27272727272727,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.635182"
+    },
+    {
+      "site_id": "Site_9",
+      "latitude": 34.1533659,
+      "longitude": -118.5303141,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:53.682690"
+    },
+    {
+      "site_id": "Site_10",
+      "latitude": 34.4222587,
+      "longitude": -118.5721128,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 600.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.755100"
+    },
+    {
+      "site_id": "Site_11",
+      "latitude": 34.4318711,
+      "longitude": -119.8100773,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 6,
+      "best_frequency_minutes": 9.09090909090909,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.826598"
+    },
+    {
+      "site_id": "Site_12",
+      "latitude": 34.1740134,
+      "longitude": -118.8603014,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 7,
+      "best_frequency_minutes": 10.169491525423728,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:53.898723"
+    },
+    {
+      "site_id": "Site_13",
+      "latitude": 34.2639638,
+      "longitude": -118.5339661,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:53.945590"
+    },
+    {
+      "site_id": "Site_14",
+      "latitude": 34.16788,
+      "longitude": -118.8441253,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:53.992753"
+    },
+    {
+      "site_id": "Site_15",
+      "latitude": 34.4488433,
+      "longitude": -119.8246367,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 600.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:54.065218"
+    },
+    {
+      "site_id": "Site_16",
+      "latitude": 34.416547,
+      "longitude": -118.575103,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 8,
+      "best_frequency_minutes": 49.99999999999999,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:54.136445"
+    },
+    {
+      "site_id": "Site_17",
+      "latitude": 36.8628684,
+      "longitude": -119.7399771,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:54.185307"
+    },
+    {
+      "site_id": "Site_18",
+      "latitude": 35.2646497,
+      "longitude": -120.647744,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 37.5,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:54.257391"
+    },
+    {
+      "site_id": "Site_19",
+      "latitude": 35.2413346,
+      "longitude": -120.6411616,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 3,
+      "best_frequency_minutes": 21.428571428571427,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:54.350980"
+    },
+    {
+      "site_id": "Site_20",
+      "latitude": 35.390741,
+      "longitude": -119.14552,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:54.398011"
+    },
+    {
+      "site_id": "Site_21",
+      "latitude": 36.8436463,
+      "longitude": -119.7619574,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 8,
+      "best_frequency_minutes": 10.344827586206895,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:54.471113"
+    },
+    {
+      "site_id": "Site_22",
+      "latitude": 36.8442693,
+      "longitude": -119.6385061,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:54.519267"
+    },
+    {
+      "site_id": "Site_23",
+      "latitude": 36.9226875,
+      "longitude": -119.8702206,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 120.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:54.613465"
+    },
+    {
+      "site_id": "Site_24",
+      "latitude": 35.368361,
+      "longitude": -119.093442,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 46.15384615384615,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:54.707712"
+    },
+    {
+      "site_id": "Site_25",
+      "latitude": 35.3691874,
+      "longitude": -119.1195033,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:54.755857"
+    },
+    {
+      "site_id": "Site_26",
+      "latitude": 37.7110566,
+      "longitude": -120.9449962,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:54.803522"
+    },
+    {
+      "site_id": "Site_27",
+      "latitude": 37.2945707,
+      "longitude": -122.0332076,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 5,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:54.897472"
+    },
+    {
+      "site_id": "Site_28",
+      "latitude": 37.0405214,
+      "longitude": -122.0232435,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 3,
+      "best_frequency_minutes": 17.64705882352941,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:54.991042"
+    },
+    {
+      "site_id": "Site_29",
+      "latitude": 37.5364944,
+      "longitude": -120.8903152,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:55.038298"
+    },
+    {
+      "site_id": "Site_30",
+      "latitude": 36.984753,
+      "longitude": -121.942841,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:55.039671"
+    },
+    {
+      "site_id": "Site_31",
+      "latitude": 34.8810615,
+      "longitude": -120.427911,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 33.333333333333336,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:55.133604"
+    },
+    {
+      "site_id": "Site_32",
+      "latitude": 36.6406179,
+      "longitude": -121.796992,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:55.181785"
+    },
+    {
+      "site_id": "Site_33",
+      "latitude": 35.3976092,
+      "longitude": -119.1637223,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:55.229305"
+    },
+    {
+      "site_id": "Site_34",
+      "latitude": 36.8099313,
+      "longitude": -119.6798253,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 4,
+      "best_frequency_minutes": 24.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:55.300045"
+    },
+    {
+      "site_id": "Site_35",
+      "latitude": 36.8096391,
+      "longitude": -119.8268853,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:55.301216"
+    },
+    {
+      "site_id": "Site_36",
+      "latitude": 36.8387819,
+      "longitude": -119.6710702,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:55.394478"
+    },
+    {
+      "site_id": "Site_37",
+      "latitude": 35.301322,
+      "longitude": -120.678363,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 4,
+      "best_frequency_minutes": 26.08695652173913,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:55.488491"
+    },
+    {
+      "site_id": "Site_38",
+      "latitude": 35.30791,
+      "longitude": -119.09842,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:55.535474"
+    },
+    {
+      "site_id": "Site_39",
+      "latitude": 36.9675064,
+      "longitude": -119.8929701,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:55.582598"
+    },
+    {
+      "site_id": "Site_40",
+      "latitude": 37.4641336,
+      "longitude": -121.1695555,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:55.629516"
+    },
+    {
+      "site_id": "Site_41",
+      "latitude": 36.8155568,
+      "longitude": -119.9160206,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:55.676491"
+    },
+    {
+      "site_id": "Site_42",
+      "latitude": 36.8975553,
+      "longitude": -119.7494263,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:55.723727"
+    },
+    {
+      "site_id": "Site_43",
+      "latitude": 37.3431294,
+      "longitude": -122.0977272,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:55.772213"
+    },
+    {
+      "site_id": "Site_44",
+      "latitude": 35.122491,
+      "longitude": -120.590606,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 7,
+      "best_frequency_minutes": 10.714285714285714,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:55.868332"
+    },
+    {
+      "site_id": "Site_45",
+      "latitude": 36.975952,
+      "longitude": -121.944459,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:55.916971"
+    },
+    {
+      "site_id": "Site_46",
+      "latitude": 37.3223303,
+      "longitude": -122.0156555,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:55.918181"
+    },
+    {
+      "site_id": "Site_47",
+      "latitude": 36.8379377,
+      "longitude": -119.8617675,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 18.18181818181818,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:56.013440"
+    },
+    {
+      "site_id": "Site_48",
+      "latitude": 36.8375713,
+      "longitude": -119.654336,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.061162"
+    },
+    {
+      "site_id": "Site_49",
+      "latitude": 35.2369171,
+      "longitude": -119.015791,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.108836"
+    },
+    {
+      "site_id": "Site_50",
+      "latitude": 36.884758,
+      "longitude": -119.776061,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.156776"
+    },
+    {
+      "site_id": "Site_51",
+      "latitude": 37.4032207,
+      "longitude": -120.848448,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.204353"
+    },
+    {
+      "site_id": "Site_52",
+      "latitude": 35.5524522,
+      "longitude": -120.7196557,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 20.68965517241379,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:56.299260"
+    },
+    {
+      "site_id": "Site_53",
+      "latitude": 37.0968997,
+      "longitude": -120.9279508,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.346295"
+    },
+    {
+      "site_id": "Site_54",
+      "latitude": 37.0989278,
+      "longitude": -120.9309777,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.393134"
+    },
+    {
+      "site_id": "Site_55",
+      "latitude": 37.0558214,
+      "longitude": -120.8722738,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 33.333333333333336,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:56.486989"
+    },
+    {
+      "site_id": "Site_56",
+      "latitude": 37.0563,
+      "longitude": -120.8816959,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 66.66666666666667,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:56.582307"
+    },
+    {
+      "site_id": "Site_57",
+      "latitude": 37.301844,
+      "longitude": -122.0538643,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.629867"
+    },
+    {
+      "site_id": "Site_58",
+      "latitude": 36.8071856,
+      "longitude": -119.6792987,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 6,
+      "best_frequency_minutes": 15.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:56.702118"
+    },
+    {
+      "site_id": "Site_59",
+      "latitude": 36.809357,
+      "longitude": -119.640621,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.751089"
+    },
+    {
+      "site_id": "Site_60",
+      "latitude": 36.8094798,
+      "longitude": -119.6400287,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.799395"
+    },
+    {
+      "site_id": "Site_61",
+      "latitude": 37.4621369,
+      "longitude": -121.1690314,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.846535"
+    },
+    {
+      "site_id": "Site_62",
+      "latitude": 37.4634988,
+      "longitude": -121.1713861,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.893387"
+    },
+    {
+      "site_id": "Site_63",
+      "latitude": 35.2674182,
+      "longitude": -119.0571474,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:56.940255"
+    },
+    {
+      "site_id": "Site_64",
+      "latitude": 37.7813444,
+      "longitude": -121.2558798,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 46.15384615384615,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.035163"
+    },
+    {
+      "site_id": "Site_65",
+      "latitude": 38.382859,
+      "longitude": -120.801086,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 1,
+      "base_points": 0,
+      "tiebreaker_points": 1,
+      "stops_found": 2,
+      "best_frequency_minutes": 60.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.130482"
+    },
+    {
+      "site_id": "Site_66",
+      "latitude": 38.0231405,
+      "longitude": -121.2592167,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 49.99999999999999,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.224057"
+    },
+    {
+      "site_id": "Site_67",
+      "latitude": 38.784337,
+      "longitude": -121.226383,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:57.271670"
+    },
+    {
+      "site_id": "Site_68",
+      "latitude": 38.7431347,
+      "longitude": -121.181248,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:57.319296"
+    },
+    {
+      "site_id": "Site_69",
+      "latitude": 38.559038,
+      "longitude": -121.245097,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.320468"
+    },
+    {
+      "site_id": "Site_70",
+      "latitude": 37.5649414,
+      "longitude": -122.2769547,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 10,
+      "best_frequency_minutes": 27.27272727272727,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.369912"
+    },
+    {
+      "site_id": "Site_71",
+      "latitude": 38.792426,
+      "longitude": -121.2957967,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.371113"
+    },
+    {
+      "site_id": "Site_72",
+      "latitude": 38.7912377,
+      "longitude": -121.2943234,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.372226"
+    },
+    {
+      "site_id": "Site_73",
+      "latitude": 37.9207377,
+      "longitude": -121.7338825,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.466730"
+    },
+    {
+      "site_id": "Site_74",
+      "latitude": 38.1159691,
+      "longitude": -121.294812,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 7,
+      "best_frequency_minutes": 10.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.539190"
+    },
+    {
+      "site_id": "Site_75",
+      "latitude": 37.4064291,
+      "longitude": -122.0654228,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.540407"
+    },
+    {
+      "site_id": "Site_76",
+      "latitude": 38.1368327,
+      "longitude": -121.2900503,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 11,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.591287"
+    },
+    {
+      "site_id": "Site_77",
+      "latitude": 37.9387991,
+      "longitude": -121.9338139,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.686322"
+    },
+    {
+      "site_id": "Site_78",
+      "latitude": 38.0184192,
+      "longitude": -121.2635951,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 1,
+      "base_points": 0,
+      "tiebreaker_points": 1,
+      "stops_found": 2,
+      "best_frequency_minutes": 75.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.781220"
+    },
+    {
+      "site_id": "Site_79",
+      "latitude": 38.8980955,
+      "longitude": -121.3318188,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:57.828751"
+    },
+    {
+      "site_id": "Site_80",
+      "latitude": 38.897911,
+      "longitude": -121.339027,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:57.876032"
+    },
+    {
+      "site_id": "Site_81",
+      "latitude": 38.7445976,
+      "longitude": -121.1991181,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:57.923365"
+    },
+    {
+      "site_id": "Site_82",
+      "latitude": 38.5314685,
+      "longitude": -122.7840941,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 6,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:57.994841"
+    },
+    {
+      "site_id": "Site_83",
+      "latitude": 37.5695343,
+      "longitude": -121.9687042,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 6,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.068070"
+    },
+    {
+      "site_id": "Site_84",
+      "latitude": 38.5688903,
+      "longitude": -121.4815047,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.069262"
+    },
+    {
+      "site_id": "Site_85",
+      "latitude": 37.9326171,
+      "longitude": -121.7031173,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.162854"
+    },
+    {
+      "site_id": "Site_86",
+      "latitude": 38.4372834,
+      "longitude": -121.3953409,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 8,
+      "best_frequency_minutes": 37.5,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.233960"
+    },
+    {
+      "site_id": "Site_87",
+      "latitude": 38.31583,
+      "longitude": -120.943668,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:58.280728"
+    },
+    {
+      "site_id": "Site_88",
+      "latitude": 38.7550133,
+      "longitude": -121.2508692,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.281909"
+    },
+    {
+      "site_id": "Site_89",
+      "latitude": 38.11823,
+      "longitude": -121.31509,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:58.329779"
+    },
+    {
+      "site_id": "Site_90",
+      "latitude": 37.9203845,
+      "longitude": -121.69678,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:58.377808"
+    },
+    {
+      "site_id": "Site_91",
+      "latitude": 38.8101752,
+      "longitude": -121.2874138,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 3,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.471259"
+    },
+    {
+      "site_id": "Site_92",
+      "latitude": 37.793799,
+      "longitude": -121.552649,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:58.518197"
+    },
+    {
+      "site_id": "Site_93",
+      "latitude": 37.8024058,
+      "longitude": -121.251869,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:58.566967"
+    },
+    {
+      "site_id": "Site_94",
+      "latitude": 38.5802393,
+      "longitude": -121.462462,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.568164"
+    },
+    {
+      "site_id": "Site_95",
+      "latitude": 38.794316,
+      "longitude": -121.3241057,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 6,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.639264"
+    },
+    {
+      "site_id": "Site_96",
+      "latitude": 37.5514741,
+      "longitude": -121.9843566,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.640360"
+    },
+    {
+      "site_id": "Site_97",
+      "latitude": 38.2194061,
+      "longitude": -122.1304365,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 2,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.737034"
+    },
+    {
+      "site_id": "Site_98",
+      "latitude": 38.7779588,
+      "longitude": -121.2702593,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.738199"
+    },
+    {
+      "site_id": "Site_99",
+      "latitude": 37.7526111,
+      "longitude": -121.4544564,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 11,
+      "best_frequency_minutes": 15.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.789099"
+    },
+    {
+      "site_id": "Site_100",
+      "latitude": 37.8912023,
+      "longitude": -121.6028785,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:58.837361"
+    },
+    {
+      "site_id": "Site_101",
+      "latitude": 38.0836493,
+      "longitude": -120.5583791,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 35.29411764705882,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.931769"
+    },
+    {
+      "site_id": "Site_102",
+      "latitude": 38.5863368,
+      "longitude": -121.4944831,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.933029"
+    },
+    {
+      "site_id": "Site_103",
+      "latitude": 37.3751954,
+      "longitude": -122.0613538,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.934148"
+    },
+    {
+      "site_id": "Site_104",
+      "latitude": 38.5538624,
+      "longitude": -121.4245543,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.935279"
+    },
+    {
+      "site_id": "Site_105",
+      "latitude": 38.8019592,
+      "longitude": -121.3535481,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:58.936377"
+    },
+    {
+      "site_id": "Site_106",
+      "latitude": 37.911934,
+      "longitude": -121.7339172,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:58.983300"
+    },
+    {
+      "site_id": "Site_107",
+      "latitude": 38.7755803,
+      "longitude": -121.3054399,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 8,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.054500"
+    },
+    {
+      "site_id": "Site_108",
+      "latitude": 38.692195,
+      "longitude": -121.087116,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:59.101643"
+    },
+    {
+      "site_id": "Site_109",
+      "latitude": 38.378437,
+      "longitude": -120.802407,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 5,
+      "best_frequency_minutes": 11.538461538461538,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.195933"
+    },
+    {
+      "site_id": "Site_110",
+      "latitude": 38.8730809,
+      "longitude": -121.2950335,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 199.99999999999997,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.289334"
+    },
+    {
+      "site_id": "Site_111",
+      "latitude": 38.6432156,
+      "longitude": -121.1328824,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 3,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.382772"
+    },
+    {
+      "site_id": "Site_112",
+      "latitude": 38.8835314,
+      "longitude": -121.2934541,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 6,
+      "best_frequency_minutes": 15.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.476503"
+    },
+    {
+      "site_id": "Site_113",
+      "latitude": 38.7558815,
+      "longitude": -121.2874019,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.477691"
+    },
+    {
+      "site_id": "Site_114",
+      "latitude": 38.8162448,
+      "longitude": -121.3018338,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:59.524514"
+    },
+    {
+      "site_id": "Site_115",
+      "latitude": 38.8164455,
+      "longitude": -121.30549,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:59.574175"
+    },
+    {
+      "site_id": "Site_116",
+      "latitude": 37.5484761,
+      "longitude": -121.9368845,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 7,
+      "best_frequency_minutes": 18.75,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.645896"
+    },
+    {
+      "site_id": "Site_117",
+      "latitude": 37.889953,
+      "longitude": -122.133691,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 199.99999999999997,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.738917"
+    },
+    {
+      "site_id": "Site_118",
+      "latitude": 38.047408,
+      "longitude": -121.261338,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:59.786026"
+    },
+    {
+      "site_id": "Site_119",
+      "latitude": 38.896437,
+      "longitude": -121.314544,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 300.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.879680"
+    },
+    {
+      "site_id": "Site_120",
+      "latitude": 37.55533,
+      "longitude": -122.29231,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.880831"
+    },
+    {
+      "site_id": "Site_121",
+      "latitude": 38.6823117,
+      "longitude": -121.2016235,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:31:59.927955"
+    },
+    {
+      "site_id": "Site_122",
+      "latitude": 38.7896169,
+      "longitude": -121.23633,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:31:59.929108"
+    },
+    {
+      "site_id": "Site_123",
+      "latitude": 37.562308,
+      "longitude": -121.988304,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.029997"
+    },
+    {
+      "site_id": "Site_124",
+      "latitude": 37.7638689,
+      "longitude": -121.4106088,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 199.99999999999997,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.125257"
+    },
+    {
+      "site_id": "Site_125",
+      "latitude": 38.7653503,
+      "longitude": -121.3601036,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.126364"
+    },
+    {
+      "site_id": "Site_126",
+      "latitude": 38.5523987,
+      "longitude": -121.4250212,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.127423"
+    },
+    {
+      "site_id": "Site_127",
+      "latitude": 37.7003493,
+      "longitude": -121.9319778,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.128472"
+    },
+    {
+      "site_id": "Site_128",
+      "latitude": 38.7878948,
+      "longitude": -121.2184294,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 5,
+      "best_frequency_minutes": 27.27272727272727,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.223505"
+    },
+    {
+      "site_id": "Site_129",
+      "latitude": 38.789299,
+      "longitude": -121.220108,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 6,
+      "best_frequency_minutes": 27.27272727272727,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.317984"
+    },
+    {
+      "site_id": "Site_130",
+      "latitude": 38.628949,
+      "longitude": -121.069906,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:00.365660"
+    },
+    {
+      "site_id": "Site_131",
+      "latitude": 38.0531407,
+      "longitude": -121.3765717,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 1,
+      "best_frequency_minutes": 14.285714285714285,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.460043"
+    },
+    {
+      "site_id": "Site_132",
+      "latitude": 38.3733419,
+      "longitude": -120.8031418,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 99.99999999999999,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.554440"
+    },
+    {
+      "site_id": "Site_133",
+      "latitude": 38.3722932,
+      "longitude": -120.8076951,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:00.601685"
+    },
+    {
+      "site_id": "Site_134",
+      "latitude": 37.5385127,
+      "longitude": -121.9681421,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 8,
+      "best_frequency_minutes": 8.955223880597014,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.672993"
+    },
+    {
+      "site_id": "Site_135",
+      "latitude": 38.8693271,
+      "longitude": -121.2959348,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 199.99999999999997,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.767148"
+    },
+    {
+      "site_id": "Site_136",
+      "latitude": 38.8700749,
+      "longitude": -121.2963997,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 199.99999999999997,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:00.863225"
+    },
+    {
+      "site_id": "Site_137",
+      "latitude": 38.634474,
+      "longitude": -121.0676554,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:00.910343"
+    },
+    {
+      "site_id": "Site_138",
+      "latitude": 38.814839,
+      "longitude": -121.288576,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.005068"
+    },
+    {
+      "site_id": "Site_139",
+      "latitude": 38.812848,
+      "longitude": -121.2868884,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.101943"
+    },
+    {
+      "site_id": "Site_140",
+      "latitude": 38.8121314,
+      "longitude": -121.2867827,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.196499"
+    },
+    {
+      "site_id": "Site_141",
+      "latitude": 38.67449,
+      "longitude": -121.1827399,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.197686"
+    },
+    {
+      "site_id": "Site_142",
+      "latitude": 38.830435,
+      "longitude": -121.28801,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:01.245361"
+    },
+    {
+      "site_id": "Site_143",
+      "latitude": 38.0491975,
+      "longitude": -121.3710792,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 4,
+      "best_frequency_minutes": 28.57142857142857,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.341383"
+    },
+    {
+      "site_id": "Site_144",
+      "latitude": 37.89134,
+      "longitude": -121.69616,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:01.390553"
+    },
+    {
+      "site_id": "Site_145",
+      "latitude": 37.79834,
+      "longitude": -121.24859,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 23.076923076923077,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.484635"
+    },
+    {
+      "site_id": "Site_146",
+      "latitude": 41.7482315,
+      "longitude": -124.2038696,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 6,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.579583"
+    },
+    {
+      "site_id": "Site_147",
+      "latitude": 39.1672768,
+      "longitude": -123.2059412,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 60.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.677380"
+    },
+    {
+      "site_id": "Site_148",
+      "latitude": 39.1677567,
+      "longitude": -123.2110378,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 9,
+      "best_frequency_minutes": 24.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.748875"
+    },
+    {
+      "site_id": "Site_149",
+      "latitude": 39.0278205,
+      "longitude": -122.9141082,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 3,
+      "best_frequency_minutes": 10.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.842123"
+    },
+    {
+      "site_id": "Site_150",
+      "latitude": 40.5883272,
+      "longitude": -122.3492606,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 13,
+      "best_frequency_minutes": 4.444444444444445,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.892798"
+    },
+    {
+      "site_id": "Site_151",
+      "latitude": 40.6131822,
+      "longitude": -122.3485179,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 5,
+      "best_frequency_minutes": 24.999999999999996,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:01.988622"
+    },
+    {
+      "site_id": "Site_152",
+      "latitude": 39.2465546,
+      "longitude": -123.7676986,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:02.036020"
+    },
+    {
+      "site_id": "Site_153",
+      "latitude": 40.1928172,
+      "longitude": -122.2384978,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:02.084482"
+    },
+    {
+      "site_id": "Site_154",
+      "latitude": 40.588897,
+      "longitude": -122.332837,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:02.132979"
+    },
+    {
+      "site_id": "Site_155",
+      "latitude": 33.5595869,
+      "longitude": -117.2151887,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 3,
+      "best_frequency_minutes": 26.08695652173913,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:02.227275"
+    },
+    {
+      "site_id": "Site_156",
+      "latitude": 33.5515298,
+      "longitude": -117.2078974,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:02.275067"
+    },
+    {
+      "site_id": "Site_157",
+      "latitude": 33.619419,
+      "longitude": -117.169858,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:02.322364"
+    },
+    {
+      "site_id": "Site_158",
+      "latitude": 33.6346618,
+      "longitude": -117.1730293,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:02.369689"
+    },
+    {
+      "site_id": "Site_159",
+      "latitude": 33.800419,
+      "longitude": -116.405104,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 40.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:02.464300"
+    },
+    {
+      "site_id": "Site_160",
+      "latitude": 33.5613687,
+      "longitude": -117.18667,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 27.27272727272727,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:02.558169"
+    },
+    {
+      "site_id": "Site_161",
+      "latitude": 33.7407542,
+      "longitude": -116.2219506,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 35.29411764705882,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:02.652330"
+    },
+    {
+      "site_id": "Site_162",
+      "latitude": 33.5612257,
+      "longitude": -117.1899155,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:02.700010"
+    },
+    {
+      "site_id": "Site_163",
+      "latitude": 33.592758,
+      "longitude": -117.250011,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 60.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:02.795557"
+    },
+    {
+      "site_id": "Site_164",
+      "latitude": 33.7828,
+      "longitude": -116.352049,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:02.842836"
+    },
+    {
+      "site_id": "Site_165",
+      "latitude": 33.7579082,
+      "longitude": -116.4339533,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 3,
+      "best_frequency_minutes": 17.64705882352941,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:02.937220"
+    },
+    {
+      "site_id": "Site_166",
+      "latitude": 33.5473222,
+      "longitude": -117.1541174,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 54.54545454545454,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:03.031277"
+    },
+    {
+      "site_id": "Site_167",
+      "latitude": 33.8022189,
+      "longitude": -116.3842075,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:03.078640"
+    },
+    {
+      "site_id": "Site_168",
+      "latitude": 33.1533617,
+      "longitude": -117.3107494,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 18.75,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:03.174025"
+    },
+    {
+      "site_id": "Site_169",
+      "latitude": 33.6021,
+      "longitude": -117.277106,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 11,
+      "best_frequency_minutes": 17.142857142857142,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:03.222816"
+    },
+    {
+      "site_id": "Site_170",
+      "latitude": 32.9887281,
+      "longitude": -117.2546635,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:03.270778"
+    },
+    {
+      "site_id": "Site_171",
+      "latitude": 33.7867018,
+      "longitude": -116.3738705,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:03.319848"
+    },
+    {
+      "site_id": "Site_172",
+      "latitude": 33.7360185,
+      "longitude": -116.4092604,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 17.64705882352941,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:03.416922"
+    },
+    {
+      "site_id": "Site_173",
+      "latitude": 33.5371015,
+      "longitude": -117.1810534,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:03.465225"
+    },
+    {
+      "site_id": "Site_174",
+      "latitude": 33.556746,
+      "longitude": -117.187314,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 27.27272727272727,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:03.559117"
+    },
+    {
+      "site_id": "Site_175",
+      "latitude": 33.1729153,
+      "longitude": -117.2523519,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 3,
+      "best_frequency_minutes": 13.333333333333334,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:03.653453"
+    },
+    {
+      "site_id": "Site_176",
+      "latitude": 33.5604181,
+      "longitude": -117.1968018,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 3,
+      "best_frequency_minutes": 49.99999999999999,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:03.747409"
+    },
+    {
+      "site_id": "Site_177",
+      "latitude": 33.7432249,
+      "longitude": -116.4151048,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 17.64705882352941,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:03.841618"
+    },
+    {
+      "site_id": "Site_178",
+      "latitude": 33.5865027,
+      "longitude": -117.1306423,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:03.890154"
+    },
+    {
+      "site_id": "Site_179",
+      "latitude": 33.5875705,
+      "longitude": -117.1297437,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:03.937722"
+    },
+    {
+      "site_id": "Site_180",
+      "latitude": 33.8343001,
+      "longitude": -116.5170203,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:03.984747"
+    },
+    {
+      "site_id": "Site_181",
+      "latitude": 33.72806,
+      "longitude": -116.384,
+      "transit_qualified": true,
+      "qualification_method": "HQTA_POLYGON",
+      "ctcac_points_earned": 7,
+      "hqta_details": {
+        "within_hqta": true,
+        "ctcac_points_earned": 7,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "hqta_name": "Unknown HQTA",
+        "hqta_type": "Unknown Type",
+        "details": "Site within HQTA boundary: Unnamed"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:03.985888"
+    },
+    {
+      "site_id": "Site_182",
+      "latitude": 33.8009873,
+      "longitude": -116.4028094,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 40.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:04.079926"
+    },
+    {
+      "site_id": "Site_183",
+      "latitude": 33.7090579,
+      "longitude": -116.2941565,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 6,
+      "best_frequency_minutes": 18.18181818181818,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:04.151504"
+    },
+    {
+      "site_id": "Site_184",
+      "latitude": 33.7590998,
+      "longitude": -116.3029821,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 1,
+      "best_frequency_minutes": 13.636363636363635,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:04.246294"
+    },
+    {
+      "site_id": "Site_185",
+      "latitude": 32.7935335,
+      "longitude": -117.0820926,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 7,
+      "best_frequency_minutes": 46.15384615384615,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:04.317986"
+    },
+    {
+      "site_id": "Site_186",
+      "latitude": 33.6988,
+      "longitude": -116.4129092,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:04.365069"
+    },
+    {
+      "site_id": "Site_187",
+      "latitude": 33.7521728,
+      "longitude": -116.3020712,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 3,
+      "best_frequency_minutes": 13.636363636363635,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:04.458704"
+    },
+    {
+      "site_id": "Site_188",
+      "latitude": 33.638738,
+      "longitude": -117.1731573,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 54.54545454545454,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:04.553349"
+    },
+    {
+      "site_id": "Site_189",
+      "latitude": 33.6387717,
+      "longitude": -117.1743184,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:04.601772"
+    },
+    {
+      "site_id": "Site_190",
+      "latitude": 33.112064,
+      "longitude": -117.290843,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:04.649957"
+    },
+    {
+      "site_id": "Site_191",
+      "latitude": 33.7964595,
+      "longitude": -116.4051296,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 40.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:04.744489"
+    },
+    {
+      "site_id": "Site_192",
+      "latitude": 33.561914,
+      "longitude": -117.1895132,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:04.791873"
+    },
+    {
+      "site_id": "Site_193",
+      "latitude": 33.5619653,
+      "longitude": -117.188974,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:04.839599"
+    },
+    {
+      "site_id": "Site_194",
+      "latitude": 33.758467,
+      "longitude": -116.43774,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 17.64705882352941,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:04.935223"
+    },
+    {
+      "site_id": "Site_195",
+      "latitude": 33.66736,
+      "longitude": -117.19149,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:04.983459"
+    },
+    {
+      "site_id": "Site_196",
+      "latitude": 33.574915,
+      "longitude": -117.176236,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 6,
+      "best_frequency_minutes": 27.27272727272727,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:05.078113"
+    },
+    {
+      "site_id": "Site_197",
+      "latitude": 33.5577333,
+      "longitude": -117.1953277,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 54.54545454545454,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:05.171567"
+    },
+    {
+      "site_id": "Site_198",
+      "latitude": 33.557588,
+      "longitude": -117.1751357,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 18.18181818181818,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:05.266600"
+    },
+    {
+      "site_id": "Site_199",
+      "latitude": 33.638185,
+      "longitude": -117.1840183,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:05.314067"
+    },
+    {
+      "site_id": "Site_200",
+      "latitude": 33.707851,
+      "longitude": -116.2913024,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 9,
+      "best_frequency_minutes": 18.18181818181818,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:05.386235"
+    },
+    {
+      "site_id": "Site_201",
+      "latitude": 33.60916,
+      "longitude": -117.27981,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 3,
+      "best_frequency_minutes": 42.857142857142854,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:05.480383"
+    },
+    {
+      "site_id": "Site_202",
+      "latitude": 33.786511,
+      "longitude": -116.3718111,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:05.527232"
+    },
+    {
+      "site_id": "Site_203",
+      "latitude": 33.724099,
+      "longitude": -116.381791,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 3,
+      "best_frequency_minutes": 18.18181818181818,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:05.620922"
+    },
+    {
+      "site_id": "Site_204",
+      "latitude": 33.799561,
+      "longitude": -116.403049,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 40.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:05.716105"
+    },
+    {
+      "site_id": "Site_205",
+      "latitude": 33.5603303,
+      "longitude": -117.1904543,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:05.763784"
+    },
+    {
+      "site_id": "Site_206",
+      "latitude": 33.564348,
+      "longitude": -117.137046,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 5,
+      "best_frequency_minutes": 49.99999999999999,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:05.858574"
+    },
+    {
+      "site_id": "Site_207",
+      "latitude": 33.5380316,
+      "longitude": -117.1435338,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 19.35483870967742,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:05.952709"
+    },
+    {
+      "site_id": "Site_208",
+      "latitude": 33.11745,
+      "longitude": -117.26868,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 18.75,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:06.023874"
+    },
+    {
+      "site_id": "Site_209",
+      "latitude": 33.6530936,
+      "longitude": -117.1737003,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.071136"
+    },
+    {
+      "site_id": "Site_210",
+      "latitude": 33.2717692,
+      "longitude": -117.1900456,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.118404"
+    },
+    {
+      "site_id": "Site_211",
+      "latitude": 33.7628206,
+      "longitude": -116.3972853,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.166276"
+    },
+    {
+      "site_id": "Site_212",
+      "latitude": 33.6914654,
+      "longitude": -117.3329648,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 3,
+      "best_frequency_minutes": 7.228915662650602,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:06.260874"
+    },
+    {
+      "site_id": "Site_213",
+      "latitude": 33.9380413,
+      "longitude": -117.5459706,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.309147"
+    },
+    {
+      "site_id": "Site_214",
+      "latitude": 33.9398341,
+      "longitude": -117.5571465,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 42.857142857142854,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:06.403144"
+    },
+    {
+      "site_id": "Site_215",
+      "latitude": 33.9464108,
+      "longitude": -117.3850846,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 54.54545454545454,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:06.496905"
+    },
+    {
+      "site_id": "Site_216",
+      "latitude": 33.7028131,
+      "longitude": -117.9531379,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 6,
+      "best_frequency_minutes": 18.18181818181818,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:06.568204"
+    },
+    {
+      "site_id": "Site_217",
+      "latitude": 33.9273589,
+      "longitude": -116.9345761,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.615256"
+    },
+    {
+      "site_id": "Site_218",
+      "latitude": 33.8372864,
+      "longitude": -117.5428924,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.663652"
+    },
+    {
+      "site_id": "Site_219",
+      "latitude": 33.7516715,
+      "longitude": -117.4566935,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.710499"
+    },
+    {
+      "site_id": "Site_220",
+      "latitude": 34.0623383,
+      "longitude": -117.1380962,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.758540"
+    },
+    {
+      "site_id": "Site_221",
+      "latitude": 34.0294808,
+      "longitude": -117.3263028,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.806349"
+    },
+    {
+      "site_id": "Site_222",
+      "latitude": 33.925306,
+      "longitude": -117.557822,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 42.857142857142854,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:06.900862"
+    },
+    {
+      "site_id": "Site_223",
+      "latitude": 33.93254,
+      "longitude": -117.53565,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.947831"
+    },
+    {
+      "site_id": "Site_224",
+      "latitude": 34.053695,
+      "longitude": -117.214229,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:06.996036"
+    },
+    {
+      "site_id": "Site_225",
+      "latitude": 33.7904898,
+      "longitude": -117.49765,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:07.043940"
+    },
+    {
+      "site_id": "Site_226",
+      "latitude": 33.9683069,
+      "longitude": -117.6080118,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:07.092518"
+    },
+    {
+      "site_id": "Site_227",
+      "latitude": 33.9683914,
+      "longitude": -117.6070193,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:07.141380"
+    },
+    {
+      "site_id": "Site_228",
+      "latitude": 33.968298,
+      "longitude": -117.610395,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:07.189121"
+    },
+    {
+      "site_id": "Site_229",
+      "latitude": 33.8981125,
+      "longitude": -117.5651554,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 6,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:07.260911"
+    },
+    {
+      "site_id": "Site_230",
+      "latitude": 33.6845199,
+      "longitude": -117.1848908,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 46.15384615384615,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:07.356122"
+    },
+    {
+      "site_id": "Site_231",
+      "latitude": 33.67738,
+      "longitude": -117.18247,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:07.403814"
+    },
+    {
+      "site_id": "Site_232",
+      "latitude": 33.67556,
+      "longitude": -117.18267,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:07.451094"
+    },
+    {
+      "site_id": "Site_233",
+      "latitude": 34.0230868,
+      "longitude": -117.1093442,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:07.499072"
+    },
+    {
+      "site_id": "Site_234",
+      "latitude": 33.9268872,
+      "longitude": -116.9184224,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:07.546893"
+    },
+    {
+      "site_id": "Site_235",
+      "latitude": 33.829882,
+      "longitude": -117.5156062,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 22.22222222222222,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:07.642941"
+    },
+    {
+      "site_id": "Site_236",
+      "latitude": 33.888118,
+      "longitude": -117.344999,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 37.5,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:07.736865"
+    },
+    {
+      "site_id": "Site_237",
+      "latitude": 33.8518834,
+      "longitude": -117.5415985,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 6,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:07.832031"
+    },
+    {
+      "site_id": "Site_238",
+      "latitude": 33.903171,
+      "longitude": -117.563121,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 5,
+      "best_frequency_minutes": 42.857142857142854,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:07.925962"
+    },
+    {
+      "site_id": "Site_239",
+      "latitude": 33.927193,
+      "longitude": -116.936898,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:07.973011"
+    },
+    {
+      "site_id": "Site_240",
+      "latitude": 33.6696492,
+      "longitude": -117.1893632,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:08.020549"
+    },
+    {
+      "site_id": "Site_241",
+      "latitude": 33.92744,
+      "longitude": -116.93558,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:08.068074"
+    },
+    {
+      "site_id": "Site_242",
+      "latitude": 33.909306,
+      "longitude": -117.339499,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:08.115191"
+    },
+    {
+      "site_id": "Site_243",
+      "latitude": 34.0027912,
+      "longitude": -117.0668802,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:08.163396"
+    },
+    {
+      "site_id": "Site_244",
+      "latitude": 33.9130111,
+      "longitude": -117.5596792,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 5,
+      "best_frequency_minutes": 21.428571428571427,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:08.257422"
+    },
+    {
+      "site_id": "Site_245",
+      "latitude": 33.932819,
+      "longitude": -117.558231,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 3,
+      "best_frequency_minutes": 42.857142857142854,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:08.351350"
+    },
+    {
+      "site_id": "Site_246",
+      "latitude": 33.8491768,
+      "longitude": -117.7698732,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:08.398958"
+    },
+    {
+      "site_id": "Site_247",
+      "latitude": 33.9278381,
+      "longitude": -116.9161292,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:08.446517"
+    },
+    {
+      "site_id": "Site_248",
+      "latitude": 33.9277659,
+      "longitude": -116.9390845,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 1,
+      "best_frequency_minutes": 19.35483870967742,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:08.541477"
+    },
+    {
+      "site_id": "Site_249",
+      "latitude": 33.8464182,
+      "longitude": -117.5700748,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 6,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:08.613952"
+    },
+    {
+      "site_id": "Site_250",
+      "latitude": 33.6911139,
+      "longitude": -117.3333987,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 5,
+      "base_points": 4,
+      "tiebreaker_points": 1,
+      "stops_found": 4,
+      "best_frequency_minutes": 7.228915662650602,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:08.708441"
+    },
+    {
+      "site_id": "Site_251",
+      "latitude": 34.0638315,
+      "longitude": -117.2369465,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 6,
+      "best_frequency_minutes": 31.57894736842105,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:08.803336"
+    },
+    {
+      "site_id": "Site_252",
+      "latitude": 33.964257,
+      "longitude": -117.037924,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:08.850451"
+    },
+    {
+      "site_id": "Site_253",
+      "latitude": 33.67656,
+      "longitude": -117.18253,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:08.897630"
+    },
+    {
+      "site_id": "Site_254",
+      "latitude": 33.67602,
+      "longitude": -117.18194,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:08.945234"
+    },
+    {
+      "site_id": "Site_255",
+      "latitude": 33.67561,
+      "longitude": -117.18157,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:08.992840"
+    },
+    {
+      "site_id": "Site_256",
+      "latitude": 33.67376,
+      "longitude": -117.18186,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:09.040021"
+    },
+    {
+      "site_id": "Site_257",
+      "latitude": 34.0600337,
+      "longitude": -117.2212131,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 4,
+      "best_frequency_minutes": 31.57894736842105,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:09.135978"
+    },
+    {
+      "site_id": "Site_258",
+      "latitude": 33.927826,
+      "longitude": -116.930654,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:09.183368"
+    },
+    {
+      "site_id": "Site_259",
+      "latitude": 33.8613864,
+      "longitude": -117.5440904,
+      "transit_qualified": true,
+      "qualification_method": "FREQUENCY_QUALIFIED",
+      "ctcac_points_earned": 4,
+      "base_points": 4,
+      "tiebreaker_points": 0,
+      "stops_found": 9,
+      "best_frequency_minutes": 30.0,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:09.254909"
+    },
+    {
+      "site_id": "Site_260",
+      "latitude": 33.8838818,
+      "longitude": -117.3509462,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 37.5,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:09.348140"
+    },
+    {
+      "site_id": "Site_261",
+      "latitude": 33.885298,
+      "longitude": -117.34602,
+      "transit_qualified": false,
+      "qualification_method": "FREQUENCY_NOT_QUALIFIED",
+      "ctcac_points_earned": 0,
+      "base_points": 0,
+      "tiebreaker_points": 0,
+      "stops_found": 2,
+      "best_frequency_minutes": 37.5,
+      "hqta_details": {
+        "within_hqta": false,
+        "ctcac_points_earned": 0,
+        "analysis_method": "HQTA_POLYGON_INTERSECTION",
+        "details": "Site not within any HQTA boundary"
+      },
+      "analysis_timestamp": "2025-08-01T10:32:09.441993"
+    },
+    {
+      "site_id": "Site_262",
+      "latitude": 33.7152105,
+      "longitude": -117.0769361,
+      "transit_qualified": false,
+      "qualification_method": "NO_NEARBY_STOPS",
+      "ctcac_points_earned": 0,
+      "stops_found": 0,
+      "analysis_timestamp": "2025-08-01T10:32:09.489191"
+    }
+  ],
+  "analysis_timestamp": "2025-08-01T10:32:09.489347"
+}

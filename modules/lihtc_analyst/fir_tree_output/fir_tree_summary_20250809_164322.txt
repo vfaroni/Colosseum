@@ -1,0 +1,13 @@
+FIR TREE PARK EXTRACTION SUMMARY
+==================================================
+
+Property: Fir Tree Park Apartments
+Units: 60 (55 Section 8)
+HAP Contract: WA19M000067 (expires 2034)
+NOI: $65,538
+DSCR: 1.02
+
+Validations:
+  ✅ NOI matches audit: $65,538
+  ✅ HAP contract verified: WA19M000067
+  ✅ Contract rent verified: $699

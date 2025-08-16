@@ -1,0 +1,47 @@
+{
+  "capital_improvement_analysis": {
+    "replacement_reserves": {
+      "2023_balance": 72115,
+      "2024_balance": 100288,
+      "net_increase": 28173,
+      "percent_growth": 39.1,
+      "status": "HEALTHY AND GROWING",
+      "interpretation": "Property is making regular deposits and managing reserves well. More money deposited than spent on replacements in 2024."
+    },
+    "capital_funding_timeline": {
+      "2024_operations": {
+        "reserves_activity": "+$28,173 (net deposits exceeded expenditures)",
+        "status": "Normal operating pattern"
+      },
+      "december_2024": {
+        "major_funding": "-$153,052",
+        "likely_sources": [
+          "HTF/HOME loan advance",
+          "Special capital improvement grant", 
+          "Owner equity contribution",
+          "Insurance settlement"
+        ],
+        "note": "Separate from operating reserves"
+      },
+      "2025_t12": {
+        "non_routine_maintenance": "-$6,373 (net positive)",
+        "interpretation": "Systematic spending of December 2024 capital funding on improvements"
+      }
+    },
+    "key_insights": {
+      "reserves_health": "Excellent - 39% growth shows strong financial management",
+      "capital_strategy": "Property received major capital funding separate from reserves",
+      "spending_pattern": "Disciplined approach - funded major improvements through separate source",
+      "financial_position": "Strong liquidity for both operations and capital needs"
+    },
+    "html_section_content": {
+      "title": "💰 Capital Improvement & Reserves Analysis",
+      "highlights": [
+        "Replacement Reserves: +$28,173 (+39%) growth in 2024",
+        "Major Capital Funding: $153K received December 2024", 
+        "2025 Capital Work: Systematic spending from separate funding source",
+        "Strong Financial Position: Healthy reserves + additional capital funding"
+      ]
+    }
+  }
+}

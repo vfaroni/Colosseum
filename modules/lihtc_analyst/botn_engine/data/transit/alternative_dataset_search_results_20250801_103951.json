@@ -1,0 +1,383 @@
+{
+  "search_timestamp": "2025-08-01T10:39:40.075964",
+  "target_datasets": [
+    "Caltrans High-Quality Transit Stops (HQTS) - with peak hour frequency",
+    "Transitland v2 API - real-time GTFS validation",
+    "Enhanced Caltrans routes/stops - comprehensive coverage"
+  ],
+  "caltrans_portal": [
+    {
+      "source": "caltrans_open_data",
+      "search_url": "https://gisdata-caltrans.opendata.arcgis.com/search",
+      "content_preview": "<!doctype html><html lang=\"en-us\"><head>\n    <title>caltrans home</title><meta name=\"twitter:title\" content=\"caltrans home\"><meta property=\"og:title\" content=\"caltrans home\"><meta name=\"description\" content=\"a website hosting datasets from various departments within caltrans.  all readily available datasets intended for public distribution are available on this website.\"><meta name=\"twitter:description\" content=\"a website hosting datasets from various departments within caltrans.  all readily av"
+    }
+  ],
+  "caltrans_gis_alternatives": {
+    "https://gis.dot.ca.gov/arcgis/rest/services": {
+      "status": "connection_error",
+      "error": "HTTPSConnectionPool(host='gis.dot.ca.gov', port=443): Max retries exceeded with url: /arcgis/rest/services?f=json (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10babb250>: Failed to resolve 'gis.dot.ca.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "https://caltrans-gis.dot.ca.gov/arcgis/rest/services": {
+      "status": "no_transit_services",
+      "total_services": 0
+    }
+  },
+  "transitland_sampling": {
+    "SF": {
+      "status": "auth_required",
+      "message": "API key required for this endpoint"
+    },
+    "LA": {
+      "status": "auth_required",
+      "message": "API key required for this endpoint"
+    },
+    "SD": {
+      "status": "auth_required",
+      "message": "API key required for this endpoint"
+    },
+    "SJ": {
+      "status": "auth_required",
+      "message": "API key required for this endpoint"
+    },
+    "SAC": {
+      "status": "auth_required",
+      "message": "API key required for this endpoint"
+    }
+  },
+  "ca_gov_portal": {
+    "caltrans transit stops": {
+      "status": "success",
+      "datasets_found": 8,
+      "datasets": [
+        {
+          "title": "California Transit Stops",
+          "name": "california-transit-stops",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/california-transit-stops"
+        },
+        {
+          "title": "High Quality Transit Stops",
+          "name": "high-quality-transit-stops",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/high-quality-transit-stops"
+        },
+        {
+          "title": "Average Transit Speeds by Stop",
+          "name": "average-transit-speeds-by-stop",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/average-transit-speeds-by-stop"
+        },
+        {
+          "title": "California Transit Routes",
+          "name": "california-transit-routes",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/california-transit-routes"
+        },
+        {
+          "title": "High Quality Transit Areas",
+          "name": "high-quality-transit-areas",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/high-quality-transit-areas"
+        },
+        {
+          "title": "Average Transit Speeds by Route",
+          "name": "average-transit-speeds-by-route",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/average-transit-speeds-by-route"
+        },
+        {
+          "title": "Light Rail Stops",
+          "name": "light-rail-stops",
+          "resources": 11,
+          "organization": "California Energy Commission",
+          "url": "https://data.ca.gov/dataset/light-rail-stops"
+        },
+        {
+          "title": "Walkable Distance to Public Transit",
+          "name": "walkable-distance-to-public-transit",
+          "resources": 4,
+          "organization": "California Department of Public Health",
+          "url": "https://data.ca.gov/dataset/walkable-distance-to-public-transit"
+        }
+      ]
+    },
+    "high quality transit": {
+      "status": "success",
+      "datasets_found": 3,
+      "datasets": [
+        {
+          "title": "High Quality Transit Stops",
+          "name": "high-quality-transit-stops",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/high-quality-transit-stops"
+        },
+        {
+          "title": "High Quality Transit Areas",
+          "name": "high-quality-transit-areas",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/high-quality-transit-areas"
+        },
+        {
+          "title": "Walkable Distance to Public Transit",
+          "name": "walkable-distance-to-public-transit",
+          "resources": 4,
+          "organization": "California Department of Public Health",
+          "url": "https://data.ca.gov/dataset/walkable-distance-to-public-transit"
+        }
+      ]
+    },
+    "transit routes california": {
+      "status": "success",
+      "datasets_found": 9,
+      "datasets": [
+        {
+          "title": "California Transit Routes",
+          "name": "california-transit-routes",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/california-transit-routes"
+        },
+        {
+          "title": "Average Transit Speeds by Route",
+          "name": "average-transit-speeds-by-route",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/average-transit-speeds-by-route"
+        },
+        {
+          "title": "California Transit Stops",
+          "name": "california-transit-stops",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/california-transit-stops"
+        },
+        {
+          "title": "Light Rail Routes",
+          "name": "light-rail-routes",
+          "resources": 11,
+          "organization": "California Energy Commission",
+          "url": "https://data.ca.gov/dataset/light-rail-routes"
+        },
+        {
+          "title": "Transit Operators - Revenues",
+          "name": "transit-operators-revenues",
+          "resources": 4,
+          "organization": "California State Controller's Office",
+          "url": "https://data.ca.gov/dataset/transit-operators-revenues"
+        },
+        {
+          "title": "Transit Operators - Expenses",
+          "name": "transit-operators-expenses",
+          "resources": 4,
+          "organization": "California State Controller's Office",
+          "url": "https://data.ca.gov/dataset/transit-operators-expenses"
+        },
+        {
+          "title": "High Quality Transit Stops",
+          "name": "high-quality-transit-stops",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/high-quality-transit-stops"
+        },
+        {
+          "title": "High Quality Transit Areas",
+          "name": "high-quality-transit-areas",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/high-quality-transit-areas"
+        },
+        {
+          "title": "Hero Image - Transit Operators",
+          "name": "hero-image-transit-operators",
+          "resources": 1,
+          "organization": "California State Controller's Office",
+          "url": "https://data.ca.gov/dataset/hero-image-transit-operators"
+        }
+      ]
+    },
+    "gtfs california": {
+      "status": "success",
+      "datasets_found": 6,
+      "datasets": [
+        {
+          "title": "California Transit Stops",
+          "name": "california-transit-stops",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/california-transit-stops"
+        },
+        {
+          "title": "California Transit Routes",
+          "name": "california-transit-routes",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/california-transit-routes"
+        },
+        {
+          "title": "Average Transit Speeds by Stop",
+          "name": "average-transit-speeds-by-stop",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/average-transit-speeds-by-stop"
+        },
+        {
+          "title": "Average Transit Speeds by Route",
+          "name": "average-transit-speeds-by-route",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/average-transit-speeds-by-route"
+        },
+        {
+          "title": "High Quality Transit Stops",
+          "name": "high-quality-transit-stops",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/high-quality-transit-stops"
+        },
+        {
+          "title": "High Quality Transit Areas",
+          "name": "high-quality-transit-areas",
+          "resources": 7,
+          "organization": "Caltrans",
+          "url": "https://data.ca.gov/dataset/high-quality-transit-areas"
+        }
+      ]
+    }
+  },
+  "existing_gtfs_extraction": {
+    "vta_gtfs.zip": {
+      "status": "success",
+      "gtfs_files": {
+        "stops.txt": true,
+        "routes.txt": true,
+        "stop_times.txt": true,
+        "trips.txt": true,
+        "calendar.txt": true
+      },
+      "stops_count": 3335,
+      "stops_sample": [
+        {
+          "stop_id": "EL_BLSM",
+          "stop_code": NaN,
+          "stop_name": "Blossom Hill Station Elevator",
+          "stop_desc": NaN,
+          "stop_lat": 37.252569,
+          "stop_lon": -121.840608,
+          "zone_id": NaN,
+          "stop_url": NaN,
+          "location_type": 2,
+          "parent_station": "PS_BLSM",
+          "wheelchair_boarding": 1,
+          "platform_code": NaN,
+          "sign_dest": NaN
+        },
+        {
+          "stop_id": "EL_BRNM",
+          "stop_code": NaN,
+          "stop_name": "Branham Station Elevator",
+          "stop_desc": NaN,
+          "stop_lat": 37.26643,
+          "stop_lon": -121.8592,
+          "zone_id": NaN,
+          "stop_url": NaN,
+          "location_type": 2,
+          "parent_station": "PS_BRNM",
+          "wheelchair_boarding": 1,
+          "platform_code": NaN,
+          "sign_dest": NaN
+        },
+        {
+          "stop_id": "EL_CPTL",
+          "stop_code": NaN,
+          "stop_name": "Capitol Station Elevator",
+          "stop_desc": NaN,
+          "stop_lat": 37.274233,
+          "stop_lon": -121.863071,
+          "zone_id": NaN,
+          "stop_url": NaN,
+          "location_type": 2,
+          "parent_station": "PS_CPTL",
+          "wheelchair_boarding": 1,
+          "platform_code": NaN,
+          "sign_dest": NaN
+        }
+      ],
+      "stop_times_sample_count": 1000,
+      "has_schedule_data": true
+    },
+    "511_regional_gtfs.zip": {
+      "status": "success",
+      "gtfs_files": {
+        "stops.txt": true,
+        "routes.txt": true,
+        "stop_times.txt": true,
+        "trips.txt": true,
+        "calendar.txt": true
+      },
+      "stops_count": 21024,
+      "stops_sample": [
+        {
+          "stop_id": "mtc:powell",
+          "stop_name": "Powell",
+          "stop_code": NaN,
+          "stop_desc": NaN,
+          "stop_lat": 37.78459,
+          "stop_lon": -122.40737,
+          "zone_id": NaN,
+          "stop_url": NaN,
+          "tts_stop_name": NaN,
+          "platform_code": NaN,
+          "location_type": 1,
+          "parent_station": NaN,
+          "stop_timezone": "America/Los_Angeles",
+          "wheelchair_boarding": 0.0,
+          "level_id": NaN
+        },
+        {
+          "stop_id": "mtc:fruitvale",
+          "stop_name": "Fruitvale",
+          "stop_code": NaN,
+          "stop_desc": NaN,
+          "stop_lat": 37.77486,
+          "stop_lon": -122.22412,
+          "zone_id": NaN,
+          "stop_url": NaN,
+          "tts_stop_name": NaN,
+          "platform_code": NaN,
+          "location_type": 1,
+          "parent_station": NaN,
+          "stop_timezone": "America/Los_Angeles",
+          "wheelchair_boarding": 0.0,
+          "level_id": NaN
+        },
+        {
+          "stop_id": "mtc:warm-springs-south-fremont-bart",
+          "stop_name": "Warm Springs South Fremont BART",
+          "stop_code": NaN,
+          "stop_desc": NaN,
+          "stop_lat": 37.50199,
+          "stop_lon": -121.93925,
+          "zone_id": NaN,
+          "stop_url": NaN,
+          "tts_stop_name": NaN,
+          "platform_code": NaN,
+          "location_type": 1,
+          "parent_station": NaN,
+          "stop_timezone": "America/Los_Angeles",
+          "wheelchair_boarding": 0.0,
+          "level_id": NaN
+        }
+      ],
+      "stop_times_sample_count": 1000,
+      "has_schedule_data": true
+    }
+  }
+}

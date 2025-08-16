@@ -1,0 +1,23 @@
+{
+  "filename": "2024_4pct_R1_24-409.xlsx",
+  "application_data": {
+    "project_name": "Marina Towers",
+    "county": "Solano",
+    "city": "Guy L. Ricca",
+    "general_contractor": "Wilshire Pacific Builders",
+    "housing_type": "Seniors",
+    "total_units": 155,
+    "year": "by IRC Sec. 42(d)(2)(B)(ii)?",
+    "ctcac_project_number": "24-409",
+    "total_sqft_low_income": 0,
+    "new_construction": "Not specified"
+  },
+  "sources_uses_data": {
+    "land_cost": 660000.0,
+    "total_architectural": 286750.0,
+    "total_survey_engineering": 40000.0,
+    "local_impact_fees": 0.0,
+    "total_new_construction": 191167.0,
+    "soft_cost_contingency": 1816476.0
+  }
+}

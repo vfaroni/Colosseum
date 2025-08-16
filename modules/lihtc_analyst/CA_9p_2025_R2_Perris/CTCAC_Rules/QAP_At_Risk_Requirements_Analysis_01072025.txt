@@ -1,0 +1,149 @@
+================================================================================
+CTCAC QAP AT-RISK REQUIREMENTS ANALYSIS
+San Jacinto Vista II - USDA RD 515 Property
+Extracted from December 11, 2024 QAP Regulations
+================================================================================
+
+1. AT-RISK PROPERTY DEFINITION AND SET-ASIDE (Section 10315(d) & Section 10325(g)(4))
+===================================================================================
+
+5% SET-ASIDE ALLOCATION:
+- Five percent (5%) of the Federal Credit Ceiling is set aside for at-risk projects (Section 10315(d))
+- Calculated as of February 1st of each calendar year
+- Projects applying under Nonprofit set-aside that don't receive credits can be considered under At-Risk set-aside if they meet requirements
+
+AT-RISK DEFINITION (Section 10325(g)(4)):
+- Must meet R&T Code subsection 17058(c)(4) requirements
+- Project must be at-risk of losing affordability on at least 50% of restricted units due to market or other conditions
+- Third-party legal opinion required to verify at-risk eligibility
+- Exception: Projects acquired by qualified nonprofit within past 5 years with interim financing to preserve affordability
+- Project NOT deemed at-risk if subject to rent restriction with 5+ years remaining that restricts to average 60% AMI or less
+
+DOCUMENTATION REQUIREMENTS:
+- Third-party legal opinion verifying at-risk status
+- Evidence that 70% of tenants have incomes at or below 60% AMI at time of application
+- Gap between total development costs and all loans/grants must exceed 15% of total development costs
+
+2. PRESERVATION PROJECT REQUIREMENTS
+====================================
+
+UNIT REQUIREMENTS (Section 10325(g)(2)(A)):
+- For projects placed in service after January 1, 2016: At least 25% of Low-Income Units must be 2-bedroom or larger
+- Executive Director may grant waiver for At-Risk projects if cost prohibitive
+- Minimum unit sizes: 1-bedroom units must be at least 450 square feet
+
+USE PERIOD:
+- Minimum 55-year low-income use period required for at-risk projects (50 years for projects on tribal trust land)
+
+RENTAL SUBSIDY REQUIREMENTS:
+- Must agree to renew all project-based rental subsidies (Section 8 HAP or Section 521) for maximum term available
+- Must seek additional renewals throughout project's useful life
+
+3. USDA/RURAL DEVELOPMENT SPECIFIC PROVISIONS
+==============================================
+
+USDA RENTAL SUBSIDY CALCULATIONS (Section 10325(c)(3)(C)):
+- For USDA rental subsidy units, income differential established by subtracting tax credit rental income at 40% AMI from the higher of:
+  - 60% AMI rents, or
+  - Committed contract USDA Basic rents
+
+PROPERTY MANAGEMENT FEE LIMITS:
+- Cannot exceed the greater of:
+  - 7% of project's effective gross income, or
+  - Amount approved by HUD or USDA
+
+RHS SECTION 515 FUNDING:
+- Applications must submit evidence that RHS Section 515 funding has been committed
+- Evidence must meet requirements of Section 10325(f)(8)
+
+4. THRESHOLD REQUIREMENTS (Section 10325(f))
+============================================
+
+BASIC THRESHOLDS INCLUDE:
+- Complete application with all required documentation
+- Site control documentation
+- Market study (age requirements vary by project type)
+- Financial feasibility
+- Developer/management company experience requirements
+- Environmental assessments
+- Local approvals and zoning
+- Enforceable financing commitments
+
+5. MINIMUM SCORING REQUIREMENTS
+===============================
+
+AT-RISK PROJECTS HOUSING TYPE POINTS:
+- 10 points for qualifying as At-Risk housing type (Section 10325(c)(3))
+- All projects must score at least 45 points in Lowest Income category to be eligible for 9% Tax Credits
+
+6. ADA/ACCESSIBILITY REQUIREMENTS (Section 10325(f)(7)(K))
+=========================================================
+
+NEW CONSTRUCTION MINIMUMS:
+- 15% of units must have mobility features
+- 10% of units must have communication features
+
+DISTRIBUTION:
+- Accessible units must be distributed throughout project
+- Available in sufficient range of sizes and amenities
+
+WAIVERS:
+- Executive Director may approve partial/full waiver for units exceeding ADA, Section 504, and CBC Chapter 11B requirements
+
+7. DEVELOPER FEE CALCULATIONS (Section 10327(c)(2))
+===================================================
+
+FOR AT-RISK ACQUISITION/REHABILITATION PROJECTS:
+- Maximum: 15% of unadjusted eligible construction-related basis PLUS 15% of unadjusted eligible acquisition basis (instead of standard 5%)
+- This enhanced acquisition basis percentage specifically applies to at-risk developments meeting Section 10325(g)(4) requirements
+- Cap of $2.5 million applies (or $2.8 million for Special Needs)
+
+8. RELOCATION REQUIREMENTS (Section 10322(h)(28))
+=================================================
+
+MUST COMPLY WITH:
+- California Relocation Assistance Law (Gov. Code Section 7260 et seq.), OR
+- Uniform Relocation Assistance and Real Property Acquisition Policies Act (if federal funds trigger)
+
+RELOCATION PLAN MUST INCLUDE:
+- Itemized cost estimate per applicable law
+- Plan for tenants not meeting income requirements or receiving >5% rent increase
+- Description of temporary relocation (onsite/offsite)
+- Notice procedures and documentation
+
+9. KEY DATES AND TIMELINES
+==========================
+
+APPLICATION DEADLINES:
+- Set by Committee and announced early in year
+- Late applications not accepted
+
+DOCUMENT AGE REQUIREMENTS:
+- Appraisals: Within 120 days of purchase contract execution
+- Market studies: Requirements vary by project type
+- CNA reports: Current as of application
+
+POST-RESERVATION DEADLINES:
+- 180-day deadline for various submissions if Development Team members not identified at application (Section 10325(c)(7))
+- 194-day deadline also referenced for certain submissions
+
+KEY TIMING CONSIDERATION FOR USDA PROJECTS:
+- Must have committed USDA funding at time of application per Section 10325(f)(8)
+
+10. ADDITIONAL RELEVANT PROVISIONS
+==================================
+
+SCATTERED SITE PROJECTS:
+- Multiple parcels allowed if within 1/2 mile
+- Must meet other scattered site requirements
+
+NONPROFIT PARTICIPATION:
+- At-Risk projects can be considered under nonprofit set-aside first
+- If unsuccessful, automatically considered under At-Risk set-aside
+
+TIEBREAKER CRITERIA:
+- Lowest requested unadjusted eligible basis per Tax Credit Unit
+- Other tiebreakers may apply per Section 10325(c)(10)
+
+Document prepared: 01072025
+Source: December 11, 2024 CTCAC QAP Regulations (Final Approved Version)

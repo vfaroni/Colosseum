@@ -1,0 +1,64 @@
+{
+  "consolidation_timestamp": "2025-08-06T15:10:50.079805",
+  "source_files": {
+    "count": 8,
+    "total_original_rows": 3260,
+    "file_details": {
+      "CostarExport-8.xlsx": {
+        "rows": 321,
+        "columns": 42,
+        "unique_properties": 173
+      },
+      "CostarExport-9.xlsx": {
+        "rows": 450,
+        "columns": 42,
+        "unique_properties": 233
+      },
+      "CostarExport-10.xlsx": {
+        "rows": 481,
+        "columns": 27,
+        "unique_properties": 226
+      },
+      "CostarExport-11.xlsx": {
+        "rows": 470,
+        "columns": 42,
+        "unique_properties": 248
+      },
+      "CostarExport-12.xlsx": {
+        "rows": 470,
+        "columns": 42,
+        "unique_properties": 248
+      },
+      "CostarExport-13.xlsx": {
+        "rows": 444,
+        "columns": 42,
+        "unique_properties": 252
+      },
+      "CostarExport-14.xlsx": {
+        "rows": 471,
+        "columns": 42,
+        "unique_properties": 247
+      },
+      "CostarExport-15.xlsx": {
+        "rows": 153,
+        "columns": 42,
+        "unique_properties": 85
+      }
+    }
+  },
+  "final_dataset": {
+    "total_rows": 2760,
+    "total_columns": 59,
+    "unique_properties": 1433,
+    "data_quality_distribution": {
+      "Good": 1305,
+      "Excellent": 1146,
+      "Fair": 309
+    }
+  },
+  "consolidation_impact": {
+    "rows_removed": 500,
+    "deduplication_rate": 15.34,
+    "data_completeness_avg": 86.07
+  }
+}

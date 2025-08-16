@@ -1,0 +1,145 @@
+{
+  "download_timestamp": "2025-08-01T10:41:07.242530",
+  "target_datasets": [
+    "hqts",
+    "enhanced_stops",
+    "transit_speeds"
+  ],
+  "downloads": {
+    "hqts": {
+      "status": "success",
+      "resources_found": 4,
+      "files_downloaded": 2,
+      "downloaded_files": [
+        {
+          "file_path": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/data/transit/hqts_GeoJSON_20250801.geojson",
+          "resource_info": {
+            "name": "GeoJSON",
+            "format": "geojson",
+            "url": "https://gis.data.ca.gov/api/download/v1/items/f6c30480f0e84be699383192c099a6a4/geojson?layers=0",
+            "size": null,
+            "last_modified": null,
+            "description": ""
+          }
+        },
+        {
+          "file_path": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/data/transit/hqts_CSV_20250801.csv",
+          "resource_info": {
+            "name": "CSV",
+            "format": "csv",
+            "url": "https://gis.data.ca.gov/api/download/v1/items/f6c30480f0e84be699383192c099a6a4/csv?layers=0",
+            "size": null,
+            "last_modified": null,
+            "description": ""
+          }
+        }
+      ]
+    },
+    "enhanced_stops": {
+      "status": "success",
+      "resources_found": 4,
+      "files_downloaded": 2,
+      "downloaded_files": [
+        {
+          "file_path": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/data/transit/enhanced_stops_GeoJSON_20250801.geojson",
+          "resource_info": {
+            "name": "GeoJSON",
+            "format": "geojson",
+            "url": "https://gis.data.ca.gov/api/download/v1/items/900992cc94ab49dbbb906d8f147c2a72/geojson?layers=0",
+            "size": null,
+            "last_modified": null,
+            "description": ""
+          }
+        },
+        {
+          "file_path": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/data/transit/enhanced_stops_CSV_20250801.csv",
+          "resource_info": {
+            "name": "CSV",
+            "format": "csv",
+            "url": "https://gis.data.ca.gov/api/download/v1/items/900992cc94ab49dbbb906d8f147c2a72/csv?layers=0",
+            "size": null,
+            "last_modified": null,
+            "description": ""
+          }
+        }
+      ]
+    },
+    "transit_speeds": {
+      "status": "success",
+      "resources_found": 4,
+      "files_downloaded": 2,
+      "downloaded_files": [
+        {
+          "file_path": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/data/transit/transit_speeds_GeoJSON_20250801.geojson",
+          "resource_info": {
+            "name": "GeoJSON",
+            "format": "geojson",
+            "url": "https://gis.data.ca.gov/api/download/v1/items/4937eeb59fdb4e56ae75e64688c7f2c0/geojson?layers=0",
+            "size": null,
+            "last_modified": null,
+            "description": ""
+          }
+        },
+        {
+          "file_path": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/data/transit/transit_speeds_CSV_20250801.csv",
+          "resource_info": {
+            "name": "CSV",
+            "format": "csv",
+            "url": "https://gis.data.ca.gov/api/download/v1/items/4937eeb59fdb4e56ae75e64688c7f2c0/csv?layers=0",
+            "size": null,
+            "last_modified": null,
+            "description": ""
+          }
+        }
+      ]
+    }
+  },
+  "gtfs_extractions": {
+    "vta_gtfs.zip": {
+      "status": "success",
+      "stop_times_file": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/data/transit/vta_gtfs_stop_times.csv",
+      "records_extracted": 10000,
+      "peak_am_arrivals": "1740",
+      "peak_pm_arrivals": "1038",
+      "columns": [
+        "trip_id",
+        "arrival_time",
+        "departure_time",
+        "stop_id",
+        "stop_sequence",
+        "stop_headsign",
+        "pickup_type",
+        "drop_off_type",
+        "shape_dist_traveled",
+        "timepoint",
+        "hour"
+      ],
+      "routes_file": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/data/transit/vta_gtfs_routes.csv",
+      "routes_extracted": 74
+    },
+    "511_regional_gtfs.zip": {
+      "status": "success",
+      "stop_times_file": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/data/transit/511_regional_gtfs_stop_times.csv",
+      "records_extracted": 10000,
+      "peak_am_arrivals": "1125",
+      "peak_pm_arrivals": "941",
+      "columns": [
+        "trip_id",
+        "stop_id",
+        "stop_sequence",
+        "stop_headsign",
+        "arrival_time",
+        "departure_time",
+        "pickup_type",
+        "drop_off_type",
+        "continuous_pickup",
+        "continuous_drop_off",
+        "shape_dist_traveled",
+        "timepoint",
+        "hour"
+      ],
+      "routes_file": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/data/transit/511_regional_gtfs_routes.csv",
+      "routes_extracted": 614
+    }
+  }
+}

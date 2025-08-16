@@ -1,0 +1,471 @@
+{
+  "test_metadata": {
+    "timestamp": "20250725_154135",
+    "sites_tested": 7,
+    "analyzer_version": "2025.07"
+  },
+  "results": [
+    {
+      "site_name": "San Diego Downtown",
+      "address": "Downtown San Diego, CA 92101",
+      "coordinates": [
+        32.7157,
+        -117.1611
+      ],
+      "timestamp": "2025-07-25T15:41:39.440321",
+      "expected": {
+        "area_type": "urban_high_transit",
+        "expected_resource": "high_or_highest",
+        "expected_amenities": "high_density",
+        "notes": "Multiple trolley lines, urban core"
+      },
+      "federal_status": {
+        "qct_qualified": false,
+        "dda_qualified": false,
+        "basis_boost": 0.0,
+        "census_tract": "06037001.00"
+      },
+      "state_scoring": {
+        "total_points": 20,
+        "max_possible": 30,
+        "resource_category": "Low Resource",
+        "opportunity_points": 0,
+        "breakdown": {
+          "opportunity_area_points": 0,
+          "amenity_points": 15,
+          "federal_bonus": 0,
+          "transit_points": 5
+        }
+      },
+      "amenity_analysis": {
+        "total_amenity_points": 10,
+        "cap_enforced": true,
+        "breakdown": {
+          "transit": {
+            "points_earned": 7,
+            "max_possible": 7,
+            "points_counted": 7
+          },
+          "grocery": {
+            "points_earned": 5,
+            "max_possible": 5,
+            "points_counted": 3
+          }
+        },
+        "nearby_count": {
+          "schools": 20,
+          "medical": 20,
+          "grocery": 2,
+          "transit": 20,
+          "parks": 0,
+          "library": 17,
+          "pharmacy": 0,
+          "senior_center": 0,
+          "special_needs": 0
+        }
+      },
+      "validation": {
+        "amenity_cap_ok": true,
+        "scoring_math_ok": true,
+        "distance_reasonable": true,
+        "has_mandatory_data": true
+      }
+    },
+    {
+      "site_name": "Los Angeles Central",
+      "address": "Central Los Angeles, CA 90012",
+      "coordinates": [
+        34.0522,
+        -118.2437
+      ],
+      "timestamp": "2025-07-25T15:41:42.894029",
+      "expected": {
+        "area_type": "urban_metro_rail",
+        "expected_resource": "varies_by_tract",
+        "expected_amenities": "high_density",
+        "notes": "Metro rail access, dense urban amenities"
+      },
+      "federal_status": {
+        "qct_qualified": false,
+        "dda_qualified": true,
+        "basis_boost": 30.0,
+        "census_tract": "06037001.00"
+      },
+      "state_scoring": {
+        "total_points": 20,
+        "max_possible": 30,
+        "resource_category": "Low Resource",
+        "opportunity_points": 0,
+        "breakdown": {
+          "opportunity_area_points": 0,
+          "amenity_points": 15,
+          "federal_bonus": 0,
+          "transit_points": 5
+        }
+      },
+      "amenity_analysis": {
+        "total_amenity_points": 10,
+        "cap_enforced": true,
+        "breakdown": {
+          "transit": {
+            "points_earned": 7,
+            "max_possible": 7,
+            "points_counted": 7
+          },
+          "grocery": {
+            "points_earned": 5,
+            "max_possible": 5,
+            "points_counted": 3
+          }
+        },
+        "nearby_count": {
+          "schools": 20,
+          "medical": 20,
+          "grocery": 1,
+          "transit": 20,
+          "parks": 0,
+          "library": 13,
+          "pharmacy": 0,
+          "senior_center": 0,
+          "special_needs": 0
+        }
+      },
+      "validation": {
+        "amenity_cap_ok": true,
+        "scoring_math_ok": true,
+        "distance_reasonable": true,
+        "has_mandatory_data": true
+      }
+    },
+    {
+      "site_name": "Fresno Central Valley",
+      "address": "Central Fresno, CA 93721",
+      "coordinates": [
+        36.7378,
+        -119.7871
+      ],
+      "timestamp": "2025-07-25T15:41:46.410254",
+      "expected": {
+        "area_type": "rural_limited_transit",
+        "expected_resource": "low_or_moderate",
+        "expected_amenities": "low_density",
+        "notes": "Rural area, limited transit options"
+      },
+      "federal_status": {
+        "qct_qualified": false,
+        "dda_qualified": false,
+        "basis_boost": 0.0,
+        "census_tract": "06037001.00"
+      },
+      "state_scoring": {
+        "total_points": 24,
+        "max_possible": 30,
+        "resource_category": "Moderate Resource",
+        "opportunity_points": 4,
+        "breakdown": {
+          "opportunity_area_points": 4,
+          "amenity_points": 15,
+          "federal_bonus": 0,
+          "transit_points": 5
+        }
+      },
+      "amenity_analysis": {
+        "total_amenity_points": 10,
+        "cap_enforced": true,
+        "breakdown": {
+          "transit": {
+            "points_earned": 7,
+            "max_possible": 7,
+            "points_counted": 7
+          },
+          "grocery": {
+            "points_earned": 5,
+            "max_possible": 5,
+            "points_counted": 3
+          }
+        },
+        "nearby_count": {
+          "schools": 20,
+          "medical": 20,
+          "grocery": 1,
+          "transit": 20,
+          "parks": 0,
+          "library": 8,
+          "pharmacy": 0,
+          "senior_center": 0,
+          "special_needs": 0
+        }
+      },
+      "validation": {
+        "amenity_cap_ok": true,
+        "scoring_math_ok": true,
+        "distance_reasonable": true,
+        "has_mandatory_data": true
+      }
+    },
+    {
+      "site_name": "Oakland BART Area",
+      "address": "Downtown Oakland, CA 94612",
+      "coordinates": [
+        37.8044,
+        -122.2712
+      ],
+      "timestamp": "2025-07-25T15:41:49.735352",
+      "expected": {
+        "area_type": "urban_bart_access",
+        "expected_resource": "varies_by_tract",
+        "expected_amenities": "moderate_to_high",
+        "notes": "BART station proximity, urban Bay Area"
+      },
+      "federal_status": {
+        "qct_qualified": true,
+        "dda_qualified": false,
+        "basis_boost": 30.0,
+        "census_tract": "06037001.00"
+      },
+      "state_scoring": {
+        "total_points": 24,
+        "max_possible": 30,
+        "resource_category": "Low Resource",
+        "opportunity_points": 0,
+        "breakdown": {
+          "opportunity_area_points": 0,
+          "amenity_points": 15,
+          "federal_bonus": 4,
+          "transit_points": 5
+        }
+      },
+      "amenity_analysis": {
+        "total_amenity_points": 10,
+        "cap_enforced": true,
+        "breakdown": {
+          "transit": {
+            "points_earned": 7,
+            "max_possible": 7,
+            "points_counted": 7
+          },
+          "grocery": {
+            "points_earned": 5,
+            "max_possible": 5,
+            "points_counted": 3
+          }
+        },
+        "nearby_count": {
+          "schools": 20,
+          "medical": 20,
+          "grocery": 1,
+          "transit": 20,
+          "parks": 0,
+          "library": 18,
+          "pharmacy": 0,
+          "senior_center": 0,
+          "special_needs": 0
+        }
+      },
+      "validation": {
+        "amenity_cap_ok": true,
+        "scoring_math_ok": true,
+        "distance_reasonable": true,
+        "has_mandatory_data": true
+      }
+    },
+    {
+      "site_name": "Sacramento Regional",
+      "address": "Downtown Sacramento, CA 95814",
+      "coordinates": [
+        38.5816,
+        -121.4944
+      ],
+      "timestamp": "2025-07-25T15:41:53.212834",
+      "expected": {
+        "area_type": "state_capital_urban",
+        "expected_resource": "moderate_to_high",
+        "expected_amenities": "moderate_density",
+        "notes": "State capital, light rail system"
+      },
+      "federal_status": {
+        "qct_qualified": true,
+        "dda_qualified": false,
+        "basis_boost": 30.0,
+        "census_tract": "06037001.00"
+      },
+      "state_scoring": {
+        "total_points": 24,
+        "max_possible": 30,
+        "resource_category": "Low Resource",
+        "opportunity_points": 0,
+        "breakdown": {
+          "opportunity_area_points": 0,
+          "amenity_points": 15,
+          "federal_bonus": 4,
+          "transit_points": 5
+        }
+      },
+      "amenity_analysis": {
+        "total_amenity_points": 10,
+        "cap_enforced": true,
+        "breakdown": {
+          "transit": {
+            "points_earned": 7,
+            "max_possible": 7,
+            "points_counted": 7
+          },
+          "grocery": {
+            "points_earned": 5,
+            "max_possible": 5,
+            "points_counted": 3
+          }
+        },
+        "nearby_count": {
+          "schools": 20,
+          "medical": 20,
+          "grocery": 1,
+          "transit": 20,
+          "parks": 0,
+          "library": 20,
+          "pharmacy": 0,
+          "senior_center": 0,
+          "special_needs": 0
+        }
+      },
+      "validation": {
+        "amenity_cap_ok": true,
+        "scoring_math_ok": true,
+        "distance_reasonable": true,
+        "has_mandatory_data": true
+      }
+    },
+    {
+      "site_name": "San Jose Tech Corridor",
+      "address": "Downtown San Jose, CA 95113",
+      "coordinates": [
+        37.3382,
+        -121.8863
+      ],
+      "timestamp": "2025-07-25T15:41:56.604282",
+      "expected": {
+        "area_type": "urban_tech_hub",
+        "expected_resource": "high_resource",
+        "expected_amenities": "high_density",
+        "notes": "Tech corridor, VTA light rail"
+      },
+      "federal_status": {
+        "qct_qualified": true,
+        "dda_qualified": false,
+        "basis_boost": 30.0,
+        "census_tract": "06037001.00"
+      },
+      "state_scoring": {
+        "total_points": 24,
+        "max_possible": 30,
+        "resource_category": "Low Resource",
+        "opportunity_points": 0,
+        "breakdown": {
+          "opportunity_area_points": 0,
+          "amenity_points": 15,
+          "federal_bonus": 4,
+          "transit_points": 5
+        }
+      },
+      "amenity_analysis": {
+        "total_amenity_points": 10,
+        "cap_enforced": true,
+        "breakdown": {
+          "transit": {
+            "points_earned": 7,
+            "max_possible": 7,
+            "points_counted": 7
+          },
+          "library": {
+            "points_earned": 3,
+            "max_possible": 3,
+            "points_counted": 3
+          }
+        },
+        "nearby_count": {
+          "schools": 20,
+          "medical": 20,
+          "grocery": 0,
+          "transit": 20,
+          "parks": 0,
+          "library": 14,
+          "pharmacy": 0,
+          "senior_center": 0,
+          "special_needs": 0
+        }
+      },
+      "validation": {
+        "amenity_cap_ok": true,
+        "scoring_math_ok": true,
+        "distance_reasonable": true,
+        "has_mandatory_data": true
+      }
+    },
+    {
+      "site_name": "Riverside County",
+      "address": "Downtown Riverside, CA 92501",
+      "coordinates": [
+        33.9533,
+        -117.3961
+      ],
+      "timestamp": "2025-07-25T15:41:59.972669",
+      "expected": {
+        "area_type": "suburban_inland",
+        "expected_resource": "moderate",
+        "expected_amenities": "moderate_density",
+        "notes": "Inland empire, growing transit"
+      },
+      "federal_status": {
+        "qct_qualified": false,
+        "dda_qualified": true,
+        "basis_boost": 30.0,
+        "census_tract": "06037001.00"
+      },
+      "state_scoring": {
+        "total_points": 26,
+        "max_possible": 30,
+        "resource_category": "High Resource",
+        "opportunity_points": 6,
+        "breakdown": {
+          "opportunity_area_points": 6,
+          "amenity_points": 15,
+          "federal_bonus": 0,
+          "transit_points": 5
+        }
+      },
+      "amenity_analysis": {
+        "total_amenity_points": 10,
+        "cap_enforced": true,
+        "breakdown": {
+          "transit": {
+            "points_earned": 7,
+            "max_possible": 7,
+            "points_counted": 7
+          },
+          "grocery": {
+            "points_earned": 5,
+            "max_possible": 5,
+            "points_counted": 3
+          }
+        },
+        "nearby_count": {
+          "schools": 20,
+          "medical": 20,
+          "grocery": 1,
+          "transit": 20,
+          "parks": 0,
+          "library": 5,
+          "pharmacy": 0,
+          "senior_center": 0,
+          "special_needs": 0
+        }
+      },
+      "validation": {
+        "amenity_cap_ok": true,
+        "scoring_math_ok": true,
+        "distance_reasonable": true,
+        "has_mandatory_data": true
+      }
+    }
+  ]
+}

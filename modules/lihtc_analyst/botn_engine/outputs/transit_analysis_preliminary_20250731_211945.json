@@ -1,0 +1,38 @@
+{
+  "mission_info": {
+    "mission_id": "VITOR-WINGMAN-TRANSIT-002",
+    "analysis_date": "2025-07-31T21:19:45.373668",
+    "portfolio_file": "/Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Colosseum/modules/lihtc_analyst/botn_engine/Sites/BOTN_TRANSIT_ANALYSIS_INPUT_BACKUP_20250731_211324.xlsx",
+    "total_sites": 263
+  },
+  "system_status": {
+    "ca_lihtc_scorer_available": true,
+    "transit_data_available": true,
+    "transit_files_found": 4
+  },
+  "portfolio_analysis": {
+    "coordinates_available": true,
+    "site_sample": [
+      {
+        "Latitude": 34.148609,
+        "Longitude": -118.258263
+      },
+      {
+        "Latitude": 34.6292058,
+        "Longitude": -118.2401006
+      },
+      {
+        "Latitude": 34.094632,
+        "Longitude": -118.343706
+      },
+      {
+        "Latitude": 34.3791347,
+        "Longitude": -118.5457397
+      },
+      {
+        "Latitude": 34.6133257,
+        "Longitude": -118.1987078
+      }
+    ]
+  }
+}

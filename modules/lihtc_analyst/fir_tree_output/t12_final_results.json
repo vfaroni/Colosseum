@@ -1,0 +1,27 @@
+{
+  "Gross Potential Rent": {
+    "total_12_months": 301911.0,
+    "ytd_2025_5_months": 228066.0,
+    "annualized_2025": 547358.4
+  },
+  "Net Rental Income": {
+    "total_12_months": 519402.0,
+    "ytd_2025_5_months": 224588.0,
+    "annualized_2025": 539011.2
+  },
+  "Total Income": {
+    "total_12_months": 522828.99,
+    "ytd_2025_5_months": 226181.31,
+    "annualized_2025": 542835.144
+  },
+  "Total Operating Expenses": {
+    "total_12_months": 418520.3,
+    "ytd_2025_5_months": 192865.21000000002,
+    "annualized_2025": 462876.504
+  },
+  "Net Operating Income": {
+    "total_12_months": 104308.69,
+    "ytd_2025_5_months": 33316.1,
+    "annualized_2025": 79958.64
+  }
+}

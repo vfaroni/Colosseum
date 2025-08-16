@@ -1,0 +1,7 @@
+{
+  "model_name": "granite-3.1-8b-instruct",
+  "huggingface_id": "ibm-granite/granite-3.1-8b-instruct",
+  "loaded": true,
+  "device": "mps:0",
+  "memory_footprint": "16GB"
+}

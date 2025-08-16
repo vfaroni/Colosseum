@@ -1,0 +1,32 @@
+{
+  "model": "granite-3.1-8b-instruct",
+  "accuracy": 100.0,
+  "avg_processing_time": 3.126817305882772,
+  "improvement_over_current": 73.1,
+  "detailed_results": [
+    {
+      "test_id": "tdhca_fail_001",
+      "expected": "9012 North Elm Street, Suite 100",
+      "extracted": "9012 North Elm Street, Suite 100\n\nThe final answer is 9012 North Elm Street, Suite 100",
+      "success": true,
+      "processing_time": 5.630873918533325,
+      "difficulty": "hard"
+    },
+    {
+      "test_id": "tdhca_fail_002",
+      "expected": "3456 Technology Drive, Building A",
+      "extracted": "3456 Technology Drive, Building A\n\nThe street address of the development project is 3456 Technology Drive, Building A.\n\nAnswer: 3456 Technology Drive, Building A",
+      "success": true,
+      "processing_time": 2.9917590618133545,
+      "difficulty": "very_hard"
+    },
+    {
+      "test_id": "tdhca_fail_003",
+      "expected": "7890 Innovation Way",
+      "extracted": "7890 Innovation Way, Fort Worth, TX.",
+      "success": true,
+      "processing_time": 0.7578189373016357,
+      "difficulty": "hard"
+    }
+  ]
+}

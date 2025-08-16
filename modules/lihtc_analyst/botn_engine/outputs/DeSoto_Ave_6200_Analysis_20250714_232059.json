@@ -1,0 +1,213 @@
+{
+  "site_info": {
+    "latitude": 34.1975,
+    "longitude": -118.5962,
+    "address": null,
+    "state": "CA",
+    "county": null,
+    "census_tract": null
+  },
+  "federal_status": {
+    "qct_qualified": false,
+    "dda_qualified": false,
+    "federal_basis_boost": false,
+    "basis_boost_percentage": 0.0,
+    "qct_details": null,
+    "dda_details": null,
+    "analysis_notes": "Site does not qualify for federal QCT or DDA basis boost"
+  },
+  "state_scoring": {
+    "total_points": 24,
+    "max_possible_points": 30,
+    "scoring_breakdown": {
+      "opportunity_area_points": 6,
+      "amenity_points": 15,
+      "federal_bonus": 0,
+      "transit_points": 3
+    },
+    "opportunity_area": {
+      "resource_category": "High Resource",
+      "resource_score": 7.5,
+      "qualified": true,
+      "tract_id": "06037001.00"
+    },
+    "state": "CA",
+    "allocation_agency": "CTCAC",
+    "data_year": 2025
+  },
+  "amenity_analysis": {
+    "total_amenity_points": 19,
+    "max_possible_points": 19,
+    "amenity_breakdown": {
+      "schools": {
+        "points_earned": 6,
+        "max_possible": 6,
+        "details": [
+          {
+            "name": "Sample Elementary School",
+            "distance": 0.3,
+            "points_earned": 3
+          },
+          {
+            "name": "Sample High School",
+            "distance": 0.8,
+            "points_earned": 3
+          }
+        ]
+      },
+      "transit": {
+        "points_earned": 5,
+        "max_possible": 5,
+        "details": [
+          {
+            "name": "Bus Stop Main St",
+            "distance": 0.2,
+            "points_earned": 5
+          }
+        ]
+      },
+      "medical": {
+        "points_earned": 3,
+        "max_possible": 3,
+        "details": [
+          {
+            "name": "Community Health Clinic",
+            "distance": 0.5,
+            "points_earned": 3
+          }
+        ]
+      },
+      "grocery": {
+        "points_earned": 5,
+        "max_possible": 5,
+        "details": [
+          {
+            "name": "Sample Supermarket",
+            "distance": 0.7,
+            "points_earned": 5
+          }
+        ]
+      }
+    },
+    "nearby_amenities": {
+      "schools": [
+        {
+          "name": "Sample Elementary School",
+          "type": "elementary",
+          "distance_miles": 0.3,
+          "coordinates": [
+            34.1995,
+            -118.5942
+          ]
+        },
+        {
+          "name": "Sample High School",
+          "type": "high",
+          "distance_miles": 0.8,
+          "coordinates": [
+            34.2025,
+            -118.5912
+          ]
+        }
+      ],
+      "transit": [
+        {
+          "name": "Bus Stop Main St",
+          "type": "bus_stop",
+          "distance_miles": 0.2,
+          "coordinates": [
+            34.198499999999996,
+            -118.59519999999999
+          ]
+        }
+      ],
+      "medical": [
+        {
+          "name": "Community Health Clinic",
+          "type": "clinic",
+          "distance_miles": 0.5,
+          "coordinates": [
+            34.2005,
+            -118.5932
+          ]
+        }
+      ],
+      "grocery": [
+        {
+          "name": "Sample Supermarket",
+          "type": "supermarket",
+          "distance_miles": 0.7,
+          "coordinates": [
+            34.201499999999996,
+            -118.59219999999999
+          ]
+        }
+      ]
+    },
+    "analysis_radius_miles": 5.0,
+    "project_type": "family"
+  },
+  "rent_analysis": {
+    "location": {
+      "state": "CA",
+      "county": null
+    },
+    "rent_limits_by_ami": {
+      "30%_ami": {
+        "studio": 600.0,
+        "1br": 650.0,
+        "2br": 800.0,
+        "3br": 1100.0,
+        "4br": 1250.0
+      },
+      "50%_ami": {
+        "studio": 1000.0,
+        "1br": 1083.33,
+        "2br": 1333.33,
+        "3br": 1833.33,
+        "4br": 2083.33
+      },
+      "60%_ami": {
+        "studio": 1200.0,
+        "1br": 1300.0,
+        "2br": 1600.0,
+        "3br": 2200.0,
+        "4br": 2500.0
+      },
+      "80%_ami": {
+        "studio": 1600.0,
+        "1br": 1733.33,
+        "2br": 2133.33,
+        "3br": 2933.33,
+        "4br": 3333.33
+      }
+    },
+    "basis_boost_qualified": false,
+    "boost_percentage": 0.0,
+    "analysis_year": 2025
+  },
+  "competitive_summary": {
+    "total_points": 24,
+    "percentile_rank": 85,
+    "competitive_tier": "Excellent"
+  },
+  "recommendations": {
+    "overall_recommendation": "Proceed with development",
+    "priority_level": "High",
+    "key_strengths": [],
+    "areas_for_improvement": [],
+    "next_steps": []
+  },
+  "analysis_metadata": {
+    "analysis_date": "2025-07-14T23:20:59.471100",
+    "analysis_duration_seconds": 0.000368,
+    "software_version": "1.0.0",
+    "data_sources_used": [
+      "HUD QCT/DDA 2025",
+      "OpenStreetMap",
+      "Census Bureau",
+      "State QAP Documents"
+    ],
+    "analysis_id": "LIHTC_20250714_232059"
+  }
+}

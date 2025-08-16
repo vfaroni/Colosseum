@@ -1,0 +1,9 @@
+{
+  "txdot_roadway_endpoint": "https://services.arcgis.com/KTcxiTD9dsQw4r7Z/arcgis/rest/services/TxDOT_Roadways/FeatureServer/0",
+  "total_features": "Unknown",
+  "key_fields": [
+    "RDBD_TYPE",
+    "Shape__Length"
+  ],
+  "service_name": "TxDOT Roadways"
+}

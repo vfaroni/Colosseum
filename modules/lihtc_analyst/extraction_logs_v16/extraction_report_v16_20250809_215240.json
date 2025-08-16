@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-08-09T21:52:40.141140",
+  "version": "V1.6 Conservative Cleanup",
+  "cleanup_enabled": true,
+  "statistics": {
+    "files_processed": 3,
+    "sheets_extracted": 27,
+    "cells_extracted": 19169,
+    "cells_cleaned": 51,
+    "formulas_preserved": 8064,
+    "errors": []
+  },
+  "cleanup_summary": {
+    "total_removals": 51,
+    "removal_rate": "0.3%",
+    "preservation_rate": "99.7%"
+  },
+  "files": {
+    "2025_4pct_R1_25-464.xlsx": {
+      "sheets_extracted": [
+        "Application",
+        "Sources and Uses Budget",
+        "Basis & Credits",
+        "Sources and Basis Breakdown",
+        "Points System",
+        "Tie Breaker",
+        "CalHFA Addendum",
+        "Subsidy Contract Calculation",
+        "15 Year Pro Forma"
+      ],
+      "extraction_time": "2025-08-09T21:51:40.884093",
+      "cleanup_enabled": true,
+      "cleanup_stats": {
+        "total_removed": 17,
+        "total_preserved": 6336
+      }
+    },
+    "2025_4pct_R1_25-433.xlsx": {
+      "sheets_extracted": [
+        "Application",
+        "Sources and Uses Budget",
+        "Basis & Credits",
+        "Sources and Basis Breakdown",
+        "Points System",
+        "Tie Breaker",
+        "CalHFA Addendum",
+        "Subsidy Contract Calculation",
+        "15 Year Pro Forma"
+      ],
+      "extraction_time": "2025-08-09T21:52:00.094756",
+      "cleanup_enabled": true,
+      "cleanup_stats": {
+        "total_removed": 17,
+        "total_preserved": 6448
+      }
+    },
+    "2025_4pct_R1_25-425.xlsx": {
+      "sheets_extracted": [
+        "Application",
+        "Sources and Uses Budget",
+        "Basis & Credits",
+        "Sources and Basis Breakdown",
+        "Points System",
+        "Tie Breaker",
+        "CalHFA Addendum",
+        "Subsidy Contract Calculation",
+        "15 Year Pro Forma"
+      ],
+      "extraction_time": "2025-08-09T21:52:20.173877",
+      "cleanup_enabled": true,
+      "cleanup_stats": {
+        "total_removed": 17,
+        "total_preserved": 6385
+      }
+    }
+  },
+  "summary": {
+    "total_files": 3,
+    "total_sheets": 27,
+    "sheets_found_per_app": {
+      "2025_4pct_R1_25-464.xlsx": 9,
+      "2025_4pct_R1_25-433.xlsx": 9,
+      "2025_4pct_R1_25-425.xlsx": 9
+    }
+  }
+}

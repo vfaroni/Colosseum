@@ -1,0 +1,84 @@
+{
+  "document": "Washington HTF Handbook",
+  "file": "  Fir Tree WA HTF_Handbook_Version_1-30-2025_FINAL.pdf",
+  "extraction_date": "2025-08-09T17:55:30.757287",
+  "fir_tree_specific": {
+    "mentions": []
+  },
+  "loan_terms": {
+    "htf_amounts": [
+      "$5",
+      "$4",
+      "$1",
+      "$250,000,",
+      "$350"
+    ],
+    "home_amounts": [
+      "$5",
+      "$4",
+      "$1",
+      "$250,000,",
+      "$350"
+    ]
+  },
+  "forgiveness_conditions": [
+    "These policies may include, but are not limited to: (1) Requiring a share of the appreciation in the project in proportion to the state's contribution to the project; (2) requiring a lump-sum repayment of the loan or grant upon the sale or change of use of the project; or (3) requiring a deferred payment of principal or principal and interest on loans after a specified time period.",
+    "Commerce will provide awards in the form of contracts for deferred loans, recoverable grants, or as specific in the competitive solicitation .",
+    "(f) Projects that demonstrate a strong probability of serving the original target group or income level for a period of at least 40 years;\n8.",
+    "060 states, in part:\n\nThe policies must require projects to remain as affordable housing for a minimum of 40 years except for projects that provide homes for low-income first-time homebuyers, which must remain affordable for a minimum of 25 years."
+  ],
+  "repair_funds": {
+    "repair": [
+      "$5",
+      "$250,000,",
+      "$500,000"
+    ],
+    "rehabilitation": [
+      "$5",
+      "$350",
+      "$250,000,"
+    ],
+    "capital": [
+      "$5",
+      "$350",
+      "$250,000,"
+    ],
+    "improvement": [
+      "$5",
+      "$350",
+      "$250,000,"
+    ],
+    "reserve": [
+      "$5",
+      "$1",
+      "$350"
+    ],
+    "replacement": [
+      "$5",
+      "$350",
+      "$250,000,"
+    ]
+  },
+  "compliance_requirements": [
+    {
+      "keyword": "affordability period",
+      "context": " The Placed in Service date is used to determine the start of the commitment/affordability period, annual reporting, and compliance monitoring."
+    },
+    {
+      "keyword": "senior",
+      "context": " Refinancing and Subordination\n\nContractors may request Commerce to subordinate its Deed of Trust to private or public senior debt that is secured by the property."
+    },
+    {
+      "keyword": "elderly",
+      "context": " Vacancy Rates\n\nApplicants should use a 7 percent residential vacancy rate (5 percent for elderly developments) and a 10 percent non-residential vacancy rate when preparing their operating pro forma."
+    },
+    {
+      "keyword": "monitoring",
+      "context": " Monitoring and Compliance."
+    },
+    {
+      "keyword": "reporting",
+      "context": " The Placed in Service date is used to determine the start of the commitment/affordability period, annual reporting, and compliance monitoring."
+    }
+  ]
+}

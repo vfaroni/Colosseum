@@ -1,0 +1,133 @@
+================================================================================
+THIRD-PARTY REPORT AGING REQUIREMENTS FOR CTCAC APPLICATION
+San Jacinto Vista II - Application Deadline: July 8, 2025
+================================================================================
+
+REPORT AGING REQUIREMENTS AND CUTOFF DATES:
+===========================================
+
+1. MARKET STUDY
+   Age Requirement: Within 180 days of filing deadline
+   Cutoff Date: January 9, 2025
+   Status: ✓ COMPLETE (assuming completed within window)
+   QAP Reference: Section 10322(h)(10)
+
+2. CAPITAL NEEDS ASSESSMENT (CNA/PCNA)
+   Age Requirement: Within 180 days prior to application deadline
+   Cutoff Date: January 9, 2025
+   Status: ✓ COMPLETE (USDA RD Standards - assuming completed within window)
+   QAP Reference: Section 10322(h)(26)(B)
+
+3. CTCAC APPRAISAL
+   Age Requirement: Date of value within 120 days before OR after site control execution
+   Cutoff Date: Depends on site control date (not application date)
+   Status: ✓ COMPLETE (assuming proper timing relative to site control)
+   QAP Reference: Section 10322(h)(9)
+   Note: This is tied to site control timing, not application deadline
+
+4. TITLE REPORT (Current)
+   Age Requirement: Within 90 days of application
+   Cutoff Date: April 9, 2025
+   Status: [ ] NEEDED - Order by April 2025
+   QAP Reference: Sections 10322(i)(19), 10325(f)(2)
+
+5. PHASE I ENVIRONMENTAL
+   Age Requirement: No specific aging requirement found in QAP
+   Cutoff Date: N/A (but should be reasonably current)
+   Status: ✓ COMPLETE
+   Note: Standard practice but no CTCAC aging requirement
+
+6. CONSTRUCTION BUDGET
+   Age Requirement: No specific aging requirement (must be current/accurate)
+   Cutoff Date: Should reflect current costs as of application
+   Status: ✓ COMPLETE
+   Note: Must be prepared by qualified third party
+
+7. CUAC REPORT
+   Age Requirement: Must be "current" utility allowance estimates
+   Cutoff Date: Should be current as of application (recommend within 6 months)
+   Status: ✓ ORDERED
+   QAP Reference: Section 10322(h)(21)
+
+8. RELOCATION PLAN
+   Age Requirement: No specific aging requirement
+   Cutoff Date: Must be current and accurate for project scope
+   Status: ✓ COMPLETE
+
+9. THIRD-PARTY LEGAL OPINION (At-Risk Status)
+   Age Requirement: No specific aging requirement (must be current/valid)
+   Cutoff Date: Should be current for application
+   Status: [ ] NEEDED
+   QAP Reference: Section 10325(g)(4)
+
+10. ELIGIBLE BASIS CERTIFICATION
+    Age Requirement: No specific aging requirement
+    Cutoff Date: Must be current for application
+    Status: [ ] NEEDED (CPA or tax attorney)
+    QAP Reference: Section 10322(h)(17)
+
+11. CHAIN OF TITLE REPORT
+    Age Requirement: No specific aging requirement found
+    Cutoff Date: Should be reasonably current
+    Status: [ ] NEEDED
+    QAP Reference: Section 10322(h)(25)(A)
+
+CRITICAL TIMING SUMMARY:
+=======================
+
+IMMEDIATE DEADLINES (Within 180 Days of July 8, 2025):
+- Market Study: Must be dated after January 9, 2025 ✓
+- CNA/PCNA: Must be dated after January 9, 2025 ✓
+
+NEAR-TERM DEADLINES (Within 90 Days of July 8, 2025):
+- Title Report: Must be dated after April 9, 2025 [ ] ORDER BY APRIL
+
+SITE CONTROL DEPENDENT:
+- Appraisal: Within 120 days of site control execution ✓
+
+NO SPECIFIC AGING REQUIREMENTS (But Should Be Current):
+- Phase I Environmental ✓
+- Construction Budget ✓
+- CUAC Report ✓ (ordered)
+- Relocation Plan ✓
+- Legal Opinion for At-Risk Status [ ]
+- Eligible Basis Certification [ ]
+- Chain of Title Report [ ]
+
+ACTION ITEMS BY DATE:
+====================
+
+JANUARY 2025:
+✓ Verify Market Study completion date is after January 9, 2025
+✓ Verify CNA/PCNA completion date is after January 9, 2025
+
+FEBRUARY 2025:
+- Engage attorney for At-Risk Legal Opinion
+- Engage CPA/tax attorney for Eligible Basis Certification
+
+MARCH 2025:
+- Complete Legal Opinion and Eligible Basis Certification
+
+APRIL 2025:
+- Order Title Report (must be after April 9, 2025)
+- Order Chain of Title Report
+
+MAY-JUNE 2025:
+- Verify all reports are current and properly dated
+- Update any reports approaching expiration
+
+JULY 2025:
+- Final verification all reports meet aging requirements
+- Submit application July 8, 2025
+
+NOTES:
+======
+1. Market Study and CNA have the most restrictive 180-day requirements
+2. Title Report has 90-day requirement - order in April
+3. Appraisal timing is tied to site control, not application date
+4. Several reports have no specific aging requirements but should be current
+5. Most third-party reports already complete - excellent timing
+6. Focus on obtaining remaining 4 reports: Title, Legal Opinion, Eligible Basis Cert, Chain of Title
+
+Document prepared: January 7, 2025
+Application Deadline: July 8, 2025

@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-08-09T18:10:00.813464",
+  "statistics": {
+    "files_processed": 3,
+    "sheets_extracted": 18,
+    "cells_extracted": 14697,
+    "formulas_preserved": 5119,
+    "errors": []
+  },
+  "files": {
+    "2025_4pct_R1_25-464.xlsx": {
+      "sheets_extracted": [
+        "Application",
+        "Sources and Uses Budget",
+        "Basis & Credits",
+        "Sources and Basis Breakdown",
+        "Points System",
+        "Tie Breaker"
+      ],
+      "key_metrics": {
+        "project_name": null,
+        "total_units": null,
+        "total_development_cost": 32229512,
+        "developer_fee": 1900000,
+        "eligible_basis": null,
+        "qualified_basis": null,
+        "annual_credits": null
+      },
+      "extraction_time": "2025-08-09T18:09:21.920842"
+    },
+    "2025_4pct_R1_25-433.xlsx": {
+      "sheets_extracted": [
+        "Application",
+        "Sources and Uses Budget",
+        "Basis & Credits",
+        "Sources and Basis Breakdown",
+        "Points System",
+        "Tie Breaker"
+      ],
+      "key_metrics": {
+        "project_name": null,
+        "total_units": null,
+        "total_development_cost": 76220578,
+        "developer_fee": null,
+        "eligible_basis": null,
+        "qualified_basis": null,
+        "annual_credits": null
+      },
+      "extraction_time": "2025-08-09T18:09:34.660712"
+    },
+    "2025_4pct_R1_25-425.xlsx": {
+      "sheets_extracted": [
+        "Application",
+        "Sources and Uses Budget",
+        "Basis & Credits",
+        "Sources and Basis Breakdown",
+        "Points System",
+        "Tie Breaker"
+      ],
+      "key_metrics": {
+        "project_name": null,
+        "total_units": null,
+        "total_development_cost": 128496941,
+        "developer_fee": null,
+        "eligible_basis": null,
+        "qualified_basis": null,
+        "annual_credits": null
+      },
+      "extraction_time": "2025-08-09T18:09:47.574623"
+    }
+  },
+  "summary": {
+    "total_files": 3,
+    "total_sheets": 18,
+    "successful_extractions": 3
+  }
+}
