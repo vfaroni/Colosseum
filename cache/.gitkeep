@@ -1,0 +1,2 @@
+# This file ensures the cache directory structure is preserved in git
+# Cache contents are excluded but the directory structure is maintained
