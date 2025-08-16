@@ -1,0 +1,395 @@
+{
+  "mission_phase": "Phase 2 - Structure Analysis",
+  "timestamp": "2025-08-02 22:46:01",
+  "pdf_files_processed": [
+    {
+      "file": "CA_2025_QAP_section_01_pages_001-095.pdf",
+      "sections_found": 18,
+      "has_error": false
+    },
+    {
+      "file": "CA_2025_QAP_section_02_pages_096-109.pdf",
+      "sections_found": 0,
+      "has_error": false
+    }
+  ],
+  "hierarchical_map": {
+    "qap_outline": {
+      "10300": {
+        "full_citation": "\u00a710300",
+        "title": "Purpose and Scope",
+        "page": 1,
+        "subsections": {}
+      },
+      "10302": {
+        "full_citation": "\u00a710302",
+        "title": "Definitions",
+        "page": 1,
+        "subsections": {}
+      },
+      "10305": {
+        "full_citation": "\u00a710305",
+        "title": "General Provisions",
+        "page": 1,
+        "subsections": {}
+      },
+      "10310": {
+        "full_citation": "\u00a710310",
+        "title": "Reservations of Tax Credits",
+        "page": 1,
+        "subsections": {}
+      },
+      "10315": {
+        "full_citation": "\u00a710315",
+        "title": "Set-Asides and Apportionments",
+        "page": 1,
+        "subsections": {}
+      },
+      "10317": {
+        "full_citation": "\u00a710317",
+        "title": "State Tax Credit Eligibility Requirements",
+        "page": 1,
+        "subsections": {}
+      },
+      "10320": {
+        "full_citation": "\u00a710320",
+        "title": "Actions by the Committee",
+        "page": 1,
+        "subsections": {}
+      },
+      "10322": {
+        "full_citation": "\u00a710322",
+        "title": "Application Requirements",
+        "page": 1,
+        "subsections": {}
+      },
+      "10323": {
+        "full_citation": "\u00a710323",
+        "title": "The American Recovery and Reinvestment Act of 2009",
+        "page": 1,
+        "subsections": {}
+      },
+      "10325": {
+        "full_citation": "\u00a710325",
+        "title": "5",
+        "page": 1,
+        "subsections": {}
+      },
+      "10326": {
+        "full_citation": "\u00a710326",
+        "title": "Application Selection Criteria\u2014Tax-Exempt Bond Applications",
+        "page": 1,
+        "subsections": {}
+      },
+      "10327": {
+        "full_citation": "\u00a710327",
+        "title": "Financial Feasibility and Determination of Credit Amounts",
+        "page": 1,
+        "subsections": {}
+      },
+      "10328": {
+        "full_citation": "\u00a710328",
+        "title": "Conditions on Credit Reservations",
+        "page": 1,
+        "subsections": {}
+      },
+      "10330": {
+        "full_citation": "\u00a710330",
+        "title": "Appeals",
+        "page": 1,
+        "subsections": {}
+      },
+      "10335": {
+        "full_citation": "\u00a710335",
+        "title": "Fees and Performance Deposit",
+        "page": 1,
+        "subsections": {}
+      },
+      "10336": {
+        "full_citation": "\u00a710336",
+        "title": "Laws, Rules, Guidelines, and Regulations for Tenants of Low-Income Units",
+        "page": 1,
+        "subsections": {}
+      },
+      "10337": {
+        "full_citation": "\u00a710337",
+        "title": "Compliance",
+        "page": 1,
+        "subsections": {}
+      }
+    },
+    "section_relationships": {},
+    "critical_sections": {},
+    "page_mapping": {},
+    "content_classification": {
+      "application_req": [
+        {
+          "page": 1,
+          "matches": [
+            "Application Requirements"
+          ],
+          "context": "CALIFORNIA TAX CREDIT ALLOCATION COMMITTEE REGULATIONS IMPLEMENTING THE\nFEDERAL AND STATE LOW INCOME HOUSING TAX CREDIT LAWS\nCALIFORNIA CODE OF REGULATIONS\nTITLE 4, DIVISION 17, CHAPTER 1\nDecember 11,..."
+        },
+        {
+          "page": 23,
+          "matches": [
+            "Application Requirements"
+          ],
+          "context": "Regulations\nSection 10320 - 10322\n(6) Except for resyndication applications without a distribution of Net Project Equity, if a project\nseeks to receive a new reservation of 9% or 4% tax credits, any u..."
+        },
+        {
+          "page": 70,
+          "matches": [
+            "application requirement"
+          ],
+          "context": "Regulations\nSection 10325\n(8) Deferred-payment financing, residual receipts payment financing, grants and subsidies.\nNotwithstanding any other application requirement, Applicants shall provide evidenc..."
+        },
+        {
+          "page": 80,
+          "matches": [
+            "application requirements"
+          ],
+          "context": "Regulations\nSection 10326\n(1) Subject to conditions described in these Regulations, reservations of Federal and State\nTax Credits shall be made for those applications that receive a bond allocation fr..."
+        },
+        {
+          "page": 4,
+          "matches": [
+            "application requirements"
+          ],
+          "context": "Regulations\nSection 10335\n(a) Application fee.\n(1) Every applicant for non-competitive tax credits shall be required to pay an application filing\nfee of $1,500. Scattered site applications and resyndi..."
+        }
+      ],
+      "basic_threshold": [
+        {
+          "page": 3,
+          "matches": [
+            "Basic Threshold\nRequirements"
+          ],
+          "context": "Regulations\nSection 10302\n(k) Capital Needs Assessment or CNA. The physical needs assessment report required for all\nrehabilitation projects, described in Section 10322(h)(26)(B).\n(l) CDLAC. The Calif..."
+        },
+        {
+          "page": 14,
+          "matches": [
+            "Basic Threshold\nRequirements"
+          ],
+          "context": "Regulations\nSection 10315\n(f) First supplemental set-aside. After accounting for the second supplemental set-aside described in\n(g), an amount equal to three percent (3%) of the Federal Credit Ceiling..."
+        },
+        {
+          "page": 63,
+          "matches": [
+            "basic threshold\nrequirements"
+          ],
+          "context": "Regulations\nSection 10325\nThe CAA Federal Credit amount shall not be counted towards the set asides of Section\n10315, the housing type goals of Section 10315(h), or the geographic apportionments of\nSe..."
+        },
+        {
+          "page": 81,
+          "matches": [
+            "basic threshold requirements",
+            "basic threshold requirements"
+          ],
+          "context": "Regulations\nSection 10326\nby a third-party tax professional as to the expected or actual aggregate basis (including\nland) financed by the proceeds of tax-exempt bonds;\n(3) the name, phone number and c..."
+        },
+        {
+          "page": 84,
+          "matches": [
+            "basic threshold requirements"
+          ],
+          "context": "Regulations\nSection 10326 - 10327\nReference: Sections 12206, 17058 and 23610.5, Revenue and Taxation Code; and Sections 50199.4,\n50199.5, 50199.6, 50199.7, 50199.8, 50199.9, 50199.10, 50199.11, 50199...."
+        }
+      ],
+      "scoring_section": [
+        {
+          "page": 13,
+          "matches": [
+            "scoring",
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10315\nSection 515 designated places list in effect the prior September 30, or is so designated in writing\nby the USDA Multifamily Housing Program Director. All Projects located in ..."
+        },
+        {
+          "page": 18,
+          "matches": [
+            "scoring",
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10317\n(2) If more than one applicant is requesting nine percent (9%) federal credits in combination\nwith State Farmworker Credits during a competitive round, CTCAC shall award avai..."
+        },
+        {
+          "page": 24,
+          "matches": [
+            "scoring",
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10322\n(d) Incomplete application. Determination of completeness, compliance with all Basic and Additional\nThresholds, the scoring of the application, and any application submission..."
+        },
+        {
+          "page": 31,
+          "matches": [
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10322\nthe California Utility Allowance Calculator (CUAC) developed by the California Energy\nCommission (CEC), and incorporated in the CEC\u2019s compliance program (CBECC). The\nCUAC est..."
+        },
+        {
+          "page": 37,
+          "matches": [
+            "scoring",
+            "SCORING"
+          ],
+          "context": "Regulations\nSection 10323 - 10325\nequal total payment to a pure annual payment schedule. Where another State or federal\nhousing entity is a project funding source, project sponsors may propose a plan ..."
+        },
+        {
+          "page": 45,
+          "matches": [
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10325\nmeasurements of the grocery section of that multi-purpose store. The \u201cgrocery\nsection\u201d of a large multipurpose store is defined as the portion of the store\nprimarily devoted ..."
+        },
+        {
+          "page": 46,
+          "matches": [
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10325\ncompletion is considered in place at the time of application for purposes of this\nscoring factor.\n9. The site is within 1/2 mile of a pharmacy (for Rural projects, 1 mile) 2 ..."
+        },
+        {
+          "page": 49,
+          "matches": [
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10325\n12. After school program for school age children. Includes, but is not limited to\ntutoring, mentoring, homework club, art and recreational activities. (Only for\nlarge family ..."
+        },
+        {
+          "page": 52,
+          "matches": [
+            "Tie Breakers",
+            "tie breakers"
+          ],
+          "context": "Regulations\nSection 10325\nprinciples of Universal Design in at least half of the project's Low-Income Units,\nincluding:\n\u2022 Accessible routes of travel to the dwelling units with accessible 34\" minimum\n..."
+        },
+        {
+          "page": 54,
+          "matches": [
+            "tie breaker",
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10325\nNative American Housing Assistance and Self Determination Act (NAHASDA)\nfunds. Land and building values, including for land donated or leased by a public\nentity or donated as..."
+        },
+        {
+          "page": 58,
+          "matches": [
+            "scoring",
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10325\n(D) For Rural set aside projects applying in counties where no tax credit applications have\nbeen received within five years of the application filing date, the tiebreaker sha..."
+        },
+        {
+          "page": 60,
+          "matches": [
+            "scoring",
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10325\n$5,630,499 Los Angeles\n$5,421,263 Shasta\n$4,975,965 Ventura\n$4,109,511 Napa\n$3,342,311 Mendocino\n$3,259,153 Lake\n$2,886,283 Yuba\n$2,816,537 San Diego\n$2,583,158 Santa Barbara..."
+        },
+        {
+          "page": 63,
+          "matches": [
+            "scoring",
+            "scoring",
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10325\nThe CAA Federal Credit amount shall not be counted towards the set asides of Section\n10315, the housing type goals of Section 10315(h), or the geographic apportionments of\nSe..."
+        },
+        {
+          "page": 79,
+          "matches": [
+            "tie breaker"
+          ],
+          "context": "Regulations\nSection 10325 - 10326\nStaff shall score, rank and evaluate applications on the Waiting List and make selections from the\nWaiting List as follows:\n(1) If Credits are fully returned from pro..."
+        },
+        {
+          "page": 81,
+          "matches": [
+            "scoring",
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10326\nby a third-party tax professional as to the expected or actual aggregate basis (including\nland) financed by the proceeds of tax-exempt bonds;\n(3) the name, phone number and c..."
+        },
+        {
+          "page": 9,
+          "matches": [
+            "scoring"
+          ],
+          "context": "Regulations\nSection 10336 - 10337\ntranslation of notices concerning tenants\u2019 rights and the provision of interpretive\nservices to facilitate communication between LEP tenants and Owners.\nNote: Authori..."
+        }
+      ],
+      "construction_standards": [
+        {
+          "page": 66,
+          "matches": [
+            "Minimum construction standards"
+          ],
+          "context": "Regulations\nSection 10325\nexcept that an appeal period may run 30 days beyond that application due date..\nWhen the appeal period, if any, is concluded, the applicant must provide proof that\neither no ..."
+        },
+        {
+          "page": 82,
+          "matches": [
+            "Minimum construction standards",
+            "minimum construction\nstandards"
+          ],
+          "context": "Regulations\nSection 10326\ngeneral partner, and to parent companies, principals of entities, and family members. For\nthe purposes of this section, related or non-arm\u2019s length relationships are further ..."
+        }
+      ]
+    }
+  },
+  "construction_standards_analysis": {
+    "target_section": "\u00a710325(f)(7) Minimum Construction Standards",
+    "expected_location": "Pages 66-69",
+    "hierarchical_path": [
+      "\u00a710325",
+      "(f) Basic Threshold Requirements",
+      "(7) Minimum Construction Standards"
+    ],
+    "found_instances": [
+      {
+        "page": 66,
+        "matches": [
+          "Minimum construction standards"
+        ],
+        "context": "Regulations\nSection 10325\nexcept that an appeal period may run 30 days beyond that application due date..\nWhen the appeal period, if any, is concluded, the applicant must provide proof that\neither no ..."
+      },
+      {
+        "page": 82,
+        "matches": [
+          "Minimum construction standards",
+          "minimum construction\nstandards"
+        ],
+        "context": "Regulations\nSection 10326\ngeneral partner, and to parent companies, principals of entities, and family members. For\nthe purposes of this section, related or non-arm\u2019s length relationships are further ..."
+      }
+    ],
+    "structural_problems": [
+      "Critical construction standards section not identified"
+    ],
+    "extraction_requirements": [
+      "Extract complete \u00a710325(f)(7) from start to end",
+      "Include all subsections (A) through (M)(iv)",
+      "Preserve hierarchical structure and formatting",
+      "Map to exact PDF pages (66-69)",
+      "Maintain parent-child relationships with \u00a710325(f)",
+      "Distinguish from other sections (especially Tie Breakers)"
+    ]
+  },
+  "structural_insights": [
+    "Processed 2 PDF files",
+    "Mapped 17 main QAP sections",
+    "Identified 0 parent-child relationships",
+    "Found 0 critical sections"
+  ],
+  "phase_3_requirements": [
+    "Build enhanced section parser using mapped structure",
+    "Implement complete section extraction (\u00a710325(f)(7))",
+    "Create working verification system with correct IDs",
+    "Add PDF page mapping for all sections",
+    "Fix section classification (no more Tie Breakers mislabeling)"
+  ],
+  "overall_success": true
+}

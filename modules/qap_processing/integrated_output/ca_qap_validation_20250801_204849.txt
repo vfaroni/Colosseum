@@ -1,0 +1,55 @@
+
+CA 2025 QAP EXTRACTION VALIDATION REPORT
+========================================
+Generated: 2025-08-01T20:48:49.312125
+
+OVERALL RESULTS:
+Extraction Status: ❌ FAILED
+Overall Completeness: 87.5%
+Critical Sections Found: 7/8
+
+MISSING CRITICAL SECTIONS:
+  ❌ Negative Points
+
+CRITICAL FAILURES:
+  🚨 MISSING: Negative Points - Critical LIHTC section not found
+
+DETAILED SECTION ANALYSIS:
+
+✅ Complete Scoring Criteria
+   Content Length: 255118 chars
+   Keyword Coverage: 71.4%
+
+✅ Geographic Apportionments & Set-Asides
+   Content Length: 255118 chars
+   Keyword Coverage: 85.7%
+
+✅ Threshold Requirements
+   Content Length: 318314 chars
+   Keyword Coverage: 66.7%
+
+✅ Application Procedures & Deadlines
+   Content Length: 356754 chars
+   Keyword Coverage: 100.0%
+
+✅ Compliance & Monitoring
+   Content Length: 333822 chars
+   Keyword Coverage: 83.3%
+
+✅ Financial Underwriting Standards
+   Content Length: 260534 chars
+   Keyword Coverage: 100.0%
+
+✅ Tiebreaker Criteria
+   Content Length: 255118 chars
+   Keyword Coverage: 60.0%
+
+VALIDATION CRITERIA:
+- All critical LIHTC sections must be present
+- Each section must meet minimum content length requirements  
+- Keyword coverage must exceed 50% for section identification
+- Content must not be excessively fragmented
+- Overall completeness must be ≥95%
+
+RECOMMENDATION:
+❌ CA QAP extraction requires improvement before production deployment.

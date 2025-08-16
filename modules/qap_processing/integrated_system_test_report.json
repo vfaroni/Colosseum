@@ -1,0 +1,130 @@
+{
+  "test_date": "2025-08-01T13:07:00.448826",
+  "system_info": {
+    "rag_collection_size": 2084,
+    "total_tests": 18,
+    "passed_tests": 18,
+    "failed_tests": 0,
+    "success_rate": "100.0%"
+  },
+  "original_problem_status": "RESOLVED",
+  "test_results": [
+    {
+      "query": "minimum construction standards",
+      "status": "PASS",
+      "results_count": 5,
+      "note": "Original problem resolved"
+    },
+    {
+      "query": "minimum construction standards",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdictions_count": 2,
+      "avg_relevance": 0.18901944160461426
+    },
+    {
+      "query": "qualified basis calculation",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdictions_count": 3,
+      "avg_relevance": 0.07321916023890178
+    },
+    {
+      "query": "income limits verification",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdictions_count": 2,
+      "avg_relevance": 0.003246953307283603
+    },
+    {
+      "query": "tenant file requirements",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdictions_count": 3,
+      "avg_relevance": 0.12928640981650238
+    },
+    {
+      "query": "compliance monitoring",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdictions_count": 3,
+      "avg_relevance": 0.23945093154907227
+    },
+    {
+      "query": "affordability period",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdictions_count": 3,
+      "avg_relevance": -0.11369184652964275
+    },
+    {
+      "query": "credit ceiling",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdictions_count": 2,
+      "avg_relevance": 0.15034719308217367
+    },
+    {
+      "query": "tax credit allocation",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdictions_count": 2,
+      "avg_relevance": 0.13230391343434653
+    },
+    {
+      "query": "CA qualified basis",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdiction": "CA"
+    },
+    {
+      "query": "TX qualified basis",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdiction": "TX"
+    },
+    {
+      "query": "NY qualified basis",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdiction": "NY"
+    },
+    {
+      "query": "FL qualified basis",
+      "status": "PASS",
+      "results_count": 3,
+      "jurisdiction": "FL"
+    },
+    {
+      "query": "definition qualified basis",
+      "status": "PASS",
+      "results_count": 3
+    },
+    {
+      "query": "definition eligible basis",
+      "status": "PASS",
+      "results_count": 3
+    },
+    {
+      "query": "definition low income unit",
+      "status": "PASS",
+      "results_count": 3
+    },
+    {
+      "query": "definition area median income",
+      "status": "PASS",
+      "results_count": 3
+    },
+    {
+      "query": "definition compliance period",
+      "status": "PASS",
+      "results_count": 3
+    }
+  ],
+  "deployment_status": {
+    "fine_tuned_llm": "Simulation Complete",
+    "rag_system": "Deployed with 2,084 items",
+    "web_interface": "Enhanced interface created",
+    "integration_status": "Ready for production"
+  }
+}

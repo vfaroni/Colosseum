@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-08-01T22:17:37.241560",
+  "total_sections_expected": 8,
+  "sections_found": 0,
+  "sections_missing": [
+    "Threshold Requirements",
+    "Application Procedures & Deadlines",
+    "Compliance & Monitoring",
+    "Financial Underwriting Standards",
+    "Tiebreaker Criteria",
+    "Negative Points"
+  ],
+  "sections_incomplete": [
+    {
+      "section": "Complete Scoring Criteria",
+      "issues": [
+        "Low keyword coverage: 42.9%",
+        "Content too short: 55 chars (expected 5000+)"
+      ]
+    },
+    {
+      "section": "Geographic Apportionments & Set-Asides",
+      "issues": [
+        "Low keyword coverage: 42.9%",
+        "Content too short: 48 chars (expected 3000+)"
+      ]
+    }
+  ],
+  "overall_completeness": 0.0,
+  "critical_failures": [
+    "MISSING: Threshold Requirements - Critical LIHTC section not found",
+    "MISSING: Application Procedures & Deadlines - Critical LIHTC section not found",
+    "MISSING: Compliance & Monitoring - Critical LIHTC section not found",
+    "MISSING: Financial Underwriting Standards - Critical LIHTC section not found",
+    "MISSING: Tiebreaker Criteria - Critical LIHTC section not found",
+    "MISSING: Negative Points - Critical LIHTC section not found"
+  ],
+  "detailed_results": {
+    "scoring_criteria": {
+      "section_name": "Complete Scoring Criteria",
+      "content_length": 55,
+      "keyword_coverage": 0.42857142857142855,
+      "keywords_found": [
+        "points",
+        "scoring",
+        "maximum points"
+      ],
+      "is_complete": false,
+      "issues": [
+        "Low keyword coverage: 42.9%",
+        "Content too short: 55 chars (expected 5000+)"
+      ],
+      "content_preview": "The scoring criteria section contains maximum points..."
+    },
+    "geographic_apportionments": {
+      "section_name": "Geographic Apportionments & Set-Asides",
+      "content_length": 48,
+      "keyword_coverage": 0.42857142857142855,
+      "keywords_found": [
+        "geographic apportionment",
+        "set-aside",
+        "rural"
+      ],
+      "is_complete": false,
+      "issues": [
+        "Low keyword coverage: 42.9%",
+        "Content too short: 48 chars (expected 3000+)"
+      ],
+      "content_preview": "Geographic apportionments for rural set-aside..."
+    }
+  },
+  "extraction_passed": false
+}

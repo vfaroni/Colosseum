@@ -1,0 +1,63 @@
+
+CA 2025 QAP EXTRACTION VALIDATION REPORT
+========================================
+Generated: 2025-08-01T20:22:03.507368
+
+OVERALL RESULTS:
+Extraction Status: ❌ FAILED
+Overall Completeness: 0.0%
+Critical Sections Found: 0/8
+
+MISSING CRITICAL SECTIONS:
+  ❌ Application Procedures & Deadlines
+  ❌ Compliance & Monitoring
+  ❌ Tiebreaker Criteria
+  ❌ Negative Points
+
+INCOMPLETE SECTIONS:
+  ⚠️  Complete Scoring Criteria
+     - Content too short: 343 chars (expected 5000+)
+  ⚠️  Geographic Apportionments & Set-Asides
+     - Content too short: 239 chars (expected 3000+)
+  ⚠️  Threshold Requirements
+     - Content too short: 198 chars (expected 4000+)
+  ⚠️  Financial Underwriting Standards
+     - Content too short: 244 chars (expected 3000+)
+
+CRITICAL FAILURES:
+  🚨 MISSING: Application Procedures & Deadlines - Critical LIHTC section not found
+  🚨 MISSING: Compliance & Monitoring - Critical LIHTC section not found
+  🚨 MISSING: Tiebreaker Criteria - Critical LIHTC section not found
+  🚨 MISSING: Negative Points - Critical LIHTC section not found
+
+DETAILED SECTION ANALYSIS:
+
+❌ Complete Scoring Criteria
+   Content Length: 343 chars
+   Keyword Coverage: 71.4%
+   Issues: Content too short: 343 chars (expected 5000+)
+
+❌ Geographic Apportionments & Set-Asides
+   Content Length: 239 chars
+   Keyword Coverage: 85.7%
+   Issues: Content too short: 239 chars (expected 3000+)
+
+❌ Threshold Requirements
+   Content Length: 198 chars
+   Keyword Coverage: 83.3%
+   Issues: Content too short: 198 chars (expected 4000+)
+
+❌ Financial Underwriting Standards
+   Content Length: 244 chars
+   Keyword Coverage: 83.3%
+   Issues: Content too short: 244 chars (expected 3000+)
+
+VALIDATION CRITERIA:
+- All critical LIHTC sections must be present
+- Each section must meet minimum content length requirements  
+- Keyword coverage must exceed 50% for section identification
+- Content must not be excessively fragmented
+- Overall completeness must be ≥95%
+
+RECOMMENDATION:
+❌ CA QAP extraction requires improvement before production deployment.

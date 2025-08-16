@@ -1,0 +1,231 @@
+{
+  "jurisdiction": "California",
+  "created": "2025-08-02T20:58:58.834424",
+  "hub_spoke_metrics": {
+    "hub_pages": 109,
+    "spoke_pages": 541,
+    "ratio": "5.0:1",
+    "total_nodes": 10,
+    "total_connections": 9
+  },
+  "nodes": [
+    {
+      "node_id": "CA_QAP_HUB",
+      "title": "California 2025 QAP",
+      "authority_level": 30,
+      "node_type": "hub",
+      "page_count": 109,
+      "legal_ref_count": 316,
+      "business_impact_score": 95.0,
+      "x_position": 0.0,
+      "y_position": 0.0,
+      "size": 50.0
+    },
+    {
+      "node_id": "IRC_SECTION_42",
+      "title": "IRC Section 42",
+      "authority_level": 100,
+      "node_type": "federal_spoke",
+      "page_count": 45,
+      "legal_ref_count": 43,
+      "business_impact_score": 100.0,
+      "x_position": 75.00000000000001,
+      "y_position": -129.9038105676658,
+      "size": 30.0
+    },
+    {
+      "node_id": "CFR_26_1_42",
+      "title": "26 CFR 1.42",
+      "authority_level": 80,
+      "node_type": "federal_spoke",
+      "page_count": 35,
+      "legal_ref_count": 13,
+      "business_impact_score": 90.0,
+      "x_position": 150.0,
+      "y_position": 0.0,
+      "size": 30.0
+    },
+    {
+      "node_id": "PUBLIC_LAW_99_514",
+      "title": "Public Law 99-514",
+      "authority_level": 100,
+      "node_type": "federal_spoke",
+      "page_count": 8,
+      "legal_ref_count": 1,
+      "business_impact_score": 85.0,
+      "x_position": 75.00000000000001,
+      "y_position": 129.9038105676658,
+      "size": 30.0
+    },
+    {
+      "node_id": "CA_HEALTH_SAFETY",
+      "title": "CA Health & Safety Code",
+      "authority_level": 30,
+      "node_type": "state_spoke",
+      "page_count": 45,
+      "legal_ref_count": 2,
+      "business_impact_score": 70.0,
+      "x_position": -103.92304845413261,
+      "y_position": 60.00000000000004,
+      "size": 25.0
+    },
+    {
+      "node_id": "CA_REVENUE_TAXATION",
+      "title": "CA Revenue & Taxation Code",
+      "authority_level": 30,
+      "node_type": "state_spoke",
+      "page_count": 62,
+      "legal_ref_count": 6,
+      "business_impact_score": 75.0,
+      "x_position": -103.92304845413265,
+      "y_position": -59.99999999999997,
+      "size": 25.0
+    },
+    {
+      "node_id": "CA_CCR_TITLE_4",
+      "title": "CA CCR Title 4",
+      "authority_level": 30,
+      "node_type": "state_spoke",
+      "page_count": 320,
+      "legal_ref_count": 8,
+      "business_impact_score": 80.0,
+      "x_position": -2.2043642384652355e-14,
+      "y_position": -120.0,
+      "size": 25.0
+    },
+    {
+      "node_id": "CA_QAP_SECTION_10325",
+      "title": "QAP §10325 Selection Criteria",
+      "authority_level": 30,
+      "node_type": "internal_spoke",
+      "page_count": 12,
+      "legal_ref_count": 64,
+      "business_impact_score": 60.0,
+      "x_position": 45.00000000000001,
+      "y_position": 77.94228634059948,
+      "size": 20.0
+    },
+    {
+      "node_id": "CA_QAP_SECTION_10322",
+      "title": "QAP §10322 Application Requirements",
+      "authority_level": 30,
+      "node_type": "internal_spoke",
+      "page_count": 8,
+      "legal_ref_count": 29,
+      "business_impact_score": 55.0,
+      "x_position": -90.0,
+      "y_position": 1.1021821192326179e-14,
+      "size": 20.0
+    },
+    {
+      "node_id": "CA_QAP_SECTION_10327",
+      "title": "QAP §10327 Financial Feasibility",
+      "authority_level": 30,
+      "node_type": "internal_spoke",
+      "page_count": 6,
+      "legal_ref_count": 31,
+      "business_impact_score": 58.0,
+      "x_position": 44.99999999999994,
+      "y_position": -77.94228634059951,
+      "size": 20.0
+    }
+  ],
+  "connections": [
+    {
+      "connection_id": "HUB_TO_IRC_SECTION_42",
+      "from_node": "CA_QAP_HUB",
+      "to_node": "IRC_SECTION_42",
+      "connection_type": "authority_hierarchy",
+      "strength": 0.9,
+      "citation_count": 43
+    },
+    {
+      "connection_id": "HUB_TO_CFR_26_1_42",
+      "from_node": "CA_QAP_HUB",
+      "to_node": "CFR_26_1_42",
+      "connection_type": "authority_hierarchy",
+      "strength": 0.9,
+      "citation_count": 13
+    },
+    {
+      "connection_id": "HUB_TO_PUBLIC_LAW_99_514",
+      "from_node": "CA_QAP_HUB",
+      "to_node": "PUBLIC_LAW_99_514",
+      "connection_type": "authority_hierarchy",
+      "strength": 0.9,
+      "citation_count": 1
+    },
+    {
+      "connection_id": "HUB_TO_CA_HEALTH_SAFETY",
+      "from_node": "CA_QAP_HUB",
+      "to_node": "CA_HEALTH_SAFETY",
+      "connection_type": "reference",
+      "strength": 0.6,
+      "citation_count": 2
+    },
+    {
+      "connection_id": "HUB_TO_CA_REVENUE_TAXATION",
+      "from_node": "CA_QAP_HUB",
+      "to_node": "CA_REVENUE_TAXATION",
+      "connection_type": "reference",
+      "strength": 0.6,
+      "citation_count": 6
+    },
+    {
+      "connection_id": "HUB_TO_CA_CCR_TITLE_4",
+      "from_node": "CA_QAP_HUB",
+      "to_node": "CA_CCR_TITLE_4",
+      "connection_type": "reference",
+      "strength": 0.6,
+      "citation_count": 8
+    },
+    {
+      "connection_id": "HUB_TO_CA_QAP_SECTION_10325",
+      "from_node": "CA_QAP_HUB",
+      "to_node": "CA_QAP_SECTION_10325",
+      "connection_type": "cross_reference",
+      "strength": 0.4,
+      "citation_count": 64
+    },
+    {
+      "connection_id": "HUB_TO_CA_QAP_SECTION_10322",
+      "from_node": "CA_QAP_HUB",
+      "to_node": "CA_QAP_SECTION_10322",
+      "connection_type": "cross_reference",
+      "strength": 0.4,
+      "citation_count": 29
+    },
+    {
+      "connection_id": "HUB_TO_CA_QAP_SECTION_10327",
+      "from_node": "CA_QAP_HUB",
+      "to_node": "CA_QAP_SECTION_10327",
+      "connection_type": "cross_reference",
+      "strength": 0.4,
+      "citation_count": 31
+    }
+  ],
+  "visualization_config": {
+    "width": 800,
+    "height": 600,
+    "center_x": 400,
+    "center_y": 300,
+    "authority_colors": {
+      "100": "#dc3545",
+      "80": "#fd7e14",
+      "60": "#ffc107",
+      "30": "#20c997"
+    },
+    "node_type_shapes": {
+      "hub": "circle",
+      "federal_spoke": "diamond",
+      "state_spoke": "square",
+      "internal_spoke": "triangle"
+    }
+  },
+  "business_intelligence": {
+    "revenue_opportunity": "10X+ for hub-heavy models like Florida",
+    "implementation_complexity": "Low - minimal QAP processing required",
+    "competitive_advantage": "Massive external universe creates high barrier to entry",
+    "market_education": "California demonstrates why complete universe coverage is essential"
+  }
+}

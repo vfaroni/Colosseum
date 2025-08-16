@@ -1,0 +1,34 @@
+# LIHTC Definition Intelligence System - M4 Beast Requirements
+# Optimized for Apple Silicon with 128GB unified memory
+
+# Vector Database & Embeddings
+chromadb>=0.4.18
+sentence-transformers>=2.2.2
+
+# LLAMA Model Support (M4 Beast optimized)
+llama-cpp-python>=0.2.20
+
+# Web Interface
+gradio>=4.8.0
+pandas>=2.0.0
+
+# Core Processing (already installed from previous work)
+# docling>=1.0.0  # Already available from Phase 2E
+# json
+# pathlib
+# typing
+# datetime
+# logging
+# numpy
+
+# Optional: Enhanced embeddings
+# transformers>=4.35.0
+# torch>=2.1.0
+
+# Development & Testing
+pytest>=7.4.0
+jupyter>=1.0.0
+
+# M4 Beast Performance Monitoring
+psutil>=5.9.0
+py-cpuinfo>=9.0.0

@@ -1,0 +1,708 @@
+{
+  "CA": [
+    {
+      "source_section": "CA_0019",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(b)(1)",
+      "target_description": "Federal authority: Section 42(b)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0019",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(b)(1)",
+      "target_description": "Federal authority: IRC Section 42(b)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0024",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(3)",
+      "target_description": "Federal authority: Section 42(h)(3)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0024",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(h)(3)",
+      "target_description": "Federal authority: IRC Section 42(h)(3)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0028",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(i)(2)",
+      "target_description": "Federal authority: Section 42(i)(2)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0028",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42",
+      "target_description": "Federal authority: IRC Section 42",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0028",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(i)(2)",
+      "target_description": "Federal authority: IRC Section 42(i)(2)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0037",
+      "target_type": "federal_irc",
+      "target_reference": "IRC  Section 42(h)(5)",
+      "target_description": "Federal authority: IRC  Section 42(h)(5)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0037",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42",
+      "target_description": "Federal authority: IRC Section 42",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0037",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(5)",
+      "target_description": "Federal authority: Section 42(h)(5)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0041",
+      "target_type": "state_law",
+      "target_reference": "Government Code section 12957",
+      "target_description": "State law: Government Code section 12957",
+      "relationship_type": "implements",
+      "resolution_status": "unresolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0048",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(m)(1)",
+      "target_description": "Federal authority: IRC Section 42(m)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0048",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(m)(1)",
+      "target_description": "Federal authority: Section 42(m)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0054",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(4)",
+      "target_description": "Federal authority: Section 42(h)(4)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0056",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(4)",
+      "target_description": "Federal authority: Section 42(h)(4)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0082",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42",
+      "target_description": "Federal authority: IRC Section 42",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0093",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(m)",
+      "target_description": "Federal authority: IRC Section 42(m)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0097",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42",
+      "target_description": "Federal authority: IRC Section 42",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0101",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(m)",
+      "target_description": "Federal authority: IRC Section 42(m)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0105",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(d)(5)",
+      "target_description": "Federal authority: IRC Section 42(d)(5)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0105",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(d)(5)",
+      "target_description": "Federal authority: Section 42(d)(5)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0110",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(h)(1)",
+      "target_description": "Federal authority: IRC Section 42(h)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0110",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(1)",
+      "target_description": "Federal authority: Section 42(h)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0111",
+      "target_type": "state_law",
+      "target_reference": "IRC Code § 42",
+      "target_description": "State law: IRC Code § 42",
+      "relationship_type": "implements",
+      "resolution_status": "unresolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CA_0119",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(i)",
+      "target_description": "Federal authority: IRC Section 42(i)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "FL": [
+    {
+      "source_section": "FL_0001",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(d)(5)",
+      "target_description": "Federal authority: Section 42(d)(5)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "MI": [],
+  "NY": [
+    {
+      "source_section": "NY_0007",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(i)(7)",
+      "target_description": "Federal authority: Section 42(i)(7)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "PA": [],
+  "WA": [],
+  "GA": [],
+  "IL": [
+    {
+      "source_section": "IL_0044",
+      "target_type": "federal_irc",
+      "target_reference": "24 CFR 5",
+      "target_description": "Federal authority: 24 CFR 5",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "OH": [],
+  "TX": [
+    {
+      "source_section": "TX_0018",
+      "target_type": "state_law",
+      "target_reference": "in Code §42",
+      "target_description": "State law: in Code §42",
+      "relationship_type": "implements",
+      "resolution_status": "unresolved",
+      "notes": ""
+    },
+    {
+      "source_section": "TX_0021",
+      "target_type": "state_law",
+      "target_reference": "by Code §42",
+      "target_description": "State law: by Code §42",
+      "relationship_type": "implements",
+      "resolution_status": "unresolved",
+      "notes": ""
+    },
+    {
+      "source_section": "TX_0040",
+      "target_type": "state_law",
+      "target_reference": "and Code §42",
+      "target_description": "State law: and Code §42",
+      "relationship_type": "implements",
+      "resolution_status": "unresolved",
+      "notes": ""
+    },
+    {
+      "source_section": "TX_0055",
+      "target_type": "state_law",
+      "target_reference": "in Code §42",
+      "target_description": "State law: in Code §42",
+      "relationship_type": "implements",
+      "resolution_status": "unresolved",
+      "notes": ""
+    }
+  ],
+  "NC": [],
+  "AR": [],
+  "CT": [
+    {
+      "source_section": "CT_0012",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(5)",
+      "target_description": "Federal authority: Section 42(h)(5)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "AK": [
+    {
+      "source_section": "AK_0017",
+      "target_type": "federal_irc",
+      "target_reference": "24  CFR  92",
+      "target_description": "Federal authority: 24  CFR  92",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "AZ": [],
+  "AL": [],
+  "CO": [
+    {
+      "source_section": "CO_0016",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(6)",
+      "target_description": "Federal authority: Section 42(h)(6)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "CO_0018",
+      "target_type": "federal_irc",
+      "target_reference": "Revenue Procedure 2016-15",
+      "target_description": "Federal authority: Revenue Procedure 2016-15",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "DE": [],
+  "ID": [
+    {
+      "source_section": "ID_0034",
+      "target_type": "federal_irc",
+      "target_reference": "24 CFR 576",
+      "target_description": "Federal authority: 24 CFR 576",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "IN": [],
+  "HI": [],
+  "LA": [],
+  "KY": [],
+  "MD": [
+    {
+      "source_section": "MD_0009",
+      "target_type": "federal_irc",
+      "target_reference": "24 CFR 5",
+      "target_description": "Federal authority: 24 CFR 5",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "IA": [
+    {
+      "source_section": "IA_0013",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(h)(1)",
+      "target_description": "Federal authority: IRC Section 42(h)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "IA_0013",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(1)",
+      "target_description": "Federal authority: Section 42(h)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "IA_0020",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(g)",
+      "target_description": "Federal authority: IRC Section 42(g)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "IA_0027",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42",
+      "target_description": "Federal authority: IRC Section 42",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "IA_0034",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(g)",
+      "target_description": "Federal authority: IRC Section 42(g)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "IA_0034",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(h)(1)",
+      "target_description": "Federal authority: IRC Section 42(h)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "IA_0034",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(1)",
+      "target_description": "Federal authority: Section 42(h)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "IA_0036",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(g)",
+      "target_description": "Federal authority: IRC Section 42(g)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "ME": [
+    {
+      "source_section": "ME_0011",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(5)",
+      "target_description": "Federal authority: Section 42(h)(5)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "ME_0019",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(g)(2)",
+      "target_description": "Federal authority: Section 42(g)(2)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "MN": [],
+  "MO": [],
+  "MS": [],
+  "MA": [
+    {
+      "source_section": "MA_0061",
+      "target_type": "federal_irc",
+      "target_reference": "Internal Revenue Code Section 42",
+      "target_description": "Federal authority: Internal Revenue Code Section 42",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "KS": [],
+  "MT": [],
+  "ND": [],
+  "NJ": [
+    {
+      "source_section": "NJ_0018",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(4)",
+      "target_description": "Federal authority: Section 42(h)(4)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "NH": [
+    {
+      "source_section": "NH_0001",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(i)(7)",
+      "target_description": "Federal authority: IRC Section 42(i)(7)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "NH_0001",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(i)(7)",
+      "target_description": "Federal authority: Section 42(i)(7)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "NH_0009",
+      "target_type": "federal_irc",
+      "target_reference": "24 CFR 983",
+      "target_description": "Federal authority: 24 CFR 983",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "NV": [],
+  "NM": [],
+  "OK": [],
+  "RI": [
+    {
+      "source_section": "RI_0023",
+      "target_type": "federal_irc",
+      "target_reference": "IRC SECTION 42",
+      "target_description": "Federal authority: IRC SECTION 42",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "OR": [
+    {
+      "source_section": "OR_0030",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(m)(1)",
+      "target_description": "Federal authority: Section 42(m)(1)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "OR_0032",
+      "target_type": "federal_irc",
+      "target_reference": "section 42(h)(3)",
+      "target_description": "Federal authority: section 42(h)(3)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "NE": [
+    {
+      "source_section": "NE_0118",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42",
+      "target_description": "Federal authority: IRC Section 42",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "NE_0148",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(g)(2)",
+      "target_description": "Federal authority: Section 42(g)(2)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "NE_0179",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(d)(6)",
+      "target_description": "Federal authority: Section 42(d)(6)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "NE_0180",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(d)(2)",
+      "target_description": "Federal authority: Section 42(d)(2)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "NE_0189",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(i)(7)",
+      "target_description": "Federal authority: Section 42(i)(7)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "SC": [],
+  "VA": [],
+  "VT": [
+    {
+      "source_section": "VT_0056",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(h)(5)",
+      "target_description": "Federal authority: Section 42(h)(5)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "WI": [],
+  "DC": [
+    {
+      "source_section": "DC_0014",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(h)",
+      "target_description": "Federal authority: IRC Section 42(h)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "DC_0018",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(d)",
+      "target_description": "Federal authority: IRC Section 42(d)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "DC_0019",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(h)",
+      "target_description": "Federal authority: IRC Section 42(h)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "DC_0026",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(g)",
+      "target_description": "Federal authority: IRC Section 42(g)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "DC_0027",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42(c)",
+      "target_description": "Federal authority: IRC Section 42(c)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    },
+    {
+      "source_section": "DC_0029",
+      "target_type": "federal_irc",
+      "target_reference": "IRC Section 42",
+      "target_description": "Federal authority: IRC Section 42",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "TN": [
+    {
+      "source_section": "TN_0019",
+      "target_type": "federal_irc",
+      "target_reference": "Section 42(m)(2)",
+      "target_description": "Federal authority: Section 42(m)(2)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ],
+  "SD": [],
+  "WY": [],
+  "UT": [],
+  "WV": [],
+  "GU": [],
+  "VI": [],
+  "PR": [
+    {
+      "source_section": "PR_0019",
+      "target_type": "federal_irc",
+      "target_reference": "Section  42(m)(2)",
+      "target_description": "Federal authority: Section  42(m)(2)",
+      "relationship_type": "implements",
+      "resolution_status": "resolved",
+      "notes": ""
+    }
+  ]
+}

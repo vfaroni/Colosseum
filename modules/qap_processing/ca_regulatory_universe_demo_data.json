@@ -1,0 +1,978 @@
+{
+  "metadata": {
+    "system": "Colosseum Complete Regulatory Universe",
+    "jurisdiction": "California",
+    "extraction_date": "2025-08-02T20:49:14.453143",
+    "mission": "M4 Strike Leader - Complete Regulatory Universe Domination",
+    "demo_type": "Enhanced Regulatory Intelligence Demo"
+  },
+  "regulatory_universe": {
+    "qap_sections": 17,
+    "total_legal_refs": 92,
+    "federal_refs": 37,
+    "state_refs": 7,
+    "internal_refs": 48,
+    "hub_to_spoke_ratio": "2-3:1",
+    "estimated_external_pages": 700,
+    "business_value_multiplier": "3-4X"
+  },
+  "legal_references": [
+    {
+      "reference_id": "CA_REF_001",
+      "citation_text": "Public Law No. 99514",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Public Law",
+      "section_found": "§10300 - Purpose and Scope",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Foundational authority - establishes legal framework"
+    },
+    {
+      "reference_id": "CA_REF_002",
+      "citation_text": "Section 10300",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10300 - Purpose and Scope",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_003",
+      "citation_text": "IRC Section 42(b)(1)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_004",
+      "citation_text": "IRC Section 42(i)(1)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_005",
+      "citation_text": "IRC Section 42(h)(3)(C)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_006",
+      "citation_text": "Code of Federal Regulations (C.F",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_007",
+      "citation_text": "CFR part 35",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_008",
+      "citation_text": "CFR Section 91.5",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_009",
+      "citation_text": "Health and Safety Code Sections 50199.2",
+      "authority_level": 30,
+      "jurisdiction": "California",
+      "category": "Ca Health Safety",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "spoke",
+      "business_impact": "State housing standards - affects project feasibility"
+    },
+    {
+      "reference_id": "CA_REF_010",
+      "citation_text": "Revenue and Taxation Code  Sections  12205",
+      "authority_level": 30,
+      "jurisdiction": "California",
+      "category": "Ca Revenue Taxation",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "spoke",
+      "business_impact": "State tax credit coordination - impacts financial modeling"
+    },
+    {
+      "reference_id": "CA_REF_011",
+      "citation_text": "Revenue and Taxation Code Sections 12206",
+      "authority_level": 30,
+      "jurisdiction": "California",
+      "category": "Ca Revenue Taxation",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "spoke",
+      "business_impact": "State tax credit coordination - impacts financial modeling"
+    },
+    {
+      "reference_id": "CA_REF_012",
+      "citation_text": "Section 10302",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_013",
+      "citation_text": "Section 10322(h)(26)(B)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_014",
+      "citation_text": "section 10322(h)(5)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10302 - Definitions",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_015",
+      "citation_text": "IRC Section 42(m)(1)(ii))",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10305 - General Provisions",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_016",
+      "citation_text": "Section 10305",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10305 - General Provisions",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_017",
+      "citation_text": "Section 10325",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10305 - General Provisions",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_018",
+      "citation_text": "Section 10326",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10305 - General Provisions",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_019",
+      "citation_text": "IRC Section 42(h)(3)(D)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10310 - Reservations of Tax Credits",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_020",
+      "citation_text": "IRC  Section  42(h)(3)(D)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10310 - Reservations of Tax Credits",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_021",
+      "citation_text": "Section 10310",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10310 - Reservations of Tax Credits",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_022",
+      "citation_text": "Section 10325(d)(1)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10310 - Reservations of Tax Credits",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_023",
+      "citation_text": "Section 10325(d)(1)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10310 - Reservations of Tax Credits",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_024",
+      "citation_text": "Section 10315",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10315 - Set-Asides and Apportionments",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_025",
+      "citation_text": "Section 10325(g)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10315 - Set-Asides and Apportionments",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_026",
+      "citation_text": "Section 10336(b)(2)(B)(ii)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10315 - Set-Asides and Apportionments",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_027",
+      "citation_text": "IRC Section 42",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10317 - State Tax Credit Eligibility Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_028",
+      "citation_text": "Internal  Revenue  Code  Section 42(d)(5)(B)(v)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10317 - State Tax Credit Eligibility Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_029",
+      "citation_text": "Revenue and Taxation Code Sections 12206(b)(2)(E)(ii)",
+      "authority_level": 30,
+      "jurisdiction": "California",
+      "category": "Ca Revenue Taxation",
+      "section_found": "§10317 - State Tax Credit Eligibility Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "State tax credit coordination - impacts financial modeling"
+    },
+    {
+      "reference_id": "CA_REF_030",
+      "citation_text": "Revenue and Taxation Code Sections 12206(b)(2)(E)(iii)",
+      "authority_level": 30,
+      "jurisdiction": "California",
+      "category": "Ca Revenue Taxation",
+      "section_found": "§10317 - State Tax Credit Eligibility Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "State tax credit coordination - impacts financial modeling"
+    },
+    {
+      "reference_id": "CA_REF_031",
+      "citation_text": "Revenue  and  Taxation  Code  Sections  12206(b)(2)(E)(iii)",
+      "authority_level": 30,
+      "jurisdiction": "California",
+      "category": "Ca Revenue Taxation",
+      "section_found": "§10317 - State Tax Credit Eligibility Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "State tax credit coordination - impacts financial modeling"
+    },
+    {
+      "reference_id": "CA_REF_032",
+      "citation_text": "Section 10317",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10317 - State Tax Credit Eligibility Requirements",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_033",
+      "citation_text": "Section 10322(h)(9)(A)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10317 - State Tax Credit Eligibility Requirements",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_034",
+      "citation_text": "Section  10326(g)(7)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10317 - State Tax Credit Eligibility Requirements",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_035",
+      "citation_text": "IRC Section 42(h)(6)(F)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10320 - Actions by the Committee",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_036",
+      "citation_text": "Section 10320",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10320 - Actions by the Committee",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_037",
+      "citation_text": "Section  10325(h)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10320 - Actions by the Committee",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_038",
+      "citation_text": "Section 10320(b)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10320 - Actions by the Committee",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_039",
+      "citation_text": "IRC Section 42",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10322 - Application Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_040",
+      "citation_text": "IRC Section 42(m)(2)(C)(ii))",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10322 - Application Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_041",
+      "citation_text": "IRC Section 42(d)(2)(B)(ii)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10322 - Application Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_042",
+      "citation_text": "CFR Section 1.42",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10322 - Application Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_043",
+      "citation_text": "CFR Section 1.42",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10322 - Application Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_044",
+      "citation_text": "CFR Section 1.42",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10322 - Application Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_045",
+      "citation_text": "Health and Safety Code  Section  50199.17.",
+      "authority_level": 30,
+      "jurisdiction": "California",
+      "category": "Ca Health Safety",
+      "section_found": "§10322 - Application Requirements",
+      "hub_spoke_type": "spoke",
+      "business_impact": "State housing standards - affects project feasibility"
+    },
+    {
+      "reference_id": "CA_REF_046",
+      "citation_text": "Section 10322",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10322 - Application Requirements",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_047",
+      "citation_text": "Section 10322(e)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10322 - Application Requirements",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_048",
+      "citation_text": "Section 10330",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10322 - Application Requirements",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_049",
+      "citation_text": "Section 10323",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10323 - The American Recovery and Reinvestment Act of 2009",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_050",
+      "citation_text": "Section 10335",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10323 - The American Recovery and Reinvestment Act of 2009",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_051",
+      "citation_text": "IRC Section 42(h)(4)(b)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10325 - Application Selection Criteria-Credit Ceiling Applications",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_052",
+      "citation_text": "IRC Section 42(m)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10325 - Application Selection Criteria-Credit Ceiling Applications",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_053",
+      "citation_text": "IRC Section 42",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10325 - Application Selection Criteria-Credit Ceiling Applications",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_054",
+      "citation_text": "CFR Section 8.26.",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10325 - Application Selection Criteria-Credit Ceiling Applications",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_055",
+      "citation_text": "CFR Section 8.26.",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10325 - Application Selection Criteria-Credit Ceiling Applications",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_056",
+      "citation_text": "Section 10325",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10325 - Application Selection Criteria-Credit Ceiling Applications",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_057",
+      "citation_text": "Section 10326",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10325 - Application Selection Criteria-Credit Ceiling Applications",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_058",
+      "citation_text": "Section 10317(g)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10325 - Application Selection Criteria-Credit Ceiling Applications",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_059",
+      "citation_text": "IRC Section 42(h)(4)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10326 - Application Selection Criteria-Tax-Exempt Bond Applications",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_060",
+      "citation_text": "IRC Section 42(m)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10326 - Application Selection Criteria-Tax-Exempt Bond Applications",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_061",
+      "citation_text": "IRC Section 42",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10326 - Application Selection Criteria-Tax-Exempt Bond Applications",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_062",
+      "citation_text": "Section 10326",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10326 - Application Selection Criteria-Tax-Exempt Bond Applications",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_063",
+      "citation_text": "Section 10317",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10326 - Application Selection Criteria-Tax-Exempt Bond Applications",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_064",
+      "citation_text": "Section 10326",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10326 - Application Selection Criteria-Tax-Exempt Bond Applications",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_065",
+      "citation_text": "IRC Section 42(m)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10327 - Financial Feasibility and Determination of Credit Amounts",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_066",
+      "citation_text": "IRC Section 42(d)(5)(c)(iii)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10327 - Financial Feasibility and Determination of Credit Amounts",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_067",
+      "citation_text": "Section 10327",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10327 - Financial Feasibility and Determination of Credit Amounts",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_068",
+      "citation_text": "Section 10325",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10327 - Financial Feasibility and Determination of Credit Amounts",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_069",
+      "citation_text": "Section 10325",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10327 - Financial Feasibility and Determination of Credit Amounts",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_070",
+      "citation_text": "IRC Section 42(h)(1)(E)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10328 - Conditions on Credit Reservations",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_071",
+      "citation_text": "Section 10328",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10328 - Conditions on Credit Reservations",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_072",
+      "citation_text": "Section 10336(a)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10328 - Conditions on Credit Reservations",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_073",
+      "citation_text": "Section 10335",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10328 - Conditions on Credit Reservations",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_074",
+      "citation_text": "Section 10330",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10330 - Appeals",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_075",
+      "citation_text": "Section 10325(c)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10330 - Appeals",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_076",
+      "citation_text": "Section 10322",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10330 - Appeals",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_077",
+      "citation_text": "Section 10335",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10335 - Fees and Performance Deposit",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_078",
+      "citation_text": "Section 10322",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10335 - Fees and Performance Deposit",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_079",
+      "citation_text": "Section  10327(c)(2)(C)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10335 - Fees and Performance Deposit",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_080",
+      "citation_text": "CFR part 200",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10336 - Laws, Rules, Guidelines, and Regulations for Tenants",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_081",
+      "citation_text": "Section 10336",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10336 - Laws, Rules, Guidelines, and Regulations for Tenants",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_082",
+      "citation_text": "Section 10337(a)(3)(B)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10336 - Laws, Rules, Guidelines, and Regulations for Tenants",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_083",
+      "citation_text": "Section 10330",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10336 - Laws, Rules, Guidelines, and Regulations for Tenants",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_084",
+      "citation_text": "IRC Section 42(i)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10337 - Compliance",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_085",
+      "citation_text": "IRC Section 142(d)(3)(A)",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10337 - Compliance",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_086",
+      "citation_text": "IRC Section 42(c)(1)(B))",
+      "authority_level": 100,
+      "jurisdiction": "Federal",
+      "category": "Federal Irc",
+      "section_found": "§10337 - Compliance",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Critical compliance - basis for all LIHTC requirements"
+    },
+    {
+      "reference_id": "CA_REF_087",
+      "citation_text": "26  CFR  1.42",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10337 - Compliance",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_088",
+      "citation_text": "CFR  Section  142.10(c)",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10337 - Compliance",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_089",
+      "citation_text": "CFR  1.42",
+      "authority_level": 80,
+      "jurisdiction": "Federal",
+      "category": "Federal Cfr",
+      "section_found": "§10337 - Compliance",
+      "hub_spoke_type": "spoke",
+      "business_impact": "Regulatory implementation - defines compliance standards"
+    },
+    {
+      "reference_id": "CA_REF_090",
+      "citation_text": "Section 10337",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10337 - Compliance",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_091",
+      "citation_text": "Section  10322(h)(21)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10337 - Compliance",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    },
+    {
+      "reference_id": "CA_REF_092",
+      "citation_text": "Section 10320(b)",
+      "authority_level": 30,
+      "jurisdiction": "QAP Internal",
+      "category": "Internal Section Refs",
+      "section_found": "§10337 - Compliance",
+      "hub_spoke_type": "hub",
+      "business_impact": "QAP cross-references - operational guidance"
+    }
+  ],
+  "demo_insights": {
+    "authority_hierarchy_demo": {
+      "total_federal_authority_refs": 37,
+      "total_state_authority_refs": 7,
+      "authority_distribution": {
+        "100": 25,
+        "30": 55,
+        "80": 12
+      },
+      "highest_authority_examples": [
+        "Public Law No. 99514",
+        "IRC Section 42(b)(1)",
+        "IRC Section 42(i)(1)",
+        "IRC Section 42(h)(3)(C)",
+        "Code of Federal Regulations (C.F"
+      ]
+    },
+    "hub_spoke_model_demo": {
+      "hub_references": 48,
+      "spoke_references": 44,
+      "external_universe_size": "600-800 pages (2-3X QAP size)",
+      "business_value": "3-4X revenue multiplication opportunity"
+    },
+    "competitive_advantage_demo": {
+      "total_external_regulations": 44,
+      "competitor_coverage": "QAP-only (20-50% of complete universe)",
+      "colosseum_coverage": "Complete universe (95-100% regulatory coverage)",
+      "development_time_advantage": "18-24 month lead over competitors"
+    }
+  },
+  "business_case": {
+    "current_market_value": "$5,000-$15,000/month per developer",
+    "complete_universe_value": "$20,000-$50,000/month per developer",
+    "revenue_multiplication": "3-4X increase",
+    "market_advantage": "18-24 month competitive moat",
+    "total_addressable_market": "$500M+ (vs $50M QAP-only)"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "jurisdiction": "Florida",
+  "created": "2025-08-02T20:58:58.834618",
+  "hub_spoke_metrics": {
+    "hub_pages": 14,
+    "spoke_pages": 565,
+    "ratio": "40.4:1",
+    "total_nodes": 5,
+    "total_connections": 4
+  },
+  "nodes": [
+    {
+      "node_id": "FL_QAP_HUB",
+      "title": "Florida 2025 QAP",
+      "authority_level": 30,
+      "node_type": "hub",
+      "page_count": 14,
+      "legal_ref_count": 200,
+      "business_impact_score": 98.0,
+      "x_position": 0.0,
+      "y_position": 0.0,
+      "size": 25.0
+    },
+    {
+      "node_id": "FL_FAC_67_21",
+      "title": "FL Admin Code 67-21",
+      "authority_level": 30,
+      "node_type": "state_spoke",
+      "page_count": 145,
+      "legal_ref_count": 45,
+      "business_impact_score": 95.0,
+      "x_position": 180.0,
+      "y_position": 0.0,
+      "size": 45.0
+    },
+    {
+      "node_id": "FL_FAC_67_53",
+      "title": "FL Admin Code 67-53",
+      "authority_level": 30,
+      "node_type": "state_spoke",
+      "page_count": 178,
+      "legal_ref_count": 38,
+      "business_impact_score": 92.0,
+      "x_position": 1.1021821192326179e-14,
+      "y_position": 180.0,
+      "size": 45.0
+    },
+    {
+      "node_id": "FL_FAC_67_48",
+      "title": "FL Admin Code 67-48",
+      "authority_level": 30,
+      "node_type": "state_spoke",
+      "page_count": 134,
+      "legal_ref_count": 42,
+      "business_impact_score": 88.0,
+      "x_position": -180.0,
+      "y_position": 2.2043642384652358e-14,
+      "size": 45.0
+    },
+    {
+      "node_id": "FL_FAC_67_60",
+      "title": "FL Admin Code 67-60",
+      "authority_level": 30,
+      "node_type": "state_spoke",
+      "page_count": 108,
+      "legal_ref_count": 35,
+      "business_impact_score": 85.0,
+      "x_position": -3.3065463576978534e-14,
+      "y_position": -180.0,
+      "size": 45.0
+    }
+  ],
+  "connections": [
+    {
+      "connection_id": "HUB_TO_FL_FAC_67_21",
+      "from_node": "FL_QAP_HUB",
+      "to_node": "FL_FAC_67_21",
+      "connection_type": "reference",
+      "strength": 0.95,
+      "citation_count": 45
+    },
+    {
+      "connection_id": "HUB_TO_FL_FAC_67_53",
+      "from_node": "FL_QAP_HUB",
+      "to_node": "FL_FAC_67_53",
+      "connection_type": "reference",
+      "strength": 0.95,
+      "citation_count": 38
+    },
+    {
+      "connection_id": "HUB_TO_FL_FAC_67_48",
+      "from_node": "FL_QAP_HUB",
+      "to_node": "FL_FAC_67_48",
+      "connection_type": "reference",
+      "strength": 0.95,
+      "citation_count": 42
+    },
+    {
+      "connection_id": "HUB_TO_FL_FAC_67_60",
+      "from_node": "FL_QAP_HUB",
+      "to_node": "FL_FAC_67_60",
+      "connection_type": "reference",
+      "strength": 0.95,
+      "citation_count": 35
+    }
+  ],
+  "visualization_config": {
+    "width": 800,
+    "height": 600,
+    "center_x": 400,
+    "center_y": 300,
+    "authority_colors": {
+      "100": "#dc3545",
+      "80": "#fd7e14",
+      "60": "#ffc107",
+      "30": "#20c997"
+    },
+    "node_type_shapes": {
+      "hub": "circle",
+      "federal_spoke": "diamond",
+      "state_spoke": "square",
+      "internal_spoke": "triangle"
+    }
+  },
+  "business_intelligence": {
+    "revenue_opportunity": "10X+ for hub-heavy models like Florida",
+    "implementation_complexity": "Low - minimal QAP processing required",
+    "competitive_advantage": "Massive external universe creates high barrier to entry",
+    "market_education": "Florida demonstrates why complete universe coverage is essential"
+  }
+}

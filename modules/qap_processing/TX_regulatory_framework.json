@@ -1,0 +1,107 @@
+{
+  "state": "TX",
+  "total_sections": 8,
+  "total_characters": 1904,
+  "total_legal_references": 0,
+  "total_cross_references": 8,
+  "extraction_timestamp": "2025-08-02T15:31:07.996735",
+  "processing_time_seconds": 153.430801,
+  "sections": {
+    "section_purpose_definitions": {
+      "section_number": "\u00a711.1",
+      "section_title": "Purpose and Definitions",
+      "content": "\u00a711.1.General................................................................................................................................................4                                                                             |\n|",
+      "character_count": 238,
+      "legal_references": [],
+      "cross_references": [
+        "\u00a711"
+      ],
+      "page_range": null,
+      "lihtc_category": null
+    },
+    "section_general_provisions": {
+      "section_number": "\u00a711.2",
+      "section_title": "General Provisions",
+      "content": "\u00a711.2.Program Calendar for Housing Tax Credits.......................................................................................32                                                                                                    |\n|",
+      "character_count": 238,
+      "legal_references": [],
+      "cross_references": [
+        "\u00a711"
+      ],
+      "page_range": null,
+      "lihtc_category": "administrative_framework"
+    },
+    "section_credit_ceiling": {
+      "section_number": "\u00a711.3",
+      "section_title": "Credit Ceiling",
+      "content": "\u00a711.3.Housing De-Concentration Factors...................................................................................................36                                                                                                |\n|",
+      "character_count": 238,
+      "legal_references": [],
+      "cross_references": [
+        "\u00a711"
+      ],
+      "page_range": null,
+      "lihtc_category": null
+    },
+    "section_geographic_allocation": {
+      "section_number": "\u00a711.4",
+      "section_title": "Geographic Allocation",
+      "content": "\u00a711.4.Tax Credit Request, Award Limits, and Increase in Eligible Basis. ....................................................39                                                                                                             |\n|",
+      "character_count": 238,
+      "legal_references": [],
+      "cross_references": [
+        "\u00a711"
+      ],
+      "page_range": null,
+      "lihtc_category": null
+    },
+    "section_selection_criteria": {
+      "section_number": "\u00a711.6",
+      "section_title": "Selection Criteria",
+      "content": "\u00a711.6.Competitive HTC Allocation Process.................................................................................................47                                                                                                |\n|",
+      "character_count": 238,
+      "legal_references": [],
+      "cross_references": [
+        "\u00a711"
+      ],
+      "page_range": null,
+      "lihtc_category": null
+    },
+    "section_underwriting_standards": {
+      "section_number": "\u00a711.7",
+      "section_title": "Underwriting Standards",
+      "content": "\u00a711.7.Tie Breaker Factors. ..........................................................................................................................53                                                                                    |\n|",
+      "character_count": 238,
+      "legal_references": [],
+      "cross_references": [
+        "\u00a711"
+      ],
+      "page_range": null,
+      "lihtc_category": null
+    },
+    "section_award_process": {
+      "section_number": "\u00a711.8",
+      "section_title": "Award Process",
+      "content": "\u00a711.8.Pre-Application Requirements (Competitive HTC Only)...................................................................55                                                                                                             |\n|",
+      "character_count": 238,
+      "legal_references": [],
+      "cross_references": [
+        "\u00a711"
+      ],
+      "page_range": null,
+      "lihtc_category": null
+    },
+    "section_compliance_monitoring": {
+      "section_number": "\u00a711.9",
+      "section_title": "Compliance Monitoring",
+      "content": "\u00a711.9.Competitive HTC Selection Criteria...................................................................................................59                                                                                              |\n|",
+      "character_count": 238,
+      "legal_references": [],
+      "cross_references": [
+        "\u00a711"
+      ],
+      "page_range": null,
+      "lihtc_category": "compliance_monitoring"
+    }
+  }
+}

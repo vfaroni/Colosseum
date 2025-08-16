@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colosseum - Complete Regulatory Universe Intelligence Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 20px 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #1e3c72;
+        }
+        
+        .tagline {
+            color: #666;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .hero p {
+            font-size: 20px;
+            opacity: 0.9;
+            margin-bottom: 40px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .stat-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px 20px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ffd700;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .main-content {
+            background: white;
+            margin: -40px 20px 0;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .demo-section {
+            padding: 40px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .demo-section:last-child {
+            border-bottom: none;
+        }
+        
+        .section-title {
+            font-size: 28px;
+            color: #1e3c72;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .section-icon {
+            font-size: 32px;
+        }
+        
+        .search-box {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 15px 20px 15px 50px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: #1e3c72;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #999;
+        }
+        
+        .jurisdiction-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .jurisdiction-tab {
+            padding: 8px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .jurisdiction-tab.active {
+            background: #1e3c72;
+            color: white;
+            border-color: #1e3c72;
+        }
+        
+        .jurisdiction-tab:hover {
+            border-color: #1e3c72;
+        }
+        
+        .search-results {
+            min-height: 200px;
+        }
+        
+        .result-item {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #1e3c72;
+        }
+        
+        .result-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e3c72;
+            margin-bottom: 8px;
+        }
+        
+        .result-content {
+            color: #555;
+            margin-bottom: 12px;
+        }
+        
+        .result-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 12px;
+            color: #777;
+        }
+        
+        .authority-badge {
+            background: #ffd700;
+            color: #333;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .jurisdiction-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .jurisdiction-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            transform: translate(30px, -30px);
+        }
+        
+        .jurisdiction-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .jurisdiction-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .jurisdiction-stat {
+            text-align: center;
+        }
+        
+        .jurisdiction-stat-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffd700;
+        }
+        
+        .jurisdiction-stat-label {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        
+        .hierarchy-levels {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .hierarchy-level {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(90deg, #f8f9fa, #ffffff);
+            border-radius: 12px;
+            padding: 20px;
+            border-left: 5px solid;
+        }
+        
+        .hierarchy-level.federal-irc { border-left-color: #dc3545; }
+        .hierarchy-level.federal-cfr { border-left-color: #fd7e14; }
+        .hierarchy-level.federal-guidance { border-left-color: #ffc107; }
+        .hierarchy-level.state-qap { border-left-color: #20c997; }
+        .hierarchy-level.internal-refs { border-left-color: #6f42c1; }
+        
+        .hierarchy-info {
+            flex: 1;
+        }
+        
+        .hierarchy-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e3c72;
+        }
+        
+        .hierarchy-description {
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .hierarchy-count {
+            background: #1e3c72;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+        
+        .business-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+        }
+        
+        .metric-title {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+        
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .metric-change {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+        
+        .spinner {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #1e3c72;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            background: #f8f9fa;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .demo-section {
+                padding: 20px;
+            }
+            
+            .jurisdiction-tabs {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div>
+                    <div class="logo">🏛️ COLOSSEUM</div>
+                    <div class="tagline">Complete Regulatory Universe Intelligence</div>
+                </div>
+                <div style="text-align: right;">
+                    <div style="font-weight: bold; color: #1e3c72;">M4 Strike Leader Demo</div>
+                    <div style="font-size: 12px; color: #666;">Built by Structured Consultants LLC</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Complete Regulatory Universe</h1>
+            <p>The first and only platform providing complete LIHTC regulatory intelligence across all 54 US jurisdictions</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">{{ ca_data.regulatory_universe.total_legal_refs }}</div>
+                    <div class="stat-label">California Legal References</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">{{ ca_data.regulatory_universe.hub_to_spoke_ratio }}</div>
+                    <div class="stat-label">Hub-to-Spoke Ratio</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">{{ ca_data.regulatory_universe.business_value_multiplier }}</div>
+                    <div class="stat-label">Revenue Multiplication</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">18-24</div>
+                    <div class="stat-label">Month Competitive Lead</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <!-- Complete Universe Search Demo -->
+        <section class="demo-section">
+            <h2 class="section-title">
+                <span class="section-icon">🔍</span>
+                Complete Universe Search Engine
+            </h2>
+            <p style="margin-bottom: 30px; color: #666;">
+                Search across QAPs, state administrative codes, and federal regulations with authority-weighted results.
+            </p>
+            
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" class="search-input" placeholder="Search complete regulatory universe (e.g., 'income limits', 'qualified basis', 'compliance monitoring')">
+            </div>
+            
+            <div class="jurisdiction-tabs">
+                <div class="jurisdiction-tab active" data-jurisdiction="CA">California</div>
+                <div class="jurisdiction-tab" data-jurisdiction="TX">Texas</div>
+                <div class="jurisdiction-tab" data-jurisdiction="FL">Florida</div>
+                <div class="jurisdiction-tab" data-jurisdiction="NY">New York</div>
+            </div>
+            
+            <div id="searchResults" class="search-results">
+                <div class="loading">
+                    <div>Enter a search term to explore the complete regulatory universe</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Authority Hierarchy Demo -->
+        <section class="demo-section">
+            <h2 class="section-title">
+                <span class="section-icon">⚖️</span>
+                Authority Hierarchy Intelligence
+            </h2>
+            <p style="margin-bottom: 30px; color: #666;">
+                Federal regulations override state interpretations. Our system automatically applies authority precedence.
+            </p>
+            
+            <div id="hierarchyLevels" class="hierarchy-levels">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <div>Loading authority hierarchy...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cross-Jurisdictional Comparison -->
+        <section class="demo-section">
+            <h2 class="section-title">
+                <span class="section-icon">🗺️</span>
+                Cross-Jurisdictional Comparison
+            </h2>
+            <p style="margin-bottom: 30px; color: #666;">
+                Compare regulatory models across states to understand hub-and-spoke patterns and business opportunities.
+            </p>
+            
+            <div class="comparison-grid">
+                {% for jurisdiction_code, jurisdiction in jurisdictions.items() %}
+                <div class="jurisdiction-card">
+                    <div class="jurisdiction-name">{{ jurisdiction.name }}</div>
+                    <div style="font-size: 14px; opacity: 0.9; margin-bottom: 10px;">{{ jurisdiction.model_type }}</div>
+                    
+                    <div class="jurisdiction-stats">
+                        <div class="jurisdiction-stat">
+                            <div class="jurisdiction-stat-value">{{ jurisdiction.qap_pages }}</div>
+                            <div class="jurisdiction-stat-label">QAP Pages</div>
+                        </div>
+                        <div class="jurisdiction-stat">
+                            <div class="jurisdiction-stat-value">{{ jurisdiction.external_pages }}</div>
+                            <div class="jurisdiction-stat-label">External Pages</div>
+                        </div>
+                        <div class="jurisdiction-stat">
+                            <div class="jurisdiction-stat-value">{{ jurisdiction.ratio }}</div>
+                            <div class="jurisdiction-stat-label">Hub:Spoke Ratio</div>
+                        </div>
+                        <div class="jurisdiction-stat">
+                            <div class="jurisdiction-stat-value">{{ jurisdiction.revenue_multiplier }}</div>
+                            <div class="jurisdiction-stat-label">Revenue Multiplier</div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <!-- Business Case Demo -->
+        <section class="demo-section">
+            <h2 class="section-title">
+                <span class="section-icon">💰</span>
+                Business Value Demonstration
+            </h2>
+            <p style="margin-bottom: 30px; color: #666;">
+                Complete regulatory universe coverage creates exponential business value and competitive advantage.
+            </p>
+            
+            <div id="businessMetrics" class="business-metrics">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <div>Loading business metrics...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p><strong>Built by Structured Consultants LLC</strong></p>
+            <p>Roman Engineering Standards: Built to Last 2000+ Years</p>
+            <p style="margin-top: 10px; font-size: 12px; opacity: 0.7;">
+                This demo showcases the complete regulatory universe intelligence platform that creates
+                an 18-24 month competitive moat through comprehensive federal and state regulation coverage.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Enhanced demo functionality
+        let currentJurisdiction = 'CA';
+        
+        // Initialize demo
+        document.addEventListener('DOMContentLoaded', function() {
+            loadAuthorityHierarchy();
+            loadBusinessMetrics();
+            setupEventListeners();
+        });
+        
+        function setupEventListeners() {
+            // Search functionality
+            const searchInput = document.getElementById('searchInput');
+            searchInput.addEventListener('input', debounce(performSearch, 500));
+            
+            // Jurisdiction tabs
+            document.querySelectorAll('.jurisdiction-tab').forEach(tab => {
+                tab.addEventListener('click', function() {
+                    document.querySelectorAll('.jurisdiction-tab').forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    currentJurisdiction = this.dataset.jurisdiction;
+                    
+                    const query = searchInput.value;
+                    if (query) {
+                        performSearch();
+                    }
+                });
+            });
+        }
+        
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+        
+        async function performSearch() {
+            const query = document.getElementById('searchInput').value;
+            const resultsContainer = document.getElementById('searchResults');
+            
+            if (!query.trim()) {
+                resultsContainer.innerHTML = '<div class="loading"><div>Enter a search term to explore the complete regulatory universe</div></div>';
+                return;
+            }
+            
+            resultsContainer.innerHTML = '<div class="loading"><div class="spinner"></div><div>Searching complete regulatory universe...</div></div>';
+            
+            try {
+                const response = await fetch(`/api/search?query=${encodeURIComponent(query)}&jurisdiction=${currentJurisdiction}`);
+                const data = await response.json();
+                
+                displaySearchResults(data.results);
+            } catch (error) {
+                resultsContainer.innerHTML = '<div class="loading"><div>❌ Search temporarily unavailable</div></div>';
+            }
+        }
+        
+        function displaySearchResults(results) {
+            const container = document.getElementById('searchResults');
+            
+            if (!results || results.length === 0) {
+                container.innerHTML = '<div class="loading"><div>No results found in the regulatory universe</div></div>';
+                return;
+            }
+            
+            container.innerHTML = results.map(result => `
+                <div class="result-item">
+                    <div class="result-title">${result.title}</div>
+                    <div class="result-content">${result.content}</div>
+                    <div class="result-meta">
+                        <span>Jurisdiction: ${result.jurisdiction}</span>
+                        <span class="authority-badge">Authority Level: ${result.authority_level}</span>
+                        <span>Match: ${(result.match_score * 100).toFixed(1)}%</span>
+                        <span>Section: ${result.section}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        async function loadAuthorityHierarchy() {
+            try {
+                const response = await fetch('/api/authority_hierarchy');
+                const data = await response.json();
+                
+                const container = document.getElementById('hierarchyLevels');
+                container.innerHTML = data.hierarchy_levels.map(level => {
+                    let className = level.name.toLowerCase().replace(/\s+/g, '-');
+                    return `
+                        <div class="hierarchy-level ${className}">
+                            <div class="hierarchy-info">
+                                <div class="hierarchy-name">${level.name}</div>
+                                <div class="hierarchy-description">${level.description}</div>
+                            </div>
+                            <div class="hierarchy-count">${level.count}</div>
+                        </div>
+                    `;
+                }).join('');
+            } catch (error) {
+                document.getElementById('hierarchyLevels').innerHTML = '<div class="loading"><div>❌ Authority hierarchy temporarily unavailable</div></div>';
+            }
+        }
+        
+        async function loadBusinessMetrics() {
+            try {
+                const response = await fetch('/api/business_case');
+                const data = await response.json();
+                
+                const container = document.getElementById('businessMetrics');
+                container.innerHTML = `
+                    <div class="metric-card">
+                        <div class="metric-title">Current QAP-Only Value</div>
+                        <div class="metric-value">${data.revenue_analysis.qap_only_value}</div>
+                        <div class="metric-change">Per developer monthly</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-title">Complete Universe Value</div>
+                        <div class="metric-value">${data.revenue_analysis.complete_universe_value}</div>
+                        <div class="metric-change">Per developer monthly</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-title">Revenue Multiplication</div>
+                        <div class="metric-value">${data.revenue_analysis.multiplication_factor}</div>
+                        <div class="metric-change">Competitive advantage</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-title">Market Expansion</div>
+                        <div class="metric-value">${data.revenue_analysis.market_expansion}</div>
+                        <div class="metric-change">Total addressable market</div>
+                    </div>
+                `;
+            } catch (error) {
+                document.getElementById('businessMetrics').innerHTML = '<div class="loading"><div>❌ Business metrics temporarily unavailable</div></div>';
+            }
+        }
+    </script>
+</body>
+</html>

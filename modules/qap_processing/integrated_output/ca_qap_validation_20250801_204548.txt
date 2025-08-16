@@ -1,0 +1,68 @@
+
+CA 2025 QAP EXTRACTION VALIDATION REPORT
+========================================
+Generated: 2025-08-01T20:45:48.062442
+
+OVERALL RESULTS:
+Extraction Status: ❌ FAILED
+Overall Completeness: 50.0%
+Critical Sections Found: 4/8
+
+INCOMPLETE SECTIONS:
+  ⚠️  Complete Scoring Criteria
+     - Low keyword coverage: 42.9%
+     - Content too short: 3689 chars (expected 5000+)
+  ⚠️  Geographic Apportionments & Set-Asides
+     - Content too short: 1626 chars (expected 3000+)
+  ⚠️  Financial Underwriting Standards
+     - Content too short: 2457 chars (expected 3000+)
+  ⚠️  Negative Points
+     - Low keyword coverage: 40.0%
+
+DETAILED SECTION ANALYSIS:
+
+❌ Complete Scoring Criteria
+   Content Length: 3689 chars
+   Keyword Coverage: 42.9%
+   Issues: Low keyword coverage: 42.9%, Content too short: 3689 chars (expected 5000+)
+
+❌ Geographic Apportionments & Set-Asides
+   Content Length: 1626 chars
+   Keyword Coverage: 85.7%
+   Issues: Content too short: 1626 chars (expected 3000+)
+
+✅ Threshold Requirements
+   Content Length: 4220 chars
+   Keyword Coverage: 83.3%
+
+✅ Application Procedures & Deadlines
+   Content Length: 10473 chars
+   Keyword Coverage: 83.3%
+
+✅ Compliance & Monitoring
+   Content Length: 2524 chars
+   Keyword Coverage: 83.3%
+
+❌ Financial Underwriting Standards
+   Content Length: 2457 chars
+   Keyword Coverage: 100.0%
+   Issues: Content too short: 2457 chars (expected 3000+)
+
+✅ Tiebreaker Criteria
+   Content Length: 1648 chars
+   Keyword Coverage: 80.0%
+
+❌ Negative Points
+   Content Length: 1648 chars
+   Keyword Coverage: 40.0%
+   Issues: Low keyword coverage: 40.0%
+
+VALIDATION CRITERIA:
+- All critical LIHTC sections must be present
+- Each section must meet minimum content length requirements  
+- Keyword coverage must exceed 50% for section identification
+- Content must not be excessively fragmented
+- Overall completeness must be ≥95%
+
+RECOMMENDATION:
+❌ CA QAP extraction requires improvement before production deployment.

@@ -1,0 +1,10 @@
+PDF SPLIT METADATA
+==================
+Original File: ../../data_sets/QAP/CA/current/CA_2025_QAP_Regulations_Dec_2024.pdf
+Total Pages: 109
+Sections Created: 2
+Max Pages per Section: 95
+
+SECTION FILES:
+ 1. CA_2025_QAP_section_01_pages_001-095.pdf (pages 1-95)
+ 2. CA_2025_QAP_section_02_pages_096-109.pdf (pages 96-109)

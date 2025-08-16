@@ -1,0 +1,607 @@
+{
+  "metadata": {
+    "system": "Colosseum Cross-Jurisdictional Dashboard",
+    "created": "2025-08-02T20:57:35.317862",
+    "mission": "M4 Strike Leader - Complete Regulatory Universe",
+    "jurisdiction_count": 12,
+    "model_types": 4
+  },
+  "jurisdictions": {
+    "CA": {
+      "code": "CA",
+      "name": "California",
+      "model_type": "RegulatoryModelType.COMPREHENSIVE",
+      "qap_pages": 109,
+      "external_pages": 700,
+      "hub_to_spoke_ratio": "2-3:1",
+      "revenue_multiplier": "3-4X",
+      "total_legal_refs": 316,
+      "federal_refs": 57,
+      "state_refs": 8,
+      "internal_refs": 251,
+      "market_size_tier": 1,
+      "competitive_priority": "Critical",
+      "implementation_complexity": 4,
+      "business_value_score": 95.0
+    },
+    "TX": {
+      "code": "TX",
+      "name": "Texas",
+      "model_type": "RegulatoryModelType.COMPLEX_HYBRID",
+      "qap_pages": 218,
+      "external_pages": 1100,
+      "hub_to_spoke_ratio": "4-5:1",
+      "revenue_multiplier": "4-5X",
+      "total_legal_refs": 450,
+      "federal_refs": 85,
+      "state_refs": 15,
+      "internal_refs": 350,
+      "market_size_tier": 1,
+      "competitive_priority": "Critical",
+      "implementation_complexity": 5,
+      "business_value_score": 92.0
+    },
+    "NY": {
+      "code": "NY",
+      "name": "New York",
+      "model_type": "RegulatoryModelType.FEDERAL_FOCUS",
+      "qap_pages": 48,
+      "external_pages": 140,
+      "hub_to_spoke_ratio": "3:1",
+      "revenue_multiplier": "3X",
+      "total_legal_refs": 180,
+      "federal_refs": 95,
+      "state_refs": 25,
+      "internal_refs": 60,
+      "market_size_tier": 1,
+      "competitive_priority": "Critical",
+      "implementation_complexity": 3,
+      "business_value_score": 88.0
+    },
+    "FL": {
+      "code": "FL",
+      "name": "Florida",
+      "model_type": "RegulatoryModelType.HUB_HEAVY",
+      "qap_pages": 14,
+      "external_pages": 565,
+      "hub_to_spoke_ratio": "40:1",
+      "revenue_multiplier": "10X+",
+      "total_legal_refs": 200,
+      "federal_refs": 45,
+      "state_refs": 120,
+      "internal_refs": 35,
+      "market_size_tier": 1,
+      "competitive_priority": "Critical",
+      "implementation_complexity": 2,
+      "business_value_score": 98.0
+    },
+    "IL": {
+      "code": "IL",
+      "name": "Illinois",
+      "model_type": "RegulatoryModelType.COMPLEX_HYBRID",
+      "qap_pages": 156,
+      "external_pages": 650,
+      "hub_to_spoke_ratio": "4:1",
+      "revenue_multiplier": "4X",
+      "total_legal_refs": 380,
+      "federal_refs": 70,
+      "state_refs": 12,
+      "internal_refs": 298,
+      "market_size_tier": 1,
+      "competitive_priority": "Critical",
+      "implementation_complexity": 4,
+      "business_value_score": 90.0
+    },
+    "WA": {
+      "code": "WA",
+      "name": "Washington",
+      "model_type": "RegulatoryModelType.COMPREHENSIVE",
+      "qap_pages": 89,
+      "external_pages": 220,
+      "hub_to_spoke_ratio": "2-3:1",
+      "revenue_multiplier": "3X",
+      "total_legal_refs": 250,
+      "federal_refs": 55,
+      "state_refs": 8,
+      "internal_refs": 187,
+      "market_size_tier": 2,
+      "competitive_priority": "High",
+      "implementation_complexity": 3,
+      "business_value_score": 82.0
+    },
+    "OR": {
+      "code": "OR",
+      "name": "Oregon",
+      "model_type": "RegulatoryModelType.COMPREHENSIVE",
+      "qap_pages": 67,
+      "external_pages": 180,
+      "hub_to_spoke_ratio": "2-3:1",
+      "revenue_multiplier": "3X",
+      "total_legal_refs": 200,
+      "federal_refs": 48,
+      "state_refs": 6,
+      "internal_refs": 146,
+      "market_size_tier": 2,
+      "competitive_priority": "High",
+      "implementation_complexity": 3,
+      "business_value_score": 78.0
+    },
+    "PA": {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "model_type": "RegulatoryModelType.COMPLEX_HYBRID",
+      "qap_pages": 124,
+      "external_pages": 410,
+      "hub_to_spoke_ratio": "3-4:1",
+      "revenue_multiplier": "3-4X",
+      "total_legal_refs": 320,
+      "federal_refs": 62,
+      "state_refs": 10,
+      "internal_refs": 248,
+      "market_size_tier": 2,
+      "competitive_priority": "High",
+      "implementation_complexity": 4,
+      "business_value_score": 85.0
+    },
+    "OH": {
+      "code": "OH",
+      "name": "Ohio",
+      "model_type": "RegulatoryModelType.FEDERAL_FOCUS",
+      "qap_pages": 78,
+      "external_pages": 190,
+      "hub_to_spoke_ratio": "2-3:1",
+      "revenue_multiplier": "3X",
+      "total_legal_refs": 220,
+      "federal_refs": 88,
+      "state_refs": 15,
+      "internal_refs": 117,
+      "market_size_tier": 2,
+      "competitive_priority": "High",
+      "implementation_complexity": 3,
+      "business_value_score": 80.0
+    },
+    "NC": {
+      "code": "NC",
+      "name": "North Carolina",
+      "model_type": "RegulatoryModelType.HUB_HEAVY",
+      "qap_pages": 25,
+      "external_pages": 280,
+      "hub_to_spoke_ratio": "11:1",
+      "revenue_multiplier": "5X+",
+      "total_legal_refs": 180,
+      "federal_refs": 35,
+      "state_refs": 78,
+      "internal_refs": 67,
+      "market_size_tier": 2,
+      "competitive_priority": "High",
+      "implementation_complexity": 2,
+      "business_value_score": 87.0
+    },
+    "GA": {
+      "code": "GA",
+      "name": "Georgia",
+      "model_type": "RegulatoryModelType.HUB_HEAVY",
+      "qap_pages": 31,
+      "external_pages": 320,
+      "hub_to_spoke_ratio": "10:1",
+      "revenue_multiplier": "5X",
+      "total_legal_refs": 190,
+      "federal_refs": 38,
+      "state_refs": 85,
+      "internal_refs": 67,
+      "market_size_tier": 2,
+      "competitive_priority": "Medium",
+      "implementation_complexity": 3,
+      "business_value_score": 83.0
+    },
+    "MI": {
+      "code": "MI",
+      "name": "Michigan",
+      "model_type": "RegulatoryModelType.FEDERAL_FOCUS",
+      "qap_pages": 92,
+      "external_pages": 210,
+      "hub_to_spoke_ratio": "2-3:1",
+      "revenue_multiplier": "3X",
+      "total_legal_refs": 240,
+      "federal_refs": 95,
+      "state_refs": 18,
+      "internal_refs": 127,
+      "market_size_tier": 2,
+      "competitive_priority": "Medium",
+      "implementation_complexity": 3,
+      "business_value_score": 75.0
+    }
+  },
+  "regulatory_models": {
+    "Hub-Heavy Model": {
+      "jurisdiction_count": 3,
+      "jurisdictions": [
+        "FL",
+        "NC",
+        "GA"
+      ],
+      "avg_qap_pages": 23.333333333333332,
+      "avg_external_pages": 388.3333333333333,
+      "avg_business_value": 89.33333333333333,
+      "total_market_opportunity": 3
+    },
+    "Comprehensive Model": {
+      "jurisdiction_count": 3,
+      "jurisdictions": [
+        "CA",
+        "WA",
+        "OR"
+      ],
+      "avg_qap_pages": 88.33333333333333,
+      "avg_external_pages": 366.6666666666667,
+      "avg_business_value": 85.0,
+      "total_market_opportunity": 3
+    },
+    "Complex-Hybrid Model": {
+      "jurisdiction_count": 3,
+      "jurisdictions": [
+        "TX",
+        "IL",
+        "PA"
+      ],
+      "avg_qap_pages": 166.0,
+      "avg_external_pages": 720.0,
+      "avg_business_value": 89.0,
+      "total_market_opportunity": 3
+    },
+    "Federal-Focus Model": {
+      "jurisdiction_count": 3,
+      "jurisdictions": [
+        "NY",
+        "OH",
+        "MI"
+      ],
+      "avg_qap_pages": 72.66666666666667,
+      "avg_external_pages": 180.0,
+      "avg_business_value": 81.0,
+      "total_market_opportunity": 3
+    }
+  },
+  "business_intelligence": {
+    "market_tiers": {
+      "tier_1": {
+        "jurisdictions": 5,
+        "market_value": "$50M annually",
+        "revenue_multipliers": [
+          "3-4X",
+          "4-5X",
+          "3X",
+          "10X+",
+          "4X"
+        ],
+        "implementation_priority": "Phase 1 - Next 90 days"
+      },
+      "tier_2": {
+        "jurisdictions": 7,
+        "market_value": "$3M annually",
+        "revenue_multipliers": [
+          "3X",
+          "3X",
+          "3-4X",
+          "3X",
+          "5X+",
+          "5X",
+          "3X"
+        ],
+        "implementation_priority": "Phase 2 - Next 180 days"
+      }
+    },
+    "competitive_analysis": {
+      "critical_priority": 5,
+      "high_priority": 5,
+      "total_addressable_market": "$53.6M annually",
+      "competitive_advantage_window": "18-24 months"
+    },
+    "implementation_strategy": {
+      "phase_1_focus": [
+        "CA",
+        "TX",
+        "NY",
+        "FL",
+        "IL"
+      ],
+      "low_complexity_quick_wins": [
+        "FL",
+        "NC"
+      ],
+      "high_value_targets": [
+        "CA",
+        "TX",
+        "FL",
+        "IL"
+      ]
+    }
+  },
+  "visualizations": {
+    "hub_spoke_analysis": {
+      "chart_type": "hub_spoke_analysis",
+      "jurisdictions": [
+        {
+          "code": "CA",
+          "name": "California",
+          "model_type": "Comprehensive Model",
+          "qap_pages": 109,
+          "external_pages": 700,
+          "ratio_numeric": 2.5,
+          "business_value": 95.0
+        },
+        {
+          "code": "TX",
+          "name": "Texas",
+          "model_type": "Complex-Hybrid Model",
+          "qap_pages": 218,
+          "external_pages": 1100,
+          "ratio_numeric": 4.5,
+          "business_value": 92.0
+        },
+        {
+          "code": "NY",
+          "name": "New York",
+          "model_type": "Federal-Focus Model",
+          "qap_pages": 48,
+          "external_pages": 140,
+          "ratio_numeric": 3.0,
+          "business_value": 88.0
+        },
+        {
+          "code": "FL",
+          "name": "Florida",
+          "model_type": "Hub-Heavy Model",
+          "qap_pages": 14,
+          "external_pages": 565,
+          "ratio_numeric": 40.0,
+          "business_value": 98.0
+        },
+        {
+          "code": "IL",
+          "name": "Illinois",
+          "model_type": "Complex-Hybrid Model",
+          "qap_pages": 156,
+          "external_pages": 650,
+          "ratio_numeric": 4.0,
+          "business_value": 90.0
+        },
+        {
+          "code": "WA",
+          "name": "Washington",
+          "model_type": "Comprehensive Model",
+          "qap_pages": 89,
+          "external_pages": 220,
+          "ratio_numeric": 2.5,
+          "business_value": 82.0
+        },
+        {
+          "code": "OR",
+          "name": "Oregon",
+          "model_type": "Comprehensive Model",
+          "qap_pages": 67,
+          "external_pages": 180,
+          "ratio_numeric": 2.5,
+          "business_value": 78.0
+        },
+        {
+          "code": "PA",
+          "name": "Pennsylvania",
+          "model_type": "Complex-Hybrid Model",
+          "qap_pages": 124,
+          "external_pages": 410,
+          "ratio_numeric": 3.5,
+          "business_value": 85.0
+        },
+        {
+          "code": "OH",
+          "name": "Ohio",
+          "model_type": "Federal-Focus Model",
+          "qap_pages": 78,
+          "external_pages": 190,
+          "ratio_numeric": 2.5,
+          "business_value": 80.0
+        },
+        {
+          "code": "NC",
+          "name": "North Carolina",
+          "model_type": "Hub-Heavy Model",
+          "qap_pages": 25,
+          "external_pages": 280,
+          "ratio_numeric": 11.0,
+          "business_value": 87.0
+        },
+        {
+          "code": "GA",
+          "name": "Georgia",
+          "model_type": "Hub-Heavy Model",
+          "qap_pages": 31,
+          "external_pages": 320,
+          "ratio_numeric": 10.0,
+          "business_value": 83.0
+        },
+        {
+          "code": "MI",
+          "name": "Michigan",
+          "model_type": "Federal-Focus Model",
+          "qap_pages": 92,
+          "external_pages": 210,
+          "ratio_numeric": 2.5,
+          "business_value": 75.0
+        }
+      ]
+    },
+    "business_value_matrix": {
+      "chart_type": "business_value_matrix",
+      "jurisdictions": [
+        {
+          "code": "CA",
+          "name": "California",
+          "business_value": 95.0,
+          "implementation_complexity": 4,
+          "priority": "Critical"
+        },
+        {
+          "code": "TX",
+          "name": "Texas",
+          "business_value": 92.0,
+          "implementation_complexity": 5,
+          "priority": "Critical"
+        },
+        {
+          "code": "NY",
+          "name": "New York",
+          "business_value": 88.0,
+          "implementation_complexity": 3,
+          "priority": "Critical"
+        },
+        {
+          "code": "FL",
+          "name": "Florida",
+          "business_value": 98.0,
+          "implementation_complexity": 2,
+          "priority": "Critical"
+        },
+        {
+          "code": "IL",
+          "name": "Illinois",
+          "business_value": 90.0,
+          "implementation_complexity": 4,
+          "priority": "Critical"
+        },
+        {
+          "code": "WA",
+          "name": "Washington",
+          "business_value": 82.0,
+          "implementation_complexity": 3,
+          "priority": "High"
+        },
+        {
+          "code": "OR",
+          "name": "Oregon",
+          "business_value": 78.0,
+          "implementation_complexity": 3,
+          "priority": "High"
+        },
+        {
+          "code": "PA",
+          "name": "Pennsylvania",
+          "business_value": 85.0,
+          "implementation_complexity": 4,
+          "priority": "High"
+        },
+        {
+          "code": "OH",
+          "name": "Ohio",
+          "business_value": 80.0,
+          "implementation_complexity": 3,
+          "priority": "High"
+        },
+        {
+          "code": "NC",
+          "name": "North Carolina",
+          "business_value": 87.0,
+          "implementation_complexity": 2,
+          "priority": "High"
+        },
+        {
+          "code": "GA",
+          "name": "Georgia",
+          "business_value": 83.0,
+          "implementation_complexity": 3,
+          "priority": "Medium"
+        },
+        {
+          "code": "MI",
+          "name": "Michigan",
+          "business_value": 75.0,
+          "implementation_complexity": 3,
+          "priority": "Medium"
+        }
+      ]
+    },
+    "revenue_multiplication": {
+      "chart_type": "revenue_multiplication",
+      "jurisdictions": [
+        {
+          "code": "FL",
+          "name": "Florida",
+          "revenue_multiplier": 10.0,
+          "priority": "Critical"
+        },
+        {
+          "code": "NC",
+          "name": "North Carolina",
+          "revenue_multiplier": 5.0,
+          "priority": "High"
+        },
+        {
+          "code": "GA",
+          "name": "Georgia",
+          "revenue_multiplier": 5.0,
+          "priority": "Medium"
+        },
+        {
+          "code": "TX",
+          "name": "Texas",
+          "revenue_multiplier": 4.5,
+          "priority": "Critical"
+        },
+        {
+          "code": "IL",
+          "name": "Illinois",
+          "revenue_multiplier": 4.0,
+          "priority": "Critical"
+        },
+        {
+          "code": "CA",
+          "name": "California",
+          "revenue_multiplier": 3.5,
+          "priority": "Critical"
+        },
+        {
+          "code": "PA",
+          "name": "Pennsylvania",
+          "revenue_multiplier": 3.5,
+          "priority": "High"
+        },
+        {
+          "code": "NY",
+          "name": "New York",
+          "revenue_multiplier": 3.0,
+          "priority": "Critical"
+        },
+        {
+          "code": "WA",
+          "name": "Washington",
+          "revenue_multiplier": 3.0,
+          "priority": "High"
+        },
+        {
+          "code": "OR",
+          "name": "Oregon",
+          "revenue_multiplier": 3.0,
+          "priority": "High"
+        },
+        {
+          "code": "OH",
+          "name": "Ohio",
+          "revenue_multiplier": 3.0,
+          "priority": "High"
+        },
+        {
+          "code": "MI",
+          "name": "Michigan",
+          "revenue_multiplier": 3.0,
+          "priority": "Medium"
+        }
+      ]
+    }
+  },
+  "strategic_recommendations": {
+    "phase_1_implementation": "CA, TX, NY, FL, IL - Critical markets ($50M opportunity)",
+    "phase_2_expansion": "WA, OR, PA, OH, NC - High-value markets ($3M opportunity)",
+    "competitive_advantage": "18-24 month lead with complete universe coverage",
+    "revenue_transformation": "3-10X multiplication across all jurisdictions"
+  }
+}
