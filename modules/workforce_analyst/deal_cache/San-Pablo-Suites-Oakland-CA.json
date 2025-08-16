@@ -1,0 +1,32 @@
+{
+  "deal_name": "San Pablo Suites - Oakland, CA",
+  "extracted_date": "2025-06-26T16:20:23.480191",
+  "version": "1.0",
+  "data": {
+    "Property Name": "SAN PABLO SUITES",
+    "Address": "2551 San Pablo Avenue",
+    "City": "Oakland",
+    "State": "CA",
+    "Zip Code": "94612",
+    "County Name": "Alameda",
+    "Year Built": "2024",
+    "Number of Units": "42",
+    "Asking Price": "",
+    "Cap Rate": "",
+    "Avg In Place Rents": "$2,620",
+    "T12 Net Rental Income": "",
+    "T12 Total Other Income": "",
+    "T12 RUBS Income": "",
+    "T12 Expenses": "",
+    "# Studio Units": "9",
+    "# 1 Bed Units": "66",
+    "# 2 Bed Units": "104",
+    "# 3 Bed Units": "13",
+    "# 4 Bed Units": "",
+    "Studio Rents": "$1,946",
+    "1 Bed Current Rents": "$2,180",
+    "2 Bed Current Rents": "$2,859",
+    "3 Bed Current Rents": "$3,323",
+    "4 Bed Current Rents": ""
+  }
+}

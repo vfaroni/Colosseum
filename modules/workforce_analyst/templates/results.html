@@ -1,0 +1,294 @@
+{% extends "base.html" %}
+{% set title = "Results" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">
+                    <i class="fas fa-chart-line"></i> Analysis Results
+                    {% if deal %}
+                    <span class="badge bg-light text-dark ms-2">{{ deal.name }}</span>
+                    {% endif %}
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="stage-indicator">
+                            <i class="fas fa-chart-line"></i> Stage 4: Results & Review
+                        </div>
+                        
+                        <h5>🎉 Analysis Complete!</h5>
+                        <p class="text-muted">
+                            Your BOTN analysis has been successfully created and is ready for review.
+                        </p>
+                        
+                        {% if botn_file_path and file_name %}
+                        <div class="alert alert-success">
+                            <i class="fas fa-check-circle"></i>
+                            <strong>BOTN File Created:</strong> {{ file_name }}<br>
+                            <small class="text-muted">{{ botn_file_path }}</small>
+                        </div>
+                        
+                        <!-- File Actions -->
+                        <div class="card mb-4">
+                            <div class="card-header bg-primary text-white">
+                                <h6 class="mb-0"><i class="fas fa-file-excel"></i> BOTN Analysis File</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6>{{ file_name }}</h6>
+                                        <p class="text-muted small mb-3">
+                                            Excel file with all extracted data pre-populated and ready for underwriting review.
+                                        </p>
+                                        
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-primary" onclick="openFile()">
+                                                <i class="fas fa-external-link-alt"></i> Open in Excel
+                                            </button>
+                                            <button class="btn btn-outline-primary" onclick="openFolder()">
+                                                <i class="fas fa-folder-open"></i> Show in Finder
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="metric-card">
+                                            <div class="metric-value">
+                                                <i class="fas fa-check-circle text-success"></i>
+                                            </div>
+                                            <div class="metric-label">Analysis Complete</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- What's Next -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h6 class="mb-0"><i class="fas fa-arrow-right"></i> What's Next?</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6><i class="fas fa-edit"></i> Review & Refine</h6>
+                                        <p class="text-muted small">
+                                            Open the Excel file to review extracted data and make any necessary adjustments to the analysis.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6><i class="fas fa-calculator"></i> Complete Underwriting</h6>
+                                        <p class="text-muted small">
+                                            Use the BOTN analysis as the foundation for your full underwriting model and investment decision.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {% else %}
+                        <div class="alert alert-warning">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <strong>No BOTN File Found:</strong> It looks like the analysis hasn't been completed yet.
+                            <a href="{{ url_for('show_botn') }}" class="btn btn-sm btn-warning ms-2">
+                                <i class="fas fa-calculator"></i> Create BOTN
+                            </a>
+                        </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <!-- Progress Indicator -->
+                        <div class="card">
+                            <div class="card-header bg-success text-white">
+                                <h6 class="mb-0"><i class="fas fa-tasks"></i> Progress</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Select Deal</span>
+                                    <span class="badge bg-success">✓ Complete</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Extract Data</span>
+                                    <span class="badge bg-success">✓ Complete</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>BOTN Analysis</span>
+                                    <span class="badge bg-success">✓ Complete</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Results</span>
+                                    <span class="badge bg-success">✓ Complete</span>
+                                </div>
+                                
+                                <div class="progress mt-3">
+                                    <div class="progress-bar" style="width: 100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Deal Info -->
+                        {% if deal %}
+                        <div class="card mt-3">
+                            <div class="card-header">
+                                <h6 class="mb-0"><i class="fas fa-folder"></i> Selected Deal</h6>
+                            </div>
+                            <div class="card-body">
+                                <h6>{{ deal.name }}</h6>
+                                <p class="text-muted small mb-2">
+                                    <i class="fas fa-map-marker-alt"></i> {{ deal.path|replace(base_path, '...')|truncate(40) }}
+                                </p>
+                                <div class="d-grid gap-2">
+                                    <a href="{{ url_for('show_botn') }}" class="btn btn-outline-primary btn-sm">
+                                        <i class="fas fa-arrow-left"></i> Back to BOTN
+                                    </a>
+                                    <a href="{{ url_for('index') }}" class="btn btn-outline-success btn-sm">
+                                        <i class="fas fa-home"></i> Dashboard
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        
+                        <!-- Quick Actions -->
+                        <div class="card mt-3">
+                            <div class="card-header">
+                                <h6 class="mb-0"><i class="fas fa-rocket"></i> Quick Actions</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-grid gap-2">
+                                    <a href="{{ url_for('list_deals') }}" class="btn btn-primary btn-sm">
+                                        <i class="fas fa-plus"></i> Analyze Another Deal
+                                    </a>
+                                    <a href="{{ url_for('reset_session') }}" class="btn btn-outline-secondary btn-sm">
+                                        <i class="fas fa-refresh"></i> Start Over
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Success Stats -->
+                        <div class="card mt-3">
+                            <div class="card-header bg-info text-white">
+                                <h6 class="mb-0"><i class="fas fa-trophy"></i> Success!</h6>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="metric-value text-success">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="metric-label">Analysis Complete</div>
+                                <p class="text-muted small mt-2">
+                                    Your deal analysis is ready for review. No authentication issues, no connection problems!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Success Modal -->
+<div class="modal fade" id="successModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">
+                    <i class="fas fa-party-horn"></i> Congratulations!
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <i class="fas fa-trophy fa-4x text-warning mb-3"></i>
+                <h5>Deal Analysis Complete!</h5>
+                <p>Your BOTN analysis has been successfully created and is ready for underwriting review.</p>
+                
+                <div class="alert alert-info">
+                    <strong>No more:</strong>
+                    <ul class="list-unstyled mb-0">
+                        <li>❌ Google Sheets authentication issues</li>
+                        <li>❌ Streamlit connection problems</li>
+                        <li>❌ Team access complications</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="openFile()">
+                    <i class="fas fa-external-link-alt"></i> Open Excel File
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function openFile() {
+    fetch('/api/open_file')
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                showAlert('success', `<i class="fas fa-check-circle"></i> ${data.message}`);
+            } else {
+                showAlert('danger', `<i class="fas fa-exclamation-triangle"></i> Error: ${data.error}`);
+            }
+        })
+        .catch(error => {
+            showAlert('danger', `<i class="fas fa-exclamation-triangle"></i> Error: ${error}`);
+        });
+}
+
+function openFolder() {
+    fetch('/api/open_file')
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                showAlert('success', `<i class="fas fa-folder-open"></i> Folder opened in Finder`);
+            } else {
+                showAlert('danger', `<i class="fas fa-exclamation-triangle"></i> Error: ${data.error}`);
+            }
+        })
+        .catch(error => {
+            showAlert('danger', `<i class="fas fa-exclamation-triangle"></i> Error: ${error}`);
+        });
+}
+
+function showAlert(type, message) {
+    const alertDiv = document.createElement('div');
+    alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+    alertDiv.innerHTML = `
+        ${message}
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    `;
+    
+    const container = document.querySelector('.container.main-content');
+    container.insertBefore(alertDiv, container.firstChild);
+    
+    // Auto-dismiss after 5 seconds
+    setTimeout(() => {
+        if (alertDiv.parentNode) {
+            const bsAlert = new bootstrap.Alert(alertDiv);
+            bsAlert.close();
+        }
+    }, 5000);
+}
+
+// Show success modal on page load if analysis is complete
+document.addEventListener('DOMContentLoaded', function() {
+    {% if botn_file_path and file_name %}
+    // Show success modal after a short delay
+    setTimeout(() => {
+        const modal = new bootstrap.Modal(document.getElementById('successModal'));
+        modal.show();
+    }, 1000);
+    {% endif %}
+});
+</script>
+{% endblock %}

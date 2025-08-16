@@ -1,0 +1,32 @@
+{
+  "deal_name": "Baxter - Los Angeles, CA",
+  "extracted_date": "2025-07-25T15:43:11.342477",
+  "version": "1.0",
+  "data": {
+    "Property Name": "The Baxter",
+    "Address": "1818 N Cherokee Ave",
+    "City": "Los Angeles",
+    "State": "CA",
+    "Zip Code": "90028",
+    "County Name": "Los Angeles",
+    "Year Built": "",
+    "Number of Units": "",
+    "Asking Price": "",
+    "Cap Rate": "",
+    "Avg In Place Rents": "",
+    "T12 Net Rental Income": "",
+    "T12 Total Other Income": "$61,254",
+    "T12 RUBS Income": "",
+    "T12 Expenses": "",
+    "# Studio Units": "",
+    "# 1 Bed Units": "",
+    "# 2 Bed Units": "",
+    "# 3 Bed Units": "",
+    "# 4 Bed Units": "",
+    "Studio Rents": "",
+    "1 Bed Current Rents": "",
+    "2 Bed Current Rents": "",
+    "3 Bed Current Rents": "",
+    "4 Bed Current Rents": ""
+  }
+}

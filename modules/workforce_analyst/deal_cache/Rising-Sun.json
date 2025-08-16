@@ -1,0 +1,32 @@
+{
+  "deal_name": "Rising Sun",
+  "extracted_date": "2025-07-01T15:14:58.333634",
+  "version": "1.0",
+  "data": {
+    "Property Name": "Rising Sun",
+    "Address": "4210 Spring Street",
+    "City": "La Mesa",
+    "State": "California",
+    "Zip Code": "91941",
+    "County Name": "San Diego",
+    "Year Built": "2024",
+    "Number of Units": "48",
+    "Asking Price": "",
+    "Cap Rate": "",
+    "Avg In Place Rents": "$2,620",
+    "T12 Net Rental Income": "1207422.46",
+    "T12 Total Other Income": "95018.38",
+    "T12 RUBS Income": "31239.22",
+    "T12 Expenses": "$432,644",
+    "# Studio Units": "",
+    "# 1 Bed Units": "39",
+    "# 2 Bed Units": "6",
+    "# 3 Bed Units": "",
+    "# 4 Bed Units": "",
+    "Studio Rents": "",
+    "1 Bed Current Rents": "$2,180",
+    "2 Bed Current Rents": "$2,859",
+    "3 Bed Current Rents": "",
+    "4 Bed Current Rents": ""
+  }
+}

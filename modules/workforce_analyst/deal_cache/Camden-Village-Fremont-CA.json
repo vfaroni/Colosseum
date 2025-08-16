@@ -1,0 +1,32 @@
+{
+  "deal_name": "Camden Village - Fremont, CA",
+  "extracted_date": "2025-07-25T15:47:55.080793",
+  "version": "1.0",
+  "data": {
+    "Property Name": "Camden Village",
+    "Address": "38000 Camden Street",
+    "City": "Fremont",
+    "State": "CA",
+    "Zip Code": "94536",
+    "County Name": "Alameda",
+    "Year Built": "1966",
+    "Number of Units": "192",
+    "Asking Price": "",
+    "Cap Rate": "",
+    "Avg In Place Rents": "$2,620",
+    "T12 Net Rental Income": "$5,605,823",
+    "T12 Total Other Income": "$95,522",
+    "T12 RUBS Income": "$323,639",
+    "T12 Expenses": "$2,608,028",
+    "# Studio Units": "9",
+    "# 1 Bed Units": "66",
+    "# 2 Bed Units": "104",
+    "# 3 Bed Units": "13",
+    "# 4 Bed Units": "1",
+    "Studio Rents": "$1,946",
+    "1 Bed Current Rents": "$2,180",
+    "2 Bed Current Rents": "$2,859",
+    "3 Bed Current Rents": "$3,323",
+    "4 Bed Current Rents": "$6,481"
+  }
+}

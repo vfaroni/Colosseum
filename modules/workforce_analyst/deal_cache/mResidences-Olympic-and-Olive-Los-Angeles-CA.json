@@ -1,0 +1,32 @@
+{
+  "deal_name": "mResidences Olympic and Olive - Los Angeles, CA",
+  "extracted_date": "2025-07-24T16:21:54.652214",
+  "version": "1.0",
+  "data": {
+    "Property Name": "mResidences Olympic  Olive",
+    "Address": "1001 S. Olive Street",
+    "City": "Los Angeles",
+    "State": "CA",
+    "Zip Code": "90015",
+    "County Name": "Los Angeles",
+    "Year Built": "2016",
+    "Number of Units": "201",
+    "Asking Price": "",
+    "Cap Rate": "",
+    "Avg In Place Rents": "$2,620",
+    "T12 Net Rental Income": "5041146",
+    "T12 Total Other Income": "452485",
+    "T12 RUBS Income": "209253",
+    "T12 Expenses": "3683000",
+    "# Studio Units": "75",
+    "# 1 Bed Units": "101",
+    "# 2 Bed Units": "25",
+    "# 3 Bed Units": "",
+    "# 4 Bed Units": "",
+    "Studio Rents": "$1,946",
+    "1 Bed Current Rents": "$2,180",
+    "2 Bed Current Rents": "$2,859",
+    "3 Bed Current Rents": "$3,323",
+    "4 Bed Current Rents": ""
+  }
+}

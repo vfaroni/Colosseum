@@ -1,0 +1,170 @@
+{% extends "base.html" %}
+{% set title = "Dashboard" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">
+                    <i class="fas fa-tachometer-alt"></i> Deal Analysis Dashboard
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h5>🎯 Welcome to the Deal Underwriting Assistant</h5>
+                        <p class="text-muted">
+                            Streamlined BOTN analysis with Excel-based templates. No more authentication issues!
+                        </p>
+                        
+                        <div class="d-flex gap-3 mb-4">
+                            <a href="{{ url_for('list_deals') }}" class="btn btn-primary btn-lg">
+                                <i class="fas fa-search"></i> Browse Deals
+                            </a>
+                            <button onclick="testTemplate()" class="btn btn-outline-secondary">
+                                <i class="fas fa-flask"></i> Test Template
+                            </button>
+                        </div>
+                        
+                        <!-- Current Session Info -->
+                        {% if session.get('selected_deal') %}
+                        <div class="alert alert-info">
+                            <h6><i class="fas fa-info-circle"></i> Current Session</h6>
+                            <strong>Selected Deal:</strong> {{ session.selected_deal.name }}<br>
+                            {% if session.get('extracted_data') %}
+                            <strong>Data Extracted:</strong> {{ session.extracted_data|length }} fields
+                            <a href="{{ url_for('show_botn') }}" class="btn btn-sm btn-success ms-2">
+                                <i class="fas fa-calculator"></i> Continue to BOTN
+                            </a>
+                            {% else %}
+                            <strong>Status:</strong> Ready for data extraction
+                            <a href="{{ url_for('extract_data') }}" class="btn btn-sm btn-warning ms-2">
+                                <i class="fas fa-extract"></i> Extract Data
+                            </a>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <!-- System Status -->
+                        <div class="card">
+                            <div class="card-header bg-success text-white">
+                                <h6 class="mb-0"><i class="fas fa-check-circle"></i> System Status</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Template Access</span>
+                                    <span class="badge bg-success">✓ Ready</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Excel Operations</span>
+                                    <span class="badge bg-success">✓ Ready</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Deal Cache</span>
+                                    <span class="badge bg-success">✓ {{ cached_deals|length }} Cached</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Authentication</span>
+                                    <span class="badge bg-success">✓ None Required</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Cached Deals -->
+{% if cached_deals %}
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-history"></i> Recently Analyzed Deals
+                    <span class="badge bg-light text-dark ms-2">{{ cached_deals|length }}</span>
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    {% for deal in cached_deals[:6] %}
+                    <div class="col-md-4 mb-3">
+                        <div class="deal-card" onclick="loadCachedDeal('{{ deal.sanitized_name }}')">
+                            <h6 class="mb-2">{{ deal.deal_name }}</h6>
+                            <p class="text-muted small mb-2">
+                                <i class="fas fa-clock"></i> {{ deal.extracted_date[:10] }}
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="badge bg-primary">{{ deal.field_count }} fields</span>
+                                <i class="fas fa-arrow-right text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                {% if cached_deals|length > 6 %}
+                <div class="text-center">
+                    <button class="btn btn-outline-secondary" onclick="showAllCached()">
+                        <i class="fas fa-ellipsis-h"></i> Show All {{ cached_deals|length }} Cached Deals
+                    </button>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Features Overview -->
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <i class="fas fa-file-excel fa-3x text-success mb-3"></i>
+                <h5>Excel-Based BOTN</h5>
+                <p class="text-muted">Templates saved directly to deal folders. No cloud dependencies.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                <h5>Team Friendly</h5>
+                <p class="text-muted">Multiple users can access simultaneously without conflicts.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card text-center">
+            <div class="card-body">
+                <i class="fas fa-shield-alt fa-3x text-warning mb-3"></i>
+                <h5>No Authentication</h5>
+                <p class="text-muted">Zero setup hassles. Just open and analyze deals.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function loadCachedDeal(sanitizedName) {
+    // This would trigger loading a cached deal
+    // For now, just show an alert
+    alert(`Loading cached deal: ${sanitizedName}\n\nThis feature connects to the existing cached data system.`);
+}
+
+function showAllCached() {
+    window.location.href = "{{ url_for('list_deals') }}?show=cached";
+}
+</script>
+{% endblock %}

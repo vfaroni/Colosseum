@@ -1,0 +1,32 @@
+{
+  "deal_name": "Bayside - Pinole, CA",
+  "extracted_date": "2025-06-23T21:16:56.686013",
+  "version": "1.0",
+  "data": {
+    "Property Name": "Bayside Apartment Homes",
+    "Address": "530 Sunnyview Drive",
+    "City": "Pinole",
+    "State": "CA",
+    "Zip Code": "94564",
+    "County Name": "Contra Costa",
+    "Year Built": "1973",
+    "Number of Units": "148",
+    "Asking Price": "",
+    "Cap Rate": "",
+    "Avg In Place Rents": "$2,620",
+    "T12 Net Rental Income": "",
+    "T12 Total Other Income": "$87,389",
+    "T12 RUBS Income": "",
+    "T12 Expenses": "$1,081,292",
+    "# Studio Units": "",
+    "# 1 Bed Units": "",
+    "# 2 Bed Units": "126",
+    "# 3 Bed Units": "22",
+    "# 4 Bed Units": "",
+    "Studio Rents": "",
+    "1 Bed Current Rents": "",
+    "2 Bed Current Rents": "$2,859",
+    "3 Bed Current Rents": "$3,323",
+    "4 Bed Current Rents": ""
+  }
+}

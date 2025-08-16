@@ -1,0 +1,32 @@
+{
+  "deal_name": "TCI",
+  "extracted_date": "2025-07-02T20:13:49.260543",
+  "version": "1.0",
+  "data": {
+    "Property Name": "OLIVERA VILLA APARTMENTS",
+    "Address": "2451 Olivera Road",
+    "City": "Concord",
+    "State": "CA",
+    "Zip Code": "94520",
+    "County Name": "Contra Costa County",
+    "Year Built": "1971",
+    "Number of Units": "94",
+    "Asking Price": "",
+    "Cap Rate": "",
+    "Avg In Place Rents": "2100",
+    "T12 Net Rental Income": "2262448",
+    "T12 Total Other Income": "70476",
+    "T12 RUBS Income": "",
+    "T12 Expenses": "887099.64",
+    "# Studio Units": "",
+    "# 1 Bed Units": "18",
+    "# 2 Bed Units": "76",
+    "# 3 Bed Units": "",
+    "# 4 Bed Units": "",
+    "Studio Rents": "",
+    "1 Bed Current Rents": "1800",
+    "2 Bed Current Rents": "$2200",
+    "3 Bed Current Rents": "",
+    "4 Bed Current Rents": ""
+  }
+}

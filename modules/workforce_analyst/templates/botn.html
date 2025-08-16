@@ -1,0 +1,312 @@
+{% extends "base.html" %}
+{% set title = "BOTN Analysis" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">
+                    <i class="fas fa-calculator"></i> BOTN Analysis
+                    {% if deal %}
+                    <span class="badge bg-light text-dark ms-2">{{ deal.name }}</span>
+                    {% endif %}
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="stage-indicator">
+                            <i class="fas fa-calculator"></i> Stage 3: BOTN Analysis
+                        </div>
+                        
+                        <h5>📊 Back-of-the-Napkin Analysis</h5>
+                        <p class="text-muted">
+                            Your extracted data will be automatically populated into our BOTN template and saved to your deal folder.
+                        </p>
+                        
+                        {% if data %}
+                        <div class="alert alert-success">
+                            <i class="fas fa-check-icon"></i>
+                            <strong>Data Ready:</strong> {{ data|length }} fields extracted
+                            {% if extraction_date %}
+                            <br><small>Extracted on: {{ extraction_date[:19]|replace('T', ' ') }}</small>
+                            {% endif %}
+                        </div>
+                        
+                        <!-- Extracted Data Preview -->
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h6 class="mb-0">
+                                    <i class="fas fa-eye"></i> Data Preview
+                                    <button class="btn btn-sm btn-outline-secondary float-end" 
+                                            onclick="toggleDataPreview()">
+                                        <i class="fas fa-chevron-down" id="previewToggle"></i>
+                                    </button>
+                                </h6>
+                            </div>
+                            <div class="card-body" id="dataPreview" style="display: none;">
+                                <div class="row">
+                                    {% set items = data.items() | list %}
+                                    {% for i in range(0, items|length, 2) %}
+                                    <div class="col-md-6 mb-2">
+                                        <strong>{{ items[i][0] }}:</strong><br>
+                                        <span class="text-muted">{{ items[i][1] or 'N/A' }}</span>
+                                    </div>
+                                    {% if items[i+1] %}
+                                    <div class="col-md-6 mb-2">
+                                        <strong>{{ items[i+1][0] }}:</strong><br>
+                                        <span class="text-muted">{{ items[i+1][1] or 'N/A' }}</span>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- BOTN Creation -->
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h6 class="mb-0"><i class="fas fa-file-excel"></i> Generate BOTN Analysis</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="mb-3">
+                                    Click below to create your BOTN Excel file with all extracted data pre-populated:
+                                </p>
+                                
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-success btn-lg" onclick="createBOTN()" id="botnBtn">
+                                        <i class="fas fa-magic"></i> Create BOTN Analysis
+                                    </button>
+                                </div>
+                                
+                                <div class="mt-3 text-muted small">
+                                    <i class="fas fa-info-circle"></i>
+                                    The Excel file will be saved to your deal folder and automatically opened for review.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {% else %}
+                        <div class="alert alert-warning">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <strong>No Data Available:</strong> Please extract data first before creating BOTN analysis.
+                            <a href="{{ url_for('extract_data') }}" class="btn btn-sm btn-warning ms-2">
+                                <i class="fas fa-extract"></i> Extract Data
+                            </a>
+                        </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <!-- Progress Indicator -->
+                        <div class="card">
+                            <div class="card-header bg-info text-white">
+                                <h6 class="mb-0"><i class="fas fa-tasks"></i> Progress</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Select Deal</span>
+                                    <span class="badge bg-success">✓ Complete</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Extract Data</span>
+                                    <span class="badge bg-success">✓ Complete</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>BOTN Analysis</span>
+                                    <span class="badge bg-warning">In Progress</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Results</span>
+                                    <span class="badge bg-secondary">Pending</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Deal Info -->
+                        {% if deal %}
+                        <div class="card mt-3">
+                            <div class="card-header">
+                                <h6 class="mb-0"><i class="fas fa-folder"></i> Selected Deal</h6>
+                            </div>
+                            <div class="card-body">
+                                <h6>{{ deal.name }}</h6>
+                                <p class="text-muted small mb-2">
+                                    <i class="fas fa-map-marker-alt"></i> {{ deal.path|replace(base_path, '...')|truncate(40) }}
+                                </p>
+                                <div class="d-grid gap-2">
+                                    <a href="{{ url_for('extract_data') }}" class="btn btn-outline-primary btn-sm">
+                                        <i class="fas fa-arrow-left"></i> Back to Extract
+                                    </a>
+                                    <a href="{{ url_for('list_deals') }}" class="btn btn-outline-secondary btn-sm">
+                                        <i class="fas fa-search"></i> Change Deal
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        
+                        <!-- Template Info -->
+                        <div class="card mt-3">
+                            <div class="card-header bg-success text-white">
+                                <h6 class="mb-0"><i class="fas fa-file-excel"></i> BOTN Template</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Template Access</span>
+                                    <span class="badge bg-success">✓ Ready</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span>Excel Operations</span>
+                                    <span class="badge bg-success">✓ Ready</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Authentication</span>
+                                    <span class="badge bg-success">✓ None Required</span>
+                                </div>
+                                
+                                <div class="d-grid mt-3">
+                                    <button class="btn btn-outline-success btn-sm" onclick="testTemplate()">
+                                        <i class="fas fa-flask"></i> Test Template
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- BOTN Creation Results -->
+                <div id="botnResults" class="mt-4" style="display: none;">
+                    <div class="card">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0"><i class="fas fa-check-circle"></i> BOTN Analysis Created</h5>
+                        </div>
+                        <div class="card-body" id="botnResultsContent">
+                            <!-- Results will be populated here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function toggleDataPreview() {
+    const preview = document.getElementById('dataPreview');
+    const toggle = document.getElementById('previewToggle');
+    
+    if (preview.style.display === 'none') {
+        preview.style.display = 'block';
+        toggle.className = 'fas fa-chevron-up';
+    } else {
+        preview.style.display = 'none';
+        toggle.className = 'fas fa-chevron-down';
+    }
+}
+
+function createBOTN() {
+    const botnBtn = document.getElementById('botnBtn');
+    const originalText = botnBtn.innerHTML;
+    
+    // Show loading state
+    botnBtn.innerHTML = '<span class="loading-spinner"></span>Creating BOTN...';
+    botnBtn.disabled = true;
+    
+    // Make API call
+    fetch('/api/create_botn', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            showBOTNResults(data);
+        } else {
+            alert(`BOTN creation failed: ${data.error}`);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert(`BOTN creation failed: ${error}`);
+    })
+    .finally(() => {
+        // Restore button
+        botnBtn.innerHTML = originalText;
+        botnBtn.disabled = false;
+    });
+}
+
+function showBOTNResults(data) {
+    const resultsDiv = document.getElementById('botnResults');
+    const contentDiv = document.getElementById('botnResultsContent');
+    
+    const html = `
+        <div class="alert alert-success">
+            <h6><i class="fas fa-check-circle"></i> Success!</h6>
+            ${data.message}
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8">
+                <h6><i class="fas fa-file-excel"></i> BOTN File Created</h6>
+                <p class="mb-3">
+                    <strong>File:</strong> ${data.file_name}<br>
+                    <strong>Location:</strong> ${data.file_path}
+                </p>
+                
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle"></i>
+                    Your BOTN Excel file has been created with all extracted data pre-populated. 
+                    You can now review the analysis and make any necessary adjustments.
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" onclick="openFile()">
+                        <i class="fas fa-external-link-alt"></i> Open File
+                    </button>
+                    <a href="{{ url_for('show_results') }}" class="btn btn-success">
+                        <i class="fas fa-arrow-right"></i> View Results
+                    </a>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    contentDiv.innerHTML = html;
+    resultsDiv.style.display = 'block';
+    
+    // Scroll to results
+    resultsDiv.scrollIntoView({ behavior: 'smooth' });
+}
+
+function openFile() {
+    fetch('/api/open_file')
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // File opened successfully - show confirmation
+                const alert = document.createElement('div');
+                alert.className = 'alert alert-success alert-dismissible fade show';
+                alert.innerHTML = `
+                    <i class="fas fa-check-circle"></i> ${data.message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                `;
+                document.querySelector('.container.main-content').insertBefore(alert, document.querySelector('.row'));
+            } else {
+                alert(`Error opening file: ${data.error}`);
+            }
+        })
+        .catch(error => {
+            alert(`Error opening file: ${error}`);
+        });
+}
+</script>
+{% endblock %}

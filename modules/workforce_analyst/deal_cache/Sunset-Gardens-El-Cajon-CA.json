@@ -1,0 +1,28 @@
+{
+  "deal_name": "Sunset Gardens - El Cajon, CA",
+  "extracted_date": "2025-07-23T21:30:14.506182",
+  "version": "1.0",
+  "data": {
+    "Property Name": "Sunset Gardens",
+    "Address": "848 N Mollison Avenue",
+    "City": "El Cajon",
+    "State": "CA",
+    "Zip Code": "92021",
+    "Year Built": "1976",
+    "Number of Units": "102",
+    "Avg In Place Rents": "$2,620",
+    "# 1 Bed Units": "66",
+    "# 2 Bed Units": "104",
+    "1 Bed Current Rents": "$2,180",
+    "2 Bed Current Rents": "$2,859",
+    "T12 RUBS Income": "$134,734",
+    "T12 Expenses": "$1,072,022",
+    "T12 Net Rental Income": "2308311.43",
+    "T12 Total Other Income": "226858.87",
+    "# Studio Units": "9",
+    "# 3 Bed Units": "13",
+    "Studio Rents": "$1,946",
+    "3 Bed Current Rents": "$3,323",
+    "County Name": "San Diego County"
+  }
+}

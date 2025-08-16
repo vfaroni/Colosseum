@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏢 Deal Underwriting Assistant{% if title %} - {{ title }}{% endif %}</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --light-bg: #f8f9fa;
+            --border-color: #dee2e6;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-bg);
+        }
+        
+        .navbar {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .main-content {
+            padding-top: 2rem;
+            min-height: calc(100vh - 200px);
+        }
+        
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 12px 12px 0 0 !important;
+            font-weight: 600;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--secondary-color), #2980b9);
+            border: none;
+            border-radius: 8px;
+            padding: 0.5rem 1.5rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #2980b9, var(--secondary-color));
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+        }
+        
+        .btn-success {
+            background: linear-gradient(135deg, var(--success-color), #229954);
+            border: none;
+            border-radius: 8px;
+        }
+        
+        .btn-warning {
+            background: linear-gradient(135deg, var(--warning-color), #e67e22);
+            border: none;
+            border-radius: 8px;
+        }
+        
+        .btn-danger {
+            background: linear-gradient(135deg, var(--danger-color), #c0392b);
+            border: none;
+            border-radius: 8px;
+        }
+        
+        .alert {
+            border: none;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        
+        .alert-success {
+            background-color: #d4edda;
+            border-left-color: var(--success-color);
+            color: #155724;
+        }
+        
+        .alert-warning {
+            background-color: #fff3cd;
+            border-left-color: var(--warning-color);
+            color: #856404;
+        }
+        
+        .alert-danger {
+            background-color: #f8d7da;
+            border-left-color: var(--danger-color);
+            color: #721c24;
+        }
+        
+        .alert-info {
+            background-color: #d1ecf1;
+            border-left-color: var(--secondary-color);
+            color: #0c5460;
+        }
+        
+        .progress {
+            height: 8px;
+            border-radius: 4px;
+            background-color: #e9ecef;
+        }
+        
+        .progress-bar {
+            background: linear-gradient(90deg, var(--secondary-color), var(--success-color));
+            border-radius: 4px;
+        }
+        
+        .stage-indicator {
+            background: linear-gradient(135deg, #6c757d, #495057);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        
+        .deal-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .deal-card:hover {
+            border-color: var(--secondary-color);
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.15);
+        }
+        
+        .metric-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+        
+        .metric-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .metric-label {
+            color: #6c757d;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid var(--secondary-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 8px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .main-content {
+                padding-top: 1rem;
+            }
+            
+            .card {
+                margin-bottom: 1rem;
+            }
+            
+            .metric-value {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <i class="fas fa-building"></i> Deal Underwriting Assistant
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('index') }}">
+                            <i class="fas fa-home"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('list_deals') }}">
+                            <i class="fas fa-folder"></i> Browse Deals
+                        </a>
+                    </li>
+                    {% if session.get('selected_deal') %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('show_botn') }}">
+                            <i class="fas fa-calculator"></i> BOTN Analysis
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('api_template_test') }}" onclick="testTemplate(); return false;">
+                            <i class="fas fa-flask"></i> Test Template
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('reset_session') }}">
+                            <i class="fas fa-refresh"></i> Reset
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container main-content">
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ 'danger' if category == 'error' else category }} alert-dismissible fade show" role="alert">
+                        <i class="fas fa-{{ 'exclamation-triangle' if category == 'warning' else 'check-circle' if category == 'success' else 'info-circle' }}"></i>
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <!-- Page Content -->
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Deal Underwriting Assistant | Built with Flask | 
+               <i class="fas fa-rocket"></i> No more Streamlit connection issues!</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script>
+        // Test template access
+        function testTemplate() {
+            fetch('/api/template_test')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert(`✅ Template Access Test Passed!\n\nFile: ${data.file_name}\nWorksheets: ${data.worksheets.join(', ')}\nInputs Sheet: ${data.inputs_sheet.found ? 'Found' : 'Missing'}`);
+                    } else {
+                        alert(`❌ Template Access Test Failed!\n\nError: ${data.error}`);
+                    }
+                })
+                .catch(error => {
+                    alert(`❌ Template Test Error: ${error}`);
+                });
+        }
+        
+        // Show loading spinner
+        function showLoading(buttonId) {
+            const button = document.getElementById(buttonId);
+            if (button) {
+                button.innerHTML = '<span class="loading-spinner"></span>Processing...';
+                button.disabled = true;
+            }
+        }
+        
+        // Hide loading spinner
+        function hideLoading(buttonId, originalText) {
+            const button = document.getElementById(buttonId);
+            if (button) {
+                button.innerHTML = originalText;
+                button.disabled = false;
+            }
+        }
+        
+        // Auto-dismiss alerts after 5 seconds
+        setTimeout(function() {
+            const alerts = document.querySelectorAll('.alert');
+            alerts.forEach(alert => {
+                if (!alert.querySelector('.btn-close:focus')) {
+                    const bsAlert = new bootstrap.Alert(alert);
+                    bsAlert.close();
+                }
+            });
+        }, 5000);
+    </script>
+    
+    {% block scripts %}{% endblock %}
+</body>
+</html>

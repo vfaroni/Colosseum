@@ -1,0 +1,255 @@
+{% extends "base.html" %}
+{% set title = "Browse Deals" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">
+                    <i class="fas fa-folder-open"></i> Available Deals
+                    {% if deals %}
+                    <span class="badge bg-light text-dark ms-2">{{ deals|length }} found</span>
+                    {% endif %}
+                </h4>
+            </div>
+            <div class="card-body">
+                {% if deals %}
+                <!-- Search/Filter -->
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <span class="input-group-text">
+                                <i class="fas fa-search"></i>
+                            </span>
+                            <input type="text" class="form-control" id="dealSearch" 
+                                   placeholder="Search deals..." onkeyup="filterDeals()">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="btn-group" role="group">
+                            <button class="btn btn-outline-secondary active" onclick="showAll()">
+                                <i class="fas fa-list"></i> All
+                            </button>
+                            <button class="btn btn-outline-secondary" onclick="showCached()">
+                                <i class="fas fa-history"></i> Cached
+                            </button>
+                            <button class="btn btn-outline-secondary" onclick="showNew()">
+                                <i class="fas fa-star"></i> New
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Deals Grid -->
+                <div class="row" id="dealsContainer">
+                    {% for deal in deals %}
+                    <div class="col-md-6 col-lg-4 mb-4 deal-item" data-deal-name="{{ deal.name.lower() }}">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-3">
+                                    <h6 class="card-title mb-0">{{ deal.name }}</h6>
+                                    {% if deal.get('cached') %}
+                                    <span class="badge bg-success">
+                                        <i class="fas fa-check"></i> Cached
+                                    </span>
+                                    {% else %}
+                                    <span class="badge bg-light text-dark">New</span>
+                                    {% endif %}
+                                </div>
+                                
+                                <p class="card-text text-muted small">
+                                    <i class="fas fa-folder"></i> {{ deal.path|replace(base_path, '...')|truncate(50) }}
+                                </p>
+                                
+                                {% if deal.get('files') %}
+                                <p class="text-muted small">
+                                    <i class="fas fa-file"></i> {{ deal.files|length }} files
+                                    {% if deal.get('last_modified') %}
+                                    <br><i class="fas fa-clock"></i> {{ deal.last_modified[:10] }}
+                                    {% endif %}
+                                </p>
+                                {% endif %}
+                                
+                                <div class="d-grid gap-2">
+                                    <a href="{{ url_for('select_deal', deal_path=deal.path) }}" 
+                                       class="btn btn-primary">
+                                        <i class="fas fa-arrow-right"></i> Select Deal
+                                    </a>
+                                    
+                                    {% if deal.get('cached') %}
+                                    <button class="btn btn-outline-success btn-sm" 
+                                            onclick="loadCachedData('{{ deal.name }}')">
+                                        <i class="fas fa-download"></i> Load Cached Data
+                                    </button>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                <!-- No results message -->
+                <div id="noResults" class="text-center py-5" style="display: none;">
+                    <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                    <h5 class="text-muted">No deals found</h5>
+                    <p class="text-muted">Try adjusting your search terms or filters.</p>
+                </div>
+                
+                {% else %}
+                <!-- No deals available -->
+                <div class="text-center py-5">
+                    <i class="fas fa-folder-open fa-3x text-muted mb-3"></i>
+                    <h5 class="text-muted">No deals found</h5>
+                    <p class="text-muted">Check that your deals directory is properly configured.</p>
+                    <p class="small text-muted">
+                        <strong>Looking in:</strong> /Users/vitorfaroni/Library/CloudStorage/Dropbox-HERR/Vitor Faroni/Deals
+                    </p>
+                    <a href="{{ url_for('index') }}" class="btn btn-primary">
+                        <i class="fas fa-home"></i> Back to Dashboard
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Deal Preview Modal -->
+<div class="modal fade" id="dealPreviewModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Deal Preview</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="dealPreviewContent">
+                <!-- Preview content will be loaded here -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="selectDealFromPreview">
+                    <i class="fas fa-arrow-right"></i> Select This Deal
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let allDeals = document.querySelectorAll('.deal-item');
+let currentFilter = 'all';
+
+function filterDeals() {
+    const searchTerm = document.getElementById('dealSearch').value.toLowerCase();
+    const dealsContainer = document.getElementById('dealsContainer');
+    const noResults = document.getElementById('noResults');
+    let visibleCount = 0;
+    
+    allDeals.forEach(deal => {
+        const dealName = deal.getAttribute('data-deal-name');
+        const matchesSearch = dealName.includes(searchTerm);
+        const matchesFilter = currentFilter === 'all' || 
+                            (currentFilter === 'cached' && deal.querySelector('.badge-success')) ||
+                            (currentFilter === 'new' && !deal.querySelector('.badge-success'));
+        
+        if (matchesSearch && matchesFilter) {
+            deal.style.display = 'block';
+            visibleCount++;
+        } else {
+            deal.style.display = 'none';
+        }
+    });
+    
+    // Show/hide no results message
+    if (visibleCount === 0) {
+        noResults.style.display = 'block';
+    } else {
+        noResults.style.display = 'none';
+    }
+}
+
+function showAll() {
+    currentFilter = 'all';
+    updateFilterButtons('all');
+    filterDeals();
+}
+
+function showCached() {
+    currentFilter = 'cached';
+    updateFilterButtons('cached');
+    filterDeals();
+}
+
+function showNew() {
+    currentFilter = 'new';
+    updateFilterButtons('new');
+    filterDeals();
+}
+
+function updateFilterButtons(active) {
+    document.querySelectorAll('.btn-group .btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    
+    if (active === 'all') {
+        document.querySelector('.btn-group .btn:nth-child(1)').classList.add('active');
+    } else if (active === 'cached') {
+        document.querySelector('.btn-group .btn:nth-child(2)').classList.add('active');
+    } else if (active === 'new') {
+        document.querySelector('.btn-group .btn:nth-child(3)').classList.add('active');
+    }
+}
+
+function loadCachedData(dealName) {
+    // Show loading state
+    const button = event.target;
+    const originalText = button.innerHTML;
+    button.innerHTML = '<span class="loading-spinner"></span>Loading...';
+    button.disabled = true;
+    
+    // Simulate loading cached data
+    setTimeout(() => {
+        alert(`Loading cached data for: ${dealName}\n\nThis would automatically load the cached extraction data and jump to the BOTN stage.`);
+        
+        // Restore button
+        button.innerHTML = originalText;
+        button.disabled = false;
+    }, 1000);
+}
+
+function previewDeal(dealPath, dealName) {
+    // This would load a preview of the deal files
+    const modal = new bootstrap.Modal(document.getElementById('dealPreviewModal'));
+    document.querySelector('#dealPreviewModal .modal-title').textContent = `Preview: ${dealName}`;
+    document.getElementById('dealPreviewContent').innerHTML = `
+        <div class="text-center">
+            <div class="loading-spinner"></div>
+            Loading deal preview...
+        </div>
+    `;
+    modal.show();
+    
+    // Simulate loading preview data
+    setTimeout(() => {
+        document.getElementById('dealPreviewContent').innerHTML = `
+            <h6>Deal: ${dealName}</h6>
+            <p><strong>Path:</strong> ${dealPath}</p>
+            <p><strong>Files:</strong> PDF documents, Excel files detected</p>
+            <div class="alert alert-info">
+                <i class="fas fa-info-circle"></i>
+                Preview functionality can be enhanced to show file contents, thumbnails, etc.
+            </div>
+        `;
+    }, 1000);
+}
+
+// Initialize filter on page load
+document.addEventListener('DOMContentLoaded', function() {
+    filterDeals();
+});
+</script>
+{% endblock %}

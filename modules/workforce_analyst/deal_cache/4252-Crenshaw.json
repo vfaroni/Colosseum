@@ -1,0 +1,32 @@
+{
+  "deal_name": "4252 Crenshaw",
+  "extracted_date": "2025-07-01T15:44:20.209037",
+  "version": "1.0",
+  "data": {
+    "Property Name": "",
+    "Address": "4252 Crenshaw",
+    "City": "Los Angeles",
+    "State": "CA",
+    "Zip Code": "",
+    "County Name": "Los Angeles County",
+    "Year Built": "",
+    "Number of Units": "111",
+    "Asking Price": "",
+    "Cap Rate": "",
+    "Avg In Place Rents": "$2,620",
+    "T12 Net Rental Income": "2196991.62",
+    "T12 Total Other Income": "94374.97",
+    "T12 RUBS Income": "54335.5",
+    "T12 Expenses": "$517,302",
+    "# Studio Units": "43",
+    "# 1 Bed Units": "68",
+    "# 2 Bed Units": "",
+    "# 3 Bed Units": "",
+    "# 4 Bed Units": "",
+    "Studio Rents": "$1,946",
+    "1 Bed Current Rents": "$2,180",
+    "2 Bed Current Rents": "$2,859",
+    "3 Bed Current Rents": "$3,323",
+    "4 Bed Current Rents": ""
+  }
+}
