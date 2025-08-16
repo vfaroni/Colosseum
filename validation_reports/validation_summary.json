@@ -1,0 +1,334 @@
+{
+  "timestamp": "2025-08-09T00:22:39.025981",
+  "counties_validated": 5,
+  "counties_passed": 0,
+  "counties_failed": 5,
+  "overall_score": 0.0,
+  "county_results": {
+    "Los_Angeles": {
+      "file_validation": {
+        "county": "Los_Angeles",
+        "files_found": [
+          {
+            "file": "Los_Angeles_metadata.json",
+            "size": 608,
+            "valid": false
+          }
+        ],
+        "files_missing": [
+          "Los_Angeles_fema_flood.geojson",
+          "Los_Angeles_envirostor.csv",
+          "Los_Angeles_lust.csv",
+          "Los_Angeles_slic.csv",
+          "README.txt"
+        ],
+        "validation_passed": false,
+        "score": 0.0
+      },
+      "record_counts": {
+        "envirostor": 0,
+        "lust": 0,
+        "slic": 0,
+        "fema_zones": 0
+      },
+      "metadata": {
+        "status": "present",
+        "valid": false,
+        "missing_fields": [
+          "download_date",
+          "sources"
+        ],
+        "content": {
+          "county": "Los Angeles",
+          "fips": "06037",
+          "start_time": "2025-08-09T00:11:39.605971",
+          "datasets": {
+            "fema_flood": {
+              "source": "FEMA NFHL",
+              "status": "failed",
+              "records": 0,
+              "file": null
+            },
+            "environmental": {
+              "envirostor": {
+                "source": "EnviroStor",
+                "status": "no_data",
+                "records": 0,
+                "file": null
+              },
+              "geotracker": {
+                "source": "GeoTracker",
+                "status": "no_data",
+                "total_records": 0,
+                "files": []
+              }
+            }
+          },
+          "end_time": "2025-08-09T00:11:40.566608",
+          "status": "completed"
+        }
+      },
+      "passed": false
+    },
+    "San_Diego": {
+      "file_validation": {
+        "county": "San_Diego",
+        "files_found": [
+          {
+            "file": "San_Diego_metadata.json",
+            "size": 606,
+            "valid": false
+          }
+        ],
+        "files_missing": [
+          "San_Diego_fema_flood.geojson",
+          "San_Diego_envirostor.csv",
+          "San_Diego_lust.csv",
+          "San_Diego_slic.csv",
+          "README.txt"
+        ],
+        "validation_passed": false,
+        "score": 0.0
+      },
+      "record_counts": {
+        "envirostor": 0,
+        "lust": 0,
+        "slic": 0,
+        "fema_zones": 0
+      },
+      "metadata": {
+        "status": "present",
+        "valid": false,
+        "missing_fields": [
+          "download_date",
+          "sources"
+        ],
+        "content": {
+          "county": "San Diego",
+          "fips": "06073",
+          "start_time": "2025-08-09T00:11:40.568126",
+          "datasets": {
+            "fema_flood": {
+              "source": "FEMA NFHL",
+              "status": "failed",
+              "records": 0,
+              "file": null
+            },
+            "environmental": {
+              "envirostor": {
+                "source": "EnviroStor",
+                "status": "no_data",
+                "records": 0,
+                "file": null
+              },
+              "geotracker": {
+                "source": "GeoTracker",
+                "status": "no_data",
+                "total_records": 0,
+                "files": []
+              }
+            }
+          },
+          "end_time": "2025-08-09T00:11:41.289836",
+          "status": "completed"
+        }
+      },
+      "passed": false
+    },
+    "Orange": {
+      "file_validation": {
+        "county": "Orange",
+        "files_found": [
+          {
+            "file": "Orange_metadata.json",
+            "size": 603,
+            "valid": false
+          }
+        ],
+        "files_missing": [
+          "Orange_fema_flood.geojson",
+          "Orange_envirostor.csv",
+          "Orange_lust.csv",
+          "Orange_slic.csv",
+          "README.txt"
+        ],
+        "validation_passed": false,
+        "score": 0.0
+      },
+      "record_counts": {
+        "envirostor": 0,
+        "lust": 0,
+        "slic": 0,
+        "fema_zones": 0
+      },
+      "metadata": {
+        "status": "present",
+        "valid": false,
+        "missing_fields": [
+          "download_date",
+          "sources"
+        ],
+        "content": {
+          "county": "Orange",
+          "fips": "06059",
+          "start_time": "2025-08-09T00:11:41.291153",
+          "datasets": {
+            "fema_flood": {
+              "source": "FEMA NFHL",
+              "status": "failed",
+              "records": 0,
+              "file": null
+            },
+            "environmental": {
+              "envirostor": {
+                "source": "EnviroStor",
+                "status": "no_data",
+                "records": 0,
+                "file": null
+              },
+              "geotracker": {
+                "source": "GeoTracker",
+                "status": "no_data",
+                "total_records": 0,
+                "files": []
+              }
+            }
+          },
+          "end_time": "2025-08-09T00:11:41.950779",
+          "status": "completed"
+        }
+      },
+      "passed": false
+    },
+    "San_Francisco": {
+      "file_validation": {
+        "county": "San_Francisco",
+        "files_found": [
+          {
+            "file": "San_Francisco_metadata.json",
+            "size": 610,
+            "valid": false
+          }
+        ],
+        "files_missing": [
+          "San_Francisco_fema_flood.geojson",
+          "San_Francisco_envirostor.csv",
+          "San_Francisco_lust.csv",
+          "San_Francisco_slic.csv",
+          "README.txt"
+        ],
+        "validation_passed": false,
+        "score": 0.0
+      },
+      "record_counts": {
+        "envirostor": 0,
+        "lust": 0,
+        "slic": 0,
+        "fema_zones": 0
+      },
+      "metadata": {
+        "status": "present",
+        "valid": false,
+        "missing_fields": [
+          "download_date",
+          "sources"
+        ],
+        "content": {
+          "county": "San Francisco",
+          "fips": "06075",
+          "start_time": "2025-08-09T00:11:41.951821",
+          "datasets": {
+            "fema_flood": {
+              "source": "FEMA NFHL",
+              "status": "failed",
+              "records": 0,
+              "file": null
+            },
+            "environmental": {
+              "envirostor": {
+                "source": "EnviroStor",
+                "status": "no_data",
+                "records": 0,
+                "file": null
+              },
+              "geotracker": {
+                "source": "GeoTracker",
+                "status": "no_data",
+                "total_records": 0,
+                "files": []
+              }
+            }
+          },
+          "end_time": "2025-08-09T00:11:42.643734",
+          "status": "completed"
+        }
+      },
+      "passed": false
+    },
+    "Alameda": {
+      "file_validation": {
+        "county": "Alameda",
+        "files_found": [
+          {
+            "file": "Alameda_metadata.json",
+            "size": 604,
+            "valid": false
+          }
+        ],
+        "files_missing": [
+          "Alameda_fema_flood.geojson",
+          "Alameda_envirostor.csv",
+          "Alameda_lust.csv",
+          "Alameda_slic.csv",
+          "README.txt"
+        ],
+        "validation_passed": false,
+        "score": 0.0
+      },
+      "record_counts": {
+        "envirostor": 0,
+        "lust": 0,
+        "slic": 0,
+        "fema_zones": 0
+      },
+      "metadata": {
+        "status": "present",
+        "valid": false,
+        "missing_fields": [
+          "download_date",
+          "sources"
+        ],
+        "content": {
+          "county": "Alameda",
+          "fips": "06001",
+          "start_time": "2025-08-09T00:11:42.644559",
+          "datasets": {
+            "fema_flood": {
+              "source": "FEMA NFHL",
+              "status": "failed",
+              "records": 0,
+              "file": null
+            },
+            "environmental": {
+              "envirostor": {
+                "source": "EnviroStor",
+                "status": "no_data",
+                "records": 0,
+                "file": null
+              },
+              "geotracker": {
+                "source": "GeoTracker",
+                "status": "no_data",
+                "total_records": 0,
+                "files": []
+              }
+            }
+          },
+          "end_time": "2025-08-09T00:11:43.344537",
+          "status": "completed"
+        }
+      },
+      "passed": false
+    }
+  }
+}
