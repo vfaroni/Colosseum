@@ -1,0 +1,494 @@
+{
+  "schema_name": "default_pipeline_schema",
+  "version": "1.0.0",
+  "description": "Default Excel pipeline schema for real estate deal tracking",
+  "created_date": "2025-01-31",
+  "columns": [
+    {
+      "column_letter": "A",
+      "column_name": "Property Name",
+      "data_path": "property_details.name",
+      "data_type": "text",
+      "required": true,
+      "max_length": 100,
+      "validation": {
+        "type": "text_length",
+        "min_length": 2,
+        "max_length": 100
+      },
+      "formatting": {
+        "font_bold": false,
+        "alignment": "left",
+        "width": 25
+      }
+    },
+    {
+      "column_letter": "B",
+      "column_name": "Address",
+      "data_path": "property_details.address",
+      "data_type": "text",
+      "required": true,
+      "max_length": 150,
+      "validation": {
+        "type": "text_length",
+        "min_length": 10,
+        "max_length": 150
+      },
+      "formatting": {
+        "font_bold": false,
+        "alignment": "left",
+        "width": 30
+      }
+    },
+    {
+      "column_letter": "C",
+      "column_name": "City",
+      "data_path": "property_details.city",
+      "data_type": "text",
+      "required": true,
+      "max_length": 50,
+      "formatting": {
+        "font_bold": false,
+        "alignment": "left",
+        "width": 15
+      }
+    },
+    {
+      "column_letter": "D",
+      "column_name": "State",
+      "data_path": "property_details.state",
+      "data_type": "text",
+      "required": true,
+      "max_length": 2,
+      "validation": {
+        "type": "state_code",
+        "pattern": "^[A-Z]{2}$"
+      },
+      "formatting": {
+        "font_bold": false,
+        "alignment": "center",
+        "width": 8
+      }
+    },
+    {
+      "column_letter": "E",
+      "column_name": "ZIP Code",
+      "data_path": "property_details.zip_code",
+      "data_type": "text",
+      "required": false,
+      "validation": {
+        "type": "zip_code",
+        "pattern": "^\\d{5}(-\\d{4})?$"
+      },
+      "formatting": {
+        "font_bold": false,
+        "alignment": "center",
+        "width": 10
+      }
+    },
+    {
+      "column_letter": "F",
+      "column_name": "Units",
+      "data_path": "property_details.unit_count",
+      "data_type": "number",
+      "required": true,
+      "validation": {
+        "type": "integer",
+        "min_value": 1,
+        "max_value": 10000
+      },
+      "formatting": {
+        "number_format": "#,##0",
+        "alignment": "right",
+        "width": 10
+      }
+    },
+    {
+      "column_letter": "G",
+      "column_name": "Sq Ft",
+      "data_path": "property_details.square_footage",
+      "data_type": "number",
+      "required": false,
+      "validation": {
+        "type": "integer",
+        "min_value": 100,
+        "max_value": 50000000
+      },
+      "formatting": {
+        "number_format": "#,##0",
+        "alignment": "right",
+        "width": 12
+      }
+    },
+    {
+      "column_letter": "H",
+      "column_name": "Year Built",
+      "data_path": "property_details.year_built",
+      "data_type": "number",
+      "required": false,
+      "validation": {
+        "type": "year",
+        "min_value": 1800,
+        "max_value": 2030
+      },
+      "formatting": {
+        "number_format": "0",
+        "alignment": "center",
+        "width": 10
+      }
+    },
+    {
+      "column_letter": "I",
+      "column_name": "Class",
+      "data_path": "property_details.property_class",
+      "data_type": "text",
+      "required": false,
+      "validation": {
+        "type": "dropdown",
+        "valid_values": ["A", "B", "C", "D", "A+", "A-", "B+", "B-", "C+", "C-"]
+      },
+      "formatting": {
+        "alignment": "center",
+        "width": 8
+      }
+    },
+    {
+      "column_letter": "J",
+      "column_name": "Purchase Price",
+      "data_path": "financial_metrics.purchase_price",
+      "data_type": "currency",
+      "required": true,
+      "validation": {
+        "type": "currency",
+        "min_value": 10000,
+        "max_value": 1000000000
+      },
+      "formatting": {
+        "number_format": "$#,##0",
+        "alignment": "right",
+        "width": 15
+      }
+    },
+    {
+      "column_letter": "K",
+      "column_name": "Price/Unit",
+      "data_path": "financial_metrics.price_per_unit",
+      "data_type": "currency",
+      "required": false,
+      "formula": "=J{row}/F{row}",
+      "formatting": {
+        "number_format": "$#,##0",
+        "alignment": "right",
+        "width": 12
+      }
+    },
+    {
+      "column_letter": "L",
+      "column_name": "NOI",
+      "data_path": "financial_metrics.net_operating_income",
+      "data_type": "currency",
+      "required": false,
+      "validation": {
+        "type": "currency",
+        "min_value": -10000000,
+        "max_value": 100000000
+      },
+      "formatting": {
+        "number_format": "$#,##0",
+        "alignment": "right",
+        "width": 12
+      }
+    },
+    {
+      "column_letter": "M",
+      "column_name": "Cap Rate",
+      "data_path": "financial_metrics.cap_rate",
+      "data_type": "percentage",
+      "required": false,
+      "validation": {
+        "type": "percentage",
+        "min_value": 0.001,
+        "max_value": 0.50
+      },
+      "formatting": {
+        "number_format": "0.00%",
+        "alignment": "right",
+        "width": 10
+      }
+    },
+    {
+      "column_letter": "N",
+      "column_name": "GRM",
+      "data_path": "financial_metrics.gross_rent_multiplier",
+      "data_type": "number",
+      "required": false,
+      "validation": {
+        "type": "decimal",
+        "min_value": 1.0,
+        "max_value": 50.0
+      },
+      "formatting": {
+        "number_format": "0.0",
+        "alignment": "right",
+        "width": 8
+      }
+    },
+    {
+      "column_letter": "O",
+      "column_name": "Avg Rent",
+      "data_path": "rent_information.average_rent",
+      "data_type": "currency",
+      "required": false,
+      "validation": {
+        "type": "currency",
+        "min_value": 100,
+        "max_value": 50000
+      },
+      "formatting": {
+        "number_format": "$#,##0",
+        "alignment": "right",
+        "width": 10
+      }
+    },
+    {
+      "column_letter": "P",
+      "column_name": "Rent/SF",
+      "data_path": "rent_information.rent_per_sqft",
+      "data_type": "currency",
+      "required": false,
+      "validation": {
+        "type": "currency",
+        "min_value": 0.10,
+        "max_value": 100.0
+      },
+      "formatting": {
+        "number_format": "$0.00",
+        "alignment": "right",
+        "width": 10
+      }
+    },
+    {
+      "column_letter": "Q",
+      "column_name": "Occupancy",
+      "data_path": "financial_metrics.occupancy_rate",
+      "data_type": "percentage",
+      "required": false,
+      "validation": {
+        "type": "percentage",
+        "min_value": 0.0,
+        "max_value": 1.0
+      },
+      "formatting": {
+        "number_format": "0.0%",
+        "alignment": "right",
+        "width": 10
+      }
+    },
+    {
+      "column_letter": "R",
+      "column_name": "Submarket",
+      "data_path": "market_data.submarket",
+      "data_type": "text",
+      "required": false,
+      "max_length": 50,
+      "formatting": {
+        "alignment": "left",
+        "width": 20
+      }
+    },
+    {
+      "column_letter": "S",
+      "column_name": "Median Income",
+      "data_path": "market_data.median_household_income",
+      "data_type": "currency",
+      "required": false,
+      "validation": {
+        "type": "currency",
+        "min_value": 10000,
+        "max_value": 500000
+      },
+      "formatting": {
+        "number_format": "$#,##0",
+        "alignment": "right",
+        "width": 12
+      }
+    },
+    {
+      "column_letter": "T",
+      "column_name": "Broker",
+      "data_path": "transaction_details.listing_broker",
+      "data_type": "text",
+      "required": false,
+      "max_length": 50,
+      "formatting": {
+        "alignment": "left",
+        "width": 20
+      }
+    },
+    {
+      "column_letter": "U",
+      "column_name": "Broker Company",
+      "data_path": "transaction_details.broker_company",
+      "data_type": "text",
+      "required": false,
+      "max_length": 50,
+      "formatting": {
+        "alignment": "left",
+        "width": 25
+      }
+    },
+    {
+      "column_letter": "V",
+      "column_name": "Days on Market",
+      "data_path": "transaction_details.days_on_market",
+      "data_type": "number",
+      "required": false,
+      "validation": {
+        "type": "integer",
+        "min_value": 0,
+        "max_value": 3650
+      },
+      "formatting": {
+        "number_format": "0",
+        "alignment": "right",
+        "width": 12
+      }
+    },
+    {
+      "column_letter": "W",
+      "column_name": "Deal Score",
+      "data_path": "_analysis.deal_quality_score",
+      "data_type": "text",
+      "required": false,
+      "validation": {
+        "type": "dropdown",
+        "valid_values": ["A", "B", "C", "D"]
+      },
+      "formatting": {
+        "alignment": "center",
+        "width": 10,
+        "conditional_formatting": {
+          "type": "color_scale",
+          "rules": {
+            "A": {"background": "00FF00", "font": "000000"},
+            "B": {"background": "FFFF00", "font": "000000"},
+            "C": {"background": "FFA500", "font": "000000"},
+            "D": {"background": "FF0000", "font": "FFFFFF"}
+          }
+        }
+      }
+    },
+    {
+      "column_letter": "X",
+      "column_name": "Rating",
+      "data_path": "_analysis.investment_rating",
+      "data_type": "text",
+      "required": false,
+      "validation": {
+        "type": "dropdown",
+        "valid_values": ["Strong Buy", "Buy", "Hold", "Pass"]
+      },
+      "formatting": {
+        "alignment": "center",
+        "width": 12
+      }
+    },
+    {
+      "column_letter": "Y",
+      "column_name": "Extracted Date",
+      "data_path": "_metadata.extraction_date",
+      "data_type": "date",
+      "required": false,
+      "formatting": {
+        "number_format": "mm/dd/yyyy",
+        "alignment": "center",
+        "width": 12
+      }
+    },
+    {
+      "column_letter": "Z",
+      "column_name": "Source Document",
+      "data_path": "_metadata.document_source",
+      "data_type": "text",
+      "required": false,
+      "max_length": 100,
+      "formatting": {
+        "alignment": "left",
+        "width": 20
+      }
+    }
+  ],
+  "worksheet_settings": {
+    "freeze_panes": "A2",
+    "auto_filter": true,
+    "protection": {
+      "protect_sheet": false,
+      "protect_headers": true,
+      "allow_sorting": true,
+      "allow_filtering": true
+    },
+    "print_settings": {
+      "orientation": "landscape",
+      "fit_to_page": true,
+      "repeat_rows": "$1:$1"
+    }
+  },
+  "conditional_formatting_rules": [
+    {
+      "range": "J:J",
+      "type": "color_scale",
+      "min_color": "FFFF0000",
+      "max_color": "FF00FF00"
+    },
+    {
+      "range": "M:M",
+      "type": "data_bars",
+      "color": "FF0066CC"
+    },
+    {
+      "range": "Q:Q", 
+      "type": "icon_set",
+      "icon_style": "3_traffic_lights",
+      "thresholds": [0.85, 0.95]
+    }
+  ],
+  "data_validation_rules": [
+    {
+      "range": "I:I",
+      "type": "list",
+      "formula": "A,B,C,D,A+,A-,B+,B-,C+,C-"
+    },
+    {
+      "range": "W:W",
+      "type": "list", 
+      "formula": "A,B,C,D"
+    },
+    {
+      "range": "X:X",
+      "type": "list",
+      "formula": "Strong Buy,Buy,Hold,Pass"
+    }
+  ],
+  "summary_formulas": [
+    {
+      "cell": "J1000",
+      "formula": "=SUM(J2:J999)",
+      "description": "Total Purchase Price"
+    },
+    {
+      "cell": "L1000", 
+      "formula": "=SUM(L2:L999)",
+      "description": "Total NOI"
+    },
+    {
+      "cell": "F1000",
+      "formula": "=SUM(F2:F999)", 
+      "description": "Total Units"
+    },
+    {
+      "cell": "M1000",
+      "formula": "=AVERAGE(M2:M999)",
+      "description": "Average Cap Rate"
+    }
+  ]
+}

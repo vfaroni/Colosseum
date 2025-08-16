@@ -1,0 +1,200 @@
+{
+  "openai_config": {
+    "model": "gpt-4",
+    "max_tokens": 4000,
+    "temperature": 0.1,
+    "timeout_seconds": 60,
+    "retry_attempts": 3,
+    "api_base": null,
+    "organization": null
+  },
+  
+  "processing_config": {
+    "confidence_threshold": 0.85,
+    "extraction_batch_size": 1,
+    "max_content_length": 12000,
+    "enable_content_truncation": true,
+    "preserve_document_structure": true
+  },
+  
+  "document_types": {
+    "offering_memorandum": {
+      "keywords": [
+        "offering memorandum",
+        "investment summary",
+        "property details",
+        "financial summary",
+        "market overview",
+        "investment highlights",
+        "property overview",
+        "executive summary"
+      ],
+      "required_sections": [
+        "property_details",
+        "financial_metrics"
+      ],
+      "priority_fields": [
+        "property_details.name",
+        "property_details.address",
+        "property_details.unit_count",
+        "financial_metrics.purchase_price",
+        "financial_metrics.net_operating_income",
+        "financial_metrics.cap_rate"
+      ]
+    },
+    
+    "financial_statement": {
+      "keywords": [
+        "income statement",
+        "profit loss",
+        "t-12",
+        "operating statement",
+        "financial performance",
+        "revenue",
+        "expenses",
+        "trailing twelve"
+      ],
+      "required_sections": [
+        "financial_metrics"
+      ],
+      "priority_fields": [
+        "financial_metrics.gross_scheduled_income",
+        "financial_metrics.net_operating_income",
+        "financial_metrics.operating_expenses"
+      ]
+    },
+    
+    "rent_roll": {
+      "keywords": [
+        "rent roll",
+        "tenant roster",
+        "unit mix",
+        "lease expiration",
+        "monthly rent",
+        "tenant information",
+        "occupancy report"
+      ],
+      "required_sections": [
+        "rent_information"
+      ],
+      "priority_fields": [
+        "rent_information.average_rent",
+        "financial_metrics.occupancy_rate",
+        "property_details.unit_mix"
+      ]
+    }
+  },
+  
+  "validation_rules": {
+    "required_fields": {
+      "offering_memorandum": [
+        "property_details.name",
+        "property_details.address",
+        "property_details.unit_count",
+        "financial_metrics.purchase_price"
+      ],
+      "financial_statement": [
+        "financial_metrics.net_operating_income",
+        "financial_metrics.operating_expenses"
+      ],
+      "rent_roll": [
+        "rent_information.average_rent",
+        "financial_metrics.occupancy_rate"
+      ]
+    },
+    
+    "data_types": {
+      "property_details.unit_count": "integer",
+      "property_details.year_built": "integer",
+      "property_details.square_footage": "number",
+      "financial_metrics.purchase_price": "number",
+      "financial_metrics.net_operating_income": "number",
+      "financial_metrics.cap_rate": "float",
+      "financial_metrics.occupancy_rate": "float",
+      "financial_metrics.expense_ratio": "float",
+      "rent_information.average_rent": "number",
+      "rent_information.rent_per_sqft": "number"
+    },
+    
+    "value_ranges": {
+      "financial_metrics.cap_rate": [0.01, 0.20],
+      "financial_metrics.occupancy_rate": [0.0, 1.0],
+      "financial_metrics.expense_ratio": [0.0, 1.0],
+      "property_details.year_built": [1800, 2030],
+      "property_details.unit_count": [1, 10000]
+    },
+    
+    "format_patterns": {
+      "property_details.zip_code": "^\\d{5}(-\\d{4})?$",
+      "transaction_details.broker_email": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+      "transaction_details.broker_phone": "^\\(?\\d{3}\\)?[-.\\s]?\\d{3}[-.\\s]?\\d{4}$"
+    }
+  },
+  
+  "enhancement_features": {
+    "deal_quality_scoring": {
+      "enabled": true,
+      "factors": {
+        "property_age": {
+          "weight": 0.3,
+          "excellent": "< 10 years",
+          "good": "10-20 years",
+          "fair": "20-30 years",
+          "poor": "> 30 years"
+        },
+        "cap_rate": {
+          "weight": 0.4,
+          "excellent": ">= 6%",
+          "good": "5-6%",
+          "fair": "4-5%",
+          "poor": "< 4%"
+        },
+        "occupancy": {
+          "weight": 0.3,
+          "excellent": ">= 95%",
+          "good": "90-95%",
+          "fair": "85-90%",
+          "poor": "< 85%"
+        }
+      }
+    },
+    
+    "market_analysis": {
+      "enabled": true,
+      "demographic_enhancement": true,
+      "comparable_identification": true,
+      "trend_analysis": true
+    },
+    
+    "financial_modeling": {
+      "enabled": true,
+      "basic_underwriting": true,
+      "cash_flow_projections": false,
+      "sensitivity_analysis": false
+    }
+  },
+  
+  "output_formatting": {
+    "currency_format": "USD",
+    "percentage_decimal_places": 4,
+    "number_decimal_places": 2,
+    "date_format": "YYYY-MM-DD",
+    "null_value_representation": "Not specified"
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "enable_file_logging": true,
+    "log_extraction_details": true,
+    "log_performance_metrics": true,
+    "retention_days": 30
+  },
+  
+  "performance": {
+    "enable_caching": true,
+    "cache_duration_hours": 24,
+    "parallel_processing": false,
+    "max_concurrent_extractions": 1,
+    "memory_limit_mb": 512
+  }
+}

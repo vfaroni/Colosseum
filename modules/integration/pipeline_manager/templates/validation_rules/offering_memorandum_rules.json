@@ -1,0 +1,313 @@
+{
+  "validation_rules_name": "offering_memorandum_validation",
+  "version": "1.0.0",
+  "description": "Validation rules for offering memorandum document extraction",
+  "created_date": "2025-01-31",
+  "document_type": "offering_memorandum",
+  "required_fields": [
+    "property_details.name",
+    "property_details.address",
+    "property_details.city",
+    "property_details.state",
+    "property_details.unit_count",
+    "financial_metrics.purchase_price"
+  ],
+  "field_validations": {
+    "property_details": {
+      "name": {
+        "type": "string",
+        "required": true,
+        "min_length": 2,
+        "max_length": 100,
+        "pattern": "^[A-Za-z0-9\\s\\-\\.,'&]+$",
+        "error_message": "Property name must be 2-100 characters, alphanumeric with basic punctuation"
+      },
+      "address": {
+        "type": "string",
+        "required": true,
+        "min_length": 10,
+        "max_length": 150,
+        "pattern": ".*\\d+.*",
+        "error_message": "Address must contain at least one number and be 10-150 characters"
+      },
+      "city": {
+        "type": "string",
+        "required": true,
+        "min_length": 2,
+        "max_length": 50,
+        "pattern": "^[A-Za-z\\s\\-\\.]+$",
+        "error_message": "City must be 2-50 characters, letters and basic punctuation only"
+      },
+      "state": {
+        "type": "string",
+        "required": true,
+        "min_length": 2,
+        "max_length": 2,
+        "pattern": "^[A-Z]{2}$",
+        "valid_values": ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "DC"],
+        "error_message": "State must be a valid 2-letter US state abbreviation"
+      },
+      "zip_code": {
+        "type": "string",
+        "required": false,
+        "pattern": "^\\d{5}(-\\d{4})?$",
+        "error_message": "ZIP code must be 5 digits or 5+4 format"
+      },
+      "unit_count": {
+        "type": "integer",
+        "required": true,
+        "min_value": 1,
+        "max_value": 10000,
+        "error_message": "Unit count must be between 1 and 10,000"
+      },
+      "square_footage": {
+        "type": "integer",
+        "required": false,
+        "min_value": 100,
+        "max_value": 50000000,
+        "error_message": "Square footage must be between 100 and 50,000,000"
+      },
+      "year_built": {
+        "type": "integer",
+        "required": false,
+        "min_value": 1800,
+        "max_value": 2030,
+        "error_message": "Year built must be between 1800 and 2030"
+      },
+      "property_class": {
+        "type": "string",
+        "required": false,
+        "valid_values": ["A", "B", "C", "D", "A+", "A-", "B+", "B-", "C+", "C-"],
+        "error_message": "Property class must be A, B, C, or D with optional + or -"
+      },
+      "lot_size": {
+        "type": "number",
+        "required": false,
+        "min_value": 0.01,
+        "max_value": 10000,
+        "error_message": "Lot size must be between 0.01 and 10,000"
+      },
+      "stories": {
+        "type": "integer", 
+        "required": false,
+        "min_value": 1,
+        "max_value": 100,
+        "error_message": "Stories must be between 1 and 100"
+      },
+      "parking_spaces": {
+        "type": "integer",
+        "required": false,
+        "min_value": 0,
+        "max_value": 10000,
+        "error_message": "Parking spaces must be between 0 and 10,000"
+      }
+    },
+    "financial_metrics": {
+      "purchase_price": {
+        "type": "number",
+        "required": true,
+        "min_value": 10000,
+        "max_value": 1000000000,
+        "error_message": "Purchase price must be between $10,000 and $1,000,000,000"
+      },
+      "net_operating_income": {
+        "type": "number",
+        "required": false,
+        "min_value": -10000000,
+        "max_value": 100000000,
+        "error_message": "NOI must be between -$10,000,000 and $100,000,000"
+      },
+      "cap_rate": {
+        "type": "number",
+        "required": false,
+        "min_value": 0.001,
+        "max_value": 0.50,
+        "precision": 4,
+        "error_message": "Cap rate must be between 0.1% and 50% (0.001 to 0.50)"
+      },
+      "occupancy_rate": {
+        "type": "number",
+        "required": false,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "precision": 4,
+        "error_message": "Occupancy rate must be between 0% and 100% (0.0 to 1.0)"
+      },
+      "gross_rent_multiplier": {
+        "type": "number",
+        "required": false,
+        "min_value": 1.0,
+        "max_value": 50.0,
+        "error_message": "GRM must be between 1.0 and 50.0"
+      },
+      "expense_ratio": {
+        "type": "number",
+        "required": false,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "precision": 4,
+        "error_message": "Expense ratio must be between 0% and 100% (0.0 to 1.0)"
+      }
+    },
+    "rent_information": {
+      "average_rent": {
+        "type": "number",
+        "required": false,
+        "min_value": 100,
+        "max_value": 50000,
+        "error_message": "Average rent must be between $100 and $50,000"
+      },
+      "rent_per_sqft": {
+        "type": "number",
+        "required": false,
+        "min_value": 0.10,
+        "max_value": 100.0,
+        "precision": 2,
+        "error_message": "Rent per sq ft must be between $0.10 and $100.00"
+      }
+    },
+    "market_data": {
+      "median_household_income": {
+        "type": "number",
+        "required": false,
+        "min_value": 10000,
+        "max_value": 500000,
+        "error_message": "Median household income must be between $10,000 and $500,000"
+      },
+      "population": {
+        "type": "integer",
+        "required": false,
+        "min_value": 1,
+        "max_value": 50000000,
+        "error_message": "Population must be between 1 and 50,000,000"
+      }
+    },
+    "transaction_details": {
+      "broker_phone": {
+        "type": "string",
+        "required": false,
+        "pattern": "^(\\+1[-\\s\\.]?)?\\(?[0-9]{3}\\)?[-\\s\\.]?[0-9]{3}[-\\s\\.]?[0-9]{4}$",
+        "error_message": "Phone number must be valid US format"
+      },
+      "broker_email": {
+        "type": "string",
+        "required": false,
+        "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+        "error_message": "Email must be valid format"
+      },
+      "days_on_market": {
+        "type": "integer",
+        "required": false,
+        "min_value": 0,
+        "max_value": 3650,
+        "error_message": "Days on market must be between 0 and 3,650 (10 years)"
+      }
+    }
+  },
+  "cross_field_validations": [
+    {
+      "validation_name": "price_per_unit_consistency",
+      "description": "Verify price per unit calculation",
+      "fields": ["financial_metrics.purchase_price", "property_details.unit_count", "financial_metrics.price_per_unit"],
+      "rule": "if all fields present, price_per_unit should equal purchase_price / unit_count within 5% tolerance",
+      "tolerance": 0.05,
+      "severity": "warning"
+    },
+    {
+      "validation_name": "cap_rate_calculation",
+      "description": "Verify cap rate calculation if NOI and purchase price available",
+      "fields": ["financial_metrics.net_operating_income", "financial_metrics.purchase_price", "financial_metrics.cap_rate"],
+      "rule": "if all fields present, cap_rate should equal noi / purchase_price within 1% tolerance",
+      "tolerance": 0.01,
+      "severity": "warning"
+    },
+    {
+      "validation_name": "year_built_logical",
+      "description": "Year built should not be in the future",
+      "fields": ["property_details.year_built"],
+      "rule": "year_built should not exceed current year + 5",
+      "severity": "error"
+    },
+    {
+      "validation_name": "unit_mix_total",
+      "description": "Unit mix should sum to total units",
+      "fields": ["property_details.unit_count", "property_details.unit_mix"],
+      "rule": "sum of unit_mix values should equal unit_count within 10% tolerance",
+      "tolerance": 0.10,
+      "severity": "warning"
+    },
+    {
+      "validation_name": "rent_reasonableness",
+      "description": "Average rent should be reasonable for unit count and total income",
+      "fields": ["rent_information.average_rent", "property_details.unit_count", "financial_metrics.gross_scheduled_income"],
+      "rule": "average_rent * unit_count * 12 should approximate gross_scheduled_income within 20% tolerance",
+      "tolerance": 0.20,
+      "severity": "warning"
+    }
+  ],
+  "data_quality_checks": [
+    {
+      "check_name": "completeness_score",
+      "description": "Calculate data completeness percentage",
+      "weight": 0.3,
+      "critical_fields": ["property_details.name", "property_details.address", "property_details.unit_count", "financial_metrics.purchase_price"],
+      "important_fields": ["financial_metrics.net_operating_income", "financial_metrics.cap_rate", "property_details.year_built"],
+      "optional_fields": ["rent_information.average_rent", "market_data.submarket"]
+    },
+    {
+      "check_name": "consistency_score",
+      "description": "Calculate internal consistency of financial data",
+      "weight": 0.4,
+      "checks": ["price_per_unit_consistency", "cap_rate_calculation", "unit_mix_total"]
+    },
+    {
+      "check_name": "format_compliance",
+      "description": "Check format compliance for key fields",
+      "weight": 0.3,
+      "format_checks": ["state", "zip_code", "broker_phone", "broker_email"]
+    }
+  ],
+  "confidence_scoring": {
+    "high_confidence": {
+      "threshold": 0.90,
+      "description": "High confidence - minimal validation issues"
+    },
+    "medium_confidence": {
+      "threshold": 0.75,
+      "description": "Medium confidence - some validation warnings"
+    },
+    "low_confidence": {
+      "threshold": 0.60,
+      "description": "Low confidence - multiple validation issues"
+    },
+    "failed_validation": {
+      "threshold": 0.0,
+      "description": "Failed validation - critical errors present"
+    }
+  },
+  "auto_correction_rules": [
+    {
+      "field": "property_details.state",
+      "rule": "convert to uppercase",
+      "description": "Convert state abbreviation to uppercase"
+    },
+    {
+      "field": "financial_metrics.cap_rate",
+      "rule": "convert percentage to decimal",
+      "condition": "value > 1",
+      "description": "Convert percentage to decimal if value > 1"
+    },
+    {
+      "field": "financial_metrics.occupancy_rate",
+      "rule": "convert percentage to decimal",
+      "condition": "value > 1",
+      "description": "Convert percentage to decimal if value > 1"
+    },
+    {
+      "field": "property_details.zip_code",
+      "rule": "pad with leading zeros",
+      "condition": "length < 5 and numeric",
+      "description": "Pad ZIP code with leading zeros if needed"
+    }
+  ]
+}
