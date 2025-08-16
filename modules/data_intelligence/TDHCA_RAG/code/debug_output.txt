@@ -1,0 +1,78 @@
+/Users/williamrice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2025-07-23 22:23:11,595 - INFO - Initialized Ultimate TDHCA Extractor at /Users/williamrice/Library/CloudStorage/Dropbox-HERR/Bill Rice/Structured Consultants/AI Projects/TDHCA_RAG/D'Marco_Sites
+2025-07-23 22:23:20,357 - WARNING - unknown widths : 
+[0, IndirectObject(59409, 0, 5152995264)]
+2025-07-23 22:23:20,357 - WARNING - unknown widths : 
+[0, IndirectObject(59404, 0, 5152995264)]
+2025-07-23 22:23:20,363 - WARNING - unknown widths : 
+[0, IndirectObject(59387, 0, 5152995264)]
+2025-07-23 22:23:20,363 - WARNING - unknown widths : 
+[0, IndirectObject(59372, 0, 5152995264)]
+2025-07-23 22:23:20,363 - WARNING - unknown widths : 
+[0, IndirectObject(59382, 0, 5152995264)]
+2025-07-23 22:23:20,364 - WARNING - unknown widths : 
+[0, IndirectObject(59367, 0, 5152995264)]
+2025-07-23 22:23:20,364 - WARNING - unknown widths : 
+[0, IndirectObject(59392, 0, 5152995264)]
+2025-07-23 22:23:20,364 - WARNING - unknown widths : 
+[0, IndirectObject(59397, 0, 5152995264)]
+2025-07-23 22:23:20,364 - WARNING - unknown widths : 
+[0, IndirectObject(59377, 0, 5152995264)]
+2025-07-23 22:23:20,544 - WARNING - unknown widths : 
+[0, IndirectObject(59409, 0, 5152995264)]
+2025-07-23 22:23:20,544 - WARNING - unknown widths : 
+[0, IndirectObject(59404, 0, 5152995264)]
+2025-07-23 22:23:20,550 - WARNING - unknown widths : 
+[0, IndirectObject(59387, 0, 5152995264)]
+2025-07-23 22:23:20,550 - WARNING - unknown widths : 
+[0, IndirectObject(59372, 0, 5152995264)]
+2025-07-23 22:23:20,550 - WARNING - unknown widths : 
+[0, IndirectObject(59382, 0, 5152995264)]
+2025-07-23 22:23:20,550 - WARNING - unknown widths : 
+[0, IndirectObject(59367, 0, 5152995264)]
+2025-07-23 22:23:20,550 - WARNING - unknown widths : 
+[0, IndirectObject(59392, 0, 5152995264)]
+2025-07-23 22:23:20,551 - WARNING - unknown widths : 
+[0, IndirectObject(59397, 0, 5152995264)]
+2025-07-23 22:23:20,551 - WARNING - unknown widths : 
+[0, IndirectObject(59377, 0, 5152995264)]
+2025-07-23 22:23:20,794 - WARNING - unknown widths : 
+[0, IndirectObject(59409, 0, 5152995264)]
+2025-07-23 22:23:20,794 - WARNING - unknown widths : 
+[0, IndirectObject(59404, 0, 5152995264)]
+2025-07-23 22:23:20,800 - WARNING - unknown widths : 
+[0, IndirectObject(59387, 0, 5152995264)]
+2025-07-23 22:23:20,800 - WARNING - unknown widths : 
+[0, IndirectObject(59372, 0, 5152995264)]
+2025-07-23 22:23:20,800 - WARNING - unknown widths : 
+[0, IndirectObject(59382, 0, 5152995264)]
+2025-07-23 22:23:20,800 - WARNING - unknown widths : 
+[0, IndirectObject(59367, 0, 5152995264)]
+2025-07-23 22:23:20,800 - WARNING - unknown widths : 
+[0, IndirectObject(59392, 0, 5152995264)]
+2025-07-23 22:23:20,800 - WARNING - unknown widths : 
+[0, IndirectObject(59397, 0, 5152995264)]
+2025-07-23 22:23:20,800 - WARNING - unknown widths : 
+[0, IndirectObject(59377, 0, 5152995264)]
+2025-07-23 22:23:20,929 - WARNING - unknown widths : 
+[0, IndirectObject(59409, 0, 5152995264)]
+2025-07-23 22:23:20,930 - WARNING - unknown widths : 
+[0, IndirectObject(59404, 0, 5152995264)]
+2025-07-23 22:23:20,936 - WARNING - unknown widths : 
+[0, IndirectObject(59387, 0, 5152995264)]
+2025-07-23 22:23:20,936 - WARNING - unknown widths : 
+[0, IndirectObject(59372, 0, 5152995264)]
+2025-07-23 22:23:20,936 - WARNING - unknown widths : 
+[0, IndirectObject(59382, 0, 5152995264)]
+2025-07-23 22:23:20,936 - WARNING - unknown widths : 
+[0, IndirectObject(59367, 0, 5152995264)]
+2025-07-23 22:23:20,936 - WARNING - unknown widths : 
+[0, IndirectObject(59392, 0, 5152995264)]
+2025-07-23 22:23:20,936 - WARNING - unknown widths : 
+[0, IndirectObject(59397, 0, 5152995264)]
+2025-07-23 22:23:20,936 - WARNING - unknown widths : 
+[0, IndirectObject(59377, 0, 5152995264)]
+2025-07-23 22:23:21,060 - INFO - ⏭️  Skipping environmental (pages 96-130)
+2025-07-23 22:23:22,582 - INFO - ⏭️  Skipping architectural (pages 153-172)
+2025-07-23 22:23:22,601 - INFO - ⏭️  Skipping market_study (pages 177-236)

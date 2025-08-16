@@ -1,0 +1,35 @@
+python3 -c "
+from ultimate_tdhca_extractor import UltimateTDHCAExtractor
+from dmarco_comparison_matrix import DMarcoComparisonMatrix
+from pathlib import Path
+import sys
+
+base_path = '/Users/williamrice/Library/CloudStorage/Dropbox-HERR/Bill Rice/Structured Consultants/AI Projects/TDHCA_RAG/D\'Marco_Sites'
+extractor = UltimateTDHCAExtractor(base_path)
+pdfs = list(Path(base_path).glob('**/*.pdf'))[:5]
+
+projects = []
+for pdf in pdfs:
+    try:
+        print(f'Processing: {pdf.name}')
+        project = extractor.process_application(pdf)
+        if project:
+            projects.append(project)
+            print(f'✅ Success: {project.project_name or project.application_number}')
+        else:
+            print(f'❌ Failed: {pdf.name}')
+    except Exception as e:
+        print(f'❌ Error {pdf.name}: {str(e)[:100]}')
+        continue
+
+print(f'\\nProcessed {len(projects)}/{len(pdfs)} projects successfully')
+
+if projects:
+    generator = DMarcoComparisonMatrix(base_path)
+    exports = generator.export_all_formats(projects)
+    print('\\n📊 Exported files:')
+    for fmt, path in exports.items():
+        print(f'  {fmt.upper()}: {path}')
+else:
+    print('No projects processed successfully')
+"

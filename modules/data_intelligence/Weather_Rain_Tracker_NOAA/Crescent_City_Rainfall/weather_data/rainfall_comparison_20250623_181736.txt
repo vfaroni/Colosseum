@@ -1,0 +1,24 @@
+KCEC vs External Data Comparison
+============================================================
+Analysis Date: 2025-06-23 18:17:36
+
+KCEC Weather Station Summary:
+Total days: 365
+Days with any rain: 68
+Days with measurable rain (≥0.01"): 68
+Total rainfall: 37.50 inches
+
+Monthly Breakdown:
+--------------------------------------------------
+January    |   0.01" | Any rain:  1 | Measurable:  1
+February   |   0.00" | Any rain:  0 | Measurable:  0
+March      |   0.00" | Any rain:  0 | Measurable:  0
+April      |   0.01" | Any rain:  1 | Measurable:  1
+May        |   3.67" | Any rain:  7 | Measurable:  7
+June       |   1.70" | Any rain:  3 | Measurable:  3
+July       |   0.00" | Any rain:  0 | Measurable:  0
+August     |   2.64" | Any rain:  4 | Measurable:  4
+September  |   0.51" | Any rain:  3 | Measurable:  3
+October    |   2.85" | Any rain: 11 | Measurable: 11
+November   |  13.32" | Any rain: 18 | Measurable: 18
+December   |  12.79" | Any rain: 20 | Measurable: 20

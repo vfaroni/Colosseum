@@ -1,0 +1,155 @@
+TDHCA PDF Debug Report - 2025-07-23 22:28:34.677627
+================================================================================
+
+🔍 DEBUGGING: 25427.pdf
+============================================================
+✅ Text extraction: 1392190 characters
+📊 Pages processed: 624/532
+
+📄 FIRST 1000 CHARACTERS:
+----------------------------------------
+
+--- Page 1 ---
+App #:
+Site Address:
+City: County: Zip:
+Urban/Rural: Region:
+Types (from Tab 17): $FTXLVLWLRQ5HKDE
+Population: (Tab 17) *HQHUDO
+Contact (from Tab 5): 6WHYH$QGHUVRQ
+Phone: Email:VWHYH#DQGHUVRQRUJĂǇdĞƌƌĂĐĞƉĂƌƚŵĞŶƚƐ
+ϭϱϬϮEŽůĂŶZĚϮϬϮϱDƵůƚŝĨĂŵŝůǇ
+hŶŝĨŽƌŵƉƉůŝĐĂƚŝŽŶ
+Enter basic information about the application through Urban  and Region. 
+The rest will populate as the Application is completed.
+,ĂƌƌŝƐϮϱϰϮϳsĞƌƐŝŽŶϮϬϮϱ͘ϭĞĐĞŵďĞƌϭϯ͕ϮϬϮϰ
+Development 
+Name:
+ϳϳϱϮϬ ĂǇƚŽǁŶ
+hƌďĂŶ ϲ
+ 30
+--- Page 2 ---
+ 
+ 
+ 
+  
+TAB 1a 
+APP CERTIFICATION 
+ 
+ 
+ 
+ 
+--- Page 3 ---
+2025 Multifamily Uniform Application Certification 
+Development Name: laav hrrace Ap.,rtm<"nts 
+The undersigned hereby makes an Application to Texas Department RIHousing and Community Affairs. 7KH
+Appl icant affirms that they have read and understand, as applicable, 7LWOH10, Texas Administrative Code ("10 
+TAC"), Chapters 1, 10, 11, 12, and 13.Specifically, WKH undersigned understands 
+----------------------------------------
+
+🔍 KEY PATTERN ANALYSIS:
+
+📝 PROJECT NAME SEARCH:
+  Pattern 'Project\s+Name[:\s]+([^\n]+)': ['FHAProject Number Dates Rents WillBeEffective ( mm/yyyy) ', 'and address: Bay Terrace, 1502 Nolan Rd., Baytown, TX 77520', 'Reference']
+  Pattern 'Development\s+Name[:\s]+([^\n]+)': ['ϳϳϱϮϬ \x11ĂǇƚŽǁŶ', 'laav hrrace Ap.,rtm<"nts ', 'laav hrrace Ap.,rtm<"nts ']
+  Pattern 'Property\s+Name[:\s]+([^\n]+)': ['Bay Terrace Apartments  ']
+
+🏠 ADDRESS SEARCH:
+  Pattern 'Site\s+Address[:\s]+([^\n]+)': ['City: County: Zip:']
+  Pattern 'Property\s+Address[:\s]+([^\n]+)': ['1502 Nolan Rd  ']
+  Pattern '(\d+\s+[A-Za-z][^,\n]{10,60}),?\s*([A-Z][a-z]+),?\s*TX\s*(\d{5})': [('1502 Nolan Rd. Bayto', 'wn', '77250'), ('11111 South Sam Houston Parkway East Houst', 'on', '77089'), ('221 East 11th St ', 'Austin', '78711')]
+
+🏢 UNIT COUNT SEARCH:
+  Pattern 'Number\s+of\s+Units[:\s]+(\d+)': ['130']
+  Pattern '(\d+)\s+units?': ['130', '130', '130']
+  Pattern 'Unit\s+Mix[:\s]*([^\n]+)': [', which includes a vari ety of  unit types including ']
+
+🏗️ DEVELOPER SEARCH:
+  Pattern 'Developer[:\s]+([^\n]+)': ['FEES3', 'Fees 15.00% $3,584,000 $350,621 $3,233,379 23.14%', 'fees, construction loan financing and other financing costs may or may not be included in ']
+  Pattern 'General\s+Partner[:\s]+([^\n]+)': ['By:_____________________  ', 'By: AXL MANAGER LLC ', 'By: AXL MANAGER LLC ']
+  Pattern 'Applicant[:\s]+([^\n]+)': ['is affirming that all statements ', 'is also affirming ', 'is affirming that all statements ']
+
+============================================================
+
+
+🔍 DEBUGGING: 25412.pdf
+============================================================
+✅ Text extraction: 1355870 characters
+📊 Pages processed: 505/433
+
+📄 FIRST 1000 CHARACTERS:
+----------------------------------------
+
+--- Page 1 ---
+App #:
+Site Address:
+City: County: Zip:
+Urban/Rural: Region:
+Types (from Tab 17): Acquisition/Rehab 
+Population: (Tab 17) Elderly
+Contact (from Tab 5): Jeremy Bartholomew
+Phone: Email: jeremy@resolutioncompanies.comWyndham Park
+2700 Rollingbrook Dr
+71333455142025 Multifamily 
+Uniform Application            
+Enter basic information about the application through Urban  and Region. 
+The rest will populate as the Application is completed.
+Harris25412Version 2025.1 December 13, 2024
+Development 
+Name:
+77521 Baytown
+Urban 6
+1/13/2025 9:55 AM
+--- Page 2 ---
+By: 2025 Multifamily Uniform Application Certification 
+Development Name: .. !w_yn_d_h_a_m_Pa_r_k _____________________ _. 
+The undersigned hereby makes an Application to Texas Department of Housing and Community Affairs. The 
+Applicant affirms that they have read and understand, as applicable, Title 10, Texas Administrative Code ("10 
+TAC"), Chapters 1, 10, 11, 12, and 13 . Specifically, the undersigned understands the req
+----------------------------------------
+
+🔍 KEY PATTERN ANALYSIS:
+
+📝 PROJECT NAME SEARCH:
+  Pattern 'Development\s+Name[:\s]+([^\n]+)': ['77521 Baytown', '.. !w_yn_d_h_a_m_Pa_r_k _____________________ _. ', 'Wyndham Park']
+  Pattern 'Property\s+Name[:\s]+([^\n]+)': ['Property City ProgramControl began ', 'Property City ProgramControl began ', 'Property City ProgramControl began ']
+
+🏠 ADDRESS SEARCH:
+  Pattern 'Site\s+Address[:\s]+([^\n]+)': ['City: County: Zip:']
+  Pattern '(\d+\s+[A-Za-z][^,\n]{10,60}),?\s*([A-Z][a-z]+),?\s*TX\s*(\d{5})': [('2700 Rollingbrook Drive; Apt #             Bayto', 'wn', '77521'), ('1500 N Post Oak Rd Suite 190 Houst', 'on', '77055'), ('2022 Limited Liability CompanyPillar Residential', 'LLC', '77055')]
+
+🏢 UNIT COUNT SEARCH:
+  Pattern 'Total\s+Units[:\s]+(\d+)': ['3', '1', '18']
+  Pattern '(\d+)\s+units?': ['184', '184', '184']
+
+🏗️ DEVELOPER SEARCH:
+  Pattern 'Developer[:\s]+([^\n]+)': ['and Guarantor. ', 'and Guarantor. ', 'and Guarantor. ']
+  Pattern 'General\s+Partner[:\s]+([^\n]+)': ['or other Principal of the Development Owner, and to provide to theDepartment the name(s), address(es), and ﬁnancial reports, as applicable, of any successor or additional General Partner or Principal,', 'or other Principal of the Development Owner, and to provide to the ', 'or Principal, ']
+  Pattern 'Applicant[:\s]+([^\n]+)': ['affirms that they have read and understand, as applicable, Title 10, Texas Administrative Code ("10 ', 'is affirming that all statements ', 'is also affirming ']
+
+============================================================
+
+
+🔍 DEBUGGING: 25438.pdf
+============================================================
+✅ Text extraction: 0 characters
+📊 Pages processed: 0/0
+
+📄 FIRST 1000 CHARACTERS:
+----------------------------------------
+
+----------------------------------------
+
+🔍 KEY PATTERN ANALYSIS:
+
+📝 PROJECT NAME SEARCH:
+
+🏠 ADDRESS SEARCH:
+
+🏢 UNIT COUNT SEARCH:
+
+🏗️ DEVELOPER SEARCH:
+
+============================================================
+
+

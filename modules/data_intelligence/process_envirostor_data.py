@@ -1,0 +1,159 @@
+#!/usr/bin/env python3
+"""
+Process EnviroStor Data for California Counties
+WINGMAN Execution - Mission CA-ENV-2025-002
+Date: 2025-08-09
+"""
+
+import pandas as pd
+from pathlib import Path
+from datetime import datetime
+import json
+
+def process_envirostor_data():
+    """Process EnviroStor data files and filter by county"""
+    
+    base_path = Path("/Users/williamrice/Library/CloudStorage/Dropbox-HERR/Bill Rice/Colosseum")
+    data_path = base_path / "data_sets" / "california" / "CA_Environmental_Data"
+    
+    # Target counties
+    counties = ['Los Angeles', 'San Diego', 'Orange', 'San Francisco', 'Alameda']
+    
+    # Process each dataset
+    datasets = {
+        'CleanupSites': 'EnviroStorCleanupSites/sites.txt',
+        'HazardousWaste': 'EnviroStorHazardousWaste/hazardous_waste_facilities.txt',
+        'ICESites': 'EnviroStorICESites/ice_sites.txt'
+    }
+    
+    results = {}
+    
+    for dataset_name, file_path in datasets.items():
+        full_path = data_path / file_path
+        
+        if full_path.exists():
+            print(f"\nProcessing {dataset_name}...")
+            
+            # Read tab-delimited file with proper encoding and error handling
+            try:
+                df = pd.read_csv(full_path, sep='\t', low_memory=False, dtype=str, 
+                                encoding='utf-8', on_bad_lines='skip')
+            except UnicodeDecodeError:
+                # Try Latin-1 encoding if UTF-8 fails
+                try:
+                    df = pd.read_csv(full_path, sep='\t', low_memory=False, dtype=str, 
+                                    encoding='latin-1', on_bad_lines='skip')
+                except Exception as e:
+                    print(f"  ERROR reading {dataset_name}: {e}")
+                    continue
+            print(f"Total records: {len(df)}")
+            
+            # Check for county column
+            county_col = None
+            for col in ['COUNTY', 'County', 'county']:
+                if col in df.columns:
+                    county_col = col
+                    break
+            
+            if county_col:
+                # Process each county
+                for county in counties:
+                    # Filter for county
+                    county_df = df[df[county_col].str.contains(county, case=False, na=False)]
+                    
+                    if len(county_df) > 0:
+                        # Save to county directory
+                        county_dir = data_path / county.replace(' ', '_')
+                        county_dir.mkdir(exist_ok=True)
+                        
+                        output_file = county_dir / f"{county.replace(' ', '_')}_{dataset_name}.csv"
+                        county_df.to_csv(output_file, index=False)
+                        
+                        print(f"  {county}: {len(county_df)} records saved")
+                        
+                        if county not in results:
+                            results[county] = {}
+                        results[county][dataset_name] = len(county_df)
+            else:
+                print(f"  WARNING: No county column found in {dataset_name}")
+    
+    # Create updated README files
+    for county in counties:
+        county_dir = data_path / county.replace(' ', '_')
+        readme_path = county_dir / "README.txt"
+        
+        readme_content = f"""DATASET: California Environmental Data - {county} County
+SOURCE: California Department of Toxic Substances Control (DTSC) EnviroStor
+SOURCE URL: https://www.envirostor.dtsc.ca.gov/public/data_download
+SOURCE DATE: 2025-08 (Current as of download)
+DOWNLOAD DATE: {datetime.now().strftime('%Y-%m-%d')}
+DESCRIPTION: Environmental contamination sites, cleanup locations, and regulatory data
+FORMAT: CSV (converted from tab-delimited)
+COVERAGE: {county} County, California
+
+DATA SOURCES INCLUDED:
+====================
+"""
+        
+        if county in results:
+            for dataset, count in results[county].items():
+                readme_content += f"""
+{dataset.upper()}:
+- RECORDS: {count}
+- FILE: {county.replace(' ', '_')}_{dataset}.csv
+- DESCRIPTION: """
+                
+                if dataset == 'CleanupSites':
+                    readme_content += "DTSC cleanup sites including contaminated properties"
+                elif dataset == 'HazardousWaste':
+                    readme_content += "Hazardous waste facilities and treatment sites"
+                elif dataset == 'ICESites':
+                    readme_content += "Illegal drug lab cleanup sites (ICE program)"
+        
+        readme_content += f"""
+
+UPDATE FREQUENCY: Monthly
+
+NOTES:
+- Data manually downloaded from EnviroStor public data portal
+- Filtered from statewide dataset to county level
+- Includes site addresses, contamination types, and cleanup status
+- Coordinate system: WGS84 (where coordinates provided)
+- Some sites may have multiple records for different activities
+
+PROCESSING DATE: {datetime.now().strftime('%Y-%m-%d %H:%M')}
+GENERATED BY: Colosseum LIHTC Platform - WINGMAN Agent
+MISSION: CA Environmental Data Acquisition
+"""
+        
+        with open(readme_path, 'w') as f:
+            f.write(readme_content)
+        
+        print(f"\nUpdated README.txt for {county}")
+    
+    # Save summary report
+    summary_path = data_path / "envirostor_processing_summary.json"
+    with open(summary_path, 'w') as f:
+        json.dump({
+            'processing_date': datetime.now().isoformat(),
+            'counties_processed': counties,
+            'datasets': list(datasets.keys()),
+            'results': results,
+            'total_records': sum(sum(county.values()) for county in results.values())
+        }, f, indent=2)
+    
+    print(f"\n✅ Processing complete!")
+    print(f"Summary saved to: envirostor_processing_summary.json")
+    
+    return results
+
+if __name__ == "__main__":
+    results = process_envirostor_data()
+    
+    print("\n" + "="*60)
+    print("SUMMARY BY COUNTY:")
+    for county, datasets in results.items():
+        total = sum(datasets.values())
+        print(f"\n{county}: {total} total records")
+        for dataset, count in datasets.items():
+            print(f"  - {dataset}: {count}")

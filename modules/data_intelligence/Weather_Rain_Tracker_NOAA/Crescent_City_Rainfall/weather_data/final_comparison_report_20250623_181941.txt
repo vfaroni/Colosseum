@@ -1,0 +1,27 @@
+KCEC vs Hayden Rain Day Comparison for 2024
+============================================================
+
+Monthly Rain Day Comparison:
+----------------------------------------------------------------------
+Month      |  KCEC Days |  Hayden Days | Difference | KCEC Total
+----------------------------------------------------------------------
+January    |          1 |          N/A |        N/A |      0.01"
+February   |          0 |          N/A |        N/A |      0.00"
+March      |          0 |          N/A |        N/A |      0.00"
+April      |          1 |          N/A |        N/A |      0.01"
+May        |          7 |          N/A |        N/A |      3.67"
+June       |          3 |          N/A |        N/A |      1.70"
+July       |          0 |            0 |         +0 |      0.00"
+August     |          4 |            3 |         +1 |      2.64"
+September  |          3 |            2 |         +1 |      0.51"
+October    |         11 |            5 |         +6 |      2.85"
+November   |         18 |           15 |         +3 |     13.32"
+December   |         20 |           18 |         +2 |     12.79"
+----------------------------------------------------------------------
+TOTAL      |         56 |           43 |        +13 |
+
+
+Full Year KCEC Statistics:
+  Total rain days: 68
+  Total rainfall: 37.50 inches
+  Average rainfall per rainy day: 0.55 inches
