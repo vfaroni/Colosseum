@@ -1,0 +1,100 @@
+{
+  "gpt-oss:20b": {
+    "queries": [
+      {
+        "query": "Coding Task",
+        "prompt": "Write a Python function that finds the k-th largest element in an unsorted array using a heap. Include time complexity analysis.",
+        "success": true,
+        "response": "\u001b[?2026h\u001b[?25l\u001b[1G\u280b \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2838 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2838 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2834 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2834 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2827 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2807 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2807 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u280b \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u280b \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2839 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2839 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u283c",
+        "full_response_length": 27037,
+        "time": 36.715383768081665,
+        "tokens_per_sec": null
+      },
+      {
+        "query": "Reasoning Task",
+        "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? Show your work step by step.",
+        "success": true,
+        "response": "\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2839 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25hThinking...\nWe\u001b[?25l\u001b[?25h have\u001b[?25l\u001b[?25h a\u001b[?25l\u001b[?25h classic\u001b[?25l\u001b[?25h puzzle\u001b[?25l\u001b[?25h:\u001b[?25l\u001b[?25h bat\u001b[?25l\u001b[?25h +\u001b[?25l\u001b[?25h ball\u001b[?25l\u001b[?25h =\u001b[?25l\u001b[?25h $\u001b[?25l\u001b[?25h1\u001b[?25l\u001b[?25h.\u001b[?25l\u001b[?25h10\u001b[?25l\u001b[?25h,\u001b[?25l\u001b[?25h bat\u001b[?25l\u001b[?25h costs\u001b[?25l\u001b[?25h $\u001b[?25l\u001b[?25h1\u001b[?25l\u001b[?25h.\u001b[?25l\u001b[?25h00\u001b[?25l\u001b[?25h more\u001b[?25l\u001b[?25h than\u001b[?25l\u001b[?25h ball\u001b[?25l\u001b",
+        "full_response_length": 11172,
+        "time": 13.517621040344238,
+        "tokens_per_sec": null
+      },
+      {
+        "query": "LIHTC Domain Knowledge",
+        "prompt": "What is the difference between QCT and DDA in LIHTC? How does each affect the qualified basis?",
+        "success": true,
+        "response": "\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2839 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25hThinking...\nThe\u001b[?25l\u001b[?25h user\u001b[?25l\u001b[?25h asks\u001b[?25l\u001b[?25h:\u001b[?25l\u001b[?25h \"\u001b[?25l\u001b[?25hWhat\u001b[?25l\u001b[?25h is\u001b[?25l\u001b[?25h the\u001b[?25l\u001b[?25h difference\u001b[?25l\u001b[?25h between\u001b[?25l\u001b[?25h Q\u001b[?25l\u001b[?25hCT\u001b[?25l\u001b[?25h and\u001b[?25l\u001b[?25h D\u001b[?25l\u001b[?25hDA\u001b[?25l\u001b[?25h in\u001b[?25l\u001b[?25h LI\u001b[?25l\u001b[?25hHT\u001b[?25l\u001b[?25hC\u001b[?25l\u001b[?25h?\u001b[?25l\u001b[?25h How\u001b[?25l\u001b[?25h does\u001b[?25l\u001b[?25h each\u001b[?25l\u001b[?25h ",
+        "full_response_length": 42030,
+        "time": 49.83658003807068,
+        "tokens_per_sec": null
+      },
+      {
+        "query": "Math Problem",
+        "prompt": "Solve: If f(x) = 2x^2 + 3x - 5, find the derivative f'(x) and the critical points.",
+        "success": true,
+        "response": "\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2838 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25hThinking...\nWe\u001b[?25l\u001b[?25h need\u001b[?25l\u001b[?25h to\u001b[?25l\u001b[?25h differentiate\u001b[?25l\u001b[?25h f\u001b[?25l\u001b[?25h(x\u001b[?25l\u001b[?25h)\u001b[?25l\u001b[?25h =\u001b[?25l\u001b[?25h \u001b[?25l\u001b[?25h2\u001b[?25l\u001b[?25hx\u001b[?25l\u001b[?25h^\u001b[?25l\u001b[?25h2\u001b[?25l\u001b[?25h +\u001b[?25l\u001b[?25h \u001b[?25l\u001b[?25h3\u001b[?25l\u001b[?25hx\u001b[?25l\u001b[?25h -\u001b[?25l\u001b[?25h5\u001b[?25l\u001b[?25h.\u001b[?25l\u001b[?25h Der\u001b[?25l\u001b[?25hivative\u001b[?25l\u001b[?25h f",
+        "full_response_length": 9288,
+        "time": 11.344522953033447,
+        "tokens_per_sec": null
+      },
+      {
+        "query": "Creative Writing",
+        "prompt": "Write a haiku about machine learning models.",
+        "success": true,
+        "response": "\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25hThinking...\nThe\u001b[?25l\u001b[?25h user\u001b[?25l\u001b[?25h wants\u001b[?25l\u001b[?25h a\u001b[?25l\u001b[?25h ha\u001b[?25l\u001b[?25hiku\u001b[?25l\u001b[?25h about\u001b[?25l\u001b[?25h machine\u001b[?25l\u001b[?25h learning\u001b[?25l\u001b[?25h models\u001b[?25l\u001b[?25h.\u001b[?25l\u001b[?25h Ha\u001b[?25l\u001b[?25hiku\u001b[?25l\u001b[?25h:\u001b[?25l\u001b[?25h \u001b[?25l\u001b[?25h5\u001b[?25l\u001b[?25h-\u001b[?25l\u001b[?25h7\u001b[?25l\u001b[?25h-\u001b[?25l\u001b[?25h5\u001b[?25l\u001b[?25h syll\u001b[?25l\u001b[?25hables\u001b[?25l\u001b[?25h.\u001b[?25l\u001b[?25h Provide\u001b[?25l\u001b[?25h a\u001b[?25l\u001b[?25h short\u001b[?",
+        "full_response_length": 7590,
+        "time": 8.967648029327393,
+        "tokens_per_sec": null
+      }
+    ],
+    "total_time": 120.38175582885742,
+    "avg_time": 24.076351165771484
+  },
+  "llama3.3:70b": {
+    "queries": [
+      {
+        "query": "Coding Task",
+        "prompt": "Write a Python function that finds the k-th largest element in an unsorted array using a heap. Include time complexity analysis.",
+        "success": false,
+        "error": "Timeout",
+        "time": 60
+      },
+      {
+        "query": "Reasoning Task",
+        "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? Show your work step by step.",
+        "success": false,
+        "error": "Timeout",
+        "time": 60
+      },
+      {
+        "query": "LIHTC Domain Knowledge",
+        "prompt": "What is the difference between QCT and DDA in LIHTC? How does each affect the qualified basis?",
+        "success": true,
+        "response": "\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2839 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2838 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u283c \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2834 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2826 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2826 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2827 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u280f \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u280b \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25hA\u001b[?25l\u001b[?25h very\u001b[?25l\u001b[?25h specific\u001b[?25l\u001b[?25h question\u001b[?25l\u001b[?25h!\n\n",
+        "full_response_length": 8012,
+        "time": 47.01699495315552,
+        "tokens_per_sec": null
+      },
+      {
+        "query": "Math Problem",
+        "prompt": "Solve: If f(x) = 2x^2 + 3x - 5, find the derivative f'(x) and the critical points.",
+        "success": true,
+        "response": "\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2839 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u283c \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u283c \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2826 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2827 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2827 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u280f \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25h##\u001b[?25l\u001b[?25h Step\u001b[?25l\u001b[?25h \u001b[?25l\u001b[?25h1\u001b[?25l\u001b[?25h:\u001b[?25l\u001b[?25h Find\u001b[?25l\u001b[?25h the\u001b[?25l\u001b[?25h derivati",
+        "full_response_length": 5746,
+        "time": 36.93364715576172,
+        "tokens_per_sec": null
+      },
+      {
+        "query": "Creative Writing",
+        "prompt": "Write a haiku about machine learning models.",
+        "success": true,
+        "response": "\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2819 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2838 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u283c \u001b[K\u001b[?25h\u001b[?2026l\u001b[?2026h\u001b[?25l\u001b[1G\u2834 \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25hAl\u001b[?25l\u001b[?25hgorithms\u001b[?25l\u001b[?25h dance\u001b[?25l\u001b[?25h\n\u001b[?25l\u001b[?25hPatterns\u001b[?25l\u001b[?25h learned\u001b[?25l\u001b[?25h,\u001b[?25l\u001b[?25h wisdom\u001b[?25l\u001b[?25h gained\u001b[?25l\u001b[?25h\n\u001b[?25l\u001b[?25hInt\u001b[?25l\u001b[?25helligence\u001b[?25l\u001b[?25h born\u001b[?25l\u001b[?25h\n\ntotal duration:       1.842687292s\nl",
+        "full_response_length": 755,
+        "time": 1.9002790451049805,
+        "tokens_per_sec": null
+      }
+    ],
+    "total_time": 85.85092115402222,
+    "avg_time": 17.170184230804445
+  }
+}

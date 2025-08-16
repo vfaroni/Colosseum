@@ -1,0 +1,16 @@
+{
+  "gpt-oss:20b": {
+    "success": false,
+    "model": "gpt-oss:20b",
+    "time": 0.004278659820556641,
+    "error": "No JSON found in response",
+    "response_preview": ""
+  },
+  "llama3.3:70b": {
+    "success": false,
+    "model": "llama3.3:70b",
+    "time": 0.0033957958221435547,
+    "error": "No JSON found in response",
+    "response_preview": ""
+  }
+}

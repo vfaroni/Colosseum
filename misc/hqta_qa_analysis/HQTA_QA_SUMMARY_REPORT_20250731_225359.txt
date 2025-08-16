@@ -1,0 +1,34 @@
+HQTA CROSS-VALIDATION QA ANALYSIS REPORT
+==================================================
+Analysis Date: 2025-07-31 22:53:59
+Analyst: Bill Rice AI System
+Original Analysis by: Vitor
+
+EXECUTIVE SUMMARY
+--------------------
+Total Sites Analyzed: 263
+Top Candidates Reviewed: 20
+Sites Within HQTA Boundaries: 0
+HIGH Priority Investigations: 0
+MEDIUM Priority Investigations: 6
+
+MEDIUM PRIORITY FINDINGS - HIGH STOP DENSITY
+----------------------------------------
+Site ID: site_0000 - 35 stops
+  Recommendation: INVESTIGATE HIGH-FREQUENCY SERVICE - Many nearby stops
+
+Site ID: site_0005 - 25 stops
+  Recommendation: INVESTIGATE HIGH-FREQUENCY SERVICE - Many nearby stops
+
+Site ID: site_0084 - 24 stops
+  Recommendation: INVESTIGATE HIGH-FREQUENCY SERVICE - Many nearby stops
+
+Site ID: site_0002 - 23 stops
+  Recommendation: INVESTIGATE HIGH-FREQUENCY SERVICE - Many nearby stops
+
+Site ID: site_0006 - 21 stops
+  Recommendation: INVESTIGATE HIGH-FREQUENCY SERVICE - Many nearby stops
+
+Site ID: site_0096 - 20 stops
+  Recommendation: INVESTIGATE HIGH-FREQUENCY SERVICE - Many nearby stops
+

@@ -1,0 +1,19 @@
+{
+  "gpt-oss:20b": {
+    "success": true,
+    "model": "gpt-oss:20b",
+    "time": 20.882510900497437,
+    "field_count": 32,
+    "accuracy": 0.0,
+    "sample_data": {
+      "project_name": null,
+      "total_units": null
+    }
+  },
+  "llama3.3:70b": {
+    "success": false,
+    "model": "llama3.3:70b",
+    "time": 60,
+    "error": "Timeout"
+  }
+}

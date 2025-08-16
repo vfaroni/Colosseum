@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7a5427e589dcaab91bb0b075f3fcd86a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; 
+                bottom: 50px; left: 50px; width: 300px; height: 200px; 
+                background-color: white; border:2px solid grey; z-index:9999; 
+                font-size:14px; padding: 10px">
+    <p><b>🏠 RICHLAND HILLS TRACT</b><br>
+    <b>Environmental Risk Assessment</b></p>
+    
+    <p><i class="fa fa-home" style="color:green"></i> Development Site (10.058 acres)<br>
+    <i class="fa fa-exclamation-triangle" style="color:red"></i> HIGH Risk (Enhanced ESA)<br>
+    <i class="fa fa-exclamation-circle" style="color:orange"></i> MEDIUM Risk (Standard ESA)<br>
+    🔵 Property Boundary</p>
+    
+    <p><b>Buffer Zones:</b><br>
+    <span style="color:red;">——— 0.5 Mile</span> Enhanced Due Diligence<br>
+    <span style="color:purple;">——— 0.5 Mile</span> Standard Screening<br>
+    <span style="color:orange;">——— 1.0 Mile</span> Environmental Screening</p>
+    
+    <p style="font-size:10px; color:gray;">
+    Structured Consultants LLC<br>
+    Analysis Date: 2025-08-07</p>
+    </div>
+    
+    
+            <div class="folium-map" id="map_7a5427e589dcaab91bb0b075f3fcd86a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7a5427e589dcaab91bb0b075f3fcd86a = L.map(
+                "map_7a5427e589dcaab91bb0b075f3fcd86a",
+                {
+                    center: [29.42, -98.68],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_07ce98af3b8e1a8d3681c600aa4bcb7f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_07ce98af3b8e1a8d3681c600aa4bcb7f.addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+        
+    
+            var tile_layer_81cd72a761ec8c2ed8a8964eacc1be01 = L.tileLayer(
+                "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryTopo/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "USGS",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_81cd72a761ec8c2ed8a8964eacc1be01.addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+        
+    
+            var tile_layer_13d04a7c8e7616f5352784ac1d2594e5 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_13d04a7c8e7616f5352784ac1d2594e5.addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+        
+    
+            var marker_e0379847a3a8d6e04597d9a371c7758c = L.marker(
+                [29.42, -98.68],
+                {
+}
+            ).addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+        
+    
+            var icon_33171ccefd50301213a83516901b1278 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39cd424a3b75d2c10e2d48b9de327caf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b0c6eac44dd722a4253410c92d6bd705 = $(`<div id="html_b0c6eac44dd722a4253410c92d6bd705" style="width: 100.0%; height: 100.0%;">         <b style="color: #2E8B57; font-size: 14px;">RICHLAND HILLS TRACT</b><br>         <b>Site Details:</b><br>         • Address: San Antonio, TX<br>         • Size: 10.058 acres<br>         • Risk Level: HIGH<br>         • Environmental Concerns: 2 identified<br>         <br>         <b style="color: #8B0000;">⚠️ DUE DILIGENCE REQUIRED:</b><br>         • Phase I ESA: Enhanced scope<br>         • Vapor assessment needed<br>         • Cost: $8,000 - $15,000<br>         • Timeline: 4-6 weeks         </div>`)[0];
+                popup_39cd424a3b75d2c10e2d48b9de327caf.setContent(html_b0c6eac44dd722a4253410c92d6bd705);
+            
+        
+
+        marker_e0379847a3a8d6e04597d9a371c7758c.bindPopup(popup_39cd424a3b75d2c10e2d48b9de327caf)
+        ;
+
+        
+    
+    
+            marker_e0379847a3a8d6e04597d9a371c7758c.bindTooltip(
+                `<div>
+                     Richland Hills Tract - Development Site
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e0379847a3a8d6e04597d9a371c7758c.setIcon(icon_33171ccefd50301213a83516901b1278);
+            
+    
+            var polygon_243e94af0baf211963998e08be902550 = L.polygon(
+                [[29.420909218726266, -98.68114835397766], [29.420909218726266, -98.67885164602235], [29.419090781273738, -98.67885164602235], [29.419090781273738, -98.68114835397766], [29.420909218726266, -98.68114835397766]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+        
+    
+        var popup_50656fcaa686ce0b8d932b5548142f8c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b2afd0c8cc3e18966f0e0767edf51f1a = $(`<div id="html_b2afd0c8cc3e18966f0e0767edf51f1a" style="width: 100.0%; height: 100.0%;">         <b style="color: #1E90FF;">RICHLAND HILLS TRACT</b><br>         • Size: 10.058 acres<br>         • Zoning: Mixed residential/commercial<br>         • Development capacity: ~500 units max<br>         • Environmental risk: HIGH         </div>`)[0];
+                popup_50656fcaa686ce0b8d932b5548142f8c.setContent(html_b2afd0c8cc3e18966f0e0767edf51f1a);
+            
+        
+
+        polygon_243e94af0baf211963998e08be902550.bindPopup(popup_50656fcaa686ce0b8d932b5548142f8c)
+        ;
+
+        
+    
+    
+            var marker_20a0bbff846d0d0d01e6372ba7604d1e = L.marker(
+                [29.44422, -98.66001],
+                {
+}
+            ).addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+        
+    
+            var icon_0ea561f4c249e4650cd443c11f33accf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-triangle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16f6258091b8254d61ea718fa1b0aa5d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_75e8eb7de514ccae519da671e15ba7ae = $(`<div id="html_75e8eb7de514ccae519da671e15ba7ae" style="width: 100.0%; height: 100.0%;">             <b style="color: #8B0000; font-size: 14px;">             🚨 JUNS CLEANERS</b><br>             <b>Risk Level:</b> <span style="color: #8B0000;">HIGH</span><br>             <b>Distance:</b> 0.498 miles<br>             <b>Address:</b> 8802 POTRANCO RD STE 103, SAN ANTONIO, TX 78251<br>             <b>Risk Type:</b> Active Solvent Operations<br>             <b>Concern:</b> Active dry cleaner - PCE/TCE contamination potential<br>             <b>Status:</b> ACTIVE<br>             <br>             <b>LIHTC Impact:</b><br>             • Enhanced Phase I ESA required<br>• Vapor intrusion assessment<br>• Soil/groundwater testing             </div>`)[0];
+                popup_16f6258091b8254d61ea718fa1b0aa5d.setContent(html_75e8eb7de514ccae519da671e15ba7ae);
+            
+        
+
+        marker_20a0bbff846d0d0d01e6372ba7604d1e.bindPopup(popup_16f6258091b8254d61ea718fa1b0aa5d)
+        ;
+
+        
+    
+    
+            marker_20a0bbff846d0d0d01e6372ba7604d1e.bindTooltip(
+                `<div>
+                     JUNS CLEANERS - HIGH Risk (0.498 mi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_20a0bbff846d0d0d01e6372ba7604d1e.setIcon(icon_0ea561f4c249e4650cd443c11f33accf);
+            
+    
+            var marker_7b1c9c5301b801b9399279b1776abc14 = L.marker(
+                [29.45, -98.64],
+                {
+}
+            ).addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+        
+    
+            var icon_4446fb6ba309fcfd338e5b71b19d5651 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4430b3f1a1d9b8e95e86d19dcc2c853 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c79a8ea8818e3b0fa2e2ca1fcee7254f = $(`<div id="html_c79a8ea8818e3b0fa2e2ca1fcee7254f" style="width: 100.0%; height: 100.0%;">             <b style="color: #FF8C00; font-size: 14px;">             🚨 SA FOOD MART</b><br>             <b>Risk Level:</b> <span style="color: #FF8C00;">MEDIUM</span><br>             <b>Distance:</b> 0.89 miles<br>             <b>Address:</b> San Antonio, TX 78251<br>             <b>Risk Type:</b> Environmental Violations<br>             <b>Concern:</b> TCEQ enforcement action documented<br>             <b>Status:</b> ENFORCEMENT ACTION<br>             <br>             <b>LIHTC Impact:</b><br>             • Standard Phase I ESA<br>• Document enforcement status             </div>`)[0];
+                popup_e4430b3f1a1d9b8e95e86d19dcc2c853.setContent(html_c79a8ea8818e3b0fa2e2ca1fcee7254f);
+            
+        
+
+        marker_7b1c9c5301b801b9399279b1776abc14.bindPopup(popup_e4430b3f1a1d9b8e95e86d19dcc2c853)
+        ;
+
+        
+    
+    
+            marker_7b1c9c5301b801b9399279b1776abc14.bindTooltip(
+                `<div>
+                     SA FOOD MART - MEDIUM Risk (0.89 mi)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7b1c9c5301b801b9399279b1776abc14.setIcon(icon_4446fb6ba309fcfd338e5b71b19d5651);
+            
+    
+            var circle_3ab4ac298a746dfa9a90f4730b6696a8 = L.circle(
+                [29.42, -98.68],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 804.67, "stroke": true, "weight": 3}
+            ).addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+        
+    
+        var popup_586075ced315ee85a7428f55272396d0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6a218a862eaa395e966c1aa30c9f00e9 = $(`<div id="html_6a218a862eaa395e966c1aa30c9f00e9" style="width: 100.0%; height: 100.0%;">         <b>0.5 Mile Enhanced Due Diligence Zone</b><br>         • ASTM E1527-21 enhanced scope required<br>         • Vapor intrusion assessment<br>         • Active dry cleaner within this zone<br>         • Phase II ESA likely required         </div>`)[0];
+                popup_586075ced315ee85a7428f55272396d0.setContent(html_6a218a862eaa395e966c1aa30c9f00e9);
+            
+        
+
+        circle_3ab4ac298a746dfa9a90f4730b6696a8.bindPopup(popup_586075ced315ee85a7428f55272396d0)
+        ;
+
+        
+    
+    
+            var circle_49c4400f20432f650b355d313f0d8764 = L.circle(
+                [29.42, -98.68],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.08, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.6, "radius": 804.67, "stroke": true, "weight": 2}
+            ).addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+        
+    
+        var popup_efd8fb92b1b7994d5111d74c4d56be98 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3edc8961259af08f79f1751074043ebd = $(`<div id="html_3edc8961259af08f79f1751074043ebd" style="width: 100.0%; height: 100.0%;">         <b>0.5 Mile Standard Screening Ring</b><br>         • ASTM E1527-21 database screening<br>         • Vapor intrusion assessment zone<br>         • Enhanced due diligence required<br>         • Active dry cleaner within this zone         </div>`)[0];
+                popup_efd8fb92b1b7994d5111d74c4d56be98.setContent(html_3edc8961259af08f79f1751074043ebd);
+            
+        
+
+        circle_49c4400f20432f650b355d313f0d8764.bindPopup(popup_efd8fb92b1b7994d5111d74c4d56be98)
+        ;
+
+        
+    
+    
+            var circle_f2508c425d33720e8ec2f28ad39d71cf = L.circle(
+                [29.42, -98.68],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.05, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 1609.34, "stroke": true, "weight": 2}
+            ).addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+        
+    
+        var popup_42dc91286f8eeee4575a1ade0bb9f5c2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_98dfd3a3e8ace986c6551de14874c926 = $(`<div id="html_98dfd3a3e8ace986c6551de14874c926" style="width: 100.0%; height: 100.0%;">         <b>1.0 Mile Environmental Screening Zone</b><br>         • Standard Phase I ESA scope<br>         • Historical records review<br>         • Database screening radius<br>         • Regulatory compliance check         </div>`)[0];
+                popup_42dc91286f8eeee4575a1ade0bb9f5c2.setContent(html_98dfd3a3e8ace986c6551de14874c926);
+            
+        
+
+        circle_f2508c425d33720e8ec2f28ad39d71cf.bindPopup(popup_42dc91286f8eeee4575a1ade0bb9f5c2)
+        ;
+
+        
+    
+    
+            var layer_control_d97ec89de41a6bb9bebe92e9f36ccbe2_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_07ce98af3b8e1a8d3681c600aa4bcb7f,
+                    "USGS Terrain" : tile_layer_81cd72a761ec8c2ed8a8964eacc1be01,
+                    "Satellite" : tile_layer_13d04a7c8e7616f5352784ac1d2594e5,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_d97ec89de41a6bb9bebe92e9f36ccbe2 = L.control.layers(
+                layer_control_d97ec89de41a6bb9bebe92e9f36ccbe2_layers.base_layers,
+                layer_control_d97ec89de41a6bb9bebe92e9f36ccbe2_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_7a5427e589dcaab91bb0b075f3fcd86a);
+
+        
+</script>
+</html>

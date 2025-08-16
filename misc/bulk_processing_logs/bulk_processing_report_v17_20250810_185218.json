@@ -1,0 +1,50 @@
+{
+  "total_files": 798,
+  "processed_files": 797,
+  "skipped_files": 0,
+  "error_files": 1,
+  "total_sheets": 7172,
+  "total_cells": 10471018164,
+  "total_cleaned": 94798,
+  "processing_time": 71072.71396398544,
+  "errors": [
+    "Error processing 2023_4pct_R1_23-495.xlsx: File is not a zip file"
+  ],
+  "year_stats": {
+    "2023": {
+      "files_attempted": 224,
+      "files_successful": 223,
+      "files_failed": 1,
+      "total_sheets": 2007,
+      "total_cells_preserved": 3938597124,
+      "total_cells_removed": 30693,
+      "errors": [
+        "Error processing 2023_4pct_R1_23-495.xlsx: File is not a zip file"
+      ],
+      "processing_time": 27270.627439022064,
+      "preservation_rate": "100.0%"
+    },
+    "2024": {
+      "files_attempted": 354,
+      "files_successful": 354,
+      "files_failed": 0,
+      "total_sheets": 3186,
+      "total_cells_preserved": 6456386894,
+      "total_cells_removed": 38304,
+      "errors": [],
+      "processing_time": 42470.09399294853,
+      "preservation_rate": "100.0%"
+    },
+    "2025": {
+      "files_attempted": 220,
+      "files_successful": 220,
+      "files_failed": 0,
+      "total_sheets": 1979,
+      "total_cells_preserved": 75939348,
+      "total_cells_removed": 25801,
+      "errors": [],
+      "processing_time": 1331.970762014389,
+      "preservation_rate": "100.0%"
+    }
+  }
+}

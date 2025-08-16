@@ -1,0 +1,44 @@
+{
+  "system_info": {
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "processor": "arm",
+    "machine": "arm64",
+    "ram_gb": 128,
+    "cpu_count": 16,
+    "python_version": "3.9.6",
+    "test_time": "2025-07-31T14:33:09.260878"
+  },
+  "qap_results": {
+    "CA": {
+      "state": "CA",
+      "file_path": "data_sets/QAP/CA/current/CA_2025_QAP_Regulations_Dec_2024.pdf",
+      "processing_time_seconds": 83.94389009475708,
+      "error": "'int' object has no attribute 'cells'",
+      "success": false
+    },
+    "TX": {
+      "state": "TX",
+      "file_path": "data_sets/QAP/TX/current/TX_2025_QAP.pdf",
+      "processing_time_seconds": 77.80690288543701,
+      "error": "'int' object has no attribute 'cells'",
+      "success": false
+    },
+    "OR": {
+      "state": "OR",
+      "file_path": "data_sets/QAP/OR/current/2025-qap-final.pdf",
+      "processing_time_seconds": 131.77500224113464,
+      "error": "'int' object has no attribute 'cells'",
+      "success": false
+    }
+  },
+  "summary": {
+    "total_processing_time": 294.17,
+    "successful_processings": 0,
+    "total_qaps_attempted": 3,
+    "total_pages_processed": 0,
+    "total_text_extracted": 0,
+    "average_processing_time": 98.06,
+    "pages_per_second": 0.0,
+    "success_rate": 0.0
+  }
+}

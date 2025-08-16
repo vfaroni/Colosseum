@@ -1,0 +1,151 @@
+HQTA CROSS-VALIDATION QA ANALYSIS REPORT
+==================================================
+Analysis Date: 2025-07-31 22:56:04
+Analyst: Bill Rice AI System
+Original Analysis by: Vitor
+
+EXECUTIVE SUMMARY
+--------------------
+Total Sites Analyzed: 263
+Top Candidates Reviewed: 20
+Sites Within HQTA Boundaries: 15
+HIGH Priority Investigations: 15
+MEDIUM Priority Investigations: 0
+
+HIGH PRIORITY FINDINGS - POTENTIAL 7-POINT SITES
+---------------------------------------------
+Site ID: site_0000
+  Location: 34.148609, -118.258263
+  Vitor Analysis: 4 points, 35 stops
+  HQTA Status: Site within 77 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: City of Glendale
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0005
+  Location: 34.027837, -118.481580
+  Vitor Analysis: 4 points, 25 stops
+  HQTA Status: Site within 34 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: City of Santa Monica
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0084
+  Location: 38.568890, -121.481505
+  Vitor Analysis: 4 points, 24 stops
+  HQTA Status: Site within 23 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: City of Rancho Cordova
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0002
+  Location: 34.094632, -118.343706
+  Vitor Analysis: 4 points, 23 stops
+  HQTA Status: Site within 37 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: Los Angeles County Metropolitan Transportation Authority
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0006
+  Location: 34.041610, -118.460250
+  Vitor Analysis: 4 points, 21 stops
+  HQTA Status: Site within 35 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: City of Santa Monica
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0096
+  Location: 37.551474, -121.984357
+  Vitor Analysis: 4 points, 20 stops
+  HQTA Status: Site within 2 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: Alameda-Contra Costa Transit District
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0102
+  Location: 38.586337, -121.494483
+  Vitor Analysis: 4 points, 18 stops
+  HQTA Status: Site within 72 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: City of Rancho Cordova
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0127
+  Location: 37.700349, -121.931978
+  Vitor Analysis: 4 points, 14 stops
+  HQTA Status: Site within 2 HQTA area(s)
+  HQTA Type: major_stop_rail
+  Transit Agency: San Francisco Bay Area Rapid Transit District
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0035
+  Location: 36.809639, -119.826885
+  Vitor Analysis: 4 points, 13 stops
+  HQTA Status: Site within 1 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: City of Fresno
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0126
+  Location: 38.552399, -121.425021
+  Vitor Analysis: 4 points, 13 stops
+  HQTA Status: Site within 7 HQTA area(s)
+  HQTA Type: major_stop_rail
+  Transit Agency: City of Rancho Cordova
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0104
+  Location: 38.553862, -121.424554
+  Vitor Analysis: 4 points, 12 stops
+  HQTA Status: Site within 7 HQTA area(s)
+  HQTA Type: major_stop_rail
+  Transit Agency: City of Rancho Cordova
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0046
+  Location: 37.322330, -122.015655
+  Vitor Analysis: 4 points, 11 stops
+  HQTA Status: Site within 3 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: Santa Clara Valley Transportation Authority
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0094
+  Location: 38.580239, -121.462462
+  Vitor Analysis: 4 points, 10 stops
+  HQTA Status: Site within 4 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: City of Rancho Cordova
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0103
+  Location: 37.375195, -122.061354
+  Vitor Analysis: 4 points, 10 stops
+  HQTA Status: Site within 2 HQTA area(s)
+  HQTA Type: hq_corridor_bus
+  Transit Agency: Santa Clara Valley Transportation Authority
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+
+Site ID: site_0122
+  Location: 38.789617, -121.236330
+  Vitor Analysis: 4 points, 9 stops
+  HQTA Status: Site within 7 HQTA area(s)
+  HQTA Type: major_stop_rail
+  Transit Agency: Amtrak
+  Recommendation: INVESTIGATE FOR 7 POINTS - Site within HQTA boundary
+  Next Steps: Verify HQTA designation and peak hour service requirements
+

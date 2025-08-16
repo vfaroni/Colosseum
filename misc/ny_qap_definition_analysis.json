@@ -1,0 +1,139 @@
+{
+  "analysis_summary": {
+    "document_analyzed": "NY_NYC_2025_QAP.pdf",
+    "total_characters_extracted": 104719,
+    "pattern_analysis": "Phase 2B failed because QAPs don't use traditional 'Section X.(x) means' patterns",
+    "key_finding": "QAPs use contextual definitions and references to federal code, not formal definition sections"
+  },
+  "actual_definition_patterns_found": [
+    {
+      "pattern_type": "Parenthetical Abbreviation Definitions",
+      "format": "Full Term ('Abbreviation' or 'Alternative')",
+      "examples": [
+        {
+          "text": "New York City Department of Housing Preservation and Development ('HPD' or 'Agency')",
+          "term_defined": "HPD/Agency",
+          "definition_method": "Parenthetical abbreviation"
+        },
+        {
+          "text": "Low Income Housing Tax Credit ('LIHTC')",
+          "term_defined": "LIHTC",
+          "definition_method": "Parenthetical abbreviation"
+        },
+        {
+          "text": "a 'Qualified Nonprofit Organization'",
+          "term_defined": "Qualified Nonprofit Organization",
+          "definition_method": "Quoted term introduction"
+        },
+        {
+          "text": "Internal Revenue Code (the 'Code')",
+          "term_defined": "Code",
+          "definition_method": "Parenthetical reference"
+        }
+      ]
+    },
+    {
+      "pattern_type": "Federal Code Reference Definitions",
+      "format": "As set forth in Section 42, [term]: [criteria list]",
+      "examples": [
+        {
+          "text": "As set forth in Section 42, a Qualified Nonprofit Organization: a) is tax exempt under Section 501(a) and described in either paragraph (3) or (4) of Section 501(c); b) has the fostering of low income housing as one of its purposes; and c) is not affiliated with or controlled by a for-profit organization.",
+          "term_defined": "Qualified Nonprofit Organization",
+          "definition_method": "Federal code criteria listing"
+        }
+      ]
+    },
+    {
+      "pattern_type": "Explicit 'Shall Mean' Definitions",
+      "format": "[Term] shall mean [definition]",
+      "examples": [
+        {
+          "text": "Material participation shall mean being the managing general partner of the owner.",
+          "term_defined": "Material participation",
+          "definition_method": "Direct 'shall mean' statement"
+        }
+      ]
+    },
+    {
+      "pattern_type": "Contextual 'Is Defined As' Patterns",
+      "format": "[Context] is defined as [definition]",
+      "examples": [
+        {
+          "text": "A proven track record is defined as having been awarded at least one 15/15 social service award within the last 5 years.",
+          "term_defined": "Proven track record",
+          "definition_method": "Contextual 'is defined as'"
+        }
+      ]
+    },
+    {
+      "pattern_type": "Process/Document Definitions",
+      "format": "[Term] - [Description of what it is]",
+      "examples": [
+        {
+          "text": "Determination of Credit Eligibility (DOCE) - Projects found to be eligible shall receive a DOCE, which is a non-binding statement of the amount of credit for which the project is eligible.",
+          "term_defined": "DOCE",
+          "definition_method": "Dash-separated explanation"
+        },
+        {
+          "text": "Financial Update - and such other documentation as HPD may require",
+          "term_defined": "Financial Update",
+          "definition_method": "Quoted term with explanation"
+        }
+      ]
+    },
+    {
+      "pattern_type": "Embedded Operational Definitions",
+      "format": "Scattered throughout operational text without formal definition structure",
+      "examples": [
+        {
+          "text": "HPD defines CCR areas as areas a) that have limited existing availability of affordable housing and b) where a tax credit project is expected to contribute to that broader revitalization effort.",
+          "term_defined": "CCR areas",
+          "definition_method": "Agency-specific definition embedded in text"
+        },
+        {
+          "text": "The term 'Developer Fee' shall refer to and encompass all compensation for development services, including all staff and overhead costs, developer profit, and the cost of consultants",
+          "term_defined": "Developer Fee",
+          "definition_method": "Comprehensive term explanation"
+        }
+      ]
+    },
+    {
+      "pattern_type": "Calculation/Threshold Definitions", 
+      "format": "Numeric or percentage-based criteria definitions",
+      "examples": [
+        {
+          "text": "'Standalone' projects must demonstrate a debt service coverage ratio of at least 1.15",
+          "term_defined": "Debt service coverage requirement",
+          "definition_method": "Operational threshold definition"
+        },
+        {
+          "text": "The allowable basis for community service facilities located in a HUD-defined Qualified Census Tract ('QCT') is 25% of the first $15 million of eligible basis and 10% of additional basis",
+          "term_defined": "Community service facility allowable basis",
+          "definition_method": "Calculation-based definition"
+        }
+      ]
+    }
+  ],
+  "critical_insights": [
+    "QAPs don't have formal 'Definitions' sections like legal contracts",
+    "Most definitions are contextual and embedded within operational procedures",
+    "Heavy reliance on federal IRC Section 42 references rather than local definitions",
+    "Terms are often defined through parenthetical abbreviations and then used throughout",
+    "Process definitions (DOCE, 8609, etc.) are explained when first introduced",
+    "Agency-specific terms (like 'CCR areas') are defined operationally within relevant sections"
+  ],
+  "pattern_failure_explanation": {
+    "why_phase_2b_failed": "Our regex patterns assumed formal definition structures like 'Section X.(x) means' which don't exist in QAPs",
+    "actual_structure": "QAPs use scattered contextual definitions, federal code references, and operational explanations",
+    "recommended_approach": "Multi-pattern extraction focusing on parenthetical definitions, 'shall mean' statements, and contextual explanations"
+  },
+  "recommended_enhanced_patterns": [
+    "\\(['\"]([^'\"]+)['\"]\\s*or\\s*['\"]([^'\"]+)['\"]\\)",
+    "As set forth in Section \\d+,\\s*([^:]+):\\s*([^.]+(?:\\.[^.]+)*)",
+    "([A-Z][\\w\\s]+)\\s+shall mean\\s+([^.]+)",
+    "([A-Z][\\w\\s]+)\\s+is defined as\\s+([^.]+)",
+    "([A-Z][\\w\\s]+)\\s*-\\s*([^.]+(?:which|that)\\s+[^.]+)",
+    "HPD defines\\s+([^\\s]+(?:\\s+[^\\s]+)*)\\s+as\\s+([^.]+)",
+    "The term\\s+['\"]([^'\"]+)['\"]\\s+shall refer to\\s+([^.]+)"
+  ]
+}
